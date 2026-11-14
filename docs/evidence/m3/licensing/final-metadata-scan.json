@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-13T14:28:46.185336+00:00",
+  "base_candidate": "d05ebc47ad55452fc0b80e7aef0e9ad08f85e51d",
+  "scope": "Final staged metadata after licensing candidate: mapping, QA, scan evidence and outcome prose only. This result file itself is generated after the scan and inspected separately.",
+  "argv": [
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/security/bin/gitleaks",
+    "dir",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/license-review/final-metadata/source",
+    "--redact=100",
+    "--no-banner",
+    "--no-color",
+    "--ignore-gitleaks-allow",
+    "--gitleaks-ignore-path",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/license-review/final-metadata/absent-ignore-file",
+    "--report-format",
+    "json",
+    "--report-path",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/license-review/final-metadata/findings.json"
+  ],
+  "exit_code": 1,
+  "finding_count": 1,
+  "files": [
+    {
+      "path": "docs/LICENSE_REVIEW.md",
+      "sha256": "351823a5a685c4782ab975cce76142320b2af1c14e5c6d67f19a57fa897d4450"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256": "cbbdd93b174f74ebb421b71a8d10fdf4f4a6ae359aa2da994a564fd7ac00ad81"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/README.md",
+      "sha256": "4d63e16fb27625b5388e6620ad1fc9c3d4f0575744b504c27675ec113487a55b"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/artifact-index.json",
+      "sha256": "e46f0fa855b03fe7a3eecc5bd9b33ea18676f5fd06207b3723b89c68e74db9e9"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/check_license_evidence.py",
+      "sha256": "78b24442ee5d13820b98c7fbe9da8bd103665b617cd1a38e491ee0b20ec98d30"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/license-evidence-check.json",
+      "sha256": "f33fd51ca03264c7ddea62201820aea7a79c57ae524b08ec54e19205a11406cf"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/scan_delta.py",
+      "sha256": "024e2d78f2ae05dd39f1b433fbce9d62da29dc285e2c6289aa49a0a2e6a059ba"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/secret-findings.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/secret-run.json",
+      "sha256": "aaf91e8c007de49529d59a562a1604811dc8e0d43bd699e610cd9e69ee35292b"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/secret-scan.log",
+      "sha256": "5d4d55ec348ca735ee0ab2ec27c7db938b6d2fc1d63bd0b7655c12c4a4fb194f"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/security-license-review.json",
+      "sha256": "a2a14cb10d26059d312fbcb8dad95ecaaa2e6dfae0f7ab6613eef9bd97b160a6"
+    }
+  ]
+}

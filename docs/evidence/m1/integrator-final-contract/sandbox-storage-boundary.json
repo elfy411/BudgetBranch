@@ -1,0 +1,587 @@
+{
+  "level": "NEAR Sandbox",
+  "mock": false,
+  "records": [
+    {
+      "initial_success": true,
+      "label": "deploy-initialize-lock-budgetbranch",
+      "outcomes": [
+        {
+          "block_hash": "99McYB9QMpkNyPxL55J6sKngWFHK52ZPjGLdaMFr8Fmz",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "2871102378803",
+          "id": "BzmGcfWsryYLq5RYCNVHNSQPKUMUb6fs5J9AKgrzPGKN",
+          "logs": [],
+          "receipt_ids": [
+            "GQJES5Cb49FXjzagT7aYoPKLfdFo346mgkdfmhpnKe65"
+          ],
+          "status": "Ok(ReceiptId(GQJES5Cb49FXjzagT7aYoPKLfdFo346mgkdfmhpnKe65))",
+          "success": true,
+          "tokens_burnt": "287110237880300000000"
+        },
+        {
+          "block_hash": "99McYB9QMpkNyPxL55J6sKngWFHK52ZPjGLdaMFr8Fmz",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "23554721726412",
+          "id": "GQJES5Cb49FXjzagT7aYoPKLfdFo346mgkdfmhpnKe65",
+          "logs": [],
+          "receipt_ids": [
+            "F39NSvWURe9K2VHzGx6NwBwh1qjTAV8R5qFyV724gSRA"
+          ],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "2355472172641200000000"
+        }
+      ],
+      "total_gas_burnt": "26425824105215",
+      "transaction_hash": "BzmGcfWsryYLq5RYCNVHNSQPKUMUb6fs5J9AKgrzPGKN"
+    },
+    {
+      "initial_success": true,
+      "label": "deploy-initialize-lock-accept",
+      "outcomes": [
+        {
+          "block_hash": "E41hMuPcyvtf5kqDtvnL1Cen62VBNQTcoQW5kX4U4M3K",
+          "executor_id": "dev-20261113100439-70084676138934.test.near",
+          "gas_burnt": "1650777962538",
+          "id": "CFpxEH6FyQcszFJptcyR64N6aCFoFmttBbsQH47RJhGM",
+          "logs": [],
+          "receipt_ids": [
+            "HtEQDow9syprqwMzqyFsGGWEfu5nhiMJyH9UWmgi3JAn"
+          ],
+          "status": "Ok(ReceiptId(HtEQDow9syprqwMzqyFsGGWEfu5nhiMJyH9UWmgi3JAn))",
+          "success": true,
+          "tokens_burnt": "165077796253800000000"
+        },
+        {
+          "block_hash": "E41hMuPcyvtf5kqDtvnL1Cen62VBNQTcoQW5kX4U4M3K",
+          "executor_id": "dev-20261113100439-70084676138934.test.near",
+          "gas_burnt": "11612990112214",
+          "id": "HtEQDow9syprqwMzqyFsGGWEfu5nhiMJyH9UWmgi3JAn",
+          "logs": [],
+          "receipt_ids": [
+            "6MuBjy9yRExXGazqMRAmBWwa6MXzMxm1EMMsHnkzxaZr"
+          ],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "1161299011221400000000"
+        }
+      ],
+      "total_gas_burnt": "13263768074752",
+      "transaction_hash": "CFpxEH6FyQcszFJptcyR64N6aCFoFmttBbsQH47RJhGM"
+    },
+    {
+      "access_keys": [],
+      "account_id": "dev-20261113100439-70084676138934.test.near",
+      "code_reference": "LocalHash(8sGDw7HfBTXBkG345rFtTz7hxNLTfK5MHFPmWhMj4hzd)",
+      "code_reference_kind": "local",
+      "label": "locked-receiver",
+      "state": {
+        "accepting": true,
+        "admin_id": "dev-20261113100438-48204359234723.test.near",
+        "budgetbranch_id": "budget.test.near",
+        "received": "0"
+      },
+      "wasm_sha256": "74e20fc62f6b11acb1b5c88b1c60261df0bc301bc30c970a05d49357951fc8c6"
+    },
+    {
+      "initial_success": true,
+      "label": "deploy-initialize-lock-reject",
+      "outcomes": [
+        {
+          "block_hash": "91pBv6KjvavNPFKjD2PB5d4wsjz79iYZeD97gipyXCFR",
+          "executor_id": "dev-20261113100439-51856565748531.test.near",
+          "gas_burnt": "1650777962538",
+          "id": "BWMoLJSUKDS1J6KYsMEv3hZcF1zaq2azCtocDX7Kx5XK",
+          "logs": [],
+          "receipt_ids": [
+            "BuwxSPBpky8mLkrka7vbQErjatQ8m3Ur5z1zuzAhsHtL"
+          ],
+          "status": "Ok(ReceiptId(BuwxSPBpky8mLkrka7vbQErjatQ8m3Ur5z1zuzAhsHtL))",
+          "success": true,
+          "tokens_burnt": "165077796253800000000"
+        },
+        {
+          "block_hash": "91pBv6KjvavNPFKjD2PB5d4wsjz79iYZeD97gipyXCFR",
+          "executor_id": "dev-20261113100439-51856565748531.test.near",
+          "gas_burnt": "11617550112214",
+          "id": "BuwxSPBpky8mLkrka7vbQErjatQ8m3Ur5z1zuzAhsHtL",
+          "logs": [],
+          "receipt_ids": [
+            "H4SC64f7hRRz8xPaeWrja2kX9CozeXd5oYSr8hk7NC1o"
+          ],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "1161755011221400000000"
+        }
+      ],
+      "total_gas_burnt": "13268328074752",
+      "transaction_hash": "BWMoLJSUKDS1J6KYsMEv3hZcF1zaq2azCtocDX7Kx5XK"
+    },
+    {
+      "access_keys": [],
+      "account_id": "dev-20261113100439-51856565748531.test.near",
+      "code_reference": "LocalHash(8sGDw7HfBTXBkG345rFtTz7hxNLTfK5MHFPmWhMj4hzd)",
+      "code_reference_kind": "local",
+      "label": "locked-receiver",
+      "state": {
+        "accepting": true,
+        "admin_id": "dev-20261113100438-48204359234723.test.near",
+        "budgetbranch_id": "budget.test.near",
+        "received": "0"
+      },
+      "wasm_sha256": "74e20fc62f6b11acb1b5c88b1c60261df0bc301bc30c970a05d49357951fc8c6"
+    },
+    {
+      "access_keys": [],
+      "account_id": "budget.test.near",
+      "code_reference": "LocalHash(ELFszF8obJuPyGoPH4Smd2HhTrB28XbUXagmWo42tBz2)",
+      "code_reference_kind": "local",
+      "label": "locked-contract-code",
+      "wasm_sha256": "c616ca0c5482863a071cd8bae0a2593e4fe1cc1a1b12c8477327c321058dea3b"
+    },
+    {
+      "initial_success": true,
+      "label": "set-receiver-rejecting",
+      "outcomes": [
+        {
+          "block_hash": "4aw7KHKAGo9TwVJZ7CZJqZqvTWMSC6ntX4XJXDJyDqtL",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "309585378880",
+          "id": "2nPeH5W3cSAwJrBta3ZvHYXi5T7Lz3Pvezkd5jysF78Q",
+          "logs": [],
+          "receipt_ids": [
+            "A8W69kXu5nii5ggrSSQNzw525Wy4VDWGR7yKs4k7Tg1d"
+          ],
+          "status": "Ok(ReceiptId(A8W69kXu5nii5ggrSSQNzw525Wy4VDWGR7yKs4k7Tg1d))",
+          "success": true,
+          "tokens_burnt": "30958537888000000000"
+        },
+        {
+          "block_hash": "AsPABnrbg98FiwJb31PaRDk1mjJ3vzufedqJsRM8v9MK",
+          "executor_id": "dev-20261113100439-51856565748531.test.near",
+          "gas_burnt": "1276122325811",
+          "id": "A8W69kXu5nii5ggrSSQNzw525Wy4VDWGR7yKs4k7Tg1d",
+          "logs": [],
+          "receipt_ids": [
+            "7xwKNCh1daQxVGdJ6n1x1QdYKZ2pdsR25GcdkiuQZfVb"
+          ],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "127612232581100000000"
+        }
+      ],
+      "total_gas_burnt": "1585707704691",
+      "transaction_hash": "2nPeH5W3cSAwJrBta3ZvHYXi5T7Lz3Pvezkd5jysF78Q"
+    },
+    {
+      "initial_success": false,
+      "label": "deposit-before-prepaid-recovery-denied",
+      "outcomes": [
+        {
+          "block_hash": "4q95hJjZGPFC8m3f7kFHyMjpeKPtDqgq2m5FixdW7JJi",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "308488653435",
+          "id": "2zdnnaTbjsfxQ8wfFkHEqQrSzvN2p5hzkUB7fSeY33uS",
+          "logs": [],
+          "receipt_ids": [
+            "CcNsqBo3bKpiwtjgrMs3gdWQt5b4UVY7q5jQj65SyEUQ"
+          ],
+          "status": "Ok(ReceiptId(CcNsqBo3bKpiwtjgrMs3gdWQt5b4UVY7q5jQj65SyEUQ))",
+          "success": true,
+          "tokens_burnt": "30848865343500000000"
+        },
+        {
+          "block_hash": "5KEadjWZEdLQHAPpcNGz1ZNewEj6cunzvUqeVuqt6mxe",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "1767325544338",
+          "id": "CcNsqBo3bKpiwtjgrMs3gdWQt5b4UVY7q5jQj65SyEUQ",
+          "logs": [],
+          "receipt_ids": [
+            "APduwnjM39gJvq5jbXhAbfiZY9KMaau7BQd9tpb4DQy5",
+            "D6QnngsfBEqt8vdc4T26QAK9xBnbP6ZGAm4H5tT8vzw8"
+          ],
+          "status": "Err(Error { repr: Custom { kind: Execution, error: ActionError(ActionError { index: Some(0), kind: FunctionCallError(ExecutionError(\"Smart contract panicked: BB:ERR_STORAGE_RESERVE\")) }) } })",
+          "success": false,
+          "tokens_burnt": "176732554433800000000"
+        },
+        {
+          "block_hash": "DSHqJPNfmTRDpGTJ3KZ7H7iRLCiReisn5MRaN3WfhMzb",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "223182562500",
+          "id": "APduwnjM39gJvq5jbXhAbfiZY9KMaau7BQd9tpb4DQy5",
+          "logs": [],
+          "receipt_ids": [],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "0"
+        },
+        {
+          "block_hash": "DSHqJPNfmTRDpGTJ3KZ7H7iRLCiReisn5MRaN3WfhMzb",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "223182562500",
+          "id": "D6QnngsfBEqt8vdc4T26QAK9xBnbP6ZGAm4H5tT8vzw8",
+          "logs": [],
+          "receipt_ids": [],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "0"
+        }
+      ],
+      "total_gas_burnt": "2522179322773",
+      "transaction_hash": "2zdnnaTbjsfxQ8wfFkHEqQrSzvN2p5hzkUB7fSeY33uS"
+    },
+    {
+      "label": "deposit-rolled-back",
+      "snapshot": {
+        "block_height": "28",
+        "block_timestamp_ns": "1794564281919092000",
+        "budget": {
+          "free": "0",
+          "funded": "0",
+          "grant_count": 1,
+          "normal_request_count": 0,
+          "operational_buffer": "100000000000000000000000",
+          "operational_funding": "4896907989332331700000000",
+          "owner_id": "dev-20261113100438-48204359234723.test.near",
+          "owner_refund_count": 0,
+          "payment_count": 0,
+          "pending": "0",
+          "physical_liquid": "100449428257146800000000",
+          "protocol_version": "0.1.0",
+          "recovery_request_count": 0,
+          "recovery_storage_reserved": "13025280000000000000000000",
+          "request_count": 0,
+          "returned": "0",
+          "root_id": "0",
+          "spend_count": 0,
+          "spent": "0",
+          "storage_required": "3356260000000000000000000"
+        },
+        "grants": [
+          {
+            "allocation": "0",
+            "allowed_receivers": [
+              "dev-20261113100439-51856565748531.test.near",
+              "dev-20261113100439-70084676138934.test.near"
+            ],
+            "blocked_by": null,
+            "child_reserved": "0",
+            "delegatee_id": "dev-20261113100438-48204359234723.test.near",
+            "depth": 0,
+            "effective_status": "active",
+            "expires_at_ns": "18446744073709551615",
+            "free": "0",
+            "grant_id": "0",
+            "max_depth": 3,
+            "parent_id": null,
+            "pending": "0",
+            "returned": "0",
+            "revoked": false,
+            "spent": "0"
+          }
+        ],
+        "payments": []
+      }
+    },
+    {
+      "initial_success": true,
+      "label": "fund-exact-operational-reserve",
+      "outcomes": [
+        {
+          "block_hash": "7vXmEbyNqmnbe2bH8Gsk5xhmnYDuV5VJZTABiAc3QfEB",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "308870123155",
+          "id": "89KzgfLFAq9jN8C29kq2WSqH2nYPJNL4Rse9kSLxqkKQ",
+          "logs": [],
+          "receipt_ids": [
+            "8RCa5irw44WqR6qMvFxAVjCHE5wVGTnSfUt4yK666Syc"
+          ],
+          "status": "Ok(ReceiptId(8RCa5irw44WqR6qMvFxAVjCHE5wVGTnSfUt4yK666Syc))",
+          "success": true,
+          "tokens_burnt": "30887012315500000000"
+        },
+        {
+          "block_hash": "HJ41gkUebpPRq4ftvfUtADE7DPQwKZVbdqDb2AJhcA97",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "1943077711926",
+          "id": "8RCa5irw44WqR6qMvFxAVjCHE5wVGTnSfUt4yK666Syc",
+          "logs": [
+            "EVENT_JSON:{\"standard\":\"budgetbranch\",\"version\":\"0.1.0\",\"event\":\"operations_funded\",\"data\":[{\"owner_id\":\"dev-20261113100438-48204359234723.test.near\",\"amount\":\"11584632010667668300000000\",\"operational_funding\":\"16481540000000000000000000\"}]}"
+          ],
+          "receipt_ids": [
+            "BoehLTnsfTuNUUa8W2MPo19tA9Y8mtzjQ8hinAK7zXMD"
+          ],
+          "status": "Ok(Value(Value { repr: \"eyJwcm90b2NvbF92ZXJzaW9uIjoiMC4xLjAiLCJvd25lcl9pZCI6ImRldi0yMDI2MTExMzEwMDQzOC00ODIwNDM1OTIzNDcyMy50ZXN0Lm5lYXIiLCJyb290X2lkIjoiMCIsImZ1bmRlZCI6IjAiLCJmcmVlIjoiMCIsInBlbmRpbmciOiIwIiwic3BlbnQiOiIwIiwicmV0dXJuZWQiOiIwIiwib3BlcmF0aW9uYWxfZnVuZGluZyI6IjE2NDgxNTQwMDAwMDAwMDAwMDAwMDAwMDAwIiwib3BlcmF0aW9uYWxfYnVmZmVyIjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwic3RvcmFnZV9yZXF1aXJlZCI6IjMzNTYyNjAwMDAwMDAwMDAwMDAwMDAwMDAiLCJyZWNvdmVyeV9zdG9yYWdlX3Jlc2VydmVkIjoiMTMwMjUyODAwMDAwMDAwMDAwMDAwMDAwMDAiLCJwaHlzaWNhbF9saXF1aWQiOiIxMDA0NDk0MjgyNTcxNDY4MDAwMDAwMDAiLCJncmFudF9jb3VudCI6MSwicGF5bWVudF9jb3VudCI6MCwicmVxdWVzdF9jb3VudCI6MCwic3BlbmRfY291bnQiOjAsIm93bmVyX3JlZnVuZF9jb3VudCI6MCwibm9ybWFsX3JlcXVlc3RfY291bnQiOjAsInJlY292ZXJ5X3JlcXVlc3RfY291bnQiOjB9\" }))",
+          "success": true,
+          "tokens_burnt": "194307771192600000000"
+        }
+      ],
+      "total_gas_burnt": "2251947835081",
+      "transaction_hash": "89KzgfLFAq9jN8C29kq2WSqH2nYPJNL4Rse9kSLxqkKQ"
+    },
+    {
+      "initial_success": true,
+      "label": "deposit-after-exact-reserve",
+      "outcomes": [
+        {
+          "block_hash": "9YX1mHWH8qTn2cVw42VfxMmj7C2FFRQ63TuACMTa2bN8",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "308488653435",
+          "id": "CvyARgQzKhEUhaZRxh5ZzW4AJd3GX3aSm8tNdxT4uXab",
+          "logs": [],
+          "receipt_ids": [
+            "vAGYGRcoQtgu2EENgwRw5hLYjekNCXMHRduJmMjZctX"
+          ],
+          "status": "Ok(ReceiptId(vAGYGRcoQtgu2EENgwRw5hLYjekNCXMHRduJmMjZctX))",
+          "success": true,
+          "tokens_burnt": "30848865343500000000"
+        },
+        {
+          "block_hash": "EoZjbzvzH66BcLwiN5tTbEYdNWb3jvEc3W1pxMu6W6PG",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "2235919850778",
+          "id": "vAGYGRcoQtgu2EENgwRw5hLYjekNCXMHRduJmMjZctX",
+          "logs": [
+            "EVENT_JSON:{\"standard\":\"budgetbranch\",\"version\":\"0.1.0\",\"event\":\"budget_deposited\",\"data\":[{\"owner_id\":\"dev-20261113100438-48204359234723.test.near\",\"amount\":\"10000000000000000000000000\",\"funded\":\"10000000000000000000000000\"}]}"
+          ],
+          "receipt_ids": [
+            "GSmSykkbyNzgZbtkQ9uDgWSmb1W46RM5GQc4KdaqMnPt"
+          ],
+          "status": "Ok(Value(Value { repr: \"eyJwcm90b2NvbF92ZXJzaW9uIjoiMC4xLjAiLCJvd25lcl9pZCI6ImRldi0yMDI2MTExMzEwMDQzOC00ODIwNDM1OTIzNDcyMy50ZXN0Lm5lYXIiLCJyb290X2lkIjoiMCIsImZ1bmRlZCI6IjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwiZnJlZSI6IjEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwicGVuZGluZyI6IjAiLCJzcGVudCI6IjAiLCJyZXR1cm5lZCI6IjAiLCJvcGVyYXRpb25hbF9mdW5kaW5nIjoiMTY0ODE1NDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJvcGVyYXRpb25hbF9idWZmZXIiOiIxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdG9yYWdlX3JlcXVpcmVkIjoiMzM1NjI2MDAwMDAwMDAwMDAwMDAwMDAwMCIsInJlY292ZXJ5X3N0b3JhZ2VfcmVzZXJ2ZWQiOiIxMzAyNTI4MDAwMDAwMDAwMDAwMDAwMDAwMCIsInBoeXNpY2FsX2xpcXVpZCI6IjEwMTAwNDQ5NDI4MjU3MTQ2ODAwMDAwMDAwIiwiZ3JhbnRfY291bnQiOjEsInBheW1lbnRfY291bnQiOjAsInJlcXVlc3RfY291bnQiOjAsInNwZW5kX2NvdW50IjowLCJvd25lcl9yZWZ1bmRfY291bnQiOjAsIm5vcm1hbF9yZXF1ZXN0X2NvdW50IjowLCJyZWNvdmVyeV9yZXF1ZXN0X2NvdW50IjowfQ==\" }))",
+          "success": true,
+          "tokens_burnt": "223591985077800000000"
+        }
+      ],
+      "total_gas_burnt": "2544408504213",
+      "transaction_hash": "CvyARgQzKhEUhaZRxh5ZzW4AJd3GX3aSm8tNdxT4uXab"
+    },
+    {
+      "initial_success": false,
+      "label": "normal-growth-cannot-eat-recovery-reserve",
+      "outcomes": [
+        {
+          "block_hash": "G9FUmKxCESY7WHfxVEZaK93jDSC2ybeEjE5MQh8pg5bV",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "321983144780",
+          "id": "DMG6dpfPaCWLa1ZyMeygA4k1xhx1NLCq4xBqWxJBARdZ",
+          "logs": [],
+          "receipt_ids": [
+            "HDsxijArSv48SYTSJkkgW7Qno4PMx2RgP2h4gNfErnTS"
+          ],
+          "status": "Ok(ReceiptId(HDsxijArSv48SYTSJkkgW7Qno4PMx2RgP2h4gNfErnTS))",
+          "success": true,
+          "tokens_burnt": "32198314478000000000"
+        },
+        {
+          "block_hash": "HmrNEdwXFedcfLCUyfwhZfquTkVT8yEfvJ2P9PRjiruf",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "2228206393420",
+          "id": "HDsxijArSv48SYTSJkkgW7Qno4PMx2RgP2h4gNfErnTS",
+          "logs": [],
+          "receipt_ids": [
+            "aS2XhrmdhPys2Eg9EQ5kZxJ7MurUr2ekJRGADbpFcht"
+          ],
+          "status": "Err(Error { repr: Custom { kind: Execution, error: ActionError(ActionError { index: Some(0), kind: FunctionCallError(ExecutionError(\"Smart contract panicked: BB:ERR_STORAGE_RESERVE\")) }) } })",
+          "success": false,
+          "tokens_burnt": "222820639342000000000"
+        }
+      ],
+      "total_gas_burnt": "2550189538200",
+      "transaction_hash": "DMG6dpfPaCWLa1ZyMeygA4k1xhx1NLCq4xBqWxJBARdZ"
+    },
+    {
+      "initial_success": true,
+      "label": "revoke-at-exact-reserve",
+      "outcomes": [
+        {
+          "block_hash": "HBbSHtgMGgPvGzWe2AUDvtbYetu3jpxxnGbBKo3FyG5D",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "309108541730",
+          "id": "EWEXkiNhKDuzWcUJd2LPCDQM6HGmtegpPf6MfrmhHeC8",
+          "logs": [],
+          "receipt_ids": [
+            "87fRiUKo4CGSV6nNYHe2VgX2eqg8Gr76oLgz6fZWAmUX"
+          ],
+          "status": "Ok(ReceiptId(87fRiUKo4CGSV6nNYHe2VgX2eqg8Gr76oLgz6fZWAmUX))",
+          "success": true,
+          "tokens_burnt": "30910854173000000000"
+        },
+        {
+          "block_hash": "Du3KhMcEhTqBW28qQ3nzuzEFGEgPReYMruarnBK5hw7v",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "1797532940248",
+          "id": "87fRiUKo4CGSV6nNYHe2VgX2eqg8Gr76oLgz6fZWAmUX",
+          "logs": [
+            "EVENT_JSON:{\"standard\":\"budgetbranch\",\"version\":\"0.1.0\",\"event\":\"grant_revoked\",\"data\":[{\"caller_id\":\"dev-20261113100438-48204359234723.test.near\",\"grant_id\":\"0\"}]}"
+          ],
+          "receipt_ids": [
+            "5D4RMk4VyxHsBPYVfWwQgvuB5rxXKFo3ebWzgSGSkotm"
+          ],
+          "status": "Ok(Value(Value { repr: \"eyJncmFudF9pZCI6IjAifQ==\" }))",
+          "success": true,
+          "tokens_burnt": "179753294024800000000"
+        }
+      ],
+      "total_gas_burnt": "2106641481978",
+      "transaction_hash": "EWEXkiNhKDuzWcUJd2LPCDQM6HGmtegpPf6MfrmhHeC8"
+    },
+    {
+      "initial_success": true,
+      "label": "reserved-recovery-succeeds-without-extra-topup",
+      "outcomes": [
+        {
+          "block_hash": "3jShN1CQjf2XUhU9mdpGyHnotZgRFZzVan1ksnP7Na9e",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "311635778625",
+          "id": "FTeDh6kSvLxiPHn8Wf52WoNdvLsMgn91ZkYiLis4Rssf",
+          "logs": [],
+          "receipt_ids": [
+            "98z2h2DKSFfsUWQCYbFCFJcrHNsT19DbETXHZR42Us5B"
+          ],
+          "status": "Ok(ReceiptId(98z2h2DKSFfsUWQCYbFCFJcrHNsT19DbETXHZR42Us5B))",
+          "success": true,
+          "tokens_burnt": "31163577862500000000"
+        },
+        {
+          "block_hash": "EurgYtwcGfoVZ32axDpVcL9Yy9k8uGGMxVAbWuU6i5VH",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "3008384270053",
+          "id": "98z2h2DKSFfsUWQCYbFCFJcrHNsT19DbETXHZR42Us5B",
+          "logs": [
+            "EVENT_JSON:{\"standard\":\"budgetbranch\",\"version\":\"0.1.0\",\"event\":\"payment_pending\",\"data\":[{\"payment_id\":\"1\",\"kind\":\"owner_refund\",\"grant_id\":\"0\",\"caller_id\":\"dev-20261113100438-48204359234723.test.near\",\"request_id\":\"all-back\",\"receiver_id\":\"dev-20261113100438-48204359234723.test.near\",\"amount\":\"10000000000000000000000000\",\"status\":\"pending\",\"failure_code\":null,\"created_at_ns\":\"1794564283852054000\",\"settled_at_ns\":null}]}"
+          ],
+          "receipt_ids": [
+            "8iVZx893UPBb8DuSBGHfH7MszHGwTkgDJQ5LA5ctjAYe",
+            "Ek2nvuXjJ9LNth1rwGDJaYQYQFLrysVnkKRBDXJAjrFi",
+            "HGr3KM4njfjRxwNus2rk23Cw41a7mdUJNKUVsuRR46wu"
+          ],
+          "status": "Ok(Value(Value { repr: \"eyJwYXltZW50X2lkIjoiMSJ9\" }))",
+          "success": true,
+          "tokens_burnt": "300838427005300000000"
+        },
+        {
+          "block_hash": "HFUzohMVU5Eck54VKwRarVwAPZPW4q557oUuHkVjwpjj",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "223182562500",
+          "id": "8iVZx893UPBb8DuSBGHfH7MszHGwTkgDJQ5LA5ctjAYe",
+          "logs": [],
+          "receipt_ids": [
+            "b7BvcKzftRjmVvsjTY7pt7GXG7LC76qkx7NrkpG7huj"
+          ],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "22318256250000000000"
+        },
+        {
+          "block_hash": "9y41S7pjXGxTSykbp7WbZ5oV9iNeb5JkrE5zVshWfuyQ",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "223182562500",
+          "id": "b7BvcKzftRjmVvsjTY7pt7GXG7LC76qkx7NrkpG7huj",
+          "logs": [],
+          "receipt_ids": [],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "0"
+        },
+        {
+          "block_hash": "9y41S7pjXGxTSykbp7WbZ5oV9iNeb5JkrE5zVshWfuyQ",
+          "executor_id": "budget.test.near",
+          "gas_burnt": "2166676203597",
+          "id": "Ek2nvuXjJ9LNth1rwGDJaYQYQFLrysVnkKRBDXJAjrFi",
+          "logs": [
+            "EVENT_JSON:{\"standard\":\"budgetbranch\",\"version\":\"0.1.0\",\"event\":\"payment_succeeded\",\"data\":[{\"payment_id\":\"1\",\"kind\":\"owner_refund\",\"grant_id\":\"0\",\"caller_id\":\"dev-20261113100438-48204359234723.test.near\",\"request_id\":\"all-back\",\"receiver_id\":\"dev-20261113100438-48204359234723.test.near\",\"amount\":\"10000000000000000000000000\",\"status\":\"succeeded\",\"failure_code\":null,\"created_at_ns\":\"1794564283852054000\",\"settled_at_ns\":\"1794564284096341000\"}]}"
+          ],
+          "receipt_ids": [
+            "DAMvUXyx22SLw1dLcGTaMg7SaHQY4v3cE62V8YqhsdPu"
+          ],
+          "status": "Ok(Value(Value { repr: \"eyJwYXltZW50X2lkIjoiMSIsImtpbmQiOiJvd25lcl9yZWZ1bmQiLCJncmFudF9pZCI6IjAiLCJjYWxsZXJfaWQiOiJkZXYtMjAyNjExMTMxMDA0MzgtNDgyMDQzNTkyMzQ3MjMudGVzdC5uZWFyIiwicmVxdWVzdF9pZCI6ImFsbC1iYWNrIiwicmVjZWl2ZXJfaWQiOiJkZXYtMjAyNjExMTMxMDA0MzgtNDgyMDQzNTkyMzQ3MjMudGVzdC5uZWFyIiwiYW1vdW50IjoiMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLCJzdGF0dXMiOiJzdWNjZWVkZWQiLCJmYWlsdXJlX2NvZGUiOm51bGwsImNyZWF0ZWRfYXRfbnMiOiIxNzk0NTY0MjgzODUyMDU0MDAwIiwic2V0dGxlZF9hdF9ucyI6IjE3OTQ1NjQyODQwOTYzNDEwMDAifQ==\" }))",
+          "success": true,
+          "tokens_burnt": "216667620359700000000"
+        },
+        {
+          "block_hash": "HFUzohMVU5Eck54VKwRarVwAPZPW4q557oUuHkVjwpjj",
+          "executor_id": "dev-20261113100438-48204359234723.test.near",
+          "gas_burnt": "223182562500",
+          "id": "HGr3KM4njfjRxwNus2rk23Cw41a7mdUJNKUVsuRR46wu",
+          "logs": [],
+          "receipt_ids": [],
+          "status": "Ok(Value(Value { repr: \"\" }))",
+          "success": true,
+          "tokens_burnt": "0"
+        }
+      ],
+      "total_gas_burnt": "6156243939775",
+      "transaction_hash": "FTeDh6kSvLxiPHn8Wf52WoNdvLsMgn91ZkYiLis4Rssf"
+    },
+    {
+      "label": "exact-reserve-recovered",
+      "snapshot": {
+        "block_height": "45",
+        "block_timestamp_ns": "1794564284096341000",
+        "budget": {
+          "free": "0",
+          "funded": "10000000000000000000000000",
+          "grant_count": 1,
+          "normal_request_count": 0,
+          "operational_buffer": "100000000000000000000000",
+          "operational_funding": "16481540000000000000000000",
+          "owner_id": "dev-20261113100438-48204359234723.test.near",
+          "owner_refund_count": 1,
+          "payment_count": 1,
+          "pending": "0",
+          "physical_liquid": "100449428257146800000000",
+          "protocol_version": "0.1.0",
+          "recovery_request_count": 1,
+          "recovery_storage_reserved": "13019820000000000000000000",
+          "request_count": 1,
+          "returned": "10000000000000000000000000",
+          "root_id": "0",
+          "spend_count": 0,
+          "spent": "0",
+          "storage_required": "3359890000000000000000000"
+        },
+        "grants": [
+          {
+            "allocation": "10000000000000000000000000",
+            "allowed_receivers": [
+              "dev-20261113100439-51856565748531.test.near",
+              "dev-20261113100439-70084676138934.test.near"
+            ],
+            "blocked_by": "0",
+            "child_reserved": "0",
+            "delegatee_id": "dev-20261113100438-48204359234723.test.near",
+            "depth": 0,
+            "effective_status": "revoked",
+            "expires_at_ns": "18446744073709551615",
+            "free": "0",
+            "grant_id": "0",
+            "max_depth": 3,
+            "parent_id": null,
+            "pending": "0",
+            "returned": "10000000000000000000000000",
+            "revoked": true,
+            "spent": "0"
+          }
+        ],
+        "payments": [
+          {
+            "amount": "10000000000000000000000000",
+            "caller_id": "dev-20261113100438-48204359234723.test.near",
+            "created_at_ns": "1794564283852054000",
+            "failure_code": null,
+            "grant_id": "0",
+            "kind": "owner_refund",
+            "payment_id": "1",
+            "receiver_id": "dev-20261113100438-48204359234723.test.near",
+            "request_id": "all-back",
+            "settled_at_ns": "1794564284096341000",
+            "status": "succeeded"
+          }
+        ]
+      }
+    }
+  ],
+  "sandbox_binary_sha256": "8e0e1521372b0fce801b7464078c1e95e5a25a0f92ad4b4241451c33fe9e5a2a",
+  "sandbox_version": "2.14.0"
+}

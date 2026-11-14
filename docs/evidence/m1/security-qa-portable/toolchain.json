@@ -1,0 +1,48 @@
+{
+  "env": {
+    "CARGO_HOME": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo",
+    "RUSTUP_HOME": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/rustup",
+    "PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin:/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/REDACTED_USER_HOME/.codex/tmp/arg0-macos/codex-arg0zEh787:/REDACTED_USER_HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/REDACTED_USER_HOME/.unity/bin:/REDACTED_USER_HOME/.local/bin:/REDACTED_USER_HOME/.orbstack/bin:/REDACTED_USER_HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/REDACTED_USER_HOME/.orbstack/bin"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo/bin/rustc",
+        "+1.95.0",
+        "--version",
+        "--verbose"
+      ],
+      "exit_code": 0,
+      "stdout": "rustc 1.95.0 (59807616e 2026-04-14)\nbinary: rustc\ncommit-hash: 59807616e1fa2540724bfbac14d7976d7e4a3860\ncommit-date: 2026-04-14\nhost: aarch64-apple-darwin\nrelease: 1.95.0\nLLVM version: 22.1.2",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo/bin/cargo",
+        "+1.95.0",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "cargo 1.95.0 (f2d3ce0bd 2026-03-21)",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin/node",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "v24.14.0",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin/npm",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "11.9.0",
+      "stderr": ""
+    }
+  ]
+}

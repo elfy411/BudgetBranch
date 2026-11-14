@@ -1,0 +1,72 @@
+demo-receiver v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/demo-receiver)|MIT OR Apache-2.0
+├── borsh v1.8.1|MIT OR Apache-2.0
+├── near-sdk v5.30.1|MIT OR Apache-2.0
+│   ├── base64 v0.22.1|MIT OR Apache-2.0
+│   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   ├── bs58 v0.5.1|MIT/Apache-2.0
+│   ├── hex-literal v1.1.0|MIT OR Apache-2.0
+│   ├── near-account-id v3.0.0|MIT OR Apache-2.0
+│   │   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   └── serde v1.0.229|MIT OR Apache-2.0
+│   │       └── serde_core v1.0.229|MIT OR Apache-2.0
+│   ├── near-gas v0.3.7|MIT OR Apache-2.0
+│   │   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   └── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   ├── near-global-contracts v0.3.3|MIT OR Apache-2.0
+│   │   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   ├── hex v0.4.3|MIT OR Apache-2.0
+│   │   ├── near-account-id v3.0.0|MIT OR Apache-2.0 (*)
+│   │   ├── near-crypto-hash v0.2.0|MIT OR Apache-2.0
+│   │   ├── near-digest v0.1.5|MIT OR Apache-2.0
+│   │   │   ├── digest v0.11.3|MIT OR Apache-2.0
+│   │   │   │   ├── block-buffer v0.12.1|MIT OR Apache-2.0
+│   │   │   │   │   └── hybrid-array v0.4.15|MIT OR Apache-2.0
+│   │   │   │   │       └── typenum v1.20.1|MIT OR Apache-2.0
+│   │   │   │   └── crypto-common v0.2.2|MIT OR Apache-2.0
+│   │   │   │       └── hybrid-array v0.4.15|MIT OR Apache-2.0 (*)
+│   │   │   └── near-sdk-env v0.1.9|MIT OR Apache-2.0
+│   │   │       └── near-sys v0.4.1|MIT OR Apache-2.0
+│   │   ├── near-sdk-core v4.4.2|MIT OR Apache-2.0
+│   │   │   ├── base64 v0.22.1|MIT OR Apache-2.0
+│   │   │   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   │   ├── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │   ├── hex v0.4.3|MIT OR Apache-2.0
+│   │   │   ├── near-account-id v3.0.0|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-crypto-hash v0.2.0|MIT OR Apache-2.0
+│   │   │   ├── near-gas v0.3.7|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-sdk-env v0.1.9|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-token v0.3.6|MIT OR Apache-2.0
+│   │   │   │   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   │   │   └── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   ├── serde_json v1.0.154|MIT OR Apache-2.0
+│   │   │   │   ├── foldhash v0.2.0|Zlib
+│   │   │   │   ├── indexmap v2.14.2|Apache-2.0 OR MIT
+│   │   │   │   │   ├── equivalent v1.0.3|Apache-2.0 OR MIT
+│   │   │   │   │   └── hashbrown v0.17.1|MIT OR Apache-2.0
+│   │   │   │   ├── itoa v1.0.19|MIT OR Apache-2.0
+│   │   │   │   ├── memchr v2.8.3|Unlicense OR MIT
+│   │   │   │   ├── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   │   └── zmij v1.0.23|MIT
+│   │   │   └── serde_with v3.24.0|MIT OR Apache-2.0
+│   │   │       ├── base64 v0.23.1|MIT OR Apache-2.0
+│   │   │       ├── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │       ├── hex v0.4.3|MIT OR Apache-2.0
+│   │   │       ├── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │       └── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   ├── near-sdk-env v0.1.9|MIT OR Apache-2.0 (*)
+│   │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   └── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   ├── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+│   ├── near-sdk-env v0.1.9|MIT OR Apache-2.0 (*)
+│   ├── near-sys v0.4.1|MIT OR Apache-2.0
+│   ├── near-token v0.3.6|MIT OR Apache-2.0 (*)
+│   ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   └── wee_alloc v0.4.5|MPL-2.0
+│       ├── cfg-if v0.1.10|MIT/Apache-2.0
+│       └── memory_units v0.4.0|MPL-2.0
+├── serde v1.0.229|MIT OR Apache-2.0 (*)
+└── serde_json v1.0.154|MIT OR Apache-2.0 (*)

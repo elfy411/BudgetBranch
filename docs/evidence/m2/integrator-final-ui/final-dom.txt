@@ -1,0 +1,203 @@
+- text: "Local Sandbox signer:"
+- combobox "Local Sandbox signer:":
+  - option "Owner · owner.test.near" [selected]
+  - option "Agent A · agent-a.test.near"
+  - option "Agent B · agent-b.test.near"
+  - option "Child · child.test.near"
+- banner:
+  - generic: BudgetBranch
+  - generic: SANDBOX
+  - button "Connection": Connection
+- main:
+  - heading "Delegation console" [level=1]
+  - paragraph: Inspect how agents share, spend, and return a funded NEAR budget.
+  - button "Refresh snapshot"
+  - code: budget.test.near
+  - text: Finalized block 2,357 ·
+  - time: 13 Nov 2026, 11:34:52 UTC
+  - text: Chain
+  - code: test-chain-bb80a3743cf7436cf1
+  - region "Funded budget":
+    - heading "Funded budget" [level=2]
+    - generic: Global ledger
+    - paragraph:
+      - generic "10000000000000000000000000 yoctoNEAR": 10 NEAR
+    - term: Logical free
+    - definition:
+      - generic "3000000000000000000000000 yoctoNEAR": "3"
+    - term: Pending
+    - definition:
+      - generic "0 yoctoNEAR": "0"
+    - term: Spent
+    - definition:
+      - generic "2000000000000000000000000 yoctoNEAR": "2"
+    - term: Refunded
+    - definition:
+      - generic "5000000000000000000000000 yoctoNEAR": "5"
+  - region "Physical liquidity":
+    - heading "Physical liquidity" [level=2]
+    - paragraph:
+      - generic "3.0704187776641416 NEAR (3070418777664141600000000 yoctoNEAR)":
+        - generic: 3.070418…
+        - generic: NEAR
+    - paragraph: On-chain balance above protected operating funds. It can lag behind logical free when NEAR refunds a failed payment.
+    - generic "Operating funds"
+  - region "Grant tree":
+    - heading "Grant tree" [level=2]
+    - generic: 4 grants
+    - list:
+      - button "owner.test.near Root grant 0 NEAR free active" [pressed]:
+        - strong: owner.test.near
+        - text: Root grant
+        - generic "0 yoctoNEAR": 0 NEAR
+        - text: free
+        - generic: active
+      - list:
+        - 'button "agent-a.test.near Grant #1 0 NEAR free revoked"':
+          - strong: agent-a.test.near
+          - text: "Grant #1"
+          - generic "0 yoctoNEAR": 0 NEAR
+          - text: free
+          - generic: revoked
+        - list:
+          - 'button "child.test.near Grant #3 0 NEAR free revoked"':
+            - strong: child.test.near
+            - text: "Grant #3"
+            - generic "0 yoctoNEAR": 0 NEAR
+            - text: free
+            - generic: revoked
+        - 'button "agent-b.test.near Grant #2 3 NEAR free active"':
+          - strong: agent-b.test.near
+          - text: "Grant #2"
+          - generic "3000000000000000000000000 yoctoNEAR": 3 NEAR
+          - text: free
+          - generic: active
+  - 'region "Grant #0"':
+    - 'heading "Grant #0" [level=2]'
+    - generic: active
+    - paragraph: owner.test.near
+    - term: Allocation
+    - definition:
+      - generic "10000000000000000000000000 yoctoNEAR": 10 NEAR
+    - term: Local free
+    - definition:
+      - generic "0 yoctoNEAR": 0 NEAR
+    - term: Child commitments
+    - definition:
+      - generic "5000000000000000000000000 yoctoNEAR": 5 NEAR
+    - term: Pending
+    - definition:
+      - generic "0 yoctoNEAR": 0 NEAR
+    - term: Spent
+    - definition:
+      - generic "0 yoctoNEAR": 0 NEAR
+    - term: Owner refunded
+    - definition:
+      - generic "5000000000000000000000000 yoctoNEAR": 5 NEAR
+    - paragraph: Child commitments include lifetime spending in those branches.
+    - term: Allowed recipients
+    - definition:
+      - code: accept.test.near
+      - code: reject.test.near
+    - term: Expires
+    - definition:
+      - time: 21 Jul 2554, 23:34:33 UTC
+    - term: Depth / ceiling
+    - definition: 0 / 3
+    - heading "Grant actions" [level=3]
+    - paragraph: Signing as owner.test.near.
+    - button "Delegate"
+    - button "Spend"
+    - button "Revoke branch"
+    - button "Fund budget"
+    - button "Refund owner" [disabled]
+    - status:
+      - paragraph: "Refund payment #4 was accepted. Follow its status in Recent payments."
+      - paragraph:
+        - text: Transaction
+        - code: 813T1NPJMb4RjKtkmEiNoqSmVUkXW6PnB9yvZTrxJXzP
+  - region "Recent payments":
+    - heading "Recent payments" [level=2]
+    - generic: 4 payments
+    - generic: Payment
+    - generic: Recipient
+    - generic: Amount
+    - generic: Status
+    - list:
+      - strong: "#4"
+      - text: Owner refund
+      - generic: "Grant #0 · owner.test.near"
+      - code: owner.test.near
+      - generic "5000000000000000000000000 yoctoNEAR": 5 NEAR
+      - generic: succeeded
+      - strong: "#3"
+      - text: Spend
+      - generic: "Grant #2 · agent-b.test.near"
+      - code: accept.test.near
+      - generic "1000000000000000000000000 yoctoNEAR": 1 NEAR
+      - generic: succeeded
+      - strong: "#2"
+      - text: Spend
+      - generic: "Grant #3 · child.test.near"
+      - code: reject.test.near
+      - generic "1000000000000000000000000 yoctoNEAR": 1 NEAR
+      - generic: failed
+      - generic: ERR_RECEIVER_FAILED
+      - strong: "#1"
+      - text: Spend
+      - generic: "Grant #3 · child.test.near"
+      - code: accept.test.near
+      - generic "1000000000000000000000000 yoctoNEAR": 1 NEAR
+      - generic: succeeded
+  - generic "Transaction receipts from this session"
+  - list:
+    - paragraph: "Refund payment #4 was accepted. Follow its status in Recent payments."
+    - code: 813T1NPJMb4RjKtkmEiNoqSmVUkXW6PnB9yvZTrxJXzP
+    - list:
+      - code: payment_pending
+      - code: payment_succeeded
+    - paragraph: "Reclaimed 5 NEAR from grant #1."
+    - code: Fpb8rRu5jLXPdL12y7oPHfcsLe2haiodqxnZXRmAenfd
+    - list:
+      - code: grant_reclaimed
+    - paragraph: "Reclaimed 3 NEAR from grant #3."
+    - code: CGvdHMkE3cDbf2vAS15iytUNF6AaMWbTayCNkC56ojN
+    - list:
+      - code: grant_reclaimed
+    - paragraph: "Spend payment #3 was accepted. Follow its status in Recent payments."
+    - code: 4yqMHBy6FNKTxbbvZxZ4gnXNDp4GZ3pT32WEuLdBBGmz
+    - list:
+      - code: payment_pending
+      - code: payment_succeeded
+    - paragraph: "Revocation recorded for grant #1."
+    - code: 2HRD6TSQda9MSVr87mjwUM3xFbNFv6r6WXvP3LbW24pM
+    - list:
+      - code: grant_revoked
+    - paragraph: "Spend payment #2 was accepted. Follow its status in Recent payments."
+    - code: CUFi9dZrHc4pTqGMkLXbBGbwgXXcaTiatWVM46GtwRE9
+    - list:
+      - code: payment_pending
+      - code: payment_failed
+    - paragraph: "Spend payment #1 was accepted. Follow its status in Recent payments."
+    - code: 6w4M5tuWyuqEc3S7ycwosvAPqJdWVw3f6a1A96WvjP1A
+    - list:
+      - code: payment_pending
+      - code: payment_succeeded
+    - paragraph: "Grant #3 was created."
+    - code: 699TGn8xUvuR3QJYuv19NhGT1FBKSq6JsT6dCvGxYXt8
+    - list:
+      - code: grant_created
+    - paragraph: "Grant #2 was created."
+    - code: 5ut1Vimoc2U4FeqD8dJHYxyQvCGJK264vEuPSnBeT1ea
+    - list:
+      - code: grant_created
+    - paragraph: "Grant #1 was created."
+    - code: 2thvLDZhxp4bNU9oYZ1g5ku8dkCNi2L7EtHDtf7pa5vx
+    - list:
+      - code: grant_created
+    - paragraph: Deposited 10 NEAR.
+    - code: BWUjvXNkq3mEPvRJ1Rkhre9xDz7rCTy5fWgEjz2eAzrg
+    - list:
+      - code: budget_deposited
+  - generic: BudgetBranch
+  - generic: NEAR · Protocol 0.1.0

@@ -1,0 +1,26 @@
+{
+  "name": "@budgetbranch/agents",
+  "version": "0.1.0",
+  "license": "MIT OR Apache-2.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "node dist/cli.js",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@budgetbranch/sdk": "file:../sdk"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.15",
+    "typescript": "5.9.3"
+  }
+}

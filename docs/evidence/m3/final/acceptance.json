@@ -1,0 +1,72 @@
+{
+  "recorded_at_utc": "2026-11-13T16:04:06.526084+00:00",
+  "reviewed_package_commit": "f340f84e43e51b71d5893990455a59cb612766e7",
+  "tested_source_commit": "bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04",
+  "main_commit": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+  "qa_verdict": "ACCEPT_SUITABLE_FOR_OWNER_REVIEW",
+  "qa_report_sha256": "4bc6a8d0dfb9d4c50eb0c0121cbbf0d964b6b562be8c4d457008c49da1ae37e5",
+  "integrator_review": "Read independent report and executed checker/output; rehashed three raw QA artifacts and all six accepted drafts before adding outcome links. Original scan/README evidence remains unchanged.",
+  "accepted_low_finding": "G3-FINAL-DOC-01 resolved by the independently fingerprinted history-input reconstruction addendum; no scanner rerun.",
+  "final_child_commit_scope": "Accepted six-file metadata follow-up, three unchanged QA evidence files and their index, plus one QA outcome paragraph and one STATUS bullet. This acceptance record is generated afterward. No executable source, dependency resolution or frozen-interface changes.",
+  "reviewed_draft_fingerprints": {
+    "docs/G3_REVIEW.md": "117b042dca5b2c301ca1f389181c55de5579fce2e888be26cb4f9ae6afc89ac8",
+    "docs/evidence/m3/final/secrets/README.md": "5d395d8d0fd802c7a904a85c8cfe63afba0a780ec5664942df8322168f100fc9",
+    "docs/evidence/m3/final/secrets/metadata-run.json": "7836733f62df0510b17420433045e7e97c92f40219466e598b97ea1953213105",
+    "docs/evidence/m3/final/secrets/metadata-findings.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "docs/evidence/m3/final/source-check.json": "4aaf34d7c5776fc2492377b4f63100192b0154a4c493477467c55a1044c0780b",
+    "docs/evidence/m3/final/secrets/history-input-addendum.json": "da4231c0d821a0424001ad03799924422230290b5a682370f4bdcad0ff6caa22"
+  },
+  "final_files_before_this_record": [
+    {
+      "path": "docs/G3_REVIEW.md",
+      "sha256": "de412382d4cd05ab5af7b01b807a996f4238d3de78fa2e7a233c0c9366c7afd7"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256": "9de69eed788038760a69ed9b7ee34b7f79e6358f50b5e1f72b10e7be73c25dea"
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/README.md",
+      "sha256": "329f88e3064e702d12493e8c2aae7fb1e07bad13bacaf8a706b3a9437be645e4"
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/check_final_evidence.py",
+      "sha256": "6a3f9e1024ab2eda2bd9a90173a25f82db28df809643ba20e13aeec1207ea20a"
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/evidence-check.json",
+      "sha256": "244bb8d721d7a6791d23ecb2837fd803756def186ad0a3fb43b349044a894c64"
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/qa-final-review.json",
+      "sha256": "4bc6a8d0dfb9d4c50eb0c0121cbbf0d964b6b562be8c4d457008c49da1ae37e5"
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/README.md",
+      "sha256": "5d395d8d0fd802c7a904a85c8cfe63afba0a780ec5664942df8322168f100fc9"
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/history-input-addendum.json",
+      "sha256": "da4231c0d821a0424001ad03799924422230290b5a682370f4bdcad0ff6caa22"
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/metadata-findings.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/metadata-run.json",
+      "sha256": "7836733f62df0510b17420433045e7e97c92f40219466e598b97ea1953213105"
+    },
+    {
+      "path": "docs/evidence/m3/final/source-check.json",
+      "sha256": "4aaf34d7c5776fc2492377b4f63100192b0154a4c493477467c55a1044c0780b"
+    }
+  ],
+  "full_G3_owner_approval": false,
+  "main_advanced": false,
+  "public_actions_performed": false,
+  "prebuilt_tool_distribution_included": false,
+  "new_runtime_tests_by_final_QA": false,
+  "integrator_actual_model": "UNKNOWN",
+  "integrator_actual_effort": "UNKNOWN"
+}

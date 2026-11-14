@@ -1,0 +1,182 @@
+{
+  "candidate": "bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04",
+  "source_directory_at_execution": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/g3-final",
+  "retained_directory": "docs/evidence/m3/final/readme-check",
+  "path_mapping": "Each recorded source-directory basename is retained here unchanged; absolute commands preserve actual execution provenance. No private runtime home is copied.",
+  "initial_clean_state": "initial-state.txt",
+  "final_clean_state_independently_checked": true,
+  "tool_cache_reuse_root": "/REDACTED_USER_HOME/Desktop/BudgetBranch",
+  "cold_download": false,
+  "files": [
+    {
+      "path": "artifact-hashes.json",
+      "bytes": 3681,
+      "sha256": "c2cd0a910cc3a3912e506276d72ecc3f6e0129e5273a60363d1017f68fe7a46d"
+    },
+    {
+      "path": "bootstrap.command",
+      "bytes": 27,
+      "sha256": "7c9f3bd3321580a73b5c314a3d3ffcbf27b268090f73ec89e0abca4f3b03b6c2"
+    },
+    {
+      "path": "bootstrap.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "bootstrap.log",
+      "bytes": 411,
+      "sha256": "cf525dc810dbf38a41c899dc63481553f8d11275d83f4e9c4474bc0c0229d627"
+    },
+    {
+      "path": "check-hashes.command",
+      "bytes": 79,
+      "sha256": "e5016875e01873aeff75976aa19b8ccc1c40e4dc23dc9df55ac283ad2b0d5df4"
+    },
+    {
+      "path": "check-hashes.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "check-hashes.py",
+      "bytes": 2103,
+      "sha256": "26155f55be5cf231f6ba5046248f4a2648f26e6f7c43fd9f0bde3c5f0047aa7a"
+    },
+    {
+      "path": "check-hashes.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "final-readme-check.md",
+      "bytes": 5200,
+      "sha256": "1de1dd788e7eb14bab02aa65a8a592ec2e193a3456bd7f18be741124bf2db551"
+    },
+    {
+      "path": "initial-state.txt",
+      "bytes": 650,
+      "sha256": "45b5303857a85be21861de0d6b7071a4157b405b7ab8da369af93caa997301d1"
+    },
+    {
+      "path": "probe-web.mjs",
+      "bytes": 5117,
+      "sha256": "1ab0c80d9881e2c54572a45961cec6bb2c53e71d90ace6bae417ab19e0535b11"
+    },
+    {
+      "path": "sdk-sandbox.command",
+      "bytes": 39,
+      "sha256": "a3edf3ee680ce49b7c09991c871fd7a500a58b5468ffbef30b331c91bc72b399"
+    },
+    {
+      "path": "sdk-sandbox.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "sdk-sandbox.jsonl",
+      "bytes": 108414,
+      "sha256": "0680906a241519e61d31d0897fc5a0d94cf5d538c5508552771941d462da8f65"
+    },
+    {
+      "path": "sdk-sandbox.stderr.log",
+      "bytes": 2809,
+      "sha256": "248d1799838bccf070acde4b771081ca3aeada0ce080b467af762a7b1b4b5550"
+    },
+    {
+      "path": "unit.command",
+      "bytes": 32,
+      "sha256": "2ed29996d5e13435ebecab01dd717606759a825ac7f12f781f12c51ecc565b5f"
+    },
+    {
+      "path": "unit.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "unit.log",
+      "bytes": 11074,
+      "sha256": "e618ebe988a83c2658374950e601f67ab13dc3bf1f9314412769d407591acc26"
+    },
+    {
+      "path": "web-build.command",
+      "bytes": 48,
+      "sha256": "5ada97faeff8bf83400195087f03e849288c34661a1f7edb8058e62947b7b061"
+    },
+    {
+      "path": "web-build.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "web-build.log",
+      "bytes": 837,
+      "sha256": "9525911fde22a013ddced213941ec4c8497df84cbffb6cffb76d2d81ade3945f"
+    },
+    {
+      "path": "web-http.command",
+      "bytes": 95,
+      "sha256": "9d5866d146c09208af5fcc0e3c66087903fd9b5fd7daa24c9824eadb7b76e465"
+    },
+    {
+      "path": "web-http.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "web-http.jsonl",
+      "bytes": 477,
+      "sha256": "f1b76f1a15c465d9faeec291dd8a7565faf9dcebec4ed4a4a777236fca8b65c4"
+    },
+    {
+      "path": "web-http.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "web-install.command",
+      "bytes": 89,
+      "sha256": "633ea167fc699e4f4e28978f6e72039045bd4f060f77dce3f5163124cbce46f4"
+    },
+    {
+      "path": "web-install.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "web-install.log",
+      "bytes": 28,
+      "sha256": "20f23220ca17385e7b029281e315b40dd1aaef341c046744f272d1af93f26b8c"
+    },
+    {
+      "path": "web-launch.command",
+      "bytes": 49,
+      "sha256": "2f6ba9974e774390d0b4ee53eda4a2b1309f3bd8466ec3adb3c0884b1c405045"
+    },
+    {
+      "path": "web-launch.exit",
+      "bytes": 4,
+      "sha256": "f5bde7eb9f6c71611dc5726e8aca3eb4eba3e386da49e0a4ed5c295a90a73a0d"
+    },
+    {
+      "path": "web-launch.log",
+      "bytes": 817,
+      "sha256": "85befc6436c970366206bdf94a9b3110bbd80690995bfb6c2c0762bdfe5058f0"
+    },
+    {
+      "path": "web-unit.command",
+      "bytes": 43,
+      "sha256": "4a58fd15474d1736843c1e02552cd276b62e80b1af6905d73884a248493704f4"
+    },
+    {
+      "path": "web-unit.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "web-unit.log",
+      "bytes": 627,
+      "sha256": "a4c7ae238e61549177c4d50431101920dc3eba4ea161287d749423141831e210"
+    }
+  ]
+}

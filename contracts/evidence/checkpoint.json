@@ -1,0 +1,35 @@
+{
+  "stage": "real cycle and full scenario checkpoint, G1 not accepted",
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "rustc": "1.95.0 (59807616e 2026-04-14)",
+  "unit": {
+    "exit_code": 0,
+    "passed": 11,
+    "failed": 0,
+    "level": "Rust unit contexts"
+  },
+  "sandbox": {
+    "cycle": {
+      "exit_code": 0,
+      "evidence": "evidence/sandbox-cycle.json",
+      "callback_gas_max": "2171446876505",
+      "record_count": 15
+    },
+    "full": {
+      "exit_code": 0,
+      "evidence": "evidence/sandbox-full.json",
+      "callback_gas_max": "2181446211317",
+      "record_count": 42
+    }
+  },
+  "wasm": {
+    "budgetbranch.wasm": {
+      "sha256": "63fbc36730e439fc08f47ac8550606d77db651a2e2a5b5933a64f2bbedf06d2f",
+      "size_bytes": 335073
+    },
+    "demo_receiver.wasm": {
+      "sha256": "7d4ba4844e1aec926aa110df8c814ac8f093f47eda7739f037b69808fbbb97b1",
+      "size_bytes": 155994
+    }
+  }
+}

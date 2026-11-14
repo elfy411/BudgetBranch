@@ -1,0 +1,15 @@
+{
+  "command": [
+    "target/debug/sandbox-evidence",
+    "refund-order"
+  ],
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/contract/contracts",
+  "environment": {
+    "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+    "TMPDIR": "/private/tmp"
+  },
+  "started_at_utc": "2026-11-13T09:58:57.091933+00:00",
+  "duration_seconds": 4.279,
+  "exit_code": 0,
+  "output": "PASS actual failed receipt + protocol principal refund; callback block=32, refund block=32; later-block window reproduced=false; evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/contract/contracts/evidence/sandbox-refund-order.json\n"
+}

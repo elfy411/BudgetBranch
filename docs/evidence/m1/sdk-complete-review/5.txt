@@ -1,0 +1,5 @@
+
+> @budgetbranch/agents@0.1.0 demo
+> node dist/cli.js --help
+
+Usage: npm --prefix agents run demo -- /absolute/path/to/sandbox-fixture.mjs

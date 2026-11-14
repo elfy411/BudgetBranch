@@ -1,0 +1,2 @@
+{"check":"real Sandbox web startup and finalized HTTP snapshot","pageUrl":"http://127.0.0.1:58945/?network=sandbox&contract=budget.test.near","chainId":"test-chain-bb6f1e9863b461176a","protocol":88,"pageStatus":200,"snapshotStatus":200,"blockHeight":"69","funded":"0","grantCount":1,"paymentCount":0,"foreignOrigin":403,"missingSignerToken":403,"patchThroughReadProxy":403}
+{"check":"real Sandbox web SIGINT cleanup","exit":130,"nodeHomeRemoved":true,"webListenerClosed":true}

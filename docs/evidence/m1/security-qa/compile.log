@@ -1,0 +1,13 @@
+warning: method `spend` is never used
+   --> /REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/.cache/qa/m1-e8b4374/replay-rollback.rs:320:14
+    |
+ 53 | impl Harness {
+    | ------------ method in this implementation
+...
+320 |     async fn spend(
+    |              ^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: 1 warning emitted
+

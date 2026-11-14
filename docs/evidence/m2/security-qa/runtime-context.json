@@ -1,0 +1,8 @@
+{
+  "node_pid": 47517,
+  "sandbox_pid": 48219,
+  "sandbox_home": "/private/tmp/bb-near-FdgFla",
+  "home_mode": "0o700",
+  "rpc_url": "http://127.0.0.1:58103",
+  "web_port": 5191
+}

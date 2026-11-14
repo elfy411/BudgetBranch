@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "cargo",
+    "+1.95.0",
+    "install",
+    "cargo-audit",
+    "--version",
+    "0.23.0",
+    "--locked",
+    "--root",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/security"
+  ],
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/audit-tool",
+  "started_at": "2026-11-13T11:08:21.371827+00:00",
+  "seconds": 260.459,
+  "exit_code": 0,
+  "scope": "Project-local audit tool only; no application dependency or global configuration changes",
+  "source": "https://github.com/rustsec/rustsec/blob/main/cargo-audit/README.md"
+}

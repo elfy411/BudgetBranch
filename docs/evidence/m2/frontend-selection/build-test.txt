@@ -1,0 +1,50 @@
+v24.14.0
+11.9.0
+Darwin arm64
+
+added 1 package in 2s
+
+> @budgetbranch/sdk@0.1.0 build
+> npm run check:abi && tsc -p tsconfig.json
+
+
+> @budgetbranch/sdk@0.1.0 check:abi
+> node scripts/check-abi.mjs
+
+
+added 25 packages in 477ms
+
+> @budgetbranch/web@0.1.0 test
+> node --disable-warning=ExperimentalWarning --experimental-strip-types --test test/*.test.mjs
+
+✔ the MOCK snapshot conserves business funds at both ledger levels (0.466084ms)
+✔ delegation uses frozen names, exact amounts, sorted recipients and inherited expiry (10.526042ms)
+✔ spend retries keep the same request and report receipt acceptance separately from settlement (0.653041ms)
+✔ deposit attaches principal and preserves a real adapter receipt boundary (0.282125ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.1975
+
+> @budgetbranch/web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 32 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                              0.56 kB │ gzip:  0.34 kB
+dist/assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2    7.42 kB
+dist/assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2      8.00 kB
+dist/assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2       15.08 kB
+dist/assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2      16.51 kB
+dist/assets/geist-latin-wght-normal-BgDaEnEv.woff2          29.40 kB
+dist/assets/index-CESSjUuu.css                              13.98 kB │ gzip:  4.14 kB
+dist/assets/index-B17JFNXC.js                              260.16 kB │ gzip: 80.95 kB
+
+✓ built in 570ms

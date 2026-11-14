@@ -1,0 +1,21 @@
+{
+  "worker_commit": "7a5401a0cf285b435bf4e4b910d7748552dbe6f4",
+  "source": "Frontend worker CUA verification, separate from integrator UI verification",
+  "artifacts": [
+    {
+      "original": ".cache/frontend/g2/build-test.log",
+      "retained": "docs/evidence/m2/frontend-selection/build-test.txt",
+      "sha256": "c5befce8c7932710e4eaba58371c94382afac0b85e7202bc71cfdcd51e564e4a"
+    },
+    {
+      "original": ".cache/frontend/g2/sandbox.log",
+      "retained": "docs/evidence/m2/frontend-selection/sandbox.txt",
+      "sha256": "980a24427681d2d4fba803e1773f8de7f4a39f4e03b160e6480992267d27db81"
+    },
+    {
+      "original": ".cache/frontend/g2/browser-selection.txt",
+      "retained": "docs/evidence/m2/frontend-selection/browser-selection.txt",
+      "sha256": "4c9d40ae7a6898e42493df97fc8212a07e682656cbb953a39119e43b1d5e09d6"
+    }
+  ]
+}

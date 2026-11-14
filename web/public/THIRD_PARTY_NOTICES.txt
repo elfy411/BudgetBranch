@@ -1,0 +1,34 @@
+BudgetBranch web distribution notices
+
+Original BudgetBranch code
+Copyright (c) 2026 BudgetBranch contributors
+SPDX license expression: MIT OR Apache-2.0
+
+Use the original BudgetBranch code under either license, at your option.
+The license texts are included at the following paths.
+
+  licenses/BudgetBranch-LICENSE-MIT.txt
+  licenses/BudgetBranch-LICENSE-APACHE.txt
+
+Third-party packages and fonts retain their own copyrights and licenses.
+The files below reproduce the notices distributed by the pinned packages.
+The React, React DOM and Scheduler packages ship identical MIT license text.
+
+  React 19.3.1, React DOM 19.3.1, Scheduler 0.28.0
+  MIT
+  licenses/react-react-dom-scheduler-MIT.txt
+
+  Geist Variable 5.3.0 (@fontsource-variable/geist)
+  SIL Open Font License 1.1 (OFL-1.1)
+  licenses/geist-5.3.0-OFL.txt
+
+Build tool notices retained for generated browser helpers
+
+  Vite 8.3.8
+  MIT for Vite core. The full upstream notice also lists bundled dependencies
+  of the build tool and their respective terms.
+  licenses/vite-8.3.8-LICENSE.txt
+
+  Rolldown 1.2.19
+  MIT
+  licenses/rolldown-1.2.19-LICENSE.txt

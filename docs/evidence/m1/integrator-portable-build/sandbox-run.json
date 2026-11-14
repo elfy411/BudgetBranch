@@ -1,0 +1,207 @@
+{
+  "contract_source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "portable_candidate_commit": "b191642fce6dd00426fa259fa306647ea8538c1f",
+  "classification": "REAL NATIVE SANDBOX on independently rebuilt portable Wasm",
+  "commands": [
+    {
+      "suite": "cycle",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "cycle"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:22:28.173825+00:00",
+      "duration_seconds": 7.682,
+      "exit_code": 0,
+      "output": "cycle.txt"
+    },
+    {
+      "suite": "full",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "full"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:22:35.863636+00:00",
+      "duration_seconds": 16.078,
+      "exit_code": 0,
+      "output": "full.txt"
+    },
+    {
+      "suite": "capacity",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "capacity"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:22:51.959618+00:00",
+      "duration_seconds": 125.321,
+      "exit_code": 0,
+      "output": "capacity.txt"
+    },
+    {
+      "suite": "storage-boundary",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "storage-boundary"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:24:57.328452+00:00",
+      "duration_seconds": 8.5,
+      "exit_code": 0,
+      "output": "storage-boundary.txt"
+    },
+    {
+      "suite": "interleaving",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "interleaving"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:05.836267+00:00",
+      "duration_seconds": 7.504,
+      "exit_code": 0,
+      "output": "interleaving.txt"
+    },
+    {
+      "suite": "negatives",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "negatives"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:13.347434+00:00",
+      "duration_seconds": 13.99,
+      "exit_code": 0,
+      "output": "negatives.txt"
+    },
+    {
+      "suite": "adversarial",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "adversarial"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:27.346164+00:00",
+      "duration_seconds": 8.69,
+      "exit_code": 0,
+      "output": "adversarial.txt"
+    },
+    {
+      "suite": "refund-failure",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "refund-failure"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:36.045834+00:00",
+      "duration_seconds": 5.927,
+      "exit_code": 0,
+      "output": "refund-failure.txt"
+    },
+    {
+      "suite": "maximum-state",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "maximum-state"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:41.979813+00:00",
+      "duration_seconds": 17.473,
+      "exit_code": 0,
+      "output": "maximum-state.txt"
+    },
+    {
+      "suite": "refund-order",
+      "argv": [
+        "cargo",
+        "run",
+        "--locked",
+        "--offline",
+        "-p",
+        "budgetbranch-sandbox",
+        "--bin",
+        "sandbox-evidence",
+        "--",
+        "refund-order"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts",
+      "started_at_utc": "2026-11-13T10:25:59.488978+00:00",
+      "duration_seconds": 6.01,
+      "exit_code": 0,
+      "output": "refund-order.txt"
+    }
+  ]
+}

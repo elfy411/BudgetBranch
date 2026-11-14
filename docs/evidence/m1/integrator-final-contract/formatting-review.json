@@ -1,0 +1,33 @@
+{
+  "source_commit": "cee74d1c8f0edca6553a3f48f963f10e7beb2496",
+  "formatter": "rustfmt 1.8.0",
+  "command": "/opt/homebrew/bin/rustfmt --edition 2024",
+  "all_exact_formatter_output": true,
+  "files": [
+    {
+      "file": "contracts/budgetbranch/src/lib.rs",
+      "formatted_sha256": "c71ddb1fe49fc8438d5985484b8b2a0f26cfa3e9a5f6f2ace294564f84fc3a99"
+    },
+    {
+      "file": "contracts/budgetbranch/src/model.rs",
+      "formatted_sha256": "2a6c3525e111f3089fe97076cfe788be4112f72533e461e806c3818595a6dffb"
+    },
+    {
+      "file": "contracts/budgetbranch/src/tests.rs",
+      "formatted_sha256": "fc0cfde211f2c86e88a565e4bd772e0b2f58ba186c96e5ac177128acd28fd2bf"
+    },
+    {
+      "file": "contracts/demo-receiver/src/lib.rs",
+      "formatted_sha256": "abb4739ab86dc715b9fa6f59d557062ebde81d6a378444a872445b4c2fb6a10a"
+    },
+    {
+      "file": "contracts/sandbox-tests/src/main.rs",
+      "formatted_sha256": "a6f9d83ea3d7c8fcb1016daddf2da9f4f6efce5e3aafe9521b6a578c5c20fb8c"
+    },
+    {
+      "file": "contracts/test-adversary/src/lib.rs",
+      "formatted_sha256": "7836f1fdfca21df3842f49a234cc947a8527cbb16db37d61e8743f12101dcf25"
+    }
+  ],
+  "independent_exact_formatter_reproduction": true
+}

@@ -1,0 +1,18 @@
+BudgetBranch
+Copyright 2026 BudgetBranch contributors
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+Unless otherwise noted, original BudgetBranch source code, documentation
+and other original project material are dual-licensed under either of the
+following, at your option:
+
+- MIT License (LICENSE-MIT)
+- Apache License, Version 2.0 (LICENSE-APACHE)
+
+Third-party libraries, fonts, copied license/notice texts and other external
+material retain their original licenses and copyright notices. This choice
+does not relicense them. See THIRD_PARTY_NOTICES.md and docs/LICENSE_REVIEW.md.
+
+"BudgetBranch contributors" is a collective attribution to the actual project
+contributors, not the name of a company or an assertion of a particular
+person's legal identity. No transfer of third-party rights is implied.

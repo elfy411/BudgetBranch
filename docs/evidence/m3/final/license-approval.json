@@ -1,0 +1,29 @@
+{
+  "decision": "G3 LICENSE REVIEW — APPROVED",
+  "source": "Explicit owner message in this conversation on 2026-11-13",
+  "recorded_at_utc": "2026-11-13T15:34:37.689901+00:00",
+  "approved_source_package_commit": "bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04",
+  "independent_license_candidate": "d05ebc47ad55452fc0b80e7aef0e9ad08f85e51d",
+  "scope": "MIT OR Apache-2.0 for original BudgetBranch source distribution; preserve third-party terms/notices and documented MPL/OFL obligations.",
+  "full_G3_approved": false,
+  "public_actions_authorized": false,
+  "main_advance_authorized": false,
+  "prebuilt_third_party_tool_distribution_approved": false,
+  "financial_or_dependency_changes_authorized": false,
+  "approved_documents": {
+    "LICENSE": "8f37ff6607c123d655a93e737c3c5c283cf4bd18d56e2d337803525290a10dab",
+    "LICENSE-MIT": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+    "LICENSE-APACHE": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+    "README.md": "63659af4a5dbba651a2cbdad7e9a8a3251aefc78eb455a5e0b49c25aa5735e2b",
+    "THIRD_PARTY_NOTICES.md": "64b120a2fc45cfd2712dd20d16cd8154dc07bf19e10f3c83a595db4cf4b42c23",
+    "docs/LICENSE_REVIEW.md": "4749c1b901cade44edbcda57ed88598e6431bfffe0740f435b46cddffe6b0255",
+    "docs/evidence/m3/licensing/security-license-review.json": "a2a14cb10d26059d312fbcb8dad95ecaaa2e6dfae0f7ab6613eef9bd97b160a6"
+  },
+  "retained_limits": [
+    "host near-sandbox license application ambiguity remains open",
+    "No bundled prebuilt third-party tools without separate review",
+    "No financial contract/dependency changes to remove warnings without risk assessment and renewed tests"
+  ],
+  "integrator_actual_model": "UNKNOWN",
+  "integrator_actual_effort": "UNKNOWN"
+}

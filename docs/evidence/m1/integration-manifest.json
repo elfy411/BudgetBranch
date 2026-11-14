@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-11-13T10:49:14.138494+00:00",
+  "branch": "integration",
+  "code_snapshot_commit": "51b161465a509c117f39487972c24128393651a8",
+  "metadata_note": "This code snapshot precedes the documentation/evidence commit containing this manifest; use git log for that final metadata commit.",
+  "subtrees": {
+    "contracts": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+    "sdk": "bdd9a33e07ee30e2cbc78f159beb47e3a74cb33e",
+    "agents": "fbef5871dd5dba9efa6c1a182ddfdb2e99783eaa",
+    "web": "fb294de8da95d28be432517ca144d49a353c648e",
+    "scripts": "bff5b0dba5f02106c73d77f172ffd0d9bdf5b8db",
+    "tests": "0868c30f65c9b8f1d5d3649bbe86f38726c02751"
+  },
+  "owner_approved_source_commit": "a7057f2a0e68b71eacb2e0e277d1b0d3fcbd7ab2",
+  "g0_freeze_commit": "fa17fddbf8552d499851076ed926214cf810bd28",
+  "contract_source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "portable_build_source_commit": "b191642fce6dd00426fa259fa306647ea8538c1f",
+  "live_browser_source_commit": "e69b0257d520bfedaf02bdc30ceaee62af0337ad",
+  "final_ui_source_commit": "cf36ae1facdec4c9ac7f02a0a435247ec65afc5a",
+  "final_ui_integrated_commit": "51b161465a509c117f39487972c24128393651a8",
+  "runbook_source_commit": "f9f60743a3dc6c49b5f9681b4287c854a6636a2b",
+  "runbook_integrated_commit": "1afe14dde40f95d89412c59854a437232104edf0",
+  "verification_checkout": "31da855b7394350c171d92a43e7677641079e5ab",
+  "verification_checkout_source_subtrees_match": true,
+  "verification_checkout_scripts_difference": "Only the two-line manual README clarification; script code identical.",
+  "independent_qa_contract_tree": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+  "independent_qa_complete_ui_bridge_review": "NOT RUN; remains G2 work",
+  "integrator_actual_model": "UNKNOWN",
+  "integrator_actual_effort": "UNKNOWN",
+  "worker_effective_serving_telemetry": "UNKNOWN",
+  "worker_tool_accepted_settings": {
+    "Contract": "gpt-6-astra / max",
+    "Independent Security QA": "gpt-6-astra / max",
+    "SDK/Agents": "gpt-6.1-sol / max",
+    "Frontend": "gpt-6.1-sol / max",
+    "Integration Tests": "gpt-6.1-sol / max"
+  },
+  "gates": {
+    "G0": "APPROVED FOR IMPLEMENTATION",
+    "G1": "PENDING OWNER DECISION",
+    "G2": "PENDING; no merge permission",
+    "G3": "PENDING; no publication or submission permission"
+  },
+  "tested_runtime": "Native macOS ARM64, Rust/Cargo1.95.0, Node24.14.0/npm11.9.0, NEAR Sandbox2.14.0/protocol88",
+  "container_tests": "NOT RUN; observed OrbStack daemon unavailable",
+  "source_scope_after_live_ui": "Only the rendering-only liquidity fix and manual runbook clarification; financial code, SDK, ABI and bridge unchanged."
+}

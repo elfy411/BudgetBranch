@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-11-13T11:13:29.375631+00:00",
+  "source_commit": "826803d658bf3bddd8f2d7ef03869c2da8e7d4f7",
+  "executables_on_path": {
+    "ollama": null,
+    "lms": null,
+    "llama-cli": null,
+    "llama-server": null,
+    "mlx_lm": null,
+    "vllm": null,
+    "jan": null
+  },
+  "app_bundle_presence": {
+    "/Applications/Ollama.app": false,
+    "/Applications/LM Studio.app": false,
+    "/Applications/Jan.app": false
+  },
+  "loopback_probes": [
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "connect_ex": 61
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 1234,
+      "connect_ex": 61
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 8080,
+      "connect_ex": 61
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 1337,
+      "connect_ex": 61
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 8000,
+      "connect_ex": 61
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 4891,
+      "connect_ex": 61
+    }
+  ],
+  "codex_version": {
+    "exit_code": 0,
+    "stdout": "codex-cli 0.167.0-alpha.4.1",
+    "stderr": ""
+  },
+  "scope": "Executable names, known app paths and six default local ports only; no personal configs, credentials, model files or environment values inspected",
+  "assessment": "No local LLM service found by these bounded checks. Current Codex can drive a separately scoped one-off decision but this is not an independently reproducible standalone autonomous runtime.",
+  "recommended_optional_design": "Disposable delegate-only, one-shot stdio SDK executor; fresh finalized snapshot and multiple task choices; structured model decision or abstain; record decision/request fingerprint/final receipt and conserved ledger; no owner signer exposed; no forced pending settlement.",
+  "implementation_status": "Assessment only. No live LLM source/runtime implemented or autonomous success claimed. Reproducible scripted real Sandbox remains baseline.",
+  "financial_architecture_change_required": false,
+  "distinct_paid_api_call_performed": false
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "package": "react",
+    "version": "19.3.1",
+    "source": "LICENSE",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "bytes": 1088,
+    "dist_path": "licenses/react-react-dom-scheduler-MIT.txt"
+  },
+  {
+    "package": "react-dom",
+    "version": "19.3.1",
+    "source": "LICENSE",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "bytes": 1088,
+    "dist_path": "licenses/react-react-dom-scheduler-MIT.txt"
+  },
+  {
+    "package": "scheduler",
+    "version": "0.28.0",
+    "source": "LICENSE",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "bytes": 1088,
+    "dist_path": "licenses/react-react-dom-scheduler-MIT.txt"
+  },
+  {
+    "package": "@fontsource-variable/geist",
+    "version": "5.3.0",
+    "source": "LICENSE",
+    "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+    "bytes": 4486,
+    "dist_path": "licenses/geist-5.3.0-OFL.txt"
+  },
+  {
+    "package": "vite",
+    "version": "8.3.8",
+    "source": "LICENSE.md",
+    "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+    "bytes": 98196,
+    "dist_path": "licenses/vite-8.3.8-LICENSE.txt"
+  },
+  {
+    "package": "rolldown",
+    "version": "1.2.19",
+    "source": "LICENSE",
+    "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+    "bytes": 1302,
+    "dist_path": "licenses/rolldown-1.2.19-LICENSE.txt"
+  },
+  {
+    "package": "BudgetBranch",
+    "source": "LICENSE-MIT",
+    "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+    "bytes": 1082,
+    "dist_path": "licenses/BudgetBranch-LICENSE-MIT.txt"
+  },
+  {
+    "package": "BudgetBranch",
+    "source": "LICENSE-APACHE",
+    "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+    "bytes": 10860,
+    "dist_path": "licenses/BudgetBranch-LICENSE-APACHE.txt"
+  }
+]

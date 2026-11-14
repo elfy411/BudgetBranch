@@ -1,0 +1,9 @@
+{"candidate":"1ea24af7c97db1733d920a2949d681218d24687f","mode":"REAL browser + NEAR Sandbox","browser":"Chrome/157.0.8103.52","chainId":"test-chain-bbb813f75199cc8385"}
+{"action":"Fund budget","receipt":{"message":"Deposited 1 NEAR.","tx":"GgSDAoCqDFerqT52WGi2mCqRVin3VWAUR1pdSbcw2pkZ"}}
+{"action":"Delegate","receipt":{"message":"Grant #1 was created.","tx":"EU7cBEHmWUF1Gy1PuqwF5FktJfhfPHqqevPEHKMSGxZ1"}}
+{"case":"default-root-survives-first-child","result":"PASS","receipt_retained":true}
+{"case":"next-root-form-survives-refresh","result":"PASS"}
+{"receipt":{"message":"Grant #2 was created.","tx":"F8s5FcwFNLPTCzmNAeYF1Xj5fRgP3hed8r74waSaYEeX"}}
+{"case":"explicit-child-form-survives-refresh","result":"PASS"}
+{"receipt":{"message":"Spend payment #1 was accepted. Follow its status in Recent payments.","tx":"6qbwhHzyjb6ZCBqjJ8xpr8YMnyXyqNU99Yn6JBHZsWaR"}}
+{"result":"PASS","candidate":"1ea24af7c97db1733d920a2949d681218d24687f","mode":"REAL NEAR SANDBOX browser delta","transactions":4,"near":{"Logical free":"0.9","Pending":"0","Spent":"0.1","Refunded":"0"}}

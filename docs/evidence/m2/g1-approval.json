@@ -1,0 +1,44 @@
+{
+  "owner_decision": "G1 APPROVED. Proceed to M2–M4 / G2 preparation.",
+  "decision_date": "2026-11-13",
+  "client_timezone": "America/New_York",
+  "approved_commit": "4564d46d8019789146226fc4cd4b5e5aa25fcb80",
+  "approved_documents_sha256": {
+    "SPEC.md": "9f4f36e0f0791a789ee46316e07370231b44c5f56d624c8638a87f863a138e85",
+    "docs/abi.ts": "1826edabfabfff6e6d10bd6c82ea8cadbcd537a35f6a4a7b5cf97fbf795a3ddd",
+    "docs/G1_REVIEW_RU.md": "c05213f1d4bfe4dcf92e636e62263679ed88ec580eb51e1d25ecd193facacb3a",
+    "docs/SECURITY_REVIEW.md": "018f8e68464cdd721a16622449f36bcbba6ce219b26b61069dcb75d0a898f87a",
+    "docs/evidence/m1/integration-manifest.json": "a7aba5f88743b859b7dfe22f2e9512a26216386acc62caad97995a236e129fef",
+    "tests/portable-wasm.json": "01087c366b420ad26512f8fb47f57818f475bc357e30cd06030fa2161c7dc9f8"
+  },
+  "approved_contract_source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "approved_contracts_tree": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+  "integrator_actual_model": "UNKNOWN",
+  "integrator_actual_effort": "UNKNOWN",
+  "authorized_next_work": [
+    "M2–M4 integration",
+    "Independent complete-system API/browser trust-boundary QA",
+    "Real Sandbox user scenario",
+    "Clean Mac checkout reproduction",
+    "Secret/dependency/startup/financial-display checks",
+    "Clear delegation/overbudget/narrowing/revoke demonstration",
+    "Assess one genuine autonomous-agent demonstration without changing financial architecture"
+  ],
+  "retained_limits": [
+    "Controlled delayed physical refund window not reproduced",
+    "Missing callback can leave pending indefinitely",
+    "Reviewed immutable synchronous receivers only",
+    "Operational reserve and finite quotas limit applicability",
+    "Testnet and full LLM agents not verified",
+    "No production-ready safety claim or forced settlement of pending"
+  ],
+  "not_authorized": [
+    "G2 acceptance",
+    "Merge to main",
+    "Push",
+    "GitHub/X publication",
+    "Contest submission",
+    "Mainnet or real spending",
+    "Material financial architecture change without separate proposal"
+  ]
+}

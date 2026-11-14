@@ -1,0 +1,202 @@
+{
+  "code_commit": "1ea24af7c97db1733d920a2949d681218d24687f",
+  "chain_id": "test-chain-bb80a3743cf7436cf1",
+  "mode": "REAL NEAR SANDBOX via CUA browser forms",
+  "transactions": 14,
+  "initiating_rejections": 3,
+  "payment_count": 4,
+  "ui_final_block": "2357",
+  "ui_final_time": "2026-11-13T11:34:52Z",
+  "rpc_final_block": "3009",
+  "final_near": {
+    "free": "3",
+    "pending": "0",
+    "spent": "2",
+    "returned": "5"
+  },
+  "narrowed_B": {
+    "recipient_allowlist": [
+      "accept.test.near"
+    ],
+    "max_depth": 1,
+    "expires_at_ns": "1794679200000000000"
+  },
+  "observations": [
+    {
+      "step": "fresh",
+      "transaction_hashes": [],
+      "block": "Finalized block  208  \u00b7 ",
+      "pending_message": false
+    },
+    {
+      "step": "deposit_then_delegate",
+      "transaction_hashes": [],
+      "block": "Finalized block  295  \u00b7 ",
+      "pending_message": false
+    },
+    {
+      "step": "A created; root retained; receipt visible",
+      "transaction_hashes": [
+        "2thvLDZhxp4bNU9oYZ1g5ku8dkCNi2L7EtHDtf7pa5vx"
+      ],
+      "block": "Finalized block  646  \u00b7 ",
+      "pending_message": false
+    },
+    {
+      "step": "B draft preserved across refresh",
+      "transaction_hashes": [],
+      "block": "Finalized block 853 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "B created; root remains selected",
+      "transaction_hashes": [
+        "5ut1Vimoc2U4FeqD8dJHYxyQvCGJK264vEuPSnBeT1ea"
+      ],
+      "block": "Finalized block 859 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "nested child created",
+      "transaction_hashes": [
+        "699TGn8xUvuR3QJYuv19NhGT1FBKSq6JsT6dCvGxYXt8"
+      ],
+      "block": "Finalized block 1,023 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "over-allocation denied",
+      "transaction_hashes": [
+        "4RRjvy3HvwXub3qXcrtTveupDLuFdcw8cjjWv77H4UYY"
+      ],
+      "block": "Finalized block 1,094 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "child accept initiating receipt",
+      "transaction_hashes": [
+        "6w4M5tuWyuqEc3S7ycwosvAPqJdWVw3f6a1A96WvjP1A"
+      ],
+      "block": "Finalized block  1,284  \u00b7 ",
+      "pending_message": false
+    },
+    {
+      "step": "unlisted recipient denied",
+      "transaction_hashes": [
+        "HZFJshzT78ij9LekwYduVr1kKJ8nvBJXk5gPvP3ZnUPF"
+      ],
+      "block": "Finalized block 1,381 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "rejecting receiver initiating receipt",
+      "transaction_hashes": [
+        "CUFi9dZrHc4pTqGMkLXbBGbwgXXcaTiatWVM46GtwRE9"
+      ],
+      "block": "Finalized block 1,438 \u00b7",
+      "pending_message": true
+    },
+    {
+      "step": "real pending payment2",
+      "transaction_hashes": [
+        "CUFi9dZrHc4pTqGMkLXbBGbwgXXcaTiatWVM46GtwRE9"
+      ],
+      "block": "Finalized block 1,458 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "receiver failure settled; free restored",
+      "transaction_hashes": [],
+      "block": "Finalized block 1,458 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "revoke receipt",
+      "transaction_hashes": [
+        "2HRD6TSQda9MSVr87mjwUM3xFbNFv6r6WXvP3LbW24pM"
+      ],
+      "block": "Finalized block 1,529 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "child inherits revoke, spend/delegate disabled",
+      "transaction_hashes": [],
+      "block": "Finalized block 1,597 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "B narrowed rights rendered",
+      "transaction_hashes": [],
+      "block": "Finalized block 1,597 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "B narrowed recipient denied on chain",
+      "transaction_hashes": [
+        "394b9aKtefs1m31sDHNsV6n1rQ9pwNov6ukp8GmkimQM"
+      ],
+      "block": "Finalized block 1,696 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "B remains usable after revokeA",
+      "transaction_hashes": [
+        "4yqMHBy6FNKTxbbvZxZ4gnXNDp4GZ3pT32WEuLdBBGmz"
+      ],
+      "block": "Finalized block 1,767 \u00b7",
+      "pending_message": true
+    },
+    {
+      "step": "child reclaim receipt",
+      "transaction_hashes": [
+        "CGvdHMkE3cDbf2vAS15iytUNF6AaMWbTayCNkC56ojN"
+      ],
+      "block": "Finalized block 1,819 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "A reclaim receipt",
+      "transaction_hashes": [
+        "Fpb8rRu5jLXPdL12y7oPHfcsLe2haiodqxnZXRmAenfd"
+      ],
+      "block": "Finalized block 1,945 \u00b7",
+      "pending_message": false
+    },
+    {
+      "step": "owner refund initiating receipt",
+      "transaction_hashes": [
+        "813T1NPJMb4RjKtkmEiNoqSmVUkXW6PnB9yvZTrxJXzP"
+      ],
+      "block": "Finalized block 2,036 \u00b7",
+      "pending_message": true
+    },
+    {
+      "step": "final ledger and all session receipts",
+      "transaction_hashes": [
+        "813T1NPJMb4RjKtkmEiNoqSmVUkXW6PnB9yvZTrxJXzP",
+        "Fpb8rRu5jLXPdL12y7oPHfcsLe2haiodqxnZXRmAenfd",
+        "CGvdHMkE3cDbf2vAS15iytUNF6AaMWbTayCNkC56ojN",
+        "4yqMHBy6FNKTxbbvZxZ4gnXNDp4GZ3pT32WEuLdBBGmz",
+        "2HRD6TSQda9MSVr87mjwUM3xFbNFv6r6WXvP3LbW24pM",
+        "CUFi9dZrHc4pTqGMkLXbBGbwgXXcaTiatWVM46GtwRE9",
+        "6w4M5tuWyuqEc3S7ycwosvAPqJdWVw3f6a1A96WvjP1A",
+        "699TGn8xUvuR3QJYuv19NhGT1FBKSq6JsT6dCvGxYXt8",
+        "5ut1Vimoc2U4FeqD8dJHYxyQvCGJK264vEuPSnBeT1ea",
+        "2thvLDZhxp4bNU9oYZ1g5ku8dkCNi2L7EtHDtf7pa5vx",
+        "BWUjvXNkq3mEPvRJ1Rkhre9xDz7rCTy5fWgEjz2eAzrg"
+      ],
+      "block": "Finalized block 2,357 \u00b7",
+      "pending_message": false
+    }
+  ],
+  "independent_rpc_assertions": [
+    "Global funded=free+pending+spent+returned",
+    "Every local allocation equation",
+    "Every parent child_reserved=sum(child.allocation-child.returned)",
+    "Global sums do not double-count child_reserved",
+    "B narrower recipients/expiry/depth",
+    "A and child revoked, B active",
+    "4 terminal statuses and actual owner refund callback"
+  ],
+  "stop_exit": 130
+}

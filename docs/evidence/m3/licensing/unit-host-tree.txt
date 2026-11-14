@@ -1,0 +1,1539 @@
+budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)|MIT OR Apache-2.0
+├── borsh feature "default"
+│   ├── borsh v1.8.1|MIT OR Apache-2.0
+│   │   └── borsh-derive feature "default"
+│   │       └── borsh-derive v1.8.1 (proc-macro)|Apache-2.0
+│   │           ├── once_cell feature "default"
+│   │           │   ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │           │   └── once_cell feature "std"
+│   │           │       ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │           │       └── once_cell feature "alloc"
+│   │           │           ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │           │           └── once_cell feature "race"
+│   │           │               └── once_cell v1.21.4|MIT OR Apache-2.0
+│   │           ├── proc-macro-crate feature "default"
+│   │           │   └── proc-macro-crate v3.5.0|MIT OR Apache-2.0
+│   │           │       └── toml_edit feature "parse"
+│   │           │           └── toml_edit v0.25.19+spec-1.1.0|MIT OR Apache-2.0
+│   │           │               ├── indexmap feature "default"
+│   │           │               │   ├── indexmap v2.14.2|Apache-2.0 OR MIT
+│   │           │               │   │   ├── equivalent v1.0.3|Apache-2.0 OR MIT
+│   │           │               │   │   └── hashbrown v0.17.1|MIT OR Apache-2.0
+│   │           │               │   └── indexmap feature "std"
+│   │           │               │       └── indexmap v2.14.2|Apache-2.0 OR MIT (*)
+│   │           │               ├── indexmap feature "std" (*)
+│   │           │               ├── toml_datetime feature "default"
+│   │           │               │   ├── toml_datetime v1.1.3+spec-1.1.0|MIT OR Apache-2.0
+│   │           │               │   └── toml_datetime feature "std"
+│   │           │               │       ├── toml_datetime v1.1.3+spec-1.1.0|MIT OR Apache-2.0
+│   │           │               │       └── toml_datetime feature "alloc"
+│   │           │               │           └── toml_datetime v1.1.3+spec-1.1.0|MIT OR Apache-2.0
+│   │           │               ├── toml_parser feature "default"
+│   │           │               │   ├── toml_parser v1.1.5+spec-1.1.0|MIT OR Apache-2.0
+│   │           │               │   │   └── winnow v1.0.5|MIT
+│   │           │               │   └── toml_parser feature "std"
+│   │           │               │       ├── toml_parser v1.1.5+spec-1.1.0|MIT OR Apache-2.0 (*)
+│   │           │               │       └── toml_parser feature "alloc"
+│   │           │               │           └── toml_parser v1.1.5+spec-1.1.0|MIT OR Apache-2.0 (*)
+│   │           │               └── winnow feature "default"
+│   │           │                   ├── winnow v1.0.5|MIT
+│   │           │                   ├── winnow feature "ascii"
+│   │           │                   │   ├── winnow v1.0.5|MIT
+│   │           │                   │   └── winnow feature "parser"
+│   │           │                   │       └── winnow v1.0.5|MIT
+│   │           │                   ├── winnow feature "binary"
+│   │           │                   │   ├── winnow v1.0.5|MIT
+│   │           │                   │   └── winnow feature "parser" (*)
+│   │           │                   └── winnow feature "std"
+│   │           │                       ├── winnow v1.0.5|MIT
+│   │           │                       └── winnow feature "alloc"
+│   │           │                           └── winnow v1.0.5|MIT
+│   │           ├── proc-macro2 feature "default"
+│   │           │   ├── proc-macro2 v1.0.107|MIT OR Apache-2.0
+│   │           │   │   └── unicode-ident feature "default"
+│   │           │   │       └── unicode-ident v1.0.27|(MIT OR Apache-2.0) AND Unicode-3.0
+│   │           │   └── proc-macro2 feature "proc-macro"
+│   │           │       └── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │           ├── quote feature "default"
+│   │           │   ├── quote v1.0.47|MIT OR Apache-2.0
+│   │           │   │   └── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │           │   └── quote feature "proc-macro"
+│   │           │       ├── quote v1.0.47|MIT OR Apache-2.0 (*)
+│   │           │       └── proc-macro2 feature "proc-macro" (*)
+│   │           ├── syn feature "default"
+│   │           │   ├── syn v3.0.10|MIT OR Apache-2.0
+│   │           │   │   ├── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │           │   │   ├── quote v1.0.47|MIT OR Apache-2.0 (*)
+│   │           │   │   └── unicode-ident feature "default" (*)
+│   │           │   ├── syn feature "clone-impls"
+│   │           │   │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           │   ├── syn feature "derive"
+│   │           │   │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           │   ├── syn feature "parsing"
+│   │           │   │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           │   ├── syn feature "printing"
+│   │           │   │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           │   └── syn feature "proc-macro"
+│   │           │       ├── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           │       ├── proc-macro2 feature "proc-macro" (*)
+│   │           │       └── quote feature "proc-macro" (*)
+│   │           ├── syn feature "fold"
+│   │           │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │           └── syn feature "full"
+│   │               └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │   [build-dependencies]
+│   │   └── cfg_aliases feature "default"
+│   │       └── cfg_aliases v0.2.2|MIT
+│   └── borsh feature "std"
+│       └── borsh v1.8.1|MIT OR Apache-2.0 (*)
+├── borsh feature "derive"
+│   ├── borsh v1.8.1|MIT OR Apache-2.0 (*)
+│   └── borsh feature "borsh-derive"
+│       └── borsh v1.8.1|MIT OR Apache-2.0 (*)
+├── near-sdk feature "default"
+│   ├── near-sdk v5.30.1|MIT OR Apache-2.0
+│   │   ├── near-crypto v0.38.1|MIT OR Apache-2.0
+│   │   │   ├── primitive-types v0.10.1|MIT OR Apache-2.0
+│   │   │   │   ├── fixed-hash v0.7.0|MIT OR Apache-2.0
+│   │   │   │   │   └── static_assertions feature "default"
+│   │   │   │   │       └── static_assertions v1.1.0|MIT OR Apache-2.0
+│   │   │   │   └── uint v0.9.5|MIT OR Apache-2.0
+│   │   │   │       ├── byteorder v1.5.0|Unlicense OR MIT
+│   │   │   │       ├── crunchy v0.2.4|MIT
+│   │   │   │       ├── hex v0.4.3|MIT OR Apache-2.0
+│   │   │   │       │   └── serde v1.0.229|MIT OR Apache-2.0
+│   │   │   │       │       ├── serde_core feature "result"
+│   │   │   │       │       │   └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   │       │       └── serde_derive feature "default"
+│   │   │   │       │           └── serde_derive v1.0.229 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │               ├── proc-macro2 feature "proc-macro" (*)
+│   │   │   │       │               ├── quote feature "proc-macro" (*)
+│   │   │   │       │               ├── syn feature "clone-impls" (*)
+│   │   │   │       │               ├── syn feature "derive" (*)
+│   │   │   │       │               ├── syn feature "parsing" (*)
+│   │   │   │       │               ├── syn feature "printing" (*)
+│   │   │   │       │               └── syn feature "proc-macro" (*)
+│   │   │   │       └── static_assertions feature "default" (*)
+│   │   │   ├── borsh feature "default" (*)
+│   │   │   ├── borsh feature "derive" (*)
+│   │   │   ├── borsh feature "rc"
+│   │   │   │   └── borsh v1.8.1|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-account-id feature "borsh"
+│   │   │   │   └── near-account-id v3.0.0|MIT OR Apache-2.0
+│   │   │   │       ├── borsh feature "default" (*)
+│   │   │   │       ├── serde feature "alloc"
+│   │   │   │       │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       │   └── serde_core feature "alloc"
+│   │   │   │       │       └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   │       ├── serde feature "default"
+│   │   │   │       │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       │   └── serde feature "std"
+│   │   │   │       │       ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       │       └── serde_core feature "std"
+│   │   │   │       │           └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   │       ├── serde feature "derive"
+│   │   │   │       │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       │   └── serde feature "serde_derive"
+│   │   │   │       │       └── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       └── serde feature "rc"
+│   │   │   │           ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │           └── serde_core feature "rc"
+│   │   │   │               └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   ├── near-account-id feature "default"
+│   │   │   │   └── near-account-id v3.0.0|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-account-id feature "internal_unstable"
+│   │   │   │   └── near-account-id v3.0.0|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-account-id feature "serde"
+│   │   │   │   └── near-account-id v3.0.0|MIT OR Apache-2.0 (*)
+│   │   │   ├── serde feature "alloc" (*)
+│   │   │   ├── serde feature "default" (*)
+│   │   │   ├── serde feature "derive" (*)
+│   │   │   ├── serde feature "rc" (*)
+│   │   │   ├── aws-lc-rs feature "default"
+│   │   │   │   ├── aws-lc-rs v1.19.0|ISC AND (Apache-2.0 OR ISC)
+│   │   │   │   │   ├── aws-lc-sys v0.47.0|ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0)
+│   │   │   │   │   │   [build-dependencies]
+│   │   │   │   │   │   ├── cc feature "default"
+│   │   │   │   │   │   │   └── cc v1.11.1|MIT OR Apache-2.0
+│   │   │   │   │   │   │       ├── jobserver v0.1.35|MIT OR Apache-2.0
+│   │   │   │   │   │   │       │   └── libc feature "default"
+│   │   │   │   │   │   │       │       ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │   │   │       │       └── libc feature "std"
+│   │   │   │   │   │   │       │           └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │   │   │       ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │   │   │       ├── find-msvc-tools feature "default"
+│   │   │   │   │   │   │       │   └── find-msvc-tools v0.1.15|MIT OR Apache-2.0
+│   │   │   │   │   │   │       └── shlex feature "default"
+│   │   │   │   │   │   │           ├── shlex v2.0.1|MIT OR Apache-2.0
+│   │   │   │   │   │   │           └── shlex feature "std"
+│   │   │   │   │   │   │               └── shlex v2.0.1|MIT OR Apache-2.0
+│   │   │   │   │   │   ├── cc feature "parallel"
+│   │   │   │   │   │   │   └── cc v1.11.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │   ├── cmake feature "default"
+│   │   │   │   │   │   │   └── cmake v0.1.58|MIT OR Apache-2.0
+│   │   │   │   │   │   │       └── cc feature "default" (*)
+│   │   │   │   │   │   ├── dunce feature "default"
+│   │   │   │   │   │   │   └── dunce v1.0.5|CC0-1.0 OR MIT-0 OR Apache-2.0
+│   │   │   │   │   │   ├── fs_extra feature "default"
+│   │   │   │   │   │   │   └── fs_extra v1.3.0|MIT
+│   │   │   │   │   │   └── pkg-config feature "default"
+│   │   │   │   │   │       └── pkg-config v0.3.34|MIT OR Apache-2.0
+│   │   │   │   │   ├── untrusted feature "default"
+│   │   │   │   │   │   └── untrusted v0.7.1|ISC
+│   │   │   │   │   └── zeroize feature "default"
+│   │   │   │   │       ├── zeroize v1.9.1|Apache-2.0 OR MIT
+│   │   │   │   │       │   └── zeroize_derive feature "default"
+│   │   │   │   │       │       └── zeroize_derive v1.5.0 (proc-macro)|Apache-2.0 OR MIT
+│   │   │   │   │       │           ├── proc-macro2 feature "default" (*)
+│   │   │   │   │       │           ├── quote feature "default" (*)
+│   │   │   │   │       │           ├── syn feature "default"
+│   │   │   │   │       │           │   ├── syn v2.0.119|MIT OR Apache-2.0
+│   │   │   │   │       │           │   │   ├── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   │   ├── quote v1.0.47|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   │   └── unicode-ident feature "default" (*)
+│   │   │   │   │       │           │   ├── syn feature "clone-impls"
+│   │   │   │   │       │           │   │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   ├── syn feature "derive"
+│   │   │   │   │       │           │   │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   ├── syn feature "parsing"
+│   │   │   │   │       │           │   │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   ├── syn feature "printing"
+│   │   │   │   │       │           │   │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   └── syn feature "proc-macro"
+│   │   │   │   │       │           │       ├── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │       ├── proc-macro2 feature "proc-macro" (*)
+│   │   │   │   │       │           │       └── quote feature "proc-macro" (*)
+│   │   │   │   │       │           ├── syn feature "extra-traits"
+│   │   │   │   │       │           │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           ├── syn feature "full"
+│   │   │   │   │       │           │   └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           └── syn feature "visit"
+│   │   │   │   │       │               └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   │   │       └── zeroize feature "alloc"
+│   │   │   │   │           └── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   ├── aws-lc-rs feature "alloc"
+│   │   │   │   │   └── aws-lc-rs v1.19.0|ISC AND (Apache-2.0 OR ISC) (*)
+│   │   │   │   ├── aws-lc-rs feature "aws-lc-sys"
+│   │   │   │   │   └── aws-lc-rs v1.19.0|ISC AND (Apache-2.0 OR ISC) (*)
+│   │   │   │   ├── aws-lc-rs feature "ring-io"
+│   │   │   │   │   └── aws-lc-rs v1.19.0|ISC AND (Apache-2.0 OR ISC) (*)
+│   │   │   │   └── aws-lc-rs feature "ring-sig-verify"
+│   │   │   │       └── aws-lc-rs v1.19.0|ISC AND (Apache-2.0 OR ISC) (*)
+│   │   │   ├── blake2 feature "default"
+│   │   │   │   ├── blake2 v0.10.6|MIT OR Apache-2.0
+│   │   │   │   │   ├── digest feature "default"
+│   │   │   │   │   │   ├── digest v0.10.7|MIT OR Apache-2.0
+│   │   │   │   │   │   │   ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │   │   ├── block-buffer feature "default"
+│   │   │   │   │   │   │   │   └── block-buffer v0.10.4|MIT OR Apache-2.0
+│   │   │   │   │   │   │   │       └── generic-array feature "default"
+│   │   │   │   │   │   │   │           └── generic-array v0.14.9|MIT
+│   │   │   │   │   │   │   │               ├── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   │   │               └── typenum feature "default"
+│   │   │   │   │   │   │   │                   └── typenum v1.20.1|MIT OR Apache-2.0
+│   │   │   │   │   │   │   │               [build-dependencies]
+│   │   │   │   │   │   │   │               └── version_check feature "default"
+│   │   │   │   │   │   │   │                   └── version_check v0.9.5|MIT/Apache-2.0
+│   │   │   │   │   │   │   ├── const-oid feature "default"
+│   │   │   │   │   │   │   │   └── const-oid v0.9.6|Apache-2.0 OR MIT
+│   │   │   │   │   │   │   └── crypto-common feature "default"
+│   │   │   │   │   │   │       └── crypto-common v0.1.6|MIT OR Apache-2.0
+│   │   │   │   │   │   │           ├── generic-array feature "default" (*)
+│   │   │   │   │   │   │           ├── generic-array feature "more_lengths"
+│   │   │   │   │   │   │           │   └── generic-array v0.14.9|MIT (*)
+│   │   │   │   │   │   │           └── typenum feature "default" (*)
+│   │   │   │   │   │   └── digest feature "core-api"
+│   │   │   │   │   │       ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       └── digest feature "block-buffer"
+│   │   │   │   │   │           └── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   │   └── digest feature "mac"
+│   │   │   │   │       ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   │       └── digest feature "subtle"
+│   │   │   │   │           └── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   └── blake2 feature "std"
+│   │   │   │       ├── blake2 v0.10.6|MIT OR Apache-2.0 (*)
+│   │   │   │       └── digest feature "std"
+│   │   │   │           ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │           ├── digest feature "alloc"
+│   │   │   │           │   └── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │           └── crypto-common feature "std"
+│   │   │   │               └── crypto-common v0.1.6|MIT OR Apache-2.0 (*)
+│   │   │   ├── blake2 feature "reset"
+│   │   │   │   └── blake2 v0.10.6|MIT OR Apache-2.0 (*)
+│   │   │   ├── subtle feature "default"
+│   │   │   │   ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   ├── subtle feature "i128"
+│   │   │   │   │   └── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   └── subtle feature "std"
+│   │   │   │       └── subtle v2.6.1|BSD-3-Clause
+│   │   │   ├── bs58 feature "default"
+│   │   │   │   ├── bs58 v0.4.0|MIT/Apache-2.0
+│   │   │   │   └── bs58 feature "std"
+│   │   │   │       ├── bs58 v0.4.0|MIT/Apache-2.0
+│   │   │   │       └── bs58 feature "alloc"
+│   │   │   │           └── bs58 v0.4.0|MIT/Apache-2.0
+│   │   │   ├── curve25519-dalek feature "alloc"
+│   │   │   │   └── curve25519-dalek v4.1.3|BSD-3-Clause
+│   │   │   │       ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │       └── cfg-if feature "default"
+│   │   │   │           └── cfg-if v1.0.5|MIT OR Apache-2.0
+│   │   │   │       [build-dependencies]
+│   │   │   │       └── rustc_version feature "default"
+│   │   │   │           └── rustc_version v0.4.1|MIT OR Apache-2.0
+│   │   │   │               └── semver feature "default"
+│   │   │   │                   ├── semver v1.0.28|MIT OR Apache-2.0
+│   │   │   │                   └── semver feature "std"
+│   │   │   │                       └── semver v1.0.28|MIT OR Apache-2.0
+│   │   │   ├── curve25519-dalek feature "precomputed-tables"
+│   │   │   │   └── curve25519-dalek v4.1.3|BSD-3-Clause (*)
+│   │   │   ├── derive_more feature "as_ref"
+│   │   │   │   ├── derive_more v2.1.1|MIT
+│   │   │   │   │   └── derive_more-impl feature "default"
+│   │   │   │   │       └── derive_more-impl v2.1.1 (proc-macro)|MIT
+│   │   │   │   │           ├── proc-macro2 feature "default" (*)
+│   │   │   │   │           ├── quote feature "default" (*)
+│   │   │   │   │           ├── syn feature "default" (*)
+│   │   │   │   │           ├── convert_case feature "default"
+│   │   │   │   │           │   └── convert_case v0.10.0|MIT
+│   │   │   │   │           │       └── unicode-segmentation feature "default"
+│   │   │   │   │           │           └── unicode-segmentation v1.13.3|MIT OR Apache-2.0
+│   │   │   │   │           └── unicode-xid feature "default"
+│   │   │   │   │               └── unicode-xid v0.2.6|MIT OR Apache-2.0
+│   │   │   │   │           [build-dependencies]
+│   │   │   │   │           └── rustc_version feature "default" (*)
+│   │   │   │   └── derive_more-impl feature "as_ref"
+│   │   │   │       ├── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │   │       ├── syn feature "extra-traits" (*)
+│   │   │   │       └── syn feature "visit" (*)
+│   │   │   ├── derive_more feature "default"
+│   │   │   │   ├── derive_more v2.1.1|MIT (*)
+│   │   │   │   └── derive_more feature "std"
+│   │   │   │       └── derive_more v2.1.1|MIT (*)
+│   │   │   ├── derive_more feature "from"
+│   │   │   │   ├── derive_more v2.1.1|MIT (*)
+│   │   │   │   └── derive_more-impl feature "from"
+│   │   │   │       ├── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │   │       └── syn feature "extra-traits" (*)
+│   │   │   ├── derive_more feature "into"
+│   │   │   │   ├── derive_more v2.1.1|MIT (*)
+│   │   │   │   └── derive_more-impl feature "into"
+│   │   │   │       ├── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │   │       ├── syn feature "extra-traits" (*)
+│   │   │   │       └── syn feature "visit-mut"
+│   │   │   │           └── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │   │   ├── ed25519-dalek feature "hazmat"
+│   │   │   │   └── ed25519-dalek v2.2.0|BSD-3-Clause
+│   │   │   │       ├── ed25519 v2.2.3|Apache-2.0 OR MIT
+│   │   │   │       │   └── signature v2.2.0|Apache-2.0 OR MIT
+│   │   │   │       │       ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │       │       └── rand_core v0.6.4|MIT OR Apache-2.0
+│   │   │   │       │           └── getrandom feature "default"
+│   │   │   │       │               └── getrandom v0.2.17|MIT OR Apache-2.0
+│   │   │   │       │                   ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │       │                   └── cfg-if feature "default" (*)
+│   │   │   │       ├── sha2 v0.10.9|MIT OR Apache-2.0
+│   │   │   │       │   ├── digest feature "default" (*)
+│   │   │   │       │   ├── cfg-if feature "default" (*)
+│   │   │   │       │   └── cpufeatures feature "default"
+│   │   │   │       │       └── cpufeatures v0.2.17|MIT OR Apache-2.0
+│   │   │   │       │           └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │       ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │       └── curve25519-dalek feature "digest"
+│   │   │   │           └── curve25519-dalek v4.1.3|BSD-3-Clause (*)
+│   │   │   ├── hex feature "default"
+│   │   │   │   ├── hex v0.4.3|MIT OR Apache-2.0 (*)
+│   │   │   │   └── hex feature "std"
+│   │   │   │       ├── hex v0.4.3|MIT OR Apache-2.0 (*)
+│   │   │   │       └── hex feature "alloc"
+│   │   │   │           └── hex v0.4.3|MIT OR Apache-2.0 (*)
+│   │   │   ├── hex feature "serde"
+│   │   │   │   └── hex v0.4.3|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-config-utils feature "default"
+│   │   │   │   └── near-config-utils v0.38.1|MIT OR Apache-2.0
+│   │   │   │       ├── anyhow feature "default"
+│   │   │   │       │   ├── anyhow v1.0.104|MIT OR Apache-2.0
+│   │   │   │       │   └── anyhow feature "std"
+│   │   │   │       │       └── anyhow v1.0.104|MIT OR Apache-2.0
+│   │   │   │       ├── json_comments feature "default"
+│   │   │   │       │   └── json_comments v0.2.2|Apache-2.0
+│   │   │   │       ├── thiserror feature "default"
+│   │   │   │       │   ├── thiserror v2.0.21|MIT OR Apache-2.0
+│   │   │   │       │   │   └── thiserror-impl feature "default"
+│   │   │   │       │   │       └── thiserror-impl v2.0.21 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │   │           ├── proc-macro2 feature "default" (*)
+│   │   │   │       │   │           ├── quote feature "default" (*)
+│   │   │   │       │   │           └── syn feature "default" (*)
+│   │   │   │       │   └── thiserror feature "std"
+│   │   │   │       │       └── thiserror v2.0.21|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── tracing feature "default"
+│   │   │   │       │   ├── tracing v0.1.44|MIT
+│   │   │   │       │   │   ├── tracing-core v0.1.36|MIT
+│   │   │   │       │   │   │   └── once_cell feature "default"
+│   │   │   │       │   │   │       ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │   │   │       │   │   │       └── once_cell feature "std"
+│   │   │   │       │   │   │           ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │   │   │       │   │   │           └── once_cell feature "alloc"
+│   │   │   │       │   │   │               ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │   │   │       │   │   │               └── once_cell feature "race"
+│   │   │   │       │   │   │                   └── once_cell v1.21.4|MIT OR Apache-2.0
+│   │   │   │       │   │   ├── pin-project-lite feature "default"
+│   │   │   │       │   │   │   └── pin-project-lite v0.2.17|Apache-2.0 OR MIT
+│   │   │   │       │   │   └── tracing-attributes feature "default"
+│   │   │   │       │   │       └── tracing-attributes v0.1.31 (proc-macro)|MIT
+│   │   │   │       │   │           ├── proc-macro2 feature "default" (*)
+│   │   │   │       │   │           ├── quote feature "default" (*)
+│   │   │   │       │   │           ├── syn feature "clone-impls" (*)
+│   │   │   │       │   │           ├── syn feature "extra-traits" (*)
+│   │   │   │       │   │           ├── syn feature "full" (*)
+│   │   │   │       │   │           ├── syn feature "parsing" (*)
+│   │   │   │       │   │           ├── syn feature "printing" (*)
+│   │   │   │       │   │           ├── syn feature "proc-macro" (*)
+│   │   │   │       │   │           └── syn feature "visit-mut" (*)
+│   │   │   │       │   ├── tracing feature "attributes"
+│   │   │   │       │   │   ├── tracing v0.1.44|MIT (*)
+│   │   │   │       │   │   └── tracing feature "tracing-attributes"
+│   │   │   │       │   │       └── tracing v0.1.44|MIT (*)
+│   │   │   │       │   └── tracing feature "std"
+│   │   │   │       │       ├── tracing v0.1.44|MIT (*)
+│   │   │   │       │       └── tracing-core feature "std"
+│   │   │   │       │           ├── tracing-core v0.1.36|MIT (*)
+│   │   │   │       │           └── tracing-core feature "once_cell"
+│   │   │   │       │               └── tracing-core v0.1.36|MIT (*)
+│   │   │   │       └── tracing feature "std" (*)
+│   │   │   ├── thiserror feature "default" (*)
+│   │   │   ├── near-schema-checker-lib feature "default"
+│   │   │   │   └── near-schema-checker-lib v0.38.1|MIT OR Apache-2.0
+│   │   │   │       ├── near-schema-checker-core feature "default"
+│   │   │   │       │   └── near-schema-checker-core v0.38.1|MIT OR Apache-2.0
+│   │   │   │       └── near-schema-checker-macro feature "default"
+│   │   │   │           └── near-schema-checker-macro v0.38.1 (proc-macro)|MIT OR Apache-2.0
+│   │   │   ├── near-stdx feature "default"
+│   │   │   │   └── near-stdx v0.38.1|MIT OR Apache-2.0
+│   │   │   ├── secp256k1 feature "alloc"
+│   │   │   │   ├── secp256k1 v0.27.0|CC0-1.0
+│   │   │   │   │   └── secp256k1-sys v0.8.2|CC0-1.0
+│   │   │   │   │       [build-dependencies]
+│   │   │   │   │       └── cc feature "default" (*)
+│   │   │   │   └── secp256k1-sys feature "alloc"
+│   │   │   │       └── secp256k1-sys v0.8.2|CC0-1.0 (*)
+│   │   │   ├── secp256k1 feature "recovery"
+│   │   │   │   ├── secp256k1 v0.27.0|CC0-1.0 (*)
+│   │   │   │   └── secp256k1-sys feature "recovery"
+│   │   │   │       └── secp256k1-sys v0.8.2|CC0-1.0 (*)
+│   │   │   ├── serde_json feature "default"
+│   │   │   │   ├── serde_json v1.0.154|MIT OR Apache-2.0
+│   │   │   │   │   ├── foldhash v0.2.0|Zlib
+│   │   │   │   │   ├── indexmap v2.14.2|Apache-2.0 OR MIT
+│   │   │   │   │   │   ├── equivalent v1.0.3|Apache-2.0 OR MIT
+│   │   │   │   │   │   └── hashbrown v0.17.1|MIT OR Apache-2.0
+│   │   │   │   │   │       └── foldhash v0.2.0|Zlib
+│   │   │   │   │   ├── memchr v2.8.3|Unlicense OR MIT
+│   │   │   │   │   ├── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │   │   │   ├── itoa feature "default"
+│   │   │   │   │   │   └── itoa v1.0.19|MIT OR Apache-2.0
+│   │   │   │   │   └── zmij feature "default"
+│   │   │   │   │       └── zmij v1.0.23|MIT
+│   │   │   │   └── serde_json feature "std"
+│   │   │   │       ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── serde_core feature "std" (*)
+│   │   │   │       └── memchr feature "std"
+│   │   │   │           ├── memchr v2.8.3|Unlicense OR MIT
+│   │   │   │           └── memchr feature "alloc"
+│   │   │   │               └── memchr v2.8.3|Unlicense OR MIT
+│   │   │   └── sha3 feature "default"
+│   │   │       ├── sha3 v0.10.9|MIT OR Apache-2.0
+│   │   │       │   ├── digest feature "default" (*)
+│   │   │       │   └── keccak feature "default"
+│   │   │       │       └── keccak v0.1.6|Apache-2.0 OR MIT
+│   │   │       │           └── cpufeatures feature "default" (*)
+│   │   │       └── sha3 feature "std"
+│   │   │           ├── sha3 v0.10.9|MIT OR Apache-2.0 (*)
+│   │   │           └── digest feature "std" (*)
+│   │   ├── near-vm-runner v0.38.1|MIT OR Apache-2.0
+│   │   │   ├── dashmap v6.2.1|MIT
+│   │   │   │   ├── cfg-if feature "default" (*)
+│   │   │   │   ├── once_cell feature "default" (*)
+│   │   │   │   ├── lock_api feature "default"
+│   │   │   │   │   ├── lock_api v0.4.14|MIT OR Apache-2.0
+│   │   │   │   │   │   └── scopeguard v1.2.0|MIT OR Apache-2.0
+│   │   │   │   │   └── lock_api feature "atomic_usize"
+│   │   │   │   │       └── lock_api v0.4.14|MIT OR Apache-2.0 (*)
+│   │   │   │   ├── parking_lot_core feature "default"
+│   │   │   │   │   └── parking_lot_core v0.9.12|MIT OR Apache-2.0
+│   │   │   │   │       ├── cfg-if feature "default" (*)
+│   │   │   │   │       ├── libc feature "default"
+│   │   │   │   │       │   ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │       │   └── libc feature "std"
+│   │   │   │   │       │       └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │       └── smallvec feature "default"
+│   │   │   │   │           └── smallvec v1.16.5|MIT OR Apache-2.0
+│   │   │   │   ├── crossbeam-utils feature "default"
+│   │   │   │   │   ├── crossbeam-utils v0.8.23|MIT OR Apache-2.0
+│   │   │   │   │   └── crossbeam-utils feature "std"
+│   │   │   │   │       └── crossbeam-utils v0.8.23|MIT OR Apache-2.0
+│   │   │   │   └── hashbrown feature "raw"
+│   │   │   │       └── hashbrown v0.14.5|MIT OR Apache-2.0
+│   │   │   ├── ed25519-dalek v2.2.0|BSD-3-Clause (*)
+│   │   │   ├── near-crypto v0.38.1|MIT OR Apache-2.0 (*)
+│   │   │   ├── zeropool-bn v0.5.11|MIT OR Apache-2.0
+│   │   │   │   ├── rand v0.8.8|MIT OR Apache-2.0
+│   │   │   │   │   ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │   ├── rand_chacha v0.3.1|MIT OR Apache-2.0
+│   │   │   │   │   │   ├── rand_core feature "default"
+│   │   │   │   │   │   │   └── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │   └── ppv-lite86 feature "simd"
+│   │   │   │   │   │       └── ppv-lite86 v0.2.21|MIT OR Apache-2.0
+│   │   │   │   │   │           ├── zerocopy feature "default"
+│   │   │   │   │   │           │   └── zerocopy v0.8.63|BSD-2-Clause OR Apache-2.0 OR MIT
+│   │   │   │   │   │           └── zerocopy feature "simd"
+│   │   │   │   │   │               └── zerocopy v0.8.63|BSD-2-Clause OR Apache-2.0 OR MIT
+│   │   │   │   │   └── rand_core feature "default" (*)
+│   │   │   │   ├── rustc-hex v2.1.0|MIT/Apache-2.0
+│   │   │   │   ├── byteorder feature "i128"
+│   │   │   │   │   └── byteorder v1.5.0|Unlicense OR MIT
+│   │   │   │   ├── crunchy feature "default"
+│   │   │   │   │   ├── crunchy v0.2.4|MIT
+│   │   │   │   │   └── crunchy feature "limit_128"
+│   │   │   │   │       └── crunchy v0.2.4|MIT
+│   │   │   │   ├── lazy_static feature "default"
+│   │   │   │   │   └── lazy_static v1.5.1|MIT OR Apache-2.0
+│   │   │   │   │       └── spin feature "once"
+│   │   │   │   │           └── spin v0.9.9|MIT
+│   │   │   │   └── lazy_static feature "spin_no_std"
+│   │   │   │       ├── lazy_static v1.5.1|MIT OR Apache-2.0 (*)
+│   │   │   │       └── lazy_static feature "spin"
+│   │   │   │           └── lazy_static v1.5.1|MIT OR Apache-2.0 (*)
+│   │   │   ├── borsh feature "default" (*)
+│   │   │   ├── borsh feature "derive" (*)
+│   │   │   ├── borsh feature "rc" (*)
+│   │   │   ├── serde feature "alloc" (*)
+│   │   │   ├── serde feature "default" (*)
+│   │   │   ├── serde feature "derive" (*)
+│   │   │   ├── serde feature "rc" (*)
+│   │   │   ├── sha2 feature "default"
+│   │   │   │   ├── sha2 v0.10.9|MIT OR Apache-2.0 (*)
+│   │   │   │   └── sha2 feature "std"
+│   │   │   │       ├── sha2 v0.10.9|MIT OR Apache-2.0 (*)
+│   │   │   │       └── digest feature "std" (*)
+│   │   │   ├── thiserror feature "default" (*)
+│   │   │   ├── tracing feature "default" (*)
+│   │   │   ├── tracing feature "std" (*)
+│   │   │   ├── near-schema-checker-lib feature "default" (*)
+│   │   │   ├── near-stdx feature "default" (*)
+│   │   │   ├── sha3 feature "default" (*)
+│   │   │   ├── near-primitives-core feature "default"
+│   │   │   │   └── near-primitives-core v0.38.1|MIT OR Apache-2.0
+│   │   │   │       ├── borsh feature "default" (*)
+│   │   │   │       ├── borsh feature "derive" (*)
+│   │   │   │       ├── borsh feature "rc" (*)
+│   │   │   │       ├── near-account-id feature "borsh" (*)
+│   │   │   │       ├── near-account-id feature "default" (*)
+│   │   │   │       ├── near-account-id feature "internal_unstable" (*)
+│   │   │   │       ├── near-account-id feature "serde" (*)
+│   │   │   │       ├── serde feature "alloc" (*)
+│   │   │   │       ├── serde feature "default" (*)
+│   │   │   │       ├── serde feature "derive" (*)
+│   │   │   │       ├── serde feature "rc" (*)
+│   │   │   │       ├── bs58 feature "default" (*)
+│   │   │   │       ├── derive_more feature "as_ref" (*)
+│   │   │   │       ├── derive_more feature "default" (*)
+│   │   │   │       ├── derive_more feature "display"
+│   │   │   │       │   ├── derive_more v2.1.1|MIT (*)
+│   │   │   │       │   └── derive_more-impl feature "display"
+│   │   │   │       │       ├── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │   │       │       └── syn feature "extra-traits" (*)
+│   │   │   │       ├── derive_more feature "from" (*)
+│   │   │   │       ├── derive_more feature "from_str"
+│   │   │   │       │   ├── derive_more v2.1.1|MIT (*)
+│   │   │   │       │   └── derive_more-impl feature "from_str"
+│   │   │   │       │       ├── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │   │       │       ├── syn feature "full" (*)
+│   │   │   │       │       └── syn feature "visit" (*)
+│   │   │   │       ├── sha2 feature "default" (*)
+│   │   │   │       ├── thiserror feature "default" (*)
+│   │   │   │       ├── near-schema-checker-lib feature "default" (*)
+│   │   │   │       ├── near-gas feature "borsh"
+│   │   │   │       │   └── near-gas v0.3.7|MIT OR Apache-2.0
+│   │   │   │       │       ├── borsh feature "default" (*)
+│   │   │   │       │       ├── borsh feature "derive" (*)
+│   │   │   │       │       ├── serde feature "default" (*)
+│   │   │   │       │       └── serde feature "derive" (*)
+│   │   │   │       ├── near-gas feature "default"
+│   │   │   │       │   └── near-gas v0.3.7|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── near-gas feature "serde"
+│   │   │   │       │   └── near-gas v0.3.7|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── arbitrary feature "default"
+│   │   │   │       │   └── arbitrary v1.5.0|MIT OR Apache-2.0
+│   │   │   │       │       └── derive_arbitrary feature "default"
+│   │   │   │       │           └── derive_arbitrary v1.5.0 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │               ├── proc-macro2 feature "default" (*)
+│   │   │   │       │               ├── quote feature "default" (*)
+│   │   │   │       │               ├── syn feature "default" (*)
+│   │   │   │       │               ├── syn feature "derive" (*)
+│   │   │   │       │               ├── syn feature "extra-traits"
+│   │   │   │       │               │   └── syn v3.0.10|MIT OR Apache-2.0 (*)
+│   │   │   │       │               └── syn feature "parsing" (*)
+│   │   │   │       ├── arbitrary feature "derive"
+│   │   │   │       │   ├── arbitrary v1.5.0|MIT OR Apache-2.0 (*)
+│   │   │   │       │   └── arbitrary feature "derive_arbitrary"
+│   │   │   │       │       └── arbitrary v1.5.0|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── base64 feature "default"
+│   │   │   │       │   ├── base64 v0.21.7|MIT OR Apache-2.0
+│   │   │   │       │   └── base64 feature "std"
+│   │   │   │       │       ├── base64 v0.21.7|MIT OR Apache-2.0
+│   │   │   │       │       └── base64 feature "alloc"
+│   │   │   │       │           └── base64 v0.21.7|MIT OR Apache-2.0
+│   │   │   │       ├── enum-map feature "default"
+│   │   │   │       │   └── enum-map v2.7.3|MIT OR Apache-2.0
+│   │   │   │       │       └── enum-map-derive feature "default"
+│   │   │   │       │           └── enum-map-derive v0.17.0 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │               ├── proc-macro2 feature "default" (*)
+│   │   │   │       │               ├── quote feature "default" (*)
+│   │   │   │       │               ├── syn feature "derive" (*)
+│   │   │   │       │               ├── syn feature "parsing" (*)
+│   │   │   │       │               ├── syn feature "printing" (*)
+│   │   │   │       │               └── syn feature "proc-macro" (*)
+│   │   │   │       ├── near-token feature "borsh"
+│   │   │   │       │   └── near-token v0.3.6|MIT OR Apache-2.0
+│   │   │   │       │       ├── borsh feature "default" (*)
+│   │   │   │       │       ├── borsh feature "derive" (*)
+│   │   │   │       │       ├── serde feature "default" (*)
+│   │   │   │       │       └── serde feature "derive" (*)
+│   │   │   │       ├── near-token feature "default"
+│   │   │   │       │   └── near-token v0.3.6|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── near-token feature "serde"
+│   │   │   │       │   └── near-token v0.3.6|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── num-rational feature "default"
+│   │   │   │       │   ├── num-rational v0.3.2|MIT OR Apache-2.0
+│   │   │   │       │   │   ├── num-bigint v0.3.3|MIT OR Apache-2.0
+│   │   │   │       │   │   │   ├── num-integer feature "i128"
+│   │   │   │       │   │   │   │   └── num-integer v0.1.47|MIT OR Apache-2.0
+│   │   │   │       │   │   │   │       └── num-traits feature "i128"
+│   │   │   │       │   │   │   │           └── num-traits v0.2.19|MIT OR Apache-2.0
+│   │   │   │       │   │   │   │               [build-dependencies]
+│   │   │   │       │   │   │   │               └── autocfg feature "default"
+│   │   │   │       │   │   │   │                   └── autocfg v1.5.1|Apache-2.0 OR MIT
+│   │   │   │       │   │   │   └── num-traits feature "i128" (*)
+│   │   │   │       │   │   │   [build-dependencies]
+│   │   │   │       │   │   │   └── autocfg feature "default" (*)
+│   │   │   │       │   │   ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │   ├── num-integer feature "i128" (*)
+│   │   │   │       │   │   └── num-traits feature "i128" (*)
+│   │   │   │       │   │   [build-dependencies]
+│   │   │   │       │   │   └── autocfg feature "default" (*)
+│   │   │   │       │   ├── num-rational feature "num-bigint-std"
+│   │   │   │       │   │   ├── num-rational v0.3.2|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │   ├── num-rational feature "num-bigint"
+│   │   │   │       │   │   │   └── num-rational v0.3.2|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │   └── num-bigint feature "std"
+│   │   │   │       │   │       ├── num-bigint v0.3.3|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │       ├── num-integer feature "std"
+│   │   │   │       │   │       │   ├── num-integer v0.1.47|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │       │   └── num-traits feature "std"
+│   │   │   │       │   │       │       └── num-traits v0.2.19|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │       └── num-traits feature "std" (*)
+│   │   │   │       │   └── num-rational feature "std"
+│   │   │   │       │       ├── num-rational v0.3.2|MIT OR Apache-2.0 (*)
+│   │   │   │       │       ├── num-integer feature "std" (*)
+│   │   │   │       │       └── num-traits feature "std" (*)
+│   │   │   │       ├── num-rational feature "serde"
+│   │   │   │       │   └── num-rational v0.3.2|MIT OR Apache-2.0 (*)
+│   │   │   │       ├── serde_repr feature "default"
+│   │   │   │       │   └── serde_repr v0.1.21 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │       ├── proc-macro2 feature "default" (*)
+│   │   │   │       │       ├── quote feature "default" (*)
+│   │   │   │       │       └── syn feature "default" (*)
+│   │   │   │       ├── serde_with feature "base64"
+│   │   │   │       │   ├── serde_with v3.24.0|MIT OR Apache-2.0
+│   │   │   │       │   │   ├── base64 v0.23.1|MIT OR Apache-2.0
+│   │   │   │       │   │   ├── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │   │       │   │   ├── hex v0.4.3|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │   ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │   ├── serde_core feature "result" (*)
+│   │   │   │       │   │   └── serde_with_macros feature "default"
+│   │   │   │       │   │       └── serde_with_macros v3.24.0 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │   │           ├── proc-macro2 feature "default" (*)
+│   │   │   │       │   │           ├── quote feature "default" (*)
+│   │   │   │       │   │           ├── syn feature "default" (*)
+│   │   │   │       │   │           ├── syn feature "extra-traits" (*)
+│   │   │   │       │   │           ├── syn feature "full" (*)
+│   │   │   │       │   │           ├── syn feature "parsing" (*)
+│   │   │   │       │   │           └── darling feature "default"
+│   │   │   │       │   │               ├── darling v0.24.1|MIT
+│   │   │   │       │   │               │   ├── darling_core feature "default"
+│   │   │   │       │   │               │   │   └── darling_core v0.24.1|MIT
+│   │   │   │       │   │               │   │       ├── proc-macro2 feature "default" (*)
+│   │   │   │       │   │               │   │       ├── quote feature "default" (*)
+│   │   │   │       │   │               │   │       ├── syn feature "default" (*)
+│   │   │   │       │   │               │   │       ├── syn feature "extra-traits" (*)
+│   │   │   │       │   │               │   │       ├── syn feature "full" (*)
+│   │   │   │       │   │               │   │       ├── ident_case feature "default"
+│   │   │   │       │   │               │   │       │   └── ident_case v1.0.1|MIT/Apache-2.0
+│   │   │   │       │   │               │   │       └── strsim feature "default"
+│   │   │   │       │   │               │   │           └── strsim v0.11.1|MIT
+│   │   │   │       │   │               │   └── darling_macro feature "default"
+│   │   │   │       │   │               │       └── darling_macro v0.24.1 (proc-macro)|MIT
+│   │   │   │       │   │               │           ├── quote feature "default" (*)
+│   │   │   │       │   │               │           ├── syn feature "default" (*)
+│   │   │   │       │   │               │           └── darling_core feature "default" (*)
+│   │   │   │       │   │               └── darling feature "suggestions"
+│   │   │   │       │   │                   ├── darling v0.24.1|MIT (*)
+│   │   │   │       │   │                   └── darling_core feature "suggestions"
+│   │   │   │       │   │                       ├── darling_core v0.24.1|MIT (*)
+│   │   │   │       │   │                       └── darling_core feature "strsim"
+│   │   │   │       │   │                           └── darling_core v0.24.1|MIT (*)
+│   │   │   │       │   └── serde_with feature "alloc"
+│   │   │   │       │       ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │       │       ├── bs58 feature "alloc"
+│   │   │   │       │       │   └── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │   │       │       ├── serde_core feature "alloc" (*)
+│   │   │   │       │       ├── hex feature "alloc" (*)
+│   │   │   │       │       ├── serde_json feature "alloc"
+│   │   │   │       │       │   ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   │   │       │       │   └── serde_core feature "alloc" (*)
+│   │   │   │       │       └── base64 feature "alloc"
+│   │   │   │       │           └── base64 v0.23.1|MIT OR Apache-2.0
+│   │   │   │       └── serde_with feature "default"
+│   │   │   │           ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │           ├── serde_with feature "macros"
+│   │   │   │           │   └── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │           └── serde_with feature "std"
+│   │   │   │               ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │               ├── bs58 feature "std"
+│   │   │   │               │   ├── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │   │               │   └── bs58 feature "alloc" (*)
+│   │   │   │               ├── serde_core feature "std" (*)
+│   │   │   │               └── serde_with feature "alloc" (*)
+│   │   │   ├── enum-map feature "default" (*)
+│   │   │   ├── num-rational feature "default" (*)
+│   │   │   ├── num-rational feature "serde" (*)
+│   │   │   ├── near-parameters feature "default"
+│   │   │   │   └── near-parameters v0.38.1|MIT OR Apache-2.0
+│   │   │   │       ├── borsh feature "default" (*)
+│   │   │   │       ├── borsh feature "derive" (*)
+│   │   │   │       ├── borsh feature "rc" (*)
+│   │   │   │       ├── near-account-id feature "borsh" (*)
+│   │   │   │       ├── near-account-id feature "default" (*)
+│   │   │   │       ├── near-account-id feature "internal_unstable" (*)
+│   │   │   │       ├── near-account-id feature "serde" (*)
+│   │   │   │       ├── serde feature "alloc" (*)
+│   │   │   │       ├── serde feature "default" (*)
+│   │   │   │       ├── serde feature "derive" (*)
+│   │   │   │       ├── serde feature "rc" (*)
+│   │   │   │       ├── thiserror feature "default" (*)
+│   │   │   │       ├── near-schema-checker-lib feature "default" (*)
+│   │   │   │       ├── near-primitives-core feature "default" (*)
+│   │   │   │       ├── enum-map feature "default" (*)
+│   │   │   │       ├── num-rational feature "default" (*)
+│   │   │   │       ├── num-rational feature "serde" (*)
+│   │   │   │       ├── serde_repr feature "default" (*)
+│   │   │   │       ├── serde_yaml feature "default"
+│   │   │   │       │   └── serde_yaml v0.9.34+deprecated|MIT OR Apache-2.0
+│   │   │   │       │       ├── serde feature "default" (*)
+│   │   │   │       │       ├── indexmap feature "default"
+│   │   │   │       │       │   ├── indexmap v2.14.2|Apache-2.0 OR MIT (*)
+│   │   │   │       │       │   └── indexmap feature "std"
+│   │   │   │       │       │       └── indexmap v2.14.2|Apache-2.0 OR MIT (*)
+│   │   │   │       │       ├── itoa feature "default" (*)
+│   │   │   │       │       ├── ryu feature "default"
+│   │   │   │       │       │   └── ryu v1.0.23|Apache-2.0 OR BSL-1.0
+│   │   │   │       │       └── unsafe-libyaml feature "default"
+│   │   │   │       │           └── unsafe-libyaml v0.2.11|MIT
+│   │   │   │       ├── strum feature "default"
+│   │   │   │       │   ├── strum v0.24.1|MIT
+│   │   │   │       │   │   └── strum_macros feature "default"
+│   │   │   │       │   │       └── strum_macros v0.24.3 (proc-macro)|MIT
+│   │   │   │       │   │           ├── proc-macro2 feature "default" (*)
+│   │   │   │       │   │           ├── quote feature "default" (*)
+│   │   │   │       │   │           ├── heck feature "default"
+│   │   │   │       │   │           │   └── heck v0.4.1|MIT OR Apache-2.0
+│   │   │   │       │   │           ├── rustversion feature "default"
+│   │   │   │       │   │           │   └── rustversion v1.0.23 (proc-macro)|MIT OR Apache-2.0
+│   │   │   │       │   │           ├── syn feature "default"
+│   │   │   │       │   │           │   ├── syn v1.0.109|MIT OR Apache-2.0
+│   │   │   │       │   │           │   │   ├── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   │   ├── quote v1.0.47|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   │   └── unicode-ident feature "default" (*)
+│   │   │   │       │   │           │   ├── syn feature "clone-impls"
+│   │   │   │       │   │           │   │   └── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   ├── syn feature "derive"
+│   │   │   │       │   │           │   │   └── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   ├── syn feature "parsing"
+│   │   │   │       │   │           │   │   └── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   ├── syn feature "printing"
+│   │   │   │       │   │           │   │   ├── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   │   └── syn feature "quote"
+│   │   │   │       │   │           │   │       └── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │   └── syn feature "proc-macro"
+│   │   │   │       │   │           │       ├── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           │       ├── proc-macro2 feature "proc-macro" (*)
+│   │   │   │       │   │           │       ├── quote feature "proc-macro" (*)
+│   │   │   │       │   │           │       └── syn feature "quote" (*)
+│   │   │   │       │   │           ├── syn feature "extra-traits"
+│   │   │   │       │   │           │   └── syn v1.0.109|MIT OR Apache-2.0 (*)
+│   │   │   │       │   │           └── syn feature "parsing" (*)
+│   │   │   │       │   └── strum feature "std"
+│   │   │   │       │       └── strum v0.24.1|MIT (*)
+│   │   │   │       └── strum feature "derive"
+│   │   │   │           ├── strum v0.24.1|MIT (*)
+│   │   │   │           └── strum feature "strum_macros"
+│   │   │   │               └── strum v0.24.1|MIT (*)
+│   │   │   ├── strum feature "default" (*)
+│   │   │   ├── strum feature "derive" (*)
+│   │   │   ├── ripemd feature "default"
+│   │   │   │   ├── ripemd v0.1.3|MIT OR Apache-2.0
+│   │   │   │   │   └── digest feature "default" (*)
+│   │   │   │   └── ripemd feature "std"
+│   │   │   │       ├── ripemd v0.1.3|MIT OR Apache-2.0 (*)
+│   │   │   │       └── digest feature "std" (*)
+│   │   │   ├── bytesize feature "default"
+│   │   │   │   └── bytesize v1.3.3|Apache-2.0
+│   │   │   │       └── serde feature "default" (*)
+│   │   │   ├── bytesize feature "serde"
+│   │   │   │   └── bytesize v1.3.3|Apache-2.0 (*)
+│   │   │   ├── parking_lot feature "default"
+│   │   │   │   └── parking_lot v0.12.5|MIT OR Apache-2.0
+│   │   │   │       ├── lock_api feature "default" (*)
+│   │   │   │       └── parking_lot_core feature "default" (*)
+│   │   │   ├── blst feature "default"
+│   │   │   │   └── blst v0.3.17|Apache-2.0
+│   │   │   │       ├── zeroize feature "default" (*)
+│   │   │   │       ├── zeroize feature "zeroize_derive"
+│   │   │   │       │   └── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │       └── threadpool feature "default"
+│   │   │   │           └── threadpool v1.8.1|MIT/Apache-2.0
+│   │   │   │               └── num_cpus feature "default"
+│   │   │   │                   └── num_cpus v1.17.0|MIT OR Apache-2.0
+│   │   │   │                       └── libc feature "default" (*)
+│   │   │   │       [build-dependencies]
+│   │   │   │       └── cc feature "default" (*)
+│   │   │   ├── blst feature "portable"
+│   │   │   │   └── blst v0.3.17|Apache-2.0 (*)
+│   │   │   ├── lru feature "default"
+│   │   │   │   ├── lru v0.18.5|MIT
+│   │   │   │   │   ├── hashbrown feature "default-hasher"
+│   │   │   │   │   │   └── hashbrown v0.17.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │   └── hashbrown feature "inline-more"
+│   │   │   │   │       └── hashbrown v0.17.1|MIT OR Apache-2.0 (*)
+│   │   │   │   └── lru feature "hashbrown"
+│   │   │   │       └── lru v0.18.5|MIT (*)
+│   │   │   ├── p256 feature "ecdsa"
+│   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT
+│   │   │   │   │   ├── sha2 v0.10.9|MIT OR Apache-2.0 (*)
+│   │   │   │   │   ├── ecdsa feature "der"
+│   │   │   │   │   │   └── ecdsa v0.16.9|Apache-2.0 OR MIT
+│   │   │   │   │   │       ├── spki v0.7.3|Apache-2.0 OR MIT
+│   │   │   │   │   │       │   ├── der feature "default"
+│   │   │   │   │   │       │   │   └── der v0.7.10|Apache-2.0 OR MIT
+│   │   │   │   │   │       │   │       ├── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │   │       └── const-oid feature "default" (*)
+│   │   │   │   │   │       │   └── der feature "oid"
+│   │   │   │   │   │       │       └── der v0.7.10|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       ├── digest feature "oid"
+│   │   │   │   │   │       │   ├── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       │   └── digest feature "const-oid"
+│   │   │   │   │   │       │       └── digest v0.10.7|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       ├── signature feature "rand_core"
+│   │   │   │   │   │       │   └── signature v2.2.0|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       ├── der feature "default" (*)
+│   │   │   │   │   │       ├── elliptic-curve feature "digest"
+│   │   │   │   │   │       │   └── elliptic-curve v0.13.8|Apache-2.0 OR MIT
+│   │   │   │   │   │       │       ├── ff v0.13.1|MIT/Apache-2.0
+│   │   │   │   │   │       │       │   ├── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       │       │   └── subtle feature "i128" (*)
+│   │   │   │   │   │       │       ├── group v0.13.0|MIT/Apache-2.0
+│   │   │   │   │   │       │       │   ├── ff v0.13.1|MIT/Apache-2.0 (*)
+│   │   │   │   │   │       │       │   ├── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       │       │   └── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │       │       ├── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       │       ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │       │       ├── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       ├── digest feature "default" (*)
+│   │   │   │   │   │       │       ├── generic-array feature "zeroize"
+│   │   │   │   │   │       │       │   └── generic-array v0.14.9|MIT (*)
+│   │   │   │   │   │       │       ├── base16ct feature "default"
+│   │   │   │   │   │       │       │   └── base16ct v0.2.0|Apache-2.0 OR MIT
+│   │   │   │   │   │       │       ├── crypto-bigint feature "generic-array"
+│   │   │   │   │   │       │       │   └── crypto-bigint v0.5.5|Apache-2.0 OR MIT
+│   │   │   │   │   │       │       │       ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │       │       │       ├── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       │       ├── generic-array feature "default" (*)
+│   │   │   │   │   │       │       │       └── rand_core feature "default" (*)
+│   │   │   │   │   │       │       ├── crypto-bigint feature "rand_core"
+│   │   │   │   │   │       │       │   └── crypto-bigint v0.5.5|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       ├── crypto-bigint feature "zeroize"
+│   │   │   │   │   │       │       │   └── crypto-bigint v0.5.5|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       ├── sec1 feature "default"
+│   │   │   │   │   │       │       │   ├── sec1 v0.7.3|Apache-2.0 OR MIT
+│   │   │   │   │   │       │       │   │   ├── base16ct v0.2.0|Apache-2.0 OR MIT
+│   │   │   │   │   │       │       │   │   ├── generic-array v0.14.9|MIT (*)
+│   │   │   │   │   │       │       │   │   ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │       │       │   │   ├── zeroize v1.9.1|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       │   │   ├── der feature "default" (*)
+│   │   │   │   │   │       │       │   │   └── der feature "oid" (*)
+│   │   │   │   │   │       │       │   ├── sec1 feature "der"
+│   │   │   │   │   │       │       │   │   ├── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       │   │   └── sec1 feature "zeroize"
+│   │   │   │   │   │       │       │   │       ├── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       │   │       └── der feature "zeroize"
+│   │   │   │   │   │       │       │   │           └── der v0.7.10|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       │   └── sec1 feature "point"
+│   │   │   │   │   │       │       │       └── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       ├── sec1 feature "subtle"
+│   │   │   │   │   │       │       │   └── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       │       └── sec1 feature "zeroize" (*)
+│   │   │   │   │   │       ├── elliptic-curve feature "sec1"
+│   │   │   │   │   │       │   └── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       └── rfc6979 feature "default"
+│   │   │   │   │   │           └── rfc6979 v0.4.0|Apache-2.0 OR MIT
+│   │   │   │   │   │               ├── subtle v2.6.1|BSD-3-Clause
+│   │   │   │   │   │               └── hmac feature "reset"
+│   │   │   │   │   │                   └── hmac v0.12.1|MIT OR Apache-2.0
+│   │   │   │   │   │                       ├── digest feature "default" (*)
+│   │   │   │   │   │                       └── digest feature "mac" (*)
+│   │   │   │   │   ├── elliptic-curve feature "hazmat"
+│   │   │   │   │   │   └── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │   ├── elliptic-curve feature "sec1" (*)
+│   │   │   │   │   └── primeorder feature "default"
+│   │   │   │   │       └── primeorder v0.13.6|Apache-2.0 OR MIT
+│   │   │   │   │           ├── elliptic-curve feature "arithmetic"
+│   │   │   │   │           │   ├── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │           │   └── elliptic-curve feature "group"
+│   │   │   │   │           │       ├── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │           │       └── elliptic-curve feature "ff"
+│   │   │   │   │           │           └── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │           └── elliptic-curve feature "sec1" (*)
+│   │   │   │   ├── p256 feature "arithmetic"
+│   │   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   │   └── elliptic-curve feature "arithmetic" (*)
+│   │   │   │   ├── p256 feature "ecdsa-core"
+│   │   │   │   │   └── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   ├── p256 feature "sha256"
+│   │   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   │   ├── p256 feature "digest"
+│   │   │   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   ├── p256 feature "ecdsa-core" (*)
+│   │   │   │   │   │   ├── ecdsa feature "digest"
+│   │   │   │   │   │   │   ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   │   └── signature feature "digest"
+│   │   │   │   │   │   │       └── signature v2.2.0|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   └── ecdsa feature "hazmat"
+│   │   │   │   │   │       └── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   └── p256 feature "sha2"
+│   │   │   │   │       └── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   ├── ecdsa feature "signing"
+│   │   │   │   │   ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   ├── ecdsa feature "arithmetic"
+│   │   │   │   │   │   ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   └── elliptic-curve feature "arithmetic" (*)
+│   │   │   │   │   ├── ecdsa feature "digest" (*)
+│   │   │   │   │   ├── ecdsa feature "hazmat" (*)
+│   │   │   │   │   └── ecdsa feature "rfc6979"
+│   │   │   │   │       └── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   └── ecdsa feature "verifying"
+│   │   │   │       ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │       ├── ecdsa feature "arithmetic" (*)
+│   │   │   │       ├── ecdsa feature "digest" (*)
+│   │   │   │       └── ecdsa feature "hazmat" (*)
+│   │   │   ├── p256 feature "std"
+│   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   ├── p256 feature "alloc"
+│   │   │   │   │   ├── p256 v0.13.2|Apache-2.0 OR MIT (*)
+│   │   │   │   │   ├── ecdsa feature "alloc"
+│   │   │   │   │   │   ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   ├── signature feature "alloc"
+│   │   │   │   │   │   │   └── signature v2.2.0|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   ├── ecdsa feature "spki"
+│   │   │   │   │   │   │   └── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   ├── elliptic-curve feature "alloc"
+│   │   │   │   │   │   │   ├── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   │   ├── zeroize feature "alloc" (*)
+│   │   │   │   │   │   │   ├── base16ct feature "alloc"
+│   │   │   │   │   │   │   │   └── base16ct v0.2.0|Apache-2.0 OR MIT
+│   │   │   │   │   │   │   ├── ff feature "alloc"
+│   │   │   │   │   │   │   │   └── ff v0.13.1|MIT/Apache-2.0 (*)
+│   │   │   │   │   │   │   ├── group feature "alloc"
+│   │   │   │   │   │   │   │   └── group v0.13.0|MIT/Apache-2.0 (*)
+│   │   │   │   │   │   │   └── sec1 feature "alloc"
+│   │   │   │   │   │   │       ├── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   │       ├── zeroize feature "alloc" (*)
+│   │   │   │   │   │   │       └── der feature "alloc"
+│   │   │   │   │   │   │           ├── der v0.7.10|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   │           └── zeroize feature "alloc" (*)
+│   │   │   │   │   │   └── spki feature "alloc"
+│   │   │   │   │   │       ├── spki v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │       └── der feature "alloc" (*)
+│   │   │   │   │   └── elliptic-curve feature "alloc" (*)
+│   │   │   │   ├── ecdsa feature "std"
+│   │   │   │   │   ├── ecdsa v0.16.9|Apache-2.0 OR MIT (*)
+│   │   │   │   │   ├── signature feature "std"
+│   │   │   │   │   │   ├── signature v2.2.0|Apache-2.0 OR MIT (*)
+│   │   │   │   │   │   ├── signature feature "alloc" (*)
+│   │   │   │   │   │   └── rand_core feature "std"
+│   │   │   │   │   │       ├── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       ├── rand_core feature "alloc"
+│   │   │   │   │   │       │   └── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       ├── rand_core feature "getrandom"
+│   │   │   │   │   │       │   └── rand_core v0.6.4|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │       └── getrandom feature "std"
+│   │   │   │   │   │           └── getrandom v0.2.17|MIT OR Apache-2.0 (*)
+│   │   │   │   │   ├── ecdsa feature "alloc" (*)
+│   │   │   │   │   └── elliptic-curve feature "std"
+│   │   │   │   │       ├── elliptic-curve v0.13.8|Apache-2.0 OR MIT (*)
+│   │   │   │   │       ├── rand_core feature "std" (*)
+│   │   │   │   │       ├── elliptic-curve feature "alloc" (*)
+│   │   │   │   │       └── sec1 feature "std"
+│   │   │   │   │           ├── sec1 v0.7.3|Apache-2.0 OR MIT (*)
+│   │   │   │   │           ├── der feature "std"
+│   │   │   │   │           │   ├── der v0.7.10|Apache-2.0 OR MIT (*)
+│   │   │   │   │           │   └── der feature "alloc" (*)
+│   │   │   │   │           └── sec1 feature "alloc" (*)
+│   │   │   │   └── elliptic-curve feature "std" (*)
+│   │   │   ├── rand feature "default"
+│   │   │   │   ├── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   ├── rand feature "std"
+│   │   │   │   │   ├── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   │   ├── rand_core feature "std" (*)
+│   │   │   │   │   ├── rand feature "alloc"
+│   │   │   │   │   │   ├── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │   └── rand_core feature "alloc" (*)
+│   │   │   │   │   ├── rand feature "getrandom"
+│   │   │   │   │   │   ├── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   │   │   └── rand_core feature "getrandom" (*)
+│   │   │   │   │   ├── rand feature "libc"
+│   │   │   │   │   │   └── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   │   ├── rand feature "rand_chacha"
+│   │   │   │   │   │   └── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │   │   └── rand_chacha feature "std"
+│   │   │   │   │       ├── rand_chacha v0.3.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │       └── ppv-lite86 feature "std"
+│   │   │   │   │           └── ppv-lite86 v0.2.21|MIT OR Apache-2.0 (*)
+│   │   │   │   └── rand feature "std_rng"
+│   │   │   │       ├── rand v0.8.8|MIT OR Apache-2.0 (*)
+│   │   │   │       └── rand feature "rand_chacha" (*)
+│   │   │   ├── rustix feature "default"
+│   │   │   │   ├── rustix v1.1.6|Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT
+│   │   │   │   │   ├── bitflags v2.13.2|MIT OR Apache-2.0
+│   │   │   │   │   ├── errno v0.3.15|MIT OR Apache-2.0
+│   │   │   │   │   │   └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │   └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   └── rustix feature "std"
+│   │   │   │       ├── rustix v1.1.6|Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT (*)
+│   │   │   │       ├── libc feature "std" (*)
+│   │   │   │       ├── rustix feature "alloc"
+│   │   │   │       │   └── rustix v1.1.6|Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT (*)
+│   │   │   │       ├── bitflags feature "std"
+│   │   │   │       │   └── bitflags v2.13.2|MIT OR Apache-2.0
+│   │   │   │       └── errno feature "std"
+│   │   │   │           ├── errno v0.3.15|MIT OR Apache-2.0 (*)
+│   │   │   │           └── libc feature "std" (*)
+│   │   │   ├── rustix feature "fs"
+│   │   │   │   └── rustix v1.1.6|Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT (*)
+│   │   │   └── tempfile feature "default"
+│   │   │       ├── tempfile v3.27.0|MIT OR Apache-2.0
+│   │   │       │   ├── getrandom v0.4.3|MIT OR Apache-2.0
+│   │   │       │   │   ├── libc v0.2.191|MIT OR Apache-2.0
+│   │   │       │   │   └── cfg-if feature "default" (*)
+│   │   │       │   ├── once_cell feature "std" (*)
+│   │   │       │   ├── rustix feature "default" (*)
+│   │   │       │   ├── rustix feature "fs" (*)
+│   │   │       │   └── fastrand feature "default"
+│   │   │       │       ├── fastrand v2.5.0|Apache-2.0 OR MIT
+│   │   │       │       └── fastrand feature "std"
+│   │   │       │           ├── fastrand v2.5.0|Apache-2.0 OR MIT
+│   │   │       │           └── fastrand feature "alloc"
+│   │   │       │               └── fastrand v2.5.0|Apache-2.0 OR MIT
+│   │   │       └── tempfile feature "getrandom"
+│   │   │           └── tempfile v3.27.0|MIT OR Apache-2.0 (*)
+│   │   ├── once_cell v1.21.4|MIT OR Apache-2.0
+│   │   ├── borsh feature "default" (*)
+│   │   ├── borsh feature "derive" (*)
+│   │   ├── base64 feature "default"
+│   │   │   ├── base64 v0.22.1|MIT OR Apache-2.0
+│   │   │   └── base64 feature "std"
+│   │   │       ├── base64 v0.22.1|MIT OR Apache-2.0
+│   │   │       └── base64 feature "alloc"
+│   │   │           └── base64 v0.22.1|MIT OR Apache-2.0
+│   │   ├── bs58 feature "default"
+│   │   │   ├── bs58 v0.5.1|MIT/Apache-2.0
+│   │   │   └── bs58 feature "std" (*)
+│   │   ├── hex-literal feature "default"
+│   │   │   └── hex-literal v1.1.0|MIT OR Apache-2.0
+│   │   ├── near-account-id feature "borsh" (*)
+│   │   ├── near-account-id feature "default" (*)
+│   │   ├── near-account-id feature "serde" (*)
+│   │   ├── serde feature "default" (*)
+│   │   ├── serde feature "derive" (*)
+│   │   ├── serde_json feature "default" (*)
+│   │   ├── serde_json feature "preserve_order"
+│   │   │   ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   │   ├── serde_json feature "alloc" (*)
+│   │   │   └── serde_json feature "indexmap"
+│   │   │       └── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │   ├── near-gas feature "borsh" (*)
+│   │   ├── near-gas feature "default" (*)
+│   │   ├── near-gas feature "serde" (*)
+│   │   ├── near-global-contracts feature "borsh"
+│   │   │   ├── near-global-contracts v0.3.3|MIT OR Apache-2.0
+│   │   │   │   ├── borsh feature "default" (*)
+│   │   │   │   ├── borsh feature "derive" (*)
+│   │   │   │   ├── near-account-id feature "default" (*)
+│   │   │   │   ├── near-account-id feature "internal_unstable" (*)
+│   │   │   │   ├── serde feature "default" (*)
+│   │   │   │   ├── serde feature "derive" (*)
+│   │   │   │   ├── hex feature "default" (*)
+│   │   │   │   ├── cfg_eval feature "default"
+│   │   │   │   │   └── cfg_eval v0.1.2 (proc-macro)|Zlib OR MIT OR Apache-2.0
+│   │   │   │   │       ├── proc-macro2 feature "default" (*)
+│   │   │   │   │       ├── quote feature "default" (*)
+│   │   │   │   │       ├── syn feature "parsing" (*)
+│   │   │   │   │       └── syn feature "printing" (*)
+│   │   │   │   ├── digest-io feature "default"
+│   │   │   │   │   └── digest-io v0.1.0|MIT OR Apache-2.0
+│   │   │   │   │       └── digest feature "default"
+│   │   │   │   │           ├── digest v0.11.3|MIT OR Apache-2.0
+│   │   │   │   │           │   ├── block-buffer feature "default"
+│   │   │   │   │           │   │   └── block-buffer v0.12.1|MIT OR Apache-2.0
+│   │   │   │   │           │   │       └── hybrid-array feature "default"
+│   │   │   │   │           │   │           └── hybrid-array v0.4.15|MIT OR Apache-2.0
+│   │   │   │   │           │   │               ├── typenum feature "const-generics"
+│   │   │   │   │           │   │               │   └── typenum v1.20.1|MIT OR Apache-2.0
+│   │   │   │   │           │   │               └── typenum feature "default" (*)
+│   │   │   │   │           │   ├── const-oid feature "default"
+│   │   │   │   │           │   │   └── const-oid v0.10.3|Apache-2.0 OR MIT
+│   │   │   │   │           │   └── crypto-common feature "default"
+│   │   │   │   │           │       └── crypto-common v0.2.2|MIT OR Apache-2.0
+│   │   │   │   │           │           └── hybrid-array feature "default" (*)
+│   │   │   │   │           └── digest feature "block-api"
+│   │   │   │   │               └── digest v0.11.3|MIT OR Apache-2.0 (*)
+│   │   │   │   ├── near-crypto-hash feature "default"
+│   │   │   │   │   └── near-crypto-hash v0.2.0|MIT OR Apache-2.0
+│   │   │   │   ├── near-digest feature "default"
+│   │   │   │   │   └── near-digest v0.1.5|MIT OR Apache-2.0
+│   │   │   │   │       ├── digest feature "default" (*)
+│   │   │   │   │       └── sha3 feature "default"
+│   │   │   │   │           ├── sha3 v0.11.0|MIT OR Apache-2.0
+│   │   │   │   │           │   ├── digest feature "default" (*)
+│   │   │   │   │           │   └── keccak feature "default"
+│   │   │   │   │           │       └── keccak v0.2.2|Apache-2.0 OR MIT
+│   │   │   │   │           │           ├── cfg-if feature "default" (*)
+│   │   │   │   │           │           └── cpufeatures feature "default"
+│   │   │   │   │           │               └── cpufeatures v0.3.1|MIT OR Apache-2.0
+│   │   │   │   │           │                   └── libc v0.2.191|MIT OR Apache-2.0
+│   │   │   │   │           ├── sha3 feature "alloc"
+│   │   │   │   │           │   ├── sha3 v0.11.0|MIT OR Apache-2.0 (*)
+│   │   │   │   │           │   └── digest feature "alloc"
+│   │   │   │   │           │       └── digest v0.11.3|MIT OR Apache-2.0 (*)
+│   │   │   │   │           └── sha3 feature "oid"
+│   │   │   │   │               ├── sha3 v0.11.0|MIT OR Apache-2.0 (*)
+│   │   │   │   │               └── digest feature "oid"
+│   │   │   │   │                   └── digest v0.11.3|MIT OR Apache-2.0 (*)
+│   │   │   │   ├── near-digest feature "sha3"
+│   │   │   │   │   └── near-digest v0.1.5|MIT OR Apache-2.0 (*)
+│   │   │   │   ├── sha3 feature "default" (*)
+│   │   │   │   ├── near-primitives-core feature "default" (*)
+│   │   │   │   ├── serde_with feature "base58"
+│   │   │   │   │   ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │   │   └── serde_with feature "alloc" (*)
+│   │   │   │   ├── serde_with feature "base64" (*)
+│   │   │   │   ├── serde_with feature "default" (*)
+│   │   │   │   ├── serde_with feature "hex"
+│   │   │   │   │   ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │   │   └── serde_with feature "alloc" (*)
+│   │   │   │   ├── near-sdk-core feature "default"
+│   │   │   │   │   └── near-sdk-core v4.4.2|MIT OR Apache-2.0
+│   │   │   │   │       ├── near-crypto v0.38.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │       ├── borsh feature "default" (*)
+│   │   │   │   │       ├── borsh feature "derive" (*)
+│   │   │   │   │       ├── base64 feature "default" (*)
+│   │   │   │   │       ├── bs58 feature "default" (*)
+│   │   │   │   │       ├── near-account-id feature "default" (*)
+│   │   │   │   │       ├── serde feature "default" (*)
+│   │   │   │   │       ├── serde feature "derive" (*)
+│   │   │   │   │       ├── hex feature "default" (*)
+│   │   │   │   │       ├── serde_json feature "default" (*)
+│   │   │   │   │       ├── serde_json feature "preserve_order" (*)
+│   │   │   │   │       ├── near-gas feature "default" (*)
+│   │   │   │   │       ├── near-crypto-hash feature "default" (*)
+│   │   │   │   │       ├── sha3 feature "default" (*)
+│   │   │   │   │       ├── near-primitives-core feature "default" (*)
+│   │   │   │   │       ├── near-token feature "default" (*)
+│   │   │   │   │       ├── serde_with feature "base64" (*)
+│   │   │   │   │       ├── serde_with feature "default" (*)
+│   │   │   │   │       ├── serde_with feature "hex" (*)
+│   │   │   │   │       ├── serde_with feature "json"
+│   │   │   │   │       │   ├── serde_with v3.24.0|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │   └── serde_with feature "alloc" (*)
+│   │   │   │   │       ├── near-parameters feature "default" (*)
+│   │   │   │   │       ├── near-sdk-env feature "default"
+│   │   │   │   │       │   └── near-sdk-env v0.1.9|MIT OR Apache-2.0
+│   │   │   │   │       │       ├── sha3 feature "default" (*)
+│   │   │   │   │       │       ├── near-sys feature "default"
+│   │   │   │   │       │       │   └── near-sys v0.4.1|MIT OR Apache-2.0
+│   │   │   │   │       │       ├── ripemd feature "default" (*)
+│   │   │   │   │       │       └── sha2 feature "default"
+│   │   │   │   │       │           ├── sha2 v0.11.1|MIT OR Apache-2.0
+│   │   │   │   │       │           │   ├── cfg-if feature "default" (*)
+│   │   │   │   │       │           │   ├── digest feature "default" (*)
+│   │   │   │   │       │           │   └── cpufeatures feature "default" (*)
+│   │   │   │   │       │           ├── sha2 feature "alloc"
+│   │   │   │   │       │           │   ├── sha2 v0.11.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │           │   └── digest feature "alloc" (*)
+│   │   │   │   │       │           └── sha2 feature "oid"
+│   │   │   │   │       │               ├── sha2 v0.11.1|MIT OR Apache-2.0 (*)
+│   │   │   │   │       │               └── digest feature "oid" (*)
+│   │   │   │   │       └── unicode-segmentation feature "default"
+│   │   │   │   │           └── unicode-segmentation v1.13.3|MIT OR Apache-2.0
+│   │   │   │   └── near-sdk-env feature "default" (*)
+│   │   │   ├── near-account-id feature "borsh" (*)
+│   │   │   └── near-sdk-core feature "borsh"
+│   │   │       ├── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+│   │   │       ├── near-account-id feature "borsh" (*)
+│   │   │       ├── near-gas feature "borsh" (*)
+│   │   │       └── near-token feature "borsh" (*)
+│   │   ├── near-global-contracts feature "default"
+│   │   │   └── near-global-contracts v0.3.3|MIT OR Apache-2.0 (*)
+│   │   ├── near-global-contracts feature "serde"
+│   │   │   ├── near-global-contracts v0.3.3|MIT OR Apache-2.0 (*)
+│   │   │   ├── near-account-id feature "serde" (*)
+│   │   │   └── near-sdk-core feature "serde"
+│   │   │       ├── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+│   │   │       ├── near-account-id feature "serde" (*)
+│   │   │       ├── near-gas feature "serde" (*)
+│   │   │       └── near-token feature "serde" (*)
+│   │   ├── near-primitives-core feature "default" (*)
+│   │   ├── near-token feature "borsh" (*)
+│   │   ├── near-token feature "default" (*)
+│   │   ├── near-token feature "serde" (*)
+│   │   ├── serde_with feature "base64" (*)
+│   │   ├── serde_with feature "default" (*)
+│   │   ├── serde_with feature "hex" (*)
+│   │   ├── serde_with feature "json" (*)
+│   │   ├── near-sdk-core feature "borsh" (*)
+│   │   ├── near-sdk-core feature "default" (*)
+│   │   ├── near-sdk-core feature "serde" (*)
+│   │   ├── near-parameters feature "default" (*)
+│   │   ├── near-sdk-env feature "default" (*)
+│   │   ├── near-sys feature "default" (*)
+│   │   ├── unicode-segmentation feature "default" (*)
+│   │   ├── near-primitives feature "default"
+│   │   │   └── near-primitives v0.38.1|MIT OR Apache-2.0
+│   │   │       ├── near-crypto v0.38.1|MIT OR Apache-2.0 (*)
+│   │   │       ├── primitive-types v0.10.1|MIT OR Apache-2.0 (*)
+│   │   │       ├── borsh feature "default" (*)
+│   │   │       ├── borsh feature "derive" (*)
+│   │   │       ├── borsh feature "rc" (*)
+│   │   │       ├── serde feature "alloc" (*)
+│   │   │       ├── serde feature "default" (*)
+│   │   │       ├── serde feature "derive" (*)
+│   │   │       ├── serde feature "rc" (*)
+│   │   │       ├── derive_more feature "as_ref" (*)
+│   │   │       ├── derive_more feature "default" (*)
+│   │   │       ├── derive_more feature "deref"
+│   │   │       │   ├── derive_more v2.1.1|MIT (*)
+│   │   │       │   └── derive_more-impl feature "deref"
+│   │   │       │       └── derive_more-impl v2.1.1 (proc-macro)|MIT (*)
+│   │   │       ├── derive_more feature "display" (*)
+│   │   │       ├── derive_more feature "from" (*)
+│   │   │       ├── derive_more feature "into" (*)
+│   │   │       ├── hex feature "default" (*)
+│   │   │       ├── hex feature "serde" (*)
+│   │   │       ├── thiserror feature "default" (*)
+│   │   │       ├── tracing feature "default" (*)
+│   │   │       ├── tracing feature "std" (*)
+│   │   │       ├── near-schema-checker-lib feature "default" (*)
+│   │   │       ├── near-stdx feature "default" (*)
+│   │   │       ├── serde_json feature "default" (*)
+│   │   │       ├── sha3 feature "default" (*)
+│   │   │       ├── near-primitives-core feature "default" (*)
+│   │   │       ├── arbitrary feature "default" (*)
+│   │   │       ├── arbitrary feature "derive" (*)
+│   │   │       ├── base64 feature "default" (*)
+│   │   │       ├── enum-map feature "default" (*)
+│   │   │       ├── num-rational feature "default" (*)
+│   │   │       ├── num-rational feature "serde" (*)
+│   │   │       ├── serde_with feature "base64" (*)
+│   │   │       ├── serde_with feature "default" (*)
+│   │   │       ├── near-parameters feature "default" (*)
+│   │   │       ├── strum feature "default" (*)
+│   │   │       ├── strum feature "derive" (*)
+│   │   │       ├── bitvec feature "default"
+│   │   │       │   ├── bitvec v1.1.1|MIT
+│   │   │       │   │   ├── funty v2.0.0|MIT
+│   │   │       │   │   ├── wyz v0.5.1|MIT
+│   │   │       │   │   │   └── tap feature "default"
+│   │   │       │   │   │       └── tap v1.0.1|MIT
+│   │   │       │   │   ├── radium feature "default"
+│   │   │       │   │   │   └── radium v0.7.0|MIT
+│   │   │       │   │   └── tap feature "default" (*)
+│   │   │       │   ├── bitvec feature "atomic"
+│   │   │       │   │   └── bitvec v1.1.1|MIT (*)
+│   │   │       │   └── bitvec feature "std"
+│   │   │       │       ├── bitvec v1.1.1|MIT (*)
+│   │   │       │       └── bitvec feature "alloc"
+│   │   │       │           └── bitvec v1.1.1|MIT (*)
+│   │   │       ├── bytes feature "default"
+│   │   │       │   ├── bytes v1.12.1|MIT
+│   │   │       │   └── bytes feature "std"
+│   │   │       │       └── bytes v1.12.1|MIT
+│   │   │       ├── bytesize feature "default" (*)
+│   │   │       ├── bytesize feature "serde" (*)
+│   │   │       ├── chrono feature "alloc"
+│   │   │       │   └── chrono v0.4.45|MIT OR Apache-2.0
+│   │   │       │       ├── num-traits v0.2.19|MIT OR Apache-2.0 (*)
+│   │   │       │       ├── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │       │       ├── iana-time-zone feature "default"
+│   │   │       │       │   └── iana-time-zone v0.1.65|MIT OR Apache-2.0
+│   │   │       │       │       └── core-foundation-sys feature "default"
+│   │   │       │       │           ├── core-foundation-sys v0.8.7|MIT OR Apache-2.0
+│   │   │       │       │           └── core-foundation-sys feature "link"
+│   │   │       │       │               └── core-foundation-sys v0.8.7|MIT OR Apache-2.0
+│   │   │       │       └── iana-time-zone feature "fallback"
+│   │   │       │           └── iana-time-zone v0.1.65|MIT OR Apache-2.0 (*)
+│   │   │       ├── chrono feature "clock"
+│   │   │       │   ├── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       │   ├── chrono feature "iana-time-zone"
+│   │   │       │   │   └── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       │   ├── chrono feature "now"
+│   │   │       │   │   ├── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       │   │   └── chrono feature "std"
+│   │   │       │   │       ├── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       │   │       └── chrono feature "alloc" (*)
+│   │   │       │   └── chrono feature "winapi"
+│   │   │       │       ├── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       │       └── chrono feature "windows-link"
+│   │   │       │           └── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       ├── chrono feature "serde"
+│   │   │       │   └── chrono v0.4.45|MIT OR Apache-2.0 (*)
+│   │   │       ├── derive_builder feature "default"
+│   │   │       │   ├── derive_builder v0.20.2|MIT OR Apache-2.0
+│   │   │       │   │   └── derive_builder_macro feature "default"
+│   │   │       │   │       └── derive_builder_macro v0.20.2 (proc-macro)|MIT OR Apache-2.0
+│   │   │       │   │           ├── syn feature "default" (*)
+│   │   │       │   │           ├── syn feature "extra-traits" (*)
+│   │   │       │   │           ├── syn feature "full" (*)
+│   │   │       │   │           └── derive_builder_core feature "default"
+│   │   │       │   │               └── derive_builder_core v0.20.2|MIT OR Apache-2.0
+│   │   │       │   │                   ├── proc-macro2 feature "default" (*)
+│   │   │       │   │                   ├── quote feature "default" (*)
+│   │   │       │   │                   ├── syn feature "default" (*)
+│   │   │       │   │                   ├── syn feature "extra-traits" (*)
+│   │   │       │   │                   ├── syn feature "full" (*)
+│   │   │       │   │                   └── darling feature "default"
+│   │   │       │   │                       ├── darling v0.20.11|MIT
+│   │   │       │   │                       │   ├── darling_core feature "default"
+│   │   │       │   │                       │   │   └── darling_core v0.20.11|MIT
+│   │   │       │   │                       │   │       ├── proc-macro2 feature "default" (*)
+│   │   │       │   │                       │   │       ├── quote feature "default" (*)
+│   │   │       │   │                       │   │       ├── syn feature "default" (*)
+│   │   │       │   │                       │   │       ├── syn feature "extra-traits" (*)
+│   │   │       │   │                       │   │       ├── syn feature "full" (*)
+│   │   │       │   │                       │   │       ├── ident_case feature "default" (*)
+│   │   │       │   │                       │   │       ├── strsim feature "default" (*)
+│   │   │       │   │                       │   │       └── fnv feature "default"
+│   │   │       │   │                       │   │           ├── fnv v1.0.7|Apache-2.0 / MIT
+│   │   │       │   │                       │   │           └── fnv feature "std"
+│   │   │       │   │                       │   │               └── fnv v1.0.7|Apache-2.0 / MIT
+│   │   │       │   │                       │   └── darling_macro feature "default"
+│   │   │       │   │                       │       └── darling_macro v0.20.11 (proc-macro)|MIT
+│   │   │       │   │                       │           ├── quote feature "default" (*)
+│   │   │       │   │                       │           ├── syn feature "default" (*)
+│   │   │       │   │                       │           └── darling_core feature "default" (*)
+│   │   │       │   │                       └── darling feature "suggestions"
+│   │   │       │   │                           ├── darling v0.20.11|MIT (*)
+│   │   │       │   │                           └── darling_core feature "suggestions"
+│   │   │       │   │                               ├── darling_core v0.20.11|MIT (*)
+│   │   │       │   │                               └── darling_core feature "strsim"
+│   │   │       │   │                                   └── darling_core v0.20.11|MIT (*)
+│   │   │       │   └── derive_builder feature "std"
+│   │   │       │       ├── derive_builder v0.20.2|MIT OR Apache-2.0 (*)
+│   │   │       │       └── derive_builder_macro feature "lib_has_std"
+│   │   │       │           ├── derive_builder_macro v0.20.2 (proc-macro)|MIT OR Apache-2.0 (*)
+│   │   │       │           └── derive_builder_core feature "lib_has_std"
+│   │   │       │               └── derive_builder_core v0.20.2|MIT OR Apache-2.0 (*)
+│   │   │       ├── easy-ext feature "default"
+│   │   │       │   └── easy-ext v0.2.9 (proc-macro)|Apache-2.0 OR MIT
+│   │   │       ├── itertools feature "default"
+│   │   │       │   ├── itertools v0.14.0|MIT OR Apache-2.0
+│   │   │       │   │   └── either v1.19.0|MIT OR Apache-2.0
+│   │   │       │   └── itertools feature "use_std"
+│   │   │       │       ├── itertools v0.14.0|MIT OR Apache-2.0 (*)
+│   │   │       │       ├── itertools feature "use_alloc"
+│   │   │       │       │   └── itertools v0.14.0|MIT OR Apache-2.0 (*)
+│   │   │       │       └── either feature "use_std"
+│   │   │       │           ├── either v1.19.0|MIT OR Apache-2.0
+│   │   │       │           └── either feature "std"
+│   │   │       │               └── either v1.19.0|MIT OR Apache-2.0
+│   │   │       ├── near-fmt feature "default"
+│   │   │       │   └── near-fmt v0.38.1|MIT OR Apache-2.0
+│   │   │       │       └── near-primitives-core feature "default" (*)
+│   │   │       ├── near-time feature "default"
+│   │   │       │   ├── near-time v0.38.1|MIT OR Apache-2.0
+│   │   │       │   │   ├── serde feature "alloc" (*)
+│   │   │       │   │   ├── serde feature "default" (*)
+│   │   │       │   │   ├── serde feature "derive" (*)
+│   │   │       │   │   ├── serde feature "rc" (*)
+│   │   │       │   │   ├── parking_lot feature "default" (*)
+│   │   │       │   │   ├── time feature "formatting"
+│   │   │       │   │   │   ├── time v0.3.55|MIT OR Apache-2.0
+│   │   │       │   │   │   │   ├── powerfmt v0.2.1|MIT OR Apache-2.0
+│   │   │       │   │   │   │   ├── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │       │   │   │   │   ├── deranged feature "default"
+│   │   │       │   │   │   │   │   └── deranged v0.5.9|MIT OR Apache-2.0
+│   │   │       │   │   │   │   │       └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │   │       │   │   │   │   ├── num-conv feature "default"
+│   │   │       │   │   │   │   │   └── num-conv v0.2.2|MIT OR Apache-2.0
+│   │   │       │   │   │   │   └── time-core feature "default"
+│   │   │       │   │   │   │       └── time-core v0.1.9|MIT OR Apache-2.0
+│   │   │       │   │   │   └── time feature "std"
+│   │   │       │   │   │       ├── time v0.3.55|MIT OR Apache-2.0 (*)
+│   │   │       │   │   │       └── time feature "alloc"
+│   │   │       │   │   │           ├── time v0.3.55|MIT OR Apache-2.0 (*)
+│   │   │       │   │   │           └── serde_core feature "alloc" (*)
+│   │   │       │   │   └── time feature "parsing"
+│   │   │       │   │       └── time v0.3.55|MIT OR Apache-2.0 (*)
+│   │   │       │   └── near-time feature "serde"
+│   │   │       │       ├── near-time v0.38.1|MIT OR Apache-2.0 (*)
+│   │   │       │       └── time feature "serde"
+│   │   │       │           ├── time v0.3.55|MIT OR Apache-2.0 (*)
+│   │   │       │           └── deranged feature "serde"
+│   │   │       │               └── deranged v0.5.9|MIT OR Apache-2.0 (*)
+│   │   │       ├── smallvec feature "default" (*)
+│   │   │       ├── smallvec feature "write"
+│   │   │       │   └── smallvec v1.16.5|MIT OR Apache-2.0
+│   │   │       ├── ordered-float feature "borsh"
+│   │   │       │   └── ordered-float v4.6.0|MIT
+│   │   │       │       ├── borsh v1.8.1|MIT OR Apache-2.0 (*)
+│   │   │       │       ├── num-traits v0.2.19|MIT OR Apache-2.0 (*)
+│   │   │       │       └── serde v1.0.229|MIT OR Apache-2.0 (*)
+│   │   │       ├── ordered-float feature "default"
+│   │   │       │   ├── ordered-float v4.6.0|MIT (*)
+│   │   │       │   └── ordered-float feature "std"
+│   │   │       │       ├── ordered-float v4.6.0|MIT (*)
+│   │   │       │       └── num-traits feature "std" (*)
+│   │   │       ├── ordered-float feature "serde"
+│   │   │       │   └── ordered-float v4.6.0|MIT (*)
+│   │   │       ├── smart-default feature "default"
+│   │   │       │   └── smart-default v0.7.1 (proc-macro)|MIT
+│   │   │       │       ├── proc-macro2 feature "default" (*)
+│   │   │       │       ├── quote feature "default" (*)
+│   │   │       │       └── syn feature "default" (*)
+│   │   │       ├── zstd feature "default"
+│   │   │       │   ├── zstd v0.14.4|BSD-3-Clause
+│   │   │       │   │   └── zstd-safe feature "std"
+│   │   │       │   │       ├── zstd-safe v8.3.0|BSD-3-Clause
+│   │   │       │   │       │   └── zstd-sys v2.1.3+zstd.1.5.7|BSD-3-Clause AND BSD-2-Clause
+│   │   │       │   │       │       [build-dependencies]
+│   │   │       │   │       │       ├── cc feature "default" (*)
+│   │   │       │   │       │       ├── cc feature "parallel" (*)
+│   │   │       │   │       │       └── pkg-config feature "default" (*)
+│   │   │       │   │       ├── zstd-safe feature "alloc"
+│   │   │       │   │       │   └── zstd-safe v8.3.0|BSD-3-Clause (*)
+│   │   │       │   │       └── zstd-sys feature "std"
+│   │   │       │   │           └── zstd-sys v2.1.3+zstd.1.5.7|BSD-3-Clause AND BSD-2-Clause (*)
+│   │   │       │   ├── zstd feature "arrays"
+│   │   │       │   │   ├── zstd v0.14.4|BSD-3-Clause (*)
+│   │   │       │   │   └── zstd-safe feature "arrays"
+│   │   │       │   │       └── zstd-safe v8.3.0|BSD-3-Clause (*)
+│   │   │       │   ├── zstd feature "legacy"
+│   │   │       │   │   ├── zstd v0.14.4|BSD-3-Clause (*)
+│   │   │       │   │   └── zstd-safe feature "legacy"
+│   │   │       │   │       ├── zstd-safe v8.3.0|BSD-3-Clause (*)
+│   │   │       │   │       └── zstd-sys feature "legacy"
+│   │   │       │   │           └── zstd-sys v2.1.3+zstd.1.5.7|BSD-3-Clause AND BSD-2-Clause (*)
+│   │   │       │   └── zstd feature "zdict_builder"
+│   │   │       │       ├── zstd v0.14.4|BSD-3-Clause (*)
+│   │   │       │       └── zstd-safe feature "zdict_builder"
+│   │   │       │           ├── zstd-safe v8.3.0|BSD-3-Clause (*)
+│   │   │       │           └── zstd-sys feature "zdict_builder"
+│   │   │       │               └── zstd-sys v2.1.3+zstd.1.5.7|BSD-3-Clause AND BSD-2-Clause (*)
+│   │   │       └── zstd feature "zstdmt"
+│   │   │           ├── zstd v0.14.4|BSD-3-Clause (*)
+│   │   │           └── zstd-safe feature "zstdmt"
+│   │   │               ├── zstd-safe v8.3.0|BSD-3-Clause (*)
+│   │   │               └── zstd-sys feature "zstdmt"
+│   │   │                   └── zstd-sys v2.1.3+zstd.1.5.7|BSD-3-Clause AND BSD-2-Clause (*)
+│   │   └── near-sdk-macros feature "default"
+│   │       └── near-sdk-macros v5.30.1 (proc-macro)|MIT OR Apache-2.0
+│   │           ├── Inflector v0.11.4|BSD-2-Clause
+│   │           ├── darling v0.20.11|MIT (*)
+│   │           ├── proc-macro2 v1.0.107|MIT OR Apache-2.0 (*)
+│   │           ├── quote v1.0.47|MIT OR Apache-2.0 (*)
+│   │           ├── strum v0.26.3|MIT
+│   │           ├── syn v2.0.119|MIT OR Apache-2.0 (*)
+│   │           ├── serde feature "serde_derive"
+│   │           │   └── serde v1.0.229|MIT OR Apache-2.0
+│   │           │       ├── serde_derive feature "default" (*)
+│   │           │       └── serde_core feature "result"
+│   │           │           └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │           ├── serde_json feature "default"
+│   │           │   ├── serde_json v1.0.154|MIT OR Apache-2.0
+│   │           │   │   ├── memchr v2.8.3|Unlicense OR MIT
+│   │           │   │   ├── serde_core v1.0.229|MIT OR Apache-2.0
+│   │           │   │   ├── itoa feature "default"
+│   │           │   │   │   └── itoa v1.0.19|MIT OR Apache-2.0
+│   │           │   │   └── zmij feature "default"
+│   │           │   │       └── zmij v1.0.23|MIT
+│   │           │   └── serde_json feature "std"
+│   │           │       ├── serde_json v1.0.154|MIT OR Apache-2.0 (*)
+│   │           │       ├── serde_core feature "std"
+│   │           │       │   └── serde_core v1.0.229|MIT OR Apache-2.0
+│   │           │       └── memchr feature "std"
+│   │           │           ├── memchr v2.8.3|Unlicense OR MIT
+│   │           │           └── memchr feature "alloc"
+│   │           │               └── memchr v2.8.3|Unlicense OR MIT
+│   │           └── strum_macros feature "default"
+│   │               └── strum_macros v0.26.4 (proc-macro)|MIT
+│   │                   ├── proc-macro2 feature "default" (*)
+│   │                   ├── quote feature "default" (*)
+│   │                   ├── syn feature "default" (*)
+│   │                   ├── syn feature "extra-traits" (*)
+│   │                   ├── syn feature "parsing" (*)
+│   │                   ├── rustversion feature "default" (*)
+│   │                   └── heck feature "default"
+│   │                       └── heck v0.5.0|MIT OR Apache-2.0
+│   └── near-sdk feature "wee_alloc"
+│       └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+├── serde feature "default" (*)
+├── serde feature "derive" (*)
+└── serde_json feature "default" (*)
+[dev-dependencies]
+├── near-sdk feature "default" (*)
+└── near-sdk feature "unit-testing"
+    ├── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "near-crypto"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "near-parameters"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "near-primitives"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "near-primitives-core"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "near-vm-runner"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-sdk feature "unicode-segmentation"
+    │   └── near-sdk v5.30.1|MIT OR Apache-2.0 (*)
+    ├── near-global-contracts feature "__near-sdk-unit-testing"
+    │   ├── near-global-contracts v0.3.3|MIT OR Apache-2.0 (*)
+    │   ├── near-global-contracts feature "borsh" (*)
+    │   ├── near-global-contracts feature "near-primitives-interop"
+    │   │   └── near-global-contracts v0.3.3|MIT OR Apache-2.0 (*)
+    │   ├── near-global-contracts feature "near-sdk-env"
+    │   │   └── near-global-contracts v0.3.3|MIT OR Apache-2.0 (*)
+    │   ├── near-global-contracts feature "serde" (*)
+    │   ├── near-sdk-core feature "__near-sdk-unit-testing"
+    │   │   ├── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+    │   │   ├── near-sdk-core feature "borsh" (*)
+    │   │   ├── near-sdk-core feature "near-crypto-interop"
+    │   │   │   └── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+    │   │   ├── near-sdk-core feature "near-primitives-interop"
+    │   │   │   └── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+    │   │   ├── near-sdk-core feature "near-sdk-env"
+    │   │   │   └── near-sdk-core v4.4.2|MIT OR Apache-2.0 (*)
+    │   │   ├── near-sdk-core feature "serde" (*)
+    │   │   └── near-sdk-env feature "__near-sdk-unit-testing"
+    │   │       └── near-sdk-env v0.1.9|MIT OR Apache-2.0 (*)
+    │   └── near-sdk-env feature "__near-sdk-unit-testing" (*)
+    ├── near-sdk-core feature "__near-sdk-unit-testing" (*)
+    └── near-sdk-env feature "__near-sdk-unit-testing" (*)

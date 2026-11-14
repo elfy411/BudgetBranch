@@ -1,0 +1,23 @@
+   Compiling budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/budgetbranch)
+    Finished `test` profile [unoptimized] target(s) in 3.45s
+     Running unittests src/lib.rs (target/debug/deps/budgetbranch-03e798a343ac329c)
+
+running 15 tests
+test tests::golden_fingerprints_match_typescript_fixture ... ok
+test tests::callback_execution_failure_and_elapsed_time_never_release_pending ... ok
+test tests::callback_fixed_size_duplicate_and_successful_nonempty ... ok
+test tests::checked_arithmetic_and_nearest_effective_status ... ok
+test tests::liquidity_guard_never_uses_logical_free_as_cash ... ok
+test tests::failed_owner_refund_restores_free_once ... ok
+test tests::auth_ancestor_widening_and_exact_expiry ... ok
+test tests::wire_integer_and_request_validation ... ok
+test tests::pages_and_single_record_missing_values ... ok
+test tests::indirect_signer_and_forged_callback_are_denied ... ok
+test tests::authenticated_replay_after_revocation_does_not_dispatch_again ... ok
+test tests::storage_schema_maxima_and_runtime_overhead ... ok
+test tests::recovery_reserve_decreases_only_for_recovery_slots ... ok
+test tests::full_ledger_scenario_with_failed_receipt_and_owner_refund ... ok
+test tests::revoke_pending_failure_restores_source_then_reclaim ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.24s
+

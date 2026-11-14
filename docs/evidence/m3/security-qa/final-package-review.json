@@ -1,0 +1,163 @@
+{
+  "review": "Final G3 metadata package review",
+  "reviewed_exact_commit": "af444fc12695efabef698977651f5549b58325e6",
+  "previously_reviewed_candidate": "665874f445a23a1a35db09f0c5cb6b9e803eac88",
+  "reviewed_at_utc": "2026-11-13T13:42:49.904035+00:00",
+  "reviewer": {
+    "role": "Independent Security QA",
+    "agent": "/root/security_m0",
+    "accepted_launch_model": "gpt-6-astra",
+    "accepted_effort": "max",
+    "effective_model_and_effort_telemetry": "UNKNOWN"
+  },
+  "scope": "Read-only diff, source/artifact digests and documentary accuracy. No application test suite, browser session, dependency scan or Gitleaks scan executed in this follow-up.",
+  "checks": {
+    "diff_files": 19,
+    "files_checked": [
+      {
+        "path": "README.md",
+        "sha256": "78d04ad7e9640776c966ad292f9cba8a261809136267b5185f807c619152d644"
+      },
+      {
+        "path": "docs/DEPENDENCY_REVIEW.md",
+        "sha256": "f68dbedc1db59cdf143b9d10d254d68c08be14dfb304fcd3b292f8be8fcc2bda"
+      },
+      {
+        "path": "docs/G3_REVIEW.md",
+        "sha256": "e5bff978180d3490c2c463054bbc2fcaef3c22ef90f2f98665e2ecee199b0b3e"
+      },
+      {
+        "path": "docs/STATUS.md",
+        "sha256": "ea308f209e272e43b1ad8132e7264427f86adb34a933c180b8738585cfe9b40e"
+      },
+      {
+        "path": "docs/evidence/m3/integrator-checks.json",
+        "sha256": "f167344faf6ba53eeaf53f7984b6f69ea51166060c41b8280857d8ee8defd8dc"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/delta-run.json",
+        "sha256": "c6249e89fa02af7f9884092fe3903b3e514bacb17b263bf6bde1cdf5098f3c26"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/delta.json",
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/delta.log",
+        "sha256": "529c3ba29e70a212d226115456550902f0f175bfd1d9c2bc3c0017c0ce75ff5c"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/history.json",
+        "sha256": "cf68fa4aa93b95cc3c72eecdde4aa03e51e3cf36b82ce7c3183e1db82b61c794"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/history.log",
+        "sha256": "b0b348c35fad9058c36963eb075a668f378a7545d5f2a2de960271eb79e89e8f"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/run.json",
+        "sha256": "eb97b059cbef625adc55e545e6759acd46e0e70a57120913222e1aebe2783f67"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/scan_release.py",
+        "sha256": "dcfbbb43fb0a24a588aa401420a7a4f970993f795fbfe61d444a64757ba57bae"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/source.json",
+        "sha256": "4608cc5fd4b05a6b3b4a6c4130125a5df53b93546b373dcc956671c75059c188"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/source.log",
+        "sha256": "15c0e8174b5cdb10787196e1aa63749f001072ec36515d150f13f320323fec84"
+      },
+      {
+        "path": "docs/evidence/m3/secrets/triage.json",
+        "sha256": "dbe8df20170dd4c5e3ae9e0a3decac7fa549c4323b401f588a1c48d80cf545e9"
+      },
+      {
+        "path": "docs/evidence/m3/security-qa/release-evidence-check.json",
+        "sha256": "17e88785f606fc76e721358af00270a37c723fc324350c18d6b2e3a5fd096c0f"
+      },
+      {
+        "path": "docs/evidence/m3/security-qa/review_evidence.py",
+        "sha256": "026a46c563227b525db1f47d84e6175de7d1da69054888617eb0a905e60c3bd0"
+      },
+      {
+        "path": "docs/evidence/m3/security-qa/security-release-review.json",
+        "sha256": "31e002a848cb05b3ab97920aba741c8c469126b8b65361cb316d7ffd7d188cd0"
+      },
+      {
+        "path": "docs/release/SUBMISSION.md",
+        "sha256": "6bddabc9e79b402d3f161f0546098a9c1c31a4de38fc4bdab842cf4e6f09c5ba"
+      }
+    ],
+    "original_qa_artifacts_copied_without_changes": [
+      {
+        "path": "docs/evidence/m3/security-qa/security-release-review.json",
+        "sha256": "31e002a848cb05b3ab97920aba741c8c469126b8b65361cb316d7ffd7d188cd0",
+        "identical_to_original_qa_output": true
+      },
+      {
+        "path": "docs/evidence/m3/security-qa/release-evidence-check.json",
+        "sha256": "17e88785f606fc76e721358af00270a37c723fc324350c18d6b2e3a5fd096c0f",
+        "identical_to_original_qa_output": true
+      },
+      {
+        "path": "docs/evidence/m3/security-qa/review_evidence.py",
+        "sha256": "026a46c563227b525db1f47d84e6175de7d1da69054888617eb0a905e60c3bd0",
+        "identical_to_original_qa_output": true
+      }
+    ],
+    "README_and_submission_match_previously_reviewed_corrected_draft": true,
+    "Low_G3_DOC_01": "RESOLVED in immutable final commit; full ancestor checks are described specifically for new delegation/spend.",
+    "runtime_unchanged_from": "1ea24af7c97db1733d920a2949d681218d24687f",
+    "runtime_related_documentation_only_differences": [
+      "scripts/README.md",
+      "tests/evidence/g3-native-mac.md"
+    ],
+    "observed_local_main": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+    "no_remote_configured": true,
+    "licenses_and_demo_and_attributions_unchanged": true,
+    "tracked_worktree_clean": true
+  },
+  "scan_scope_review": {
+    "underlying_history_and_source": "Retained previous reviewed scan at665874f:41then-reachable commits and460exact tracked files; both exit1 with5public checksum false positives,0confirmed secrets among the reported matches. Raw JSON hashes equal the previously independently reviewed files.",
+    "subsequent_staged_delta": {
+      "input_files": 16,
+      "recorded_exit": 0,
+      "recorded_findings": 0,
+      "all_16_scanned_snapshot_digests_verified": true,
+      "unchanged_in_final": 13
+    },
+    "three_documents_updated_after_delta_scan": [
+      "docs/DEPENDENCY_REVIEW.md",
+      "docs/G3_REVIEW.md",
+      "docs/STATUS.md"
+    ],
+    "manual_post_scan_delta_assessment": "Read exact scanned-to-final diffs: only accurate outcome text and public evidence links for the16-file scan and QA review. No newly introduced credential material observed. These final bytes are manually reviewed, not claimed scanner-covered.",
+    "generated_after_delta_scan_and_read_manually": [
+      "docs/evidence/m3/secrets/delta-run.json",
+      "docs/evidence/m3/secrets/delta.json",
+      "docs/evidence/m3/secrets/delta.log"
+    ],
+    "new_output_assessment": "delta.json is an empty finding array; log records no leaks; delta-run records command, exits, paths and public input digests. Scope excludes generated result files as stated.",
+    "limitation": "No claim that whole final history/source received an exit0 scanner result, nor proof that every possible secret is absent."
+  },
+  "release_claims_review": {
+    "prior_QA_summary_and_test_attribution": "Accurate; retained tests are not represented as newly rerun by this QA.",
+    "model_telemetry": "Accepted launch parameters remain distinguished from unknown effective telemetry.",
+    "license": "MIT OR Apache-2.0 remains a proposal awaiting owner decision; no approval is asserted.",
+    "public_actions": "No G3 publication/submission approval asserted; local main stays at approved G2.",
+    "remaining_inputs": "Actual video, exact license/release decision, repository destination/public URLs, owner X post and private submission metadata/consent and separate authorizations remain pending as recorded.",
+    "retained_risks": "G2 operational/security/dependency limits remain explicit and unchanged."
+  },
+  "new_findings": [],
+  "verdict": "ACCEPT exactaf444fc as the owner-review G3 package. Existing independent runtime recommendation continues to apply to unchanged G2 code. This attestation does not grant owner G3 approval, main advancement, publication, license approval or submission authority.",
+  "executed_checks": {
+    "command": "python3 read-only final package verification (this tool invocation)",
+    "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g3",
+    "result": "All assertions passed",
+    "exit_code": 0
+  },
+  "write_scope": "Only this JSON attestation under .cache/g3; no tracked files changed."
+}

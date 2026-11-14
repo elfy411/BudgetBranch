@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-13T13:35:06.205925+00:00",
+  "reviewed_document_candidate": "665874f445a23a1a35db09f0c5cb6b9e803eac88",
+  "approved_main": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+  "main_matches_approval": true,
+  "approved_document_hashes_verified_from_git": true,
+  "all_four_frozen_documents_match": true,
+  "runtime_trees_unchanged": {
+    "contracts": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+    "sdk": "bdd9a33e07ee30e2cbc78f159beb47e3a74cb33e",
+    "agents": "fbef5871dd5dba9efa6c1a182ddfdb2e99783eaa",
+    "web": "92564b13fb7490d961649908075e77454bc0e25f"
+  },
+  "scripts_runtime_unchanged": true,
+  "tests_runtime_unchanged": true,
+  "clean_mac_evidence_files_verified": 28,
+  "remote_configured": false,
+  "public_actions_performed": false,
+  "integrator_actual_model": "UNKNOWN",
+  "integrator_actual_effort": "UNKNOWN"
+}

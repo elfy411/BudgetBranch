@@ -1,0 +1,114 @@
+{
+  "source_commit": "826803d658bf3bddd8f2d7ef03869c2da8e7d4f7",
+  "method": "npm11.9.0 audit, registry.npmjs.org, lockfile-only; no fix or install",
+  "sources": [
+    "https://docs.npmjs.com/cli/v11/commands/npm-audit/"
+  ],
+  "checks": [
+    {
+      "package": "sdk",
+      "argv": [
+        "npm",
+        "--prefix",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/sdk",
+        "audit",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--json"
+      ],
+      "started_at": "2026-11-13T11:08:22.533793+00:00",
+      "exit_code": 0,
+      "lock_sha256": "7dc02cc9b487203db46f61f4b56c31a5fd5943431b53cef052b01b89cab74375",
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 1,
+          "dev": 1,
+          "optional": 0,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 1
+        }
+      },
+      "error": null,
+      "lock_changed": false
+    },
+    {
+      "package": "agents",
+      "argv": [
+        "npm",
+        "--prefix",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/agents",
+        "audit",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--json"
+      ],
+      "started_at": "2026-11-13T11:08:22.534280+00:00",
+      "exit_code": 0,
+      "lock_sha256": "c32a3db28322da11e1a3f6f73a1c2b4634009cce76e52c4adca105216ab1fbbb",
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 3,
+          "dev": 3,
+          "optional": 0,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 5
+        }
+      },
+      "error": null,
+      "lock_changed": false
+    },
+    {
+      "package": "web",
+      "argv": [
+        "npm",
+        "--prefix",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/web",
+        "audit",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--json"
+      ],
+      "started_at": "2026-11-13T11:08:22.537283+00:00",
+      "exit_code": 0,
+      "lock_sha256": "1941b4eb6e41ae7df39a5fda5014b7ffa6c2c23e51350c84b17c64ac740ee225",
+      "metadata": {
+        "vulnerabilities": {
+          "info": 0,
+          "low": 0,
+          "moderate": 0,
+          "high": 0,
+          "critical": 0,
+          "total": 0
+        },
+        "dependencies": {
+          "prod": 7,
+          "dev": 51,
+          "optional": 34,
+          "peer": 0,
+          "peerOptional": 0,
+          "total": 57
+        }
+      },
+      "error": null,
+      "lock_changed": false
+    }
+  ]
+}

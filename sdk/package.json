@@ -1,0 +1,23 @@
+{
+  "name": "@budgetbranch/sdk",
+  "version": "0.1.0",
+  "license": "MIT OR Apache-2.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "fixtures"],
+  "scripts": {
+    "check:abi": "node scripts/check-abi.mjs",
+    "build": "npm run check:abi && tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

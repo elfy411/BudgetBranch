@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-13T14:29:51.646090+00:00",
+  "scan_exit": 1,
+  "reported_findings": 1,
+  "reported_file": "docs/evidence/m3/licensing/license-evidence-check.json",
+  "reported_line": 715,
+  "field": "secret_scan_record_sha256",
+  "classification": "FALSE POSITIVE: recomputed SHA-256 of the retained public licensing scan record, not a credential",
+  "artifact": "docs/evidence/m3/licensing/secret-run.json",
+  "sha256": "aaf91e8c007de49529d59a562a1604811dc8e0d43bd699e610cd9e69ee35292b",
+  "recomputed_match": true,
+  "confirmed_secrets": 0,
+  "unresolved_findings": 0,
+  "suppression_added": false,
+  "raw_report_preserved": true,
+  "scope_note": "Final11-file metadata scan; this triage/output and final outcome wording were produced afterward and inspected as metadata."
+}

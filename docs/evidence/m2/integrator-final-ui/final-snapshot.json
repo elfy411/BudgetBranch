@@ -1,0 +1,165 @@
+{
+  "block_height": "3009",
+  "block_timestamp_ns": "1794569773869010000",
+  "budget": {
+    "protocol_version": "0.1.0",
+    "owner_id": "owner.test.near",
+    "root_id": "0",
+    "funded": "10000000000000000000000000",
+    "free": "3000000000000000000000000",
+    "pending": "0",
+    "spent": "2000000000000000000000000",
+    "returned": "5000000000000000000000000",
+    "operational_funding": "24926943689322260100000000",
+    "operational_buffer": "100000000000000000000000",
+    "storage_required": "3381190000000000000000000",
+    "recovery_storage_reserved": "13014980000000000000000000",
+    "physical_liquid": "3070418777664141600000000",
+    "grant_count": 4,
+    "payment_count": 4,
+    "request_count": 9,
+    "spend_count": 3,
+    "owner_refund_count": 1,
+    "normal_request_count": 6,
+    "recovery_request_count": 3
+  },
+  "grants": [
+    {
+      "grant_id": "0",
+      "parent_id": null,
+      "delegatee_id": "owner.test.near",
+      "depth": 0,
+      "max_depth": 3,
+      "allowed_receivers": [
+        "accept.test.near",
+        "reject.test.near"
+      ],
+      "expires_at_ns": "18446744073709551615",
+      "revoked": false,
+      "effective_status": "active",
+      "blocked_by": null,
+      "allocation": "10000000000000000000000000",
+      "free": "0",
+      "child_reserved": "5000000000000000000000000",
+      "pending": "0",
+      "spent": "0",
+      "returned": "5000000000000000000000000"
+    },
+    {
+      "grant_id": "1",
+      "parent_id": "0",
+      "delegatee_id": "agent-a.test.near",
+      "depth": 1,
+      "max_depth": 3,
+      "allowed_receivers": [
+        "accept.test.near",
+        "reject.test.near"
+      ],
+      "expires_at_ns": "18446744073709551615",
+      "revoked": true,
+      "effective_status": "revoked",
+      "blocked_by": "1",
+      "allocation": "6000000000000000000000000",
+      "free": "0",
+      "child_reserved": "1000000000000000000000000",
+      "pending": "0",
+      "spent": "0",
+      "returned": "5000000000000000000000000"
+    },
+    {
+      "grant_id": "2",
+      "parent_id": "0",
+      "delegatee_id": "agent-b.test.near",
+      "depth": 1,
+      "max_depth": 1,
+      "allowed_receivers": [
+        "accept.test.near"
+      ],
+      "expires_at_ns": "1794679200000000000",
+      "revoked": false,
+      "effective_status": "active",
+      "blocked_by": null,
+      "allocation": "4000000000000000000000000",
+      "free": "3000000000000000000000000",
+      "child_reserved": "0",
+      "pending": "0",
+      "spent": "1000000000000000000000000",
+      "returned": "0"
+    },
+    {
+      "grant_id": "3",
+      "parent_id": "1",
+      "delegatee_id": "child.test.near",
+      "depth": 2,
+      "max_depth": 3,
+      "allowed_receivers": [
+        "accept.test.near",
+        "reject.test.near"
+      ],
+      "expires_at_ns": "18446744073709551615",
+      "revoked": false,
+      "effective_status": "revoked",
+      "blocked_by": "1",
+      "allocation": "4000000000000000000000000",
+      "free": "0",
+      "child_reserved": "0",
+      "pending": "0",
+      "spent": "1000000000000000000000000",
+      "returned": "3000000000000000000000000"
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "1",
+      "kind": "spend",
+      "grant_id": "3",
+      "caller_id": "child.test.near",
+      "request_id": "076afddd-8120-4833-a263-d2b39b269e37",
+      "receiver_id": "accept.test.near",
+      "amount": "1000000000000000000000000",
+      "status": "succeeded",
+      "failure_code": null,
+      "created_at_ns": "1794569542678104000",
+      "settled_at_ns": "1794569542918035000"
+    },
+    {
+      "payment_id": "2",
+      "kind": "spend",
+      "grant_id": "3",
+      "caller_id": "child.test.near",
+      "request_id": "711a337d-4883-4ed8-a283-1670a36cec3d",
+      "receiver_id": "reject.test.near",
+      "amount": "1000000000000000000000000",
+      "status": "failed",
+      "failure_code": "ERR_RECEIVER_FAILED",
+      "created_at_ns": "1794569576616864000",
+      "settled_at_ns": "1794569576874756000"
+    },
+    {
+      "payment_id": "3",
+      "kind": "spend",
+      "grant_id": "2",
+      "caller_id": "agent-b.test.near",
+      "request_id": "6219afbd-f728-4db7-a932-151c84518d08",
+      "receiver_id": "accept.test.near",
+      "amount": "1000000000000000000000000",
+      "status": "succeeded",
+      "failure_code": null,
+      "created_at_ns": "1794569617962552000",
+      "settled_at_ns": "1794569618221967000"
+    },
+    {
+      "payment_id": "4",
+      "kind": "owner_refund",
+      "grant_id": "0",
+      "caller_id": "owner.test.near",
+      "request_id": "07f1f9c8-80ed-41e4-bd59-6d379b568ee3",
+      "receiver_id": "owner.test.near",
+      "amount": "5000000000000000000000000",
+      "status": "succeeded",
+      "failure_code": null,
+      "created_at_ns": "1794569651801507000",
+      "settled_at_ns": "1794569652060270000"
+    }
+  ]
+}

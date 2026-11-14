@@ -1,0 +1,217 @@
+{
+  "recorded_at_utc": "2026-11-13T08:39:48.054789+00:00",
+  "client_timezone": "America/New_York",
+  "checks": [
+    {
+      "argv": [
+        "uname",
+        "-srm"
+      ],
+      "path": "/usr/bin/uname",
+      "exit_code": 0,
+      "stdout": "Darwin 25.3.0 arm64",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "sw_vers"
+      ],
+      "path": "/usr/bin/sw_vers",
+      "exit_code": 0,
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.3.1\nProductVersionExtra:\t(a)\nBuildVersion:\t\t25D771280a",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/git",
+      "exit_code": 0,
+      "stdout": "git version 2.53.0",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "rustc",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/rustc",
+      "exit_code": 0,
+      "stdout": "rustc 1.94.0 (4a4ef493e 2026-03-02) (Homebrew)",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "cargo",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/cargo",
+      "exit_code": 0,
+      "stdout": "cargo 1.94.0 (Homebrew)",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "rustup",
+        "--version"
+      ],
+      "path": null,
+      "exit_code": 127,
+      "stdout": "",
+      "stderr": "Executable not present in PATH"
+    },
+    {
+      "argv": [
+        "node",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/node",
+      "exit_code": 0,
+      "stdout": "v25.8.1",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "npm",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/npm",
+      "exit_code": 0,
+      "stdout": "11.11.0",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "pnpm",
+        "--version"
+      ],
+      "path": "/opt/homebrew/bin/pnpm",
+      "exit_code": 0,
+      "stdout": "10.32.1",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "--version"
+      ],
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3",
+      "exit_code": 0,
+      "stdout": "Python 3.10.2",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "--version"
+      ],
+      "path": "/usr/local/bin/docker",
+      "exit_code": 0,
+      "stdout": "Docker version 29.8.2, build 7fc2dff",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "docker",
+        "info",
+        "--format",
+        "{{.ServerVersion}}"
+      ],
+      "path": "/usr/local/bin/docker",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "failed to connect to the docker API at unix:///REDACTED_USER_HOME/.orbstack/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /REDACTED_USER_HOME/.orbstack/run/docker.sock: connect: no such file or directory"
+    },
+    {
+      "argv": [
+        "near",
+        "--version"
+      ],
+      "path": null,
+      "exit_code": 127,
+      "stdout": "",
+      "stderr": "Executable not present in PATH"
+    },
+    {
+      "argv": [
+        "near-sandbox",
+        "--version"
+      ],
+      "path": null,
+      "exit_code": 127,
+      "stdout": "",
+      "stderr": "Executable not present in PATH"
+    },
+    {
+      "argv": [
+        "cargo-near",
+        "--version"
+      ],
+      "path": null,
+      "exit_code": 127,
+      "stdout": "",
+      "stderr": "Executable not present in PATH"
+    },
+    {
+      "argv": [
+        "codex",
+        "--version"
+      ],
+      "path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+      "exit_code": 0,
+      "stdout": "codex-cli 0.167.0-alpha.4.1",
+      "stderr": "WARNING: proceeding, even though we could not create PATH aliases: Operation not permitted (os error 1)"
+    },
+    {
+      "argv": [
+        "xcode-select",
+        "-p"
+      ],
+      "path": "/usr/bin/xcode-select",
+      "exit_code": 0,
+      "stdout": "/Library/Developer/CommandLineTools",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "rustc",
+        "--print",
+        "target-libdir",
+        "--target",
+        "wasm32-unknown-unknown"
+      ],
+      "exit_code": 0,
+      "stdout": "/opt/homebrew/Cellar/rust/1.94.0/lib/rustlib/wasm32-unknown-unknown/lib",
+      "libdir_exists": false
+    },
+    {
+      "argv": [
+        "rustc",
+        "--print",
+        "target-libdir",
+        "--target",
+        "wasm32v1-none"
+      ],
+      "exit_code": 0,
+      "stdout": "/opt/homebrew/Cellar/rust/1.94.0/lib/rustlib/wasm32v1-none/lib",
+      "libdir_exists": false
+    },
+    {
+      "argv": [
+        "rustc",
+        "--crate-type=cdylib",
+        "--target",
+        "wasm32-unknown-unknown",
+        "/var/folders/z6/yczsy3cs0593q85j10frdd9r0000gp/T/budgetbranch-m0-i8anza9u/probe.rs",
+        "-o",
+        "/var/folders/z6/yczsy3cs0593q85j10frdd9r0000gp/T/budgetbranch-m0-i8anza9u/probe.wasm"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "error[E0463]: can't find crate for `std`\n  |\n  = note: the `wasm32-unknown-unknown` target may not be installed\n  = help: consider downloading the target with `rustup target add wasm32-unknown-unknown`\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0463`.",
+      "label": "Toolchain probe, not BudgetBranch contract"
+    }
+  ],
+  "installations_performed": false
+}

@@ -1,0 +1,16 @@
+
+> @budgetbranch/web@0.1.0 test
+> node --disable-warning=ExperimentalWarning --experimental-strip-types --test test/*.test.mjs
+
+✔ the MOCK snapshot conserves business funds at both ledger levels (0.510958ms)
+✔ delegation uses frozen names, exact amounts, sorted recipients and inherited expiry (11.767292ms)
+✔ spend retries keep the same request and report receipt acceptance separately from settlement (0.709291ms)
+✔ deposit attaches principal and preserves a real adapter receipt boundary (0.333667ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 110.711708

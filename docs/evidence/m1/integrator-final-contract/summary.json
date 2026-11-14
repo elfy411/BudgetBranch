@@ -1,0 +1,162 @@
+{
+  "source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "integrated_commit": "9b2a9e7c114130cb68ec7f0d5f8e36ddae24607b",
+  "identical_contracts_tree": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+  "unit_contexts_passed": 15,
+  "real_sandbox_suites": {
+    "cycle": {
+      "records": 15,
+      "initial_transaction_failures": 0,
+      "successful_settlement_callbacks": 2,
+      "max_callback_gas": "2171446876505",
+      "exit_code": 0
+    },
+    "full": {
+      "records": 42,
+      "initial_transaction_failures": 11,
+      "successful_settlement_callbacks": 4,
+      "max_callback_gas": "2181446211317",
+      "exit_code": 0
+    },
+    "capacity": {
+      "records": 211,
+      "initial_transaction_failures": 2,
+      "successful_settlement_callbacks": 513,
+      "max_callback_gas": "2215555669089",
+      "exit_code": 0
+    },
+    "storage-boundary": {
+      "records": 15,
+      "initial_transaction_failures": 2,
+      "successful_settlement_callbacks": 1,
+      "max_callback_gas": "2166676203597",
+      "exit_code": 0
+    },
+    "interleaving": {
+      "records": 14,
+      "initial_transaction_failures": 0,
+      "successful_settlement_callbacks": 2,
+      "max_callback_gas": "2174872253335",
+      "exit_code": 0
+    },
+    "negatives": {
+      "records": 30,
+      "initial_transaction_failures": 15,
+      "successful_settlement_callbacks": 2,
+      "max_callback_gas": "2191107217507",
+      "exit_code": 0
+    },
+    "adversarial": {
+      "records": 16,
+      "initial_transaction_failures": 2,
+      "successful_settlement_callbacks": 1,
+      "max_callback_gas": "2171084637439",
+      "exit_code": 0
+    },
+    "refund-failure": {
+      "records": 11,
+      "initial_transaction_failures": 0,
+      "successful_settlement_callbacks": 1,
+      "max_callback_gas": "2183846602726",
+      "exit_code": 0
+    },
+    "maximum-state": {
+      "records": 46,
+      "initial_transaction_failures": 0,
+      "successful_settlement_callbacks": 2,
+      "max_callback_gas": "2303059466587",
+      "exit_code": 0
+    },
+    "refund-order": {
+      "records": 11,
+      "initial_transaction_failures": 0,
+      "successful_settlement_callbacks": 1,
+      "max_callback_gas": "2172219928783",
+      "exit_code": 0
+    }
+  },
+  "sandbox_binary_sha256": "8e0e1521372b0fce801b7464078c1e95e5a25a0f92ad4b4241451c33fe9e5a2a",
+  "final_global_yocto": {
+    "free": "3000000000000000000000000",
+    "pending": "0",
+    "spent": "2000000000000000000000000",
+    "returned": "5000000000000000000000000"
+  },
+  "normal_caps": {
+    "grant_count": 128,
+    "spend_count": 512,
+    "normal_request_count": 639
+  },
+  "recovery_after_normal_caps": {
+    "recovery_request_count": 128,
+    "owner_refund_count": 1,
+    "no_operational_topup": true
+  },
+  "max_callback_gas": "2303059466587",
+  "callback_prepaid_gas": "30000000000000",
+  "refund_ordering": {
+    "callback_block": "31",
+    "delayed_window_dispatch_test": "not controlled in this native run; synthetic low-balance unit test independently verifies ERR_LIQUIDITY",
+    "label": "actual-refund-ordering",
+    "physical_liquid_after_protocol_refund": "10100448826812628200000000",
+    "refund_block": "31",
+    "refund_strictly_after_callback_block": false,
+    "same_block_order_not_inferred": true,
+    "timeline": [
+      {
+        "executor_id": "dev-20261113100540-32011354747913.test.near",
+        "height": "29",
+        "receipt_id": "GSSoD7ctyBNh92NY58ntdaX2PPRW7TsBDfJk3YZrnjcp",
+        "role": "initiating",
+        "success": true,
+        "timestamp_ns": "1794564343726395000"
+      },
+      {
+        "executor_id": "dev-20261113100541-68502147039720.test.near",
+        "height": "30",
+        "receipt_id": "6BHwBiHu6CEvjHZS5JG8HLPCMuiqmRHwdqG6EwkiAnps",
+        "role": "failed-receiver",
+        "success": false,
+        "timestamp_ns": "1794564343854174000"
+      },
+      {
+        "executor_id": "dev-20261113100540-32011354747913.test.near",
+        "height": "31",
+        "receipt_id": "36HnPGxbkqWoFnboo3fezs2FiccHj6KdwG6FRWUqiJ4n",
+        "role": "protocol-attached-deposit-refund",
+        "success": true,
+        "timestamp_ns": "1794564343977440000"
+      },
+      {
+        "executor_id": "dev-20261113100540-26711751832844.test.near",
+        "height": "31",
+        "receipt_id": "D7mavTub3d4WGGFp8S9qL1h8NYatbLfewV7WmWMR6xvz",
+        "role": "protocol-gas-refund",
+        "success": true,
+        "timestamp_ns": "1794564343977440000"
+      },
+      {
+        "executor_id": "dev-20261113100540-32011354747913.test.near",
+        "height": "31",
+        "receipt_id": "EucH4n9v9QZLG163fDss2Y7UQb5QPri6nHFw6eLju2iR",
+        "role": "successful-failure-settlement-callback",
+        "success": true,
+        "timestamp_ns": "1794564343977440000"
+      },
+      {
+        "executor_id": "dev-20261113100540-26711751832844.test.near",
+        "height": "30",
+        "receipt_id": "CLjbXLhhmErAYboBjY5WknGCUaZEkK8jJSdr9nhWghAb",
+        "role": "protocol-gas-refund",
+        "success": true,
+        "timestamp_ns": "1794564343854174000"
+      }
+    ]
+  },
+  "not_proven": [
+    "Real dispatch inside callback-before-physical-refund window",
+    "Exact timestamp expiry/authenticated duplicate callback/failed callback execution in real Sandbox (unit context coverage only)"
+  ],
+  "independent_security_qa": "IN PROGRESS; integrator rerun does not replace QA",
+  "g1_owner_approval": "PENDING"
+}

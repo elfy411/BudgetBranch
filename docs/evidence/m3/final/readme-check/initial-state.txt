@@ -1,0 +1,23 @@
+## HEAD (no branch)
+bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04
+4de180536eb75ebf3d653c063ef20ef7ba6dadc8
+2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106
+0a5697bd43dfa43413056ce7b6db84908a88c98e
+b206dc73cfd95481a45030192f744c77e8c2953d
+26c3057345a95285a4473f1945adf9a1a991c9c6
+467578bb9b2b936956ffdb1993e0f7e580629557
+Darwin arm64
+ProductName:		macOS
+ProductVersion:		26.3.1
+ProductVersionExtra:	(a)
+BuildVersion:		25D771280a
+absent contracts/target
+absent sdk/node_modules
+absent sdk/dist
+absent agents/node_modules
+absent agents/dist
+absent web/node_modules
+absent web/dist
+absent .cache
+absent .local
+BB_TOOLCHAIN_ROOT=/REDACTED_USER_HOME/Desktop/BudgetBranch

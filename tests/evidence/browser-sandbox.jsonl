@@ -1,0 +1,16 @@
+{"mode":"REAL NEAR SANDBOX","browser":"Chrome/157.0.8103.52","url":"http://127.0.0.1:5387/?network=sandbox&contract=budget.test.near","chainId":"test-chain-bb6e32ff778bc67352"}
+{"boundary":{"foreignOrigin":403,"missingToken":403,"sandboxPatchViaReadProxy":403}}
+{"action":"Fund budget","receipt":{"message":"Deposited 10 NEAR.","tx":"B5ngPBtsXqLoBsGtVRih2dzVFLotXhwe9RgaTEvDJgTg"}}
+{"action":"Delegate","receipt":{"message":"Grant #1 was created.","tx":"7sx1tPkajXUPWS2Mq6pHjn3znbr87KdriaDTfJWFHYJF"}}
+{"action":"Delegate","receipt":{"message":"Grant #2 was created.","tx":"DsQKtrrVsjTyYEQR2BptPVPrgfxTFpW2v1RtBhAB89m7"}}
+{"action":"Delegate","receipt":{"message":"Grant #3 was created.","tx":"6w61frWPEqJQx9yC6b7Fg8FkkN3ur6uNmyWmHsbW58u"}}
+{"action":"Delegate","receipt":{"message":"ERR_INSUFFICIENT_FREE · Contract rejected the request (ERR_INSUFFICIENT_FREE)","tx":"2mkhmhVnhddXhoxFUz97nBFNzdetAavFKfzZg6F46tZY"}}
+{"action":"Spend","receipt":{"message":"ERR_RECIPIENT · Contract rejected the request (ERR_RECIPIENT)","tx":"5SXzJRe2SBodHRfYLC3a6wUkhXAbSyjF2yF5PGCTSeEt"}}
+{"action":"Spend","receipt":{"message":"Spend payment #1 was accepted. Follow its status in Recent payments.","tx":"EGPTVnFgF7wzUo5HX8FRXfKP6YVdoDFtxzHryMStmaWh"}}
+{"action":"Spend","receipt":{"message":"Spend payment #2 was accepted. Follow its status in Recent payments.","tx":"CwMjoeRydhiRLyMzmB5ZUFHvVr2KtzYPcQSKYC76SHFR"}}
+{"action":"Revoke branch","receipt":{"message":"Revocation recorded for grant #1.","tx":"2P7sVgQScWHh3e6nWbakiJghTQJqbkcXT9cMPgoyLFsw"}}
+{"action":"Spend","receipt":{"message":"Spend payment #3 was accepted. Follow its status in Recent payments.","tx":"FrjgQHqaV89ZPNQHXdDdeV3u22UWQhiC7ZsgKawM9iNZ"}}
+{"action":"Reclaim to parent","receipt":{"message":"Reclaimed 3 NEAR from grant #3.","tx":"CPtPuwwCeqjEjg7H9Y3RyYRBDdPA1JGG5D371XfUYM6r"}}
+{"action":"Reclaim to parent","receipt":{"message":"Reclaimed 5 NEAR from grant #1.","tx":"GSNtgbtvk8T7S5xUEsk3QWczCYzN8CAnuYGZYaphpZi2"}}
+{"action":"Refund owner","receipt":{"message":"Refund payment #4 was accepted. Follow its status in Recent payments.","tx":"3rxNACd5rZJfunC2ULDbzsNSxwPFs9TjxYh3srbRv3FG"}}
+{"result":"PASS","mode":"REAL NEAR SANDBOX browser and same-origin bridge","near":{"Logical free":"3","Pending":"0","Spent":"2","Refunded":"5"}}

@@ -1,0 +1,64 @@
+{
+  "candidate": "b191642fce6dd00426fa259fa306647ea8538c1f",
+  "all_match": true,
+  "wasm": {
+    "budgetbranch.wasm": {
+      "sha256": "2c862acc53ae8cd02f6dbf8430c1271ebbf16de27df2e2d5a77c7a52efc5aa23",
+      "size": 334529,
+      "private_checkout_path_present": false,
+      "cargo_remap_prefix_present": true
+    },
+    "demo_receiver.wasm": {
+      "sha256": "40bc851605e5084acdb29d163e0b4c4df50dbd62189da63383e16847171f3655",
+      "size": 155642,
+      "private_checkout_path_present": false,
+      "cargo_remap_prefix_present": true
+    }
+  },
+  "fingerprints": {
+    "budgetbranch": {
+      "file": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts/target/wasm32-unknown-unknown/release/.fingerprint/budgetbranch-aefc7ca54d52037e/lib-budgetbranch.json",
+      "rustflags": [
+        "--cfg",
+        "near",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo=/budgetbranch/cargo",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts=/budgetbranch/contracts"
+      ],
+      "target": 13319784822514572077,
+      "profile": 1634579428605536089
+    },
+    "demo_receiver": {
+      "file": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts/target/wasm32-unknown-unknown/release/.fingerprint/demo-receiver-d526a335b5bdc191/lib-demo_receiver.json",
+      "rustflags": [
+        "--cfg",
+        "near",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo=/budgetbranch/cargo",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts=/budgetbranch/contracts"
+      ],
+      "target": 12057083559903848081,
+      "profile": 1634579428605536089
+    },
+    "near_sdk": {
+      "file": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts/target/wasm32-unknown-unknown/release/.fingerprint/near-sdk-bd8a459b25efa947/lib-near_sdk.json",
+      "rustflags": [
+        "--cfg",
+        "near",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo=/budgetbranch/cargo",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts=/budgetbranch/contracts"
+      ],
+      "target": 13416291377482406990,
+      "profile": 14916112496797486120
+    },
+    "near_sdk_env": {
+      "file": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts/target/wasm32-unknown-unknown/release/.fingerprint/near-sdk-env-929db65eb0377485/lib-near_sdk_env.json",
+      "rustflags": [
+        "--cfg",
+        "near",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/cargo=/budgetbranch/cargo",
+        "--remap-path-prefix=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts=/budgetbranch/contracts"
+      ],
+      "target": 9290099095620526607,
+      "profile": 14916112496797486120
+    }
+  }
+}

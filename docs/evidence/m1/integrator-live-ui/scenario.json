@@ -1,0 +1,106 @@
+{
+  "classification": "REAL native Sandbox, manual browser forms through CUA; not MOCK",
+  "code_commit": "e69b0257d520bfedaf02bdc30ceaee62af0337ad",
+  "integrated_as": "5f5a29ab7a71950b06c9bc5fe52ac16629b31925",
+  "command": "BB_TOOLCHAIN_ROOT=/REDACTED_USER_HOME/Desktop/BudgetBranch BB_WEB_PORT=5189 ./scripts/mac.sh web --offline",
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-integration",
+  "url": "http://127.0.0.1:5189/?network=sandbox&contract=budget.test.near",
+  "chain_id": "test-chain-bb6901cd00ddc4a5d4",
+  "final_observed_block": 4084,
+  "final_observed_block_time_utc": "2026-11-13T10:38:03Z",
+  "transactions": [
+    {
+      "step": "deposit10",
+      "transaction_hash": "EELyo6RFrzrYSxhApJA1JwDoKgW62eAKwWTxRYPn7RMY",
+      "observed_result": "success"
+    },
+    {
+      "step": "delegate A6",
+      "transaction_hash": "EqPEhkLmQfMwQ9Zv5F94Nqky6pxEtX4sd3he6TJ6CtKe",
+      "observed_result": "grant1"
+    },
+    {
+      "step": "delegate B4, allowlist accept only",
+      "transaction_hash": "BMCYdDeDfUYKCezfdCAa8WAZkKxBwSRqvTPvUxF1mSxk",
+      "observed_result": "grant2"
+    },
+    {
+      "step": "A delegates child4",
+      "transaction_hash": "GorTpq3o1jELzFeG6bDbChmWJqp19jG9GYozrFaNXCv",
+      "observed_result": "grant3"
+    },
+    {
+      "step": "second child4 rejected",
+      "transaction_hash": "G3vHvgf8uJ94sbYmnVz7ZZpNKE5gmTFtrmLgTZ1VQKop",
+      "observed_result": "ERR_INSUFFICIENT_FREE"
+    },
+    {
+      "step": "child spend1 accept",
+      "transaction_hash": "2AqMhGEh4WHwWkHWcHEbQboETd84yT2r5ESi6n4kXfpa",
+      "observed_result": "payment1 Pending -> Succeeded"
+    },
+    {
+      "step": "child spend1 stranger rejected",
+      "transaction_hash": "GgUA3GbzJWjcB3Cz1reoRwLa3MZsQuXqMLcpJyoxR61h",
+      "observed_result": "ERR_RECIPIENT"
+    },
+    {
+      "step": "child spend1 reject",
+      "transaction_hash": "AxGpSKG4UC6XiwDeYreT6m2adquQ8uMydTedgCV9yToD",
+      "observed_result": "payment2 Pending -> Failed ERR_RECEIVER_FAILED"
+    },
+    {
+      "step": "revoke A",
+      "transaction_hash": "gQitNsEQyyGnejk6rnGQsTZZUULNRFMZBV4gzuKjGfs",
+      "observed_result": "child inherits revocation; spend disabled"
+    },
+    {
+      "step": "B spend1 accept after A revoke",
+      "transaction_hash": "J4RUqLdExQsbEHHn9kaJNmYeDbqwfuL6Dj5XsjKA5zBt",
+      "observed_result": "payment3 Pending -> Succeeded"
+    },
+    {
+      "step": "reclaim child3",
+      "transaction_hash": "FdiG8LBxzaTXR58NZkB43aYZidxcxMf54DX57QQGueTo",
+      "observed_result": "reclaimed3"
+    },
+    {
+      "step": "reclaim A5",
+      "transaction_hash": "F3dcmo9kRgNoKnx3YNngCXK3LMJmeP2JrdW7VJfBx6gM",
+      "observed_result": "reclaimed5"
+    },
+    {
+      "step": "refund owner5",
+      "transaction_hash": "7SYE4yB82Uw7X9Zxaz2Ba7NLxxSFQAjiM5AWVo2cWLQm",
+      "observed_result": "payment4 Pending -> Succeeded"
+    }
+  ],
+  "transaction_count": 13,
+  "initial_onchain_rejections": 2,
+  "settled_payments": 4,
+  "final_ledger_near": {
+    "funded": "10",
+    "free": "3",
+    "pending": "0",
+    "spent": "2",
+    "returned": "5"
+  },
+  "final_physical_spendable_near": "3.0704187776641416",
+  "cleanup": {
+    "action": "Ctrl-C on own server session9147",
+    "exit_code": 130
+  },
+  "notes": [
+    "Finalized snapshots update asynchronously; manual Refresh snapshot observed final settled state.",
+    "One selector expected a different revocation label; actual UI showed Inherits revocation from grant #1 and disabled Spend.",
+    "A premature click on disabled Refund owner timed out before finalized snapshot arrived; no extra transaction was submitted.",
+    "The physical-liquidity number wrapped its final digit at1265px; cosmetic follow-up assigned separately.",
+    "A final screenshot was visually inspected in CUA output; no separate file path was returned.",
+    "UI receipts were transcribed from observed browser text. Raw SDK/contract/QA receipt evidence is retained separately."
+  ],
+  "cosmetic_followup": {
+    "source_commit": "cf36ae1facdec4c9ac7f02a0a435247ec65afc5a",
+    "accepted_integration_commit": "51b161465a509c117f39487972c24128393651a8",
+    "verification": "Independent web build/test exit0; worker browser observed1265px explicit MOCK fixture. No second full-chain scenario claimed for a display-only delta."
+  }
+}

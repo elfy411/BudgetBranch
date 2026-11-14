@@ -1,0 +1,25 @@
+{
+  "contract_source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "contract_source_tree": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+  "rustc": "1.95.0 (59807616e 2026-04-14)",
+  "host": "aarch64-apple-darwin",
+  "target": "wasm32-unknown-unknown",
+  "cargo_flags": ["build", "--locked", "--release", "--target", "wasm32-unknown-unknown", "-p", "budgetbranch", "-p", "demo-receiver"],
+  "target_rustflags": ["--cfg", "near", "--remap-path-prefix=<CARGO_HOME>=/budgetbranch/cargo", "--remap-path-prefix=<checkout>/contracts=/budgetbranch/contracts"],
+  "source_sha256": {
+    ".cargo/config.toml": "de1e374155d85efbf408f021a19318819ef1c235f6844495c0601dcb99da462f",
+    "Cargo.lock": "b3c1f6f3287d4864b308f6907153dfbf52feb5e30e240725a7370dc91bb0c86a",
+    "Cargo.toml": "c3e57a779c1a316befe97d19e4d27ed712d6cf7925347a27bf73934bde5fe787",
+    "rust-toolchain.toml": "92d5d2a9e415ada6c5959ddf40deecb8e3dde0319f377b285ddcb8f2267bb0ee",
+    "near-build.rs": "d9c7ccb8bf7ceea7b0591c4b993fc2e74234bfb373fcc504653e1b75ca86150a",
+    "budgetbranch/Cargo.toml": "ab135f4aa599032e4d31e0e6a9cc539dde875e87e20292ceb667e89d28243623",
+    "budgetbranch/src/lib.rs": "c71ddb1fe49fc8438d5985484b8b2a0f26cfa3e9a5f6f2ace294564f84fc3a99",
+    "budgetbranch/src/model.rs": "2a6c3525e111f3089fe97076cfe788be4112f72533e461e806c3818595a6dffb",
+    "demo-receiver/Cargo.toml": "b6744f706503921451efe65dc740d5662d403f982ebf25cf6def4147ecce003f",
+    "demo-receiver/src/lib.rs": "abb4739ab86dc715b9fa6f59d557062ebde81d6a378444a872445b4c2fb6a10a"
+  },
+  "wasm_sha256": {
+    "budgetbranch.wasm": "2c862acc53ae8cd02f6dbf8430c1271ebbf16de27df2e2d5a77c7a52efc5aa23",
+    "demo_receiver.wasm": "40bc851605e5084acdb29d163e0b4c4df50dbd62189da63383e16847171f3655"
+  }
+}

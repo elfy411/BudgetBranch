@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "mode": "NEAR_SANDBOX",
+  "steps": 19,
+  "transactions": 18,
+  "directRejections": 6,
+  "near": {
+    "free": "3",
+    "pending": "0",
+    "spent": "2",
+    "returned": "5"
+  }
+}

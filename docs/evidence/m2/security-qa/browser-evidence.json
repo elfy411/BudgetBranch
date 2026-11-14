@@ -1,0 +1,304 @@
+{
+  "candidate": "826803d658bf3bddd8f2d7ef03869c2da8e7d4f7",
+  "browser": "Chrome/157.0.8103.52",
+  "started_at": "2026-11-13T11:20:19.210Z",
+  "finished_at": "2026-11-13T11:20:21.034Z",
+  "evidence": [
+    {
+      "label": "real-browser-cross-origin-session-read",
+      "mode": "Real browser enforcement",
+      "readable": false
+    },
+    {
+      "label": "real-browser-native-rpc-cors",
+      "mode": "Real browser and native Sandbox RPC",
+      "readable": false
+    },
+    {
+      "label": "real-browser-simple-cross-origin-write",
+      "mode": "Real browser + native Sandbox",
+      "response_type": "blocked",
+      "financial_state_unchanged": true
+    },
+    {
+      "label": "real-browser-framing-denial",
+      "mode": "Real browser policy intervention",
+      "intervention": {
+        "source": "security",
+        "level": "error",
+        "text": "Framing 'http://127.0.0.1:5191/' violates the following Content Security Policy directive: \"frame-ancestors 'none'\". The request has been blocked.\n"
+      }
+    },
+    {
+      "label": "exact-one-yocto-browser-rendering",
+      "mode": "Real browser + native Sandbox",
+      "amounts": {
+        "Logical free": "8.999999999999999999999999",
+        "Pending": "0",
+        "Spent": "1.000000000000000000000001",
+        "Refunded": "0"
+      }
+    },
+    {
+      "label": "browser-key-custody-surface",
+      "mode": "Real browser inspection",
+      "local": [],
+      "session": [],
+      "adapterFields": [
+        "accountId",
+        "chainId",
+        "change",
+        "contractId",
+        "network"
+      ],
+      "private_key_material_exposed": false
+    },
+    {
+      "label": "stale-fetch-disables-signing",
+      "mode": "Controlled browser transport fault; real prior Sandbox snapshot",
+      "signing_controls_disabled": true,
+      "last_loaded_ledger_retained": true
+    },
+    {
+      "label": "changed-chain-disables-signing",
+      "mode": "SIMULATED changed status response in real browser",
+      "signing_controls_disabled": true,
+      "last_loaded_ledger_retained": true
+    },
+    {
+      "label": "older-finalized-snapshot-disables-signing",
+      "mode": "SIMULATED older snapshot height in real browser",
+      "signing_controls_disabled": true,
+      "last_loaded_ledger_retained": true
+    },
+    {
+      "label": "untrusted-query-xss-rendering",
+      "mode": "Real browser with malicious URL input",
+      "payload_rendered_as_text": true,
+      "executable_element_present": false,
+      "execution_marker_present": false
+    }
+  ],
+  "before": {
+    "block_height": "6367",
+    "block_timestamp_ns": "1794568818733854000",
+    "budget": {
+      "protocol_version": "0.1.0",
+      "owner_id": "owner.test.near",
+      "root_id": "0",
+      "funded": "10000000000000000000000000",
+      "free": "8999999999999999999999999",
+      "pending": "0",
+      "spent": "1000000000000000000000001",
+      "returned": "0",
+      "operational_funding": "24926943689322260100000000",
+      "operational_buffer": "100000000000000000000000",
+      "storage_required": "3363410000000000000000000",
+      "recovery_storage_reserved": "13025280000000000000000000",
+      "physical_liquid": "9070418777664141599999999",
+      "grant_count": 2,
+      "payment_count": 3,
+      "request_count": 4,
+      "spend_count": 3,
+      "owner_refund_count": 0,
+      "normal_request_count": 4,
+      "recovery_request_count": 0
+    },
+    "grants": [
+      {
+        "grant_id": "0",
+        "parent_id": null,
+        "delegatee_id": "owner.test.near",
+        "depth": 0,
+        "max_depth": 3,
+        "allowed_receivers": [
+          "accept.test.near",
+          "reject.test.near"
+        ],
+        "expires_at_ns": "18446744073709551615",
+        "revoked": false,
+        "effective_status": "active",
+        "blocked_by": null,
+        "allocation": "10000000000000000000000000",
+        "free": "6999999999999999999999999",
+        "child_reserved": "3000000000000000000000000",
+        "pending": "0",
+        "spent": "1",
+        "returned": "0"
+      },
+      {
+        "grant_id": "1",
+        "parent_id": "0",
+        "delegatee_id": "agent-a.test.near",
+        "depth": 1,
+        "max_depth": 1,
+        "allowed_receivers": [
+          "accept.test.near"
+        ],
+        "expires_at_ns": "18446744073709551615",
+        "revoked": false,
+        "effective_status": "active",
+        "blocked_by": null,
+        "allocation": "3000000000000000000000000",
+        "free": "2000000000000000000000000",
+        "child_reserved": "0",
+        "pending": "0",
+        "spent": "1000000000000000000000000",
+        "returned": "0"
+      }
+    ],
+    "payments": [
+      {
+        "payment_id": "1",
+        "kind": "spend",
+        "grant_id": "1",
+        "caller_id": "agent-a.test.near",
+        "request_id": "g2-race",
+        "receiver_id": "accept.test.near",
+        "amount": "1000000000000000000000000",
+        "status": "succeeded",
+        "failure_code": null,
+        "created_at_ns": "1794568190077309000",
+        "settled_at_ns": "1794568190328346000"
+      },
+      {
+        "payment_id": "2",
+        "kind": "spend",
+        "grant_id": "0",
+        "caller_id": "owner.test.near",
+        "request_id": "g2-rejected-receiver",
+        "receiver_id": "reject.test.near",
+        "amount": "1000000000000000000000000",
+        "status": "failed",
+        "failure_code": "ERR_RECEIVER_FAILED",
+        "created_at_ns": "1794568192111066000",
+        "settled_at_ns": "1794568192364663000"
+      },
+      {
+        "payment_id": "3",
+        "kind": "spend",
+        "grant_id": "0",
+        "caller_id": "owner.test.near",
+        "request_id": "g2-one-yocto",
+        "receiver_id": "accept.test.near",
+        "amount": "1",
+        "status": "succeeded",
+        "failure_code": null,
+        "created_at_ns": "1794568193007680000",
+        "settled_at_ns": "1794568193248890000"
+      }
+    ]
+  },
+  "after": {
+    "block_height": "6382",
+    "block_timestamp_ns": "1794568820615052000",
+    "budget": {
+      "protocol_version": "0.1.0",
+      "owner_id": "owner.test.near",
+      "root_id": "0",
+      "funded": "10000000000000000000000000",
+      "free": "8999999999999999999999999",
+      "pending": "0",
+      "spent": "1000000000000000000000001",
+      "returned": "0",
+      "operational_funding": "24926943689322260100000000",
+      "operational_buffer": "100000000000000000000000",
+      "storage_required": "3363410000000000000000000",
+      "recovery_storage_reserved": "13025280000000000000000000",
+      "physical_liquid": "9070418777664141599999999",
+      "grant_count": 2,
+      "payment_count": 3,
+      "request_count": 4,
+      "spend_count": 3,
+      "owner_refund_count": 0,
+      "normal_request_count": 4,
+      "recovery_request_count": 0
+    },
+    "grants": [
+      {
+        "grant_id": "0",
+        "parent_id": null,
+        "delegatee_id": "owner.test.near",
+        "depth": 0,
+        "max_depth": 3,
+        "allowed_receivers": [
+          "accept.test.near",
+          "reject.test.near"
+        ],
+        "expires_at_ns": "18446744073709551615",
+        "revoked": false,
+        "effective_status": "active",
+        "blocked_by": null,
+        "allocation": "10000000000000000000000000",
+        "free": "6999999999999999999999999",
+        "child_reserved": "3000000000000000000000000",
+        "pending": "0",
+        "spent": "1",
+        "returned": "0"
+      },
+      {
+        "grant_id": "1",
+        "parent_id": "0",
+        "delegatee_id": "agent-a.test.near",
+        "depth": 1,
+        "max_depth": 1,
+        "allowed_receivers": [
+          "accept.test.near"
+        ],
+        "expires_at_ns": "18446744073709551615",
+        "revoked": false,
+        "effective_status": "active",
+        "blocked_by": null,
+        "allocation": "3000000000000000000000000",
+        "free": "2000000000000000000000000",
+        "child_reserved": "0",
+        "pending": "0",
+        "spent": "1000000000000000000000000",
+        "returned": "0"
+      }
+    ],
+    "payments": [
+      {
+        "payment_id": "1",
+        "kind": "spend",
+        "grant_id": "1",
+        "caller_id": "agent-a.test.near",
+        "request_id": "g2-race",
+        "receiver_id": "accept.test.near",
+        "amount": "1000000000000000000000000",
+        "status": "succeeded",
+        "failure_code": null,
+        "created_at_ns": "1794568190077309000",
+        "settled_at_ns": "1794568190328346000"
+      },
+      {
+        "payment_id": "2",
+        "kind": "spend",
+        "grant_id": "0",
+        "caller_id": "owner.test.near",
+        "request_id": "g2-rejected-receiver",
+        "receiver_id": "reject.test.near",
+        "amount": "1000000000000000000000000",
+        "status": "failed",
+        "failure_code": "ERR_RECEIVER_FAILED",
+        "created_at_ns": "1794568192111066000",
+        "settled_at_ns": "1794568192364663000"
+      },
+      {
+        "payment_id": "3",
+        "kind": "spend",
+        "grant_id": "0",
+        "caller_id": "owner.test.near",
+        "request_id": "g2-one-yocto",
+        "receiver_id": "accept.test.near",
+        "amount": "1",
+        "status": "succeeded",
+        "failure_code": null,
+        "created_at_ns": "1794568193007680000",
+        "settled_at_ns": "1794568193248890000"
+      }
+    ]
+  },
+  "financial_state_unchanged": true,
+  "result": "PASS"
+}

@@ -1,0 +1,1495 @@
+{
+  "baseline_main": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+  "tested_candidate": "bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04",
+  "scope": "Complete G2-to-tested-G3 delta. Final packet adds documentation/evidence only and is separately identified by its Git commit.",
+  "commits": [
+    {
+      "commit": "adec7f871317db609ad46f7f93247b614fb02e2e",
+      "subject": "Record clean Mac verification for the release candidate"
+    },
+    {
+      "commit": "fce896818a2c665f7959ade3c8e76b7e7d70224d",
+      "subject": "Prepare English G3 release and recording materials"
+    },
+    {
+      "commit": "665874f445a23a1a35db09f0c5cb6b9e803eac88",
+      "subject": "Clarify offline prerequisites and recording evidence"
+    },
+    {
+      "commit": "af444fc12695efabef698977651f5549b58325e6",
+      "subject": "Record independent G3 review and release scan evidence"
+    },
+    {
+      "commit": "780ad89b3351856cb4fafb93c74d763f208310e2",
+      "subject": "Retain final independent G3 package attestation"
+    },
+    {
+      "commit": "0caf90f692ba71ac7d07d006783815665bdd9c7d",
+      "subject": "Include license notices in the web distribution"
+    },
+    {
+      "commit": "d05ebc47ad55452fc0b80e7aef0e9ad08f85e51d",
+      "subject": "Apply approved dual license and preserve dependency terms"
+    },
+    {
+      "commit": "bcfc9f96b02c36df5f1d899270e7c4b7cb8c4e04",
+      "subject": "Record independent license review and evidence mapping"
+    }
+  ],
+  "changed_file_count": 226,
+  "categories": {
+    "Preserve verbatim legal text": 1,
+    "Root license and notice documents": 4,
+    "Documentation and recording materials": 12,
+    "Project license metadata only": 6,
+    "Evidence and review records": 102,
+    "Third-party legal text and provenance": 94,
+    "Web distribution notices": 7
+  },
+  "protected_objects": [
+    {
+      "path": "contracts",
+      "git_object": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+      "unchanged": true
+    },
+    {
+      "path": "sdk/src",
+      "git_object": "04819109c6e201764cb5a858b7cce1e8bb0c7825",
+      "unchanged": true
+    },
+    {
+      "path": "sdk/test",
+      "git_object": "2db83076b106d8cd7ac541ac4f84c132b657dd6a",
+      "unchanged": true
+    },
+    {
+      "path": "sdk/scripts",
+      "git_object": "2165ced40a86136d6f0eb5398d5f6755fb158715",
+      "unchanged": true
+    },
+    {
+      "path": "agents/src",
+      "git_object": "5032da6e98f00f0a8d0d09480a8fef45e81d9ee8",
+      "unchanged": true
+    },
+    {
+      "path": "agents/test",
+      "git_object": "825963962b90851f8998663133ca0b36ad3f215f",
+      "unchanged": true
+    },
+    {
+      "path": "web/src",
+      "git_object": "be9fef0a443a1dedba8e5941100bede78a6cc9e8",
+      "unchanged": true
+    },
+    {
+      "path": "web/test",
+      "git_object": "d8a509331cdeda685c826fa3f09d6dfe35d525ef",
+      "unchanged": true
+    },
+    {
+      "path": "SPEC.md",
+      "git_object": "87e522409edc7d11789cdea6b6f05fd8b10f8edd",
+      "unchanged": true
+    },
+    {
+      "path": "docs/abi.ts",
+      "git_object": "0ccfebce6acbf7c1700f19bc49ab742fc51c6418",
+      "unchanged": true
+    },
+    {
+      "path": "docs/WORK_ALLOCATION.md",
+      "git_object": "7444ecc4f6187f226ae192e0121f84c5d4dbbf42",
+      "unchanged": true
+    },
+    {
+      "path": "PROMPTS_WORKERS_RU.md",
+      "git_object": "ef69c0494e93c9b9a1df851e3895925fdb262a37",
+      "unchanged": true
+    }
+  ],
+  "package_checks": [
+    {
+      "path": "sdk/package.json",
+      "only_project_license_metadata_changed": true
+    },
+    {
+      "path": "sdk/package-lock.json",
+      "only_project_license_metadata_changed": true
+    },
+    {
+      "path": "agents/package.json",
+      "only_project_license_metadata_changed": true
+    },
+    {
+      "path": "agents/package-lock.json",
+      "only_project_license_metadata_changed": true
+    },
+    {
+      "path": "web/package.json",
+      "only_project_license_metadata_changed": true
+    },
+    {
+      "path": "web/package-lock.json",
+      "only_project_license_metadata_changed": true
+    }
+  ],
+  "files": [
+    {
+      "status": "M",
+      "path": ".gitattributes",
+      "category": "Preserve verbatim legal text",
+      "sha256": "fb6a92c8258919cd7bdfa43d73a37366a6a79f2db18681c07a5d52893cb8c4f4"
+    },
+    {
+      "status": "A",
+      "path": "LICENSE",
+      "category": "Root license and notice documents",
+      "sha256": "8f37ff6607c123d655a93e737c3c5c283cf4bd18d56e2d337803525290a10dab"
+    },
+    {
+      "status": "A",
+      "path": "LICENSE-APACHE",
+      "category": "Root license and notice documents",
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb"
+    },
+    {
+      "status": "A",
+      "path": "LICENSE-MIT",
+      "category": "Root license and notice documents",
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745"
+    },
+    {
+      "status": "M",
+      "path": "README.md",
+      "category": "Documentation and recording materials",
+      "sha256": "63659af4a5dbba651a2cbdad7e9a8a3251aefc78eb455a5e0b49c25aa5735e2b"
+    },
+    {
+      "status": "A",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "category": "Root license and notice documents",
+      "sha256": "64b120a2fc45cfd2712dd20d16cd8154dc07bf19e10f3c83a595db4cf4b42c23"
+    },
+    {
+      "status": "M",
+      "path": "agents/package-lock.json",
+      "category": "Project license metadata only",
+      "sha256": "9d1ffa9fdb80659462836337d26ce39c3cc18201bb5e21f9bd69c681a4cb5059"
+    },
+    {
+      "status": "M",
+      "path": "agents/package.json",
+      "category": "Project license metadata only",
+      "sha256": "45f41f577b140f2a0386b24f75ad94e24014d9d3fb8781911eef347452a7f041"
+    },
+    {
+      "status": "M",
+      "path": "docs/DEPENDENCY_REVIEW.md",
+      "category": "Documentation and recording materials",
+      "sha256": "f68dbedc1db59cdf143b9d10d254d68c08be14dfb304fcd3b292f8be8fcc2bda"
+    },
+    {
+      "status": "A",
+      "path": "docs/G2_APPROVAL.md",
+      "category": "Documentation and recording materials",
+      "sha256": "b0117ac6c52b5502ce66143f8facaf0835826275716bc2d2f4a1605dc49eac10"
+    },
+    {
+      "status": "A",
+      "path": "docs/G3_REVIEW.md",
+      "category": "Documentation and recording materials",
+      "sha256": "e94d723b556ae82fb3ca974a406cec6d6acee9eafb1fb9978ea63fbca6c2e018"
+    },
+    {
+      "status": "A",
+      "path": "docs/LICENSE_REVIEW.md",
+      "category": "Documentation and recording materials",
+      "sha256": "4749c1b901cade44edbcda57ed88598e6431bfffe0740f435b46cddffe6b0255"
+    },
+    {
+      "status": "M",
+      "path": "docs/STATUS.md",
+      "category": "Documentation and recording materials",
+      "sha256": "cbbdd93b174f74ebb421b71a8d10fdf4f4a6ae359aa2da994a564fd7ac00ad81"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/agents-cli.command",
+      "category": "Evidence and review records",
+      "sha256": "ed85fc1f94819d7f1da36d2c3dad7adcb9a976e38db3e22c3b6d87008cf1eb32"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/agents-cli.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/agents-cli.stderr.log",
+      "category": "Evidence and review records",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/agents-cli.stdout.log",
+      "category": "Evidence and review records",
+      "sha256": "12ece11b9746ad1c0ee28ec85bfc26086e6012ec6246caa0426e590eb4c07f91"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/bootstrap-reused.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/bootstrap-reused.log",
+      "category": "Evidence and review records",
+      "sha256": "cf525dc810dbf38a41c899dc63481553f8d11275d83f4e9c4474bc0c0229d627"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/manifest.json",
+      "category": "Evidence and review records",
+      "sha256": "1f676384f6ed58fb69bca65b0b98831dc5884de011d8373bfe9c7dd600a2734a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/probe-web.mjs",
+      "category": "Evidence and review records",
+      "sha256": "e1bf62f0e568f0ac7512c3bc7ab38a4ac823586cc1ae7f3cefff54e01d7c41e0"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.command",
+      "category": "Evidence and review records",
+      "sha256": "a3edf3ee680ce49b7c09991c871fd7a500a58b5468ffbef30b331c91bc72b399"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.jsonl",
+      "category": "Evidence and review records",
+      "sha256": "6ad6a2e188feb6008fb6746c86c76181da658035baf8c08c40791ab9eb508982"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.stderr.log",
+      "category": "Evidence and review records",
+      "sha256": "32174270a0fec4fbc7ba0e021214b1ad50fb0407ec3c4a573cd5127deff351fb"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/unit.command",
+      "category": "Evidence and review records",
+      "sha256": "2ed29996d5e13435ebecab01dd717606759a825ac7f12f781f12c51ecc565b5f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/unit.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/unit.log",
+      "category": "Evidence and review records",
+      "sha256": "ad9435be269d04239cb2d431efb1bcb0f3eaca19dcbbe621a22a71778c03c501"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-build.command",
+      "category": "Evidence and review records",
+      "sha256": "5ada97faeff8bf83400195087f03e849288c34661a1f7edb8058e62947b7b061"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-build.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-build.log",
+      "category": "Evidence and review records",
+      "sha256": "1f18fec1c41d21db29ff07175a4e7c4877c7cce2a2d11c1e5e15390244ffc952"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-http.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-http.jsonl",
+      "category": "Evidence and review records",
+      "sha256": "57479bdba29f84d07a543ae590cb622636509014374117902b0ef63e2b399d5e"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-http.stderr.log",
+      "category": "Evidence and review records",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-install.command",
+      "category": "Evidence and review records",
+      "sha256": "633ea167fc699e4f4e28978f6e72039045bd4f060f77dce3f5163124cbce46f4"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-install.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-install.log",
+      "category": "Evidence and review records",
+      "sha256": "17259f6021d530bc287eb60bc272bf1daaf5d2cb78f7e126e52c2fe97dbb404c"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-standalone.log",
+      "category": "Evidence and review records",
+      "sha256": "63f414a926710224ebbacb2ab998fd7c56ae3f84ee2899f74b4fa040a516b066"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-startup.log",
+      "category": "Evidence and review records",
+      "sha256": "ade69ccfa88eaed5e3af4017631a244c44af8426f6e3fdd56b2111bbb0c09676"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-unit.command",
+      "category": "Evidence and review records",
+      "sha256": "4a58fd15474d1736843c1e02552cd276b62e80b1af6905d73884a248493704f4"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-unit.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/clean-mac/web-unit.log",
+      "category": "Evidence and review records",
+      "sha256": "9eb96fefcffa860c4a8ec5ad592bd78b039c330364b8227aeea40cfbf1578ae9"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/g2-approval.json",
+      "category": "Evidence and review records",
+      "sha256": "172ff2da910181bfce8911aa8cefd6582e3038221c5f9c6022bd686bc49fe8df"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/integrator-checks.json",
+      "category": "Evidence and review records",
+      "sha256": "f167344faf6ba53eeaf53f7984b6f69ea51166060c41b8280857d8ee8defd8dc"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/README.md",
+      "category": "Evidence and review records",
+      "sha256": "4d63e16fb27625b5388e6620ad1fc9c3d4f0575744b504c27675ec113487a55b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/artifact-index.json",
+      "category": "Evidence and review records",
+      "sha256": "e46f0fa855b03fe7a3eecc5bd9b33ea18676f5fd06207b3723b89c68e74db9e9"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/budgetbranch-wasm-normal-build-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "ecb0066908f26a98d9ac926462df21ec304b6b9438ec413ac2dd1065c919f301"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/budgetbranch-wasm-normal-no-proc-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "e813cc2b1e28eb1dfdc9d5ab9e46562a869ffcfd34cb1a4210ab1a9bb0b8315b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/cargo-inventory.json",
+      "category": "Evidence and review records",
+      "sha256": "4bc26b8fc5c52d384f45f235839b93bc6b91e333a7e183bf0d98f8c6897b760d"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/cargo-metadata.exit",
+      "category": "Evidence and review records",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/cargo-review.md",
+      "category": "Evidence and review records",
+      "sha256": "46562d72baedcd5a4d243f669e02137d1c91f543b353c305fc76a6283c95eb3a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/check_license_evidence.py",
+      "category": "Evidence and review records",
+      "sha256": "78b24442ee5d13820b98c7fbe9da8bd103665b617cd1a38e491ee0b20ec98d30"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/collect_wasm_notices.py",
+      "category": "Evidence and review records",
+      "sha256": "f4790e3b5581b780d318f2bc9d438530cab2c66bb67a7ba79ae7d78d28872fa6"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/demo-receiver-wasm-normal-build-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "5ece732ae3052acd8a1be814ce50be1493611ee77f94d73686fb69649110e63b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/demo-receiver-wasm-normal-no-proc-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "e58c93bd2c9973bff4f35b250608259368c4df01baebb96d01e7a0040ef34d02"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/final-metadata-findings.json",
+      "category": "Evidence and review records",
+      "sha256": "24e08d0eea6f61758d31034e9cff745b428af21b8bd0538ed27bb40e544ebd8f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/final-metadata-scan.json",
+      "category": "Evidence and review records",
+      "sha256": "e555418336b76e071964d515363bc2a29107c5f30d79bffafca27d285637c88a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/final-metadata-scan.log",
+      "category": "Evidence and review records",
+      "sha256": "830b862c1dfeebd25fc2d01acd04038460238ca424a6515fa0b1dfc7af197a1b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/final-metadata-triage.json",
+      "category": "Evidence and review records",
+      "sha256": "3809e6dc1df2c18189a49e2be025defdc182aa16fc4f06d7d7dd3046172ad417"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/frontend-baseline-build.log",
+      "category": "Evidence and review records",
+      "sha256": "031b60d35bce10532fe8ce8687c7b2f95e3d1b5fd10ea4730c8e834a8a3ba638"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/frontend-dist-comparison.json",
+      "category": "Evidence and review records",
+      "sha256": "da51b9052cf0c124128f0d67fa2f975548f5ffaf6e64de2a144b59534cd62449"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/frontend-notice-sources.json",
+      "category": "Evidence and review records",
+      "sha256": "12d73d053856cd6050083ee1a6b6e719556a000e0a049c7bc4d50c931629e2d9"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/frontend-web-test.log",
+      "category": "Evidence and review records",
+      "sha256": "46836f6599d02e996987ca8e209c360c1a5856076e3064eee7780b3c1015871d"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/frontend-with-notices-build.log",
+      "category": "Evidence and review records",
+      "sha256": "862f49500ea0fb47fecca2eefaed97c749c10ef321b0b65074f14b68c7394ee2"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-agents-ci.log",
+      "category": "Evidence and review records",
+      "sha256": "5b7df8b9527b02de2ff8c9cf3e0692746b9bc1594ba27abb469cbf8e2b70d583"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-run.json",
+      "category": "Evidence and review records",
+      "sha256": "67ec66c540314a13f37ea575077fbba9a7d142570cda3543fadc2e609fec2740"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-sdk-build.log",
+      "category": "Evidence and review records",
+      "sha256": "18c8da083a12ecfc0b5c14251ed41dcc9bdc6a2f1c77cf0a21485988df232f67"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-sdk-ci.log",
+      "category": "Evidence and review records",
+      "sha256": "690859fb44e3836dc26b64b6575c4dab75949f0775e2c203694b7d9781d85a88"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-web-build.log",
+      "category": "Evidence and review records",
+      "sha256": "418bc56860406e40ab0a617402e8dfa79015e68fa3d31ed00dc437ae26c22b0d"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-web-ci.log",
+      "category": "Evidence and review records",
+      "sha256": "111b2714cf26a0f1b2c3e8c51bac501b3ea233df844bb21767f53e186f40286b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/integrator-web-test.log",
+      "category": "Evidence and review records",
+      "sha256": "5082e7b56dfcf19138a6aa17219e6e70b5b05bea716baa17feafc38bae5315ec"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/inventory-summary.json",
+      "category": "Evidence and review records",
+      "sha256": "0443657dd7af44c98df5520166d7ab597a91b5aa8105bf720488fac82cddbcbe"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/inventory.py",
+      "category": "Evidence and review records",
+      "sha256": "d0613396b908637c446a87a470276299c14ca41bde2f2a05cc1d47b37d2479bd"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/license-evidence-check.json",
+      "category": "Evidence and review records",
+      "sha256": "f33fd51ca03264c7ddea62201820aea7a79c57ae524b08ec54e19205a11406cf"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/missing-first.json",
+      "category": "Evidence and review records",
+      "sha256": "60360ce4b5cd35d145dda34ec3e4815f1c80a87fb42e227bab1e6e35f32c4bf5"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/SHA256SUMS",
+      "category": "Evidence and review records",
+      "sha256": "a5d98df9854b0118bce83f696cc002d832d381db34a9800170c16f2452374278"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/aws-lc-sys-0.47.0-LICENSE.txt",
+      "category": "Evidence and review records",
+      "sha256": "728536b4160e051f86d7c9c388f704866b3d512cd7df97ac3516c65279523c4e"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/cfg_aliases-0.2.2-NOTICES.md",
+      "category": "Evidence and review records",
+      "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/foldhash-0.2.0-Zlib.txt",
+      "category": "Evidence and review records",
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/memory_units-0.4.0-MPL-2.0.txt",
+      "category": "Evidence and review records",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-APACHE.txt",
+      "category": "Evidence and review records",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-MIT.txt",
+      "category": "Evidence and review records",
+      "sha256": "8f71659370c5268d9a1dc962a46232540e8fca63462586d8efaa95aab492a208"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE.txt",
+      "category": "Evidence and review records",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-BoringSSL.txt",
+      "category": "Evidence and review records",
+      "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-other-bits.txt",
+      "category": "Evidence and review records",
+      "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE.txt",
+      "category": "Evidence and review records",
+      "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/security-framework-3.7.0-THIRD_PARTY.txt",
+      "category": "Evidence and review records",
+      "sha256": "522fccc56dcbadbe90ab5524a17b8127cde3f951c30c17002641caf44959c22a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/notices/wee_alloc-0.4.5-MPL-2.0.txt",
+      "category": "Evidence and review records",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/npm-inventory.json",
+      "category": "Evidence and review records",
+      "sha256": "b51f3254fcadc941cbf213bacbc3b5ceec65c4f11142e22952c9391141f78b37"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/npm_inventory.py",
+      "category": "Evidence and review records",
+      "sha256": "b7de17e0b1bb13e14cba154a98393adf4f284e6f12a5d1cface4661adb7df0db"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/retain_cargo_notices.py",
+      "category": "Evidence and review records",
+      "sha256": "550c508b691aa1ea6399e12a85981fc853e5788c6ceba416c32f5e9094d6b01c"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/sandbox-harness-host-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "3302b61f8003c95519b3496dcd3c1130eb22bb3385b8910b9f4739713d461c5a"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/scan_delta.py",
+      "category": "Evidence and review records",
+      "sha256": "024e2d78f2ae05dd39f1b433fbce9d62da29dc285e2c6289aa49a0a2e6a059ba"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/scope-and-approval.json",
+      "category": "Evidence and review records",
+      "sha256": "9cc121b2bad432ade5847b78321acff39cd08725d2adae3589f94709bb2bf9ef"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/secret-findings.json",
+      "category": "Evidence and review records",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/secret-run.json",
+      "category": "Evidence and review records",
+      "sha256": "aaf91e8c007de49529d59a562a1604811dc8e0d43bd699e610cd9e69ee35292b"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/secret-scan.log",
+      "category": "Evidence and review records",
+      "sha256": "5d4d55ec348ca735ee0ab2ec27c7db938b6d2fc1d63bd0b7655c12c4a4fb194f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/security-license-review.json",
+      "category": "Evidence and review records",
+      "sha256": "a2a14cb10d26059d312fbcb8dad95ecaaa2e6dfae0f7ab6613eef9bd97b160a6"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/unit-host-tree.txt",
+      "category": "Evidence and review records",
+      "sha256": "c26a979d06bc380f51cee5e223d8309e2962a9178a9973cdeeb1b3ad9b3ce90e"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/verify_metadata_build.py",
+      "category": "Evidence and review records",
+      "sha256": "24879d9e886a7d981c9647caabe7eaa0b58356f2e8ad60cf6cc6c5977004b23f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/licensing/wasm-notice-manifest.json",
+      "category": "Evidence and review records",
+      "sha256": "0a67af54b5955156a6cb4dfcaf3794e084d67a8b5e8115e2176e5d812f1298ce"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/delta-run.json",
+      "category": "Evidence and review records",
+      "sha256": "c6249e89fa02af7f9884092fe3903b3e514bacb17b263bf6bde1cdf5098f3c26"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/delta.json",
+      "category": "Evidence and review records",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/delta.log",
+      "category": "Evidence and review records",
+      "sha256": "529c3ba29e70a212d226115456550902f0f175bfd1d9c2bc3c0017c0ce75ff5c"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/history.json",
+      "category": "Evidence and review records",
+      "sha256": "cf68fa4aa93b95cc3c72eecdde4aa03e51e3cf36b82ce7c3183e1db82b61c794"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/history.log",
+      "category": "Evidence and review records",
+      "sha256": "b0b348c35fad9058c36963eb075a668f378a7545d5f2a2de960271eb79e89e8f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/run.json",
+      "category": "Evidence and review records",
+      "sha256": "eb97b059cbef625adc55e545e6759acd46e0e70a57120913222e1aebe2783f67"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/scan_release.py",
+      "category": "Evidence and review records",
+      "sha256": "dcfbbb43fb0a24a588aa401420a7a4f970993f795fbfe61d444a64757ba57bae"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/source.json",
+      "category": "Evidence and review records",
+      "sha256": "4608cc5fd4b05a6b3b4a6c4130125a5df53b93546b373dcc956671c75059c188"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/source.log",
+      "category": "Evidence and review records",
+      "sha256": "15c0e8174b5cdb10787196e1aa63749f001072ec36515d150f13f320323fec84"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/secrets/triage.json",
+      "category": "Evidence and review records",
+      "sha256": "dbe8df20170dd4c5e3ae9e0a3decac7fa549c4323b401f588a1c48d80cf545e9"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/security-qa/final-package-review.json",
+      "category": "Evidence and review records",
+      "sha256": "450fa821f9ee9ee33335417e6efb92d754677aff2d4ab260512ace8eb4560bd1"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/security-qa/release-evidence-check.json",
+      "category": "Evidence and review records",
+      "sha256": "17e88785f606fc76e721358af00270a37c723fc324350c18d6b2e3a5fd096c0f"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/security-qa/review_evidence.py",
+      "category": "Evidence and review records",
+      "sha256": "026a46c563227b525db1f47d84e6175de7d1da69054888617eb0a905e60c3bd0"
+    },
+    {
+      "status": "A",
+      "path": "docs/evidence/m3/security-qa/security-release-review.json",
+      "category": "Evidence and review records",
+      "sha256": "31e002a848cb05b3ab97920aba741c8c469126b8b65361cb316d7ffd7d188cd0"
+    },
+    {
+      "status": "A",
+      "path": "docs/release/ATTRIBUTIONS.md",
+      "category": "Documentation and recording materials",
+      "sha256": "9cd321a3321c5788a6b9930d6f285ba4bd118c7f9722cbed54097ab053d4e3d9"
+    },
+    {
+      "status": "A",
+      "path": "docs/release/DEMO.md",
+      "category": "Documentation and recording materials",
+      "sha256": "1cb3aa5365871c102e4c3fa7a99d18ae5254a394e8a2b2d6feb1ff661997f7c6"
+    },
+    {
+      "status": "A",
+      "path": "docs/release/SUBMISSION.md",
+      "category": "Documentation and recording materials",
+      "sha256": "6bddabc9e79b402d3f161f0546098a9c1c31a4de38fc4bdab842cf4e6f09c5ba"
+    },
+    {
+      "status": "A",
+      "path": "docs/release/UX_REVIEW.md",
+      "category": "Documentation and recording materials",
+      "sha256": "da9cafcbb1efb140b10289e5c2922a2a55e124347b0a368ae6231ee7352d160a"
+    },
+    {
+      "status": "M",
+      "path": "scripts/README.md",
+      "category": "Documentation and recording materials",
+      "sha256": "a6d6d4373877d6d653e19b1964b85279cdb13b05380c217d192d28123e4de4ae"
+    },
+    {
+      "status": "M",
+      "path": "sdk/package-lock.json",
+      "category": "Project license metadata only",
+      "sha256": "0b373c53653f8ba1b63c1b8f7d0f0f48a6ba323fa6b55b77917c0abb2ddb07ca"
+    },
+    {
+      "status": "M",
+      "path": "sdk/package.json",
+      "category": "Project license metadata only",
+      "sha256": "ea958e58a81ecf219776a16607d3f757f0873fc9ee74cb4a74a49c8a2ffe994c"
+    },
+    {
+      "status": "A",
+      "path": "tests/evidence/g3-native-mac.md",
+      "category": "Documentation and recording materials",
+      "sha256": "ccb59a894eaa864f9caf80460ceef0d42aa8c7142f325f895e40a004a2732338"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/base64-0.22.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/base64-0.22.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/base64-0.23.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/base64-0.23.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/block-buffer-0.12.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/block-buffer-0.12.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "98181e7249d0c01737645ec982499ce99a0f07eb8f7d625b8840d799d10dbc01"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/borsh-1.8.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "7b724c8fa4a82af733caccabdaa21e2bf8bcb0822fe62d5cf03f99d458438705"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/borsh-1.8.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/bs58-0.5.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/bs58-0.5.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "42d3bf7e7d4d49d72c0555d14ed99c3ee7ce9ce3cbffbc38bbafe8c103f50969"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/cfg-if-0.1.10/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/cfg-if-0.1.10/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/crypto-common-0.2.2/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/crypto-common-0.2.2/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "d2e7ec5355c96eeade56b09187ceb48a6a30299da3ce7531a66d3d11405ab963"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/digest-0.11.3/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/digest-0.11.3/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "af59cea35d7f5e2777a713b8d155d65efa2c339eb43f3c14e868c6ac8506edad"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/equivalent-1.0.3/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/equivalent-1.0.3/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/foldhash-0.2.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hashbrown-0.17.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hashbrown-0.17.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hex-0.4.3/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hex-0.4.3/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "f7bdb3426d045cd50efd4953026e3eb5a83d0199f458a075602611b9344da5b9"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hex-literal-1.1.0/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hex-literal-1.1.0/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "054aa61c4259f18e0e1355d88d0bb331d4cb7017251920ad3b126ce7dab65e26"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hybrid-array-0.4.15/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/hybrid-array-0.4.15/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/indexmap-2.14.2/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/indexmap-2.14.2/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/itoa-1.0.19/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/itoa-1.0.19/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/memchr-2.8.3/COPYING",
+      "category": "Third-party legal text and provenance",
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/memchr-2.8.3/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/memory_units-0.4.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-account-id-3.0.0/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-account-id-3.0.0/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "b801c8d677ef9701149e05cf98f28b82a56832dd67c94d96d36d25d063b1b353"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-crypto-hash-0.2.0/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-crypto-hash-0.2.0/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-digest-0.1.5/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-digest-0.1.5/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-gas-0.3.7/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "515f3d0b11747040792ac2d624a1b676d84e19e0421a78fcc3e0731be487063c"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-gas-0.3.7/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "3b7ebad16f2c3656dce274516be328ff622345ed37ddd25464d9593c3e312dc4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-global-contracts-0.3.3/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-global-contracts-0.3.3/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-5.30.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-5.30.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-core-4.4.2/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-core-4.4.2/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-env-0.1.9/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sdk-env-0.1.9/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sys-0.4.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-sys-0.4.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-token-0.3.6/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "515f3d0b11747040792ac2d624a1b676d84e19e0421a78fcc3e0731be487063c"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/near-token-0.3.6/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "3b7ebad16f2c3656dce274516be328ff622345ed37ddd25464d9593c3e312dc4"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/once_cell-1.21.4/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/once_cell-1.21.4/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde-1.0.229/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde-1.0.229/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_core-1.0.229/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_core-1.0.229/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_json-1.0.154/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_json-1.0.154/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_with-3.24.0/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/serde_with-3.24.0/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE-APACHE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/wee_alloc-0.4.5/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/cargo/zmij-1.0.23/LICENSE-MIT",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/csstype-3.2.3/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/detect-libc-2.1.2/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/fdir-6.5.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/fontsource-variable__geist-5.3.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/fsevents-2.3.3/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/lightningcss-1.33.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/lightningcss-darwin-arm64-1.33.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/nanoid-3.3.20/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/oxc-project__types-0.156.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/picocolors-1.1.1/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/picomatch-4.0.7/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/postcss-8.5.32/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/react-19.3.1/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/react-dom-19.3.1/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/rolldown-1.2.19/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/rolldown__pluginutils-1.1.1/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/scheduler-0.28.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/source-map-js-1.2.2/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/tinyglobby-0.2.17/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/types__node-22.19.15/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/types__react-19.3.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/types__react-dom-19.3.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/typescript-5.9.3/LICENSE.txt",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/undici-types-6.21.0/LICENSE",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    },
+    {
+      "status": "A",
+      "path": "third_party/licenses/npm/vite-8.3.8/LICENSE.md",
+      "category": "Third-party legal text and provenance",
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13"
+    },
+    {
+      "status": "M",
+      "path": "web/package-lock.json",
+      "category": "Project license metadata only",
+      "sha256": "15a60d47e4d8e7fe6b992688688611301473f628da878141a1de896d08699664"
+    },
+    {
+      "status": "M",
+      "path": "web/package.json",
+      "category": "Project license metadata only",
+      "sha256": "499d41195894e4f7b92c120e057eef9ff71014399edc882eadb65d1d6511d3b3"
+    },
+    {
+      "status": "A",
+      "path": "web/public/THIRD_PARTY_NOTICES.txt",
+      "category": "Web distribution notices",
+      "sha256": "e58f115e4ecbe607fbf155a3c28d6c77f452f20783b502454c282d92ea3f4e92"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/BudgetBranch-LICENSE-APACHE.txt",
+      "category": "Web distribution notices",
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/BudgetBranch-LICENSE-MIT.txt",
+      "category": "Web distribution notices",
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/geist-5.3.0-OFL.txt",
+      "category": "Web distribution notices",
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/react-react-dom-scheduler-MIT.txt",
+      "category": "Web distribution notices",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/rolldown-1.2.19-LICENSE.txt",
+      "category": "Web distribution notices",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    {
+      "status": "A",
+      "path": "web/public/licenses/vite-8.3.8-LICENSE.txt",
+      "category": "Web distribution notices",
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13"
+    }
+  ]
+}

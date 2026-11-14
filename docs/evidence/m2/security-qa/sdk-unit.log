@@ -1,0 +1,38 @@
+
+> @budgetbranch/sdk@0.1.0 test
+> npm run build && node --test test/*.test.mjs
+
+
+> @budgetbranch/sdk@0.1.0 build
+> npm run check:abi && tsc -p tsconfig.json
+
+
+> @budgetbranch/sdk@0.1.0 check:abi
+> node scripts/check-abi.mjs
+
+✔ units preserve the last yoctoNEAR and the entire u64 range (0.838208ms)
+✔ invalid numeric formats and overflow fail at the boundary (0.343792ms)
+✔ account IDs use NEAR spelling and length limits (0.190916ms)
+✔ shared canonical fingerprint vector for delegate (3.107917ms)
+✔ shared canonical fingerprint vector for spend (0.259167ms)
+✔ shared canonical fingerprint vector for reclaim (0.210875ms)
+✔ shared canonical fingerprint vector for refund_owner (0.234209ms)
+✔ fingerprint preserves validated allowlist order and refuses a noncanonical intent (0.168834ms)
+✔ error codes match the frozen union and exclude terminal payment failures (1.111042ms)
+✔ budget event decoder checks status and distinguishes other standards (0.411958ms)
+✔ MOCK transport receives exact args, gas and deposit without payment inference (0.460333ms)
+✔ MOCK request resolution distinguishes missing, exact and conflicting IDs without writes (1.060958ms)
+✔ MOCK response decoding rejects unsafe amounts and retains the hash of an accepted write (0.199959ms)
+✔ MOCK NEAR read uses finalized JSON-RPC and canonical base64 arguments (12.79925ms)
+✔ MOCK NEAR read distinguishes execution, RPC, decode and timeout errors (6.298042ms)
+✔ MOCK write decoding follows the initiating receipt and ignores later failures (0.454417ms)
+✔ MOCK Sandbox adapter signs and broadcasts a funding intent once and retains an ambiguous hash (0.703833ms)
+✔ MOCK Sandbox adapter refuses remote and mainnet identities before signing (0.434583ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 151.122583

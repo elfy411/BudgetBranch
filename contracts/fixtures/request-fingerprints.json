@@ -1,0 +1,49 @@
+[
+  {
+    "method": "delegate",
+    "args": {
+      "request_id": "golden-delegate",
+      "parent_id": "0",
+      "delegatee_id": "agent.test.near",
+      "amount": "6000000000000000000000000",
+      "allowed_receivers": [
+        "accept.test.near",
+        "reject.test.near"
+      ],
+      "expires_at_ns": "18446744073709551615",
+      "max_depth": 3
+    },
+    "canonical": "{\"args\":{\"allowed_receivers\":[\"accept.test.near\",\"reject.test.near\"],\"amount\":\"6000000000000000000000000\",\"delegatee_id\":\"agent.test.near\",\"expires_at_ns\":\"18446744073709551615\",\"max_depth\":3,\"parent_id\":\"0\"},\"method\":\"delegate\"}",
+    "sha256": "5188b073d5bd442b2c3ed77bb6ea8b9da864a9978a34aca601c50f209e34eb4c"
+  },
+  {
+    "method": "spend",
+    "args": {
+      "receiver_id": "accept.test.near",
+      "request_id": "golden-spend",
+      "amount": "1000000000000000000000000",
+      "grant_id": "18446744073709551615"
+    },
+    "canonical": "{\"args\":{\"amount\":\"1000000000000000000000000\",\"grant_id\":\"18446744073709551615\",\"receiver_id\":\"accept.test.near\"},\"method\":\"spend\"}",
+    "sha256": "0e30f99c4894d57ea0e25054f225af476bb37bc5df30b3f5cecaf409de913d59"
+  },
+  {
+    "method": "reclaim",
+    "args": {
+      "amount": "3000000000000000000000000",
+      "grant_id": "2",
+      "request_id": "golden-reclaim"
+    },
+    "canonical": "{\"args\":{\"amount\":\"3000000000000000000000000\",\"grant_id\":\"2\"},\"method\":\"reclaim\"}",
+    "sha256": "124df3ad4a4aa57c5018d837bfc9b9fa4c69ccc9b475d37089bb2d21d985c527"
+  },
+  {
+    "method": "refund_owner",
+    "args": {
+      "amount": "340282366920938463463374607431768211455",
+      "request_id": "golden-refund"
+    },
+    "canonical": "{\"args\":{\"amount\":\"340282366920938463463374607431768211455\"},\"method\":\"refund_owner\"}",
+    "sha256": "465c014e57c23121fffac8bcfdd621d69b65e1affc2fe7b8ebff084daa0295fe"
+  }
+]

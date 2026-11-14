@@ -1,0 +1,45 @@
+{
+  "candidate": "1ea24af7c97db1733d920a2949d681218d24687f",
+  "commands": [
+    {
+      "name": "final-web-unit",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/mac.sh",
+        "env",
+        "npm",
+        "--prefix",
+        "web",
+        "run",
+        "test"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2",
+      "env": {
+        "BB_TOOLCHAIN_ROOT": "/REDACTED_USER_HOME/Desktop/BudgetBranch"
+      },
+      "started_at": "2026-11-13T11:35:26.961362+00:00",
+      "finished_at": "2026-11-13T11:35:27.632037+00:00",
+      "exit_code": 0,
+      "level": "unit/MOCK"
+    },
+    {
+      "name": "final-web-build",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/mac.sh",
+        "env",
+        "npm",
+        "--prefix",
+        "web",
+        "run",
+        "build"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2",
+      "env": {
+        "BB_TOOLCHAIN_ROOT": "/REDACTED_USER_HOME/Desktop/BudgetBranch"
+      },
+      "started_at": "2026-11-13T11:35:27.634381+00:00",
+      "finished_at": "2026-11-13T11:35:31.247449+00:00",
+      "exit_code": 0,
+      "level": "production web build"
+    }
+  ]
+}

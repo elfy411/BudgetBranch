@@ -1,0 +1,73 @@
+{
+  "source_commit": "780ad89b3351856cb4fafb93c74d763f208310e2",
+  "comparison": "SHA-256 and size for Vite output built with and without public notices, pinned Node 24.14.0 / npm 11.9.0 (Darwin arm64)",
+  "unchanged_asset_count": 8,
+  "added_notice_count": 7,
+  "changed_asset_count": 0,
+  "removed_asset_count": 0,
+  "added_notice_bytes": 118128,
+  "unchanged_assets": {
+    "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2": {
+      "sha256": "2317fa4bb293c9c0b110e18315d529235c47a0ddd3338cea3d8c7955e927899e",
+      "bytes": 7420
+    },
+    "assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2": {
+      "sha256": "6894439694946a589d157ece003086960a6a4013d74a813dab7602efdb3d8c09",
+      "bytes": 15084
+    },
+    "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2": {
+      "sha256": "824f485b5d26e2f2da3c2b236132ece1bc8e4e43373452950bb0e40548b4313f",
+      "bytes": 16512
+    },
+    "assets/geist-latin-wght-normal-BgDaEnEv.woff2": {
+      "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1",
+      "bytes": 29400
+    },
+    "assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2": {
+      "sha256": "8fa40e5d248247735eb97a0bd593b8852440430600d6ba01364c31fe0abc1fe1",
+      "bytes": 8004
+    },
+    "assets/index-B17JFNXC.js": {
+      "sha256": "874137410bc4aa13273bceb59c23fc8bcaaf7f3e670b49d08cfe848a4ad753eb",
+      "bytes": 260168
+    },
+    "assets/index-CESSjUuu.css": {
+      "sha256": "6f2b325870b8980e1d73d3bf9d0fa42b737740eebccb83fd1ae9e612c3a09165",
+      "bytes": 13982
+    },
+    "index.html": {
+      "sha256": "538371b702d63981ed0a9ddac08f287b58326a4a522aa579e7724bc640178138",
+      "bytes": 560
+    }
+  },
+  "added_notices": {
+    "THIRD_PARTY_NOTICES.txt": {
+      "sha256": "e58f115e4ecbe607fbf155a3c28d6c77f452f20783b502454c282d92ea3f4e92",
+      "bytes": 1114
+    },
+    "licenses/BudgetBranch-LICENSE-APACHE.txt": {
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+      "bytes": 10860
+    },
+    "licenses/BudgetBranch-LICENSE-MIT.txt": {
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+      "bytes": 1082
+    },
+    "licenses/geist-5.3.0-OFL.txt": {
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+      "bytes": 4486
+    },
+    "licenses/react-react-dom-scheduler-MIT.txt": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088
+    },
+    "licenses/rolldown-1.2.19-LICENSE.txt": {
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "bytes": 1302
+    },
+    "licenses/vite-8.3.8-LICENSE.txt": {
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+      "bytes": 98196
+    }
+  }
+}

@@ -1,0 +1,8 @@
+REAL NEAR SANDBOX: http://127.0.0.1:5193/?network=sandbox&contract=budget.test.near
+Chain test-chain-bbb05a05b74183f46a; read-only browser RPC http://127.0.0.1:5193/sandbox-rpc
+Accepting receiver accept.test.near; rejecting receiver reject.test.near
+Unlisted recipient stranger.test.near. Press Ctrl-C to stop the fixture.
+Disposable signer: owner.test.near
+Disposable signer: agent-a.test.near
+Disposable signer: agent-b.test.near
+Disposable signer: child.test.near

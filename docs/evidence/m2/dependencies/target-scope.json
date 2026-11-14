@@ -1,0 +1,70 @@
+[
+  {
+    "name": "crypto-wasm",
+    "argv": [
+      "cargo",
+      "+1.95.0",
+      "tree",
+      "--locked",
+      "--offline",
+      "--target",
+      "wasm32-unknown-unknown",
+      "-p",
+      "budgetbranch",
+      "-e",
+      "normal",
+      "-i",
+      "crypto-bigint"
+    ],
+    "exit_code": 0,
+    "output": "warning: nothing to print.\n\nTo find dependencies that require specific target platforms, try to use option `--target all` first, and then narrow your search scope accordingly.\n"
+  },
+  {
+    "name": "crypto-host",
+    "argv": [
+      "cargo",
+      "+1.95.0",
+      "tree",
+      "--locked",
+      "--offline",
+      "-i",
+      "crypto-bigint"
+    ],
+    "exit_code": 0,
+    "output": "crypto-bigint v0.5.5\n\u2514\u2500\u2500 elliptic-curve v0.13.8\n    \u251c\u2500\u2500 ecdsa v0.16.9\n    \u2502   \u2514\u2500\u2500 p256 v0.13.2\n    \u2502       \u2514\u2500\u2500 near-vm-runner v0.38.1\n    \u2502           \u2514\u2500\u2500 near-sdk v5.30.1\n    \u2502               \u251c\u2500\u2500 budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)\n    \u2502               \u2514\u2500\u2500 demo-receiver v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/demo-receiver)\n    \u2502               [dev-dependencies]\n    \u2502               \u2514\u2500\u2500 budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)\n    \u251c\u2500\u2500 p256 v0.13.2 (*)\n    \u2514\u2500\u2500 primeorder v0.13.6\n        \u2514\u2500\u2500 p256 v0.13.2 (*)\n"
+  },
+  {
+    "name": "wee-wasm",
+    "argv": [
+      "cargo",
+      "+1.95.0",
+      "tree",
+      "--locked",
+      "--offline",
+      "--target",
+      "wasm32-unknown-unknown",
+      "-p",
+      "budgetbranch",
+      "-e",
+      "normal",
+      "-i",
+      "wee_alloc"
+    ],
+    "exit_code": 0,
+    "output": "wee_alloc v0.4.5\n\u2514\u2500\u2500 near-sdk v5.30.1\n    \u2514\u2500\u2500 budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)\n"
+  },
+  {
+    "name": "yaml-host",
+    "argv": [
+      "cargo",
+      "+1.95.0",
+      "tree",
+      "--locked",
+      "--offline",
+      "-i",
+      "unsafe-libyaml"
+    ],
+    "exit_code": 0,
+    "output": "unsafe-libyaml v0.2.11\n\u2514\u2500\u2500 serde_yaml v0.9.34+deprecated\n    \u2514\u2500\u2500 near-parameters v0.38.1\n        \u251c\u2500\u2500 near-primitives v0.38.1\n        \u2502   \u2514\u2500\u2500 near-sdk v5.30.1\n        \u2502       \u251c\u2500\u2500 budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)\n        \u2502       \u2514\u2500\u2500 demo-receiver v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/demo-receiver)\n        \u2502       [dev-dependencies]\n        \u2502       \u2514\u2500\u2500 budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/budgetbranch)\n        \u251c\u2500\u2500 near-sdk v5.30.1 (*)\n        \u251c\u2500\u2500 near-sdk-core v4.4.2\n        \u2502   \u251c\u2500\u2500 near-global-contracts v0.3.3\n        \u2502   \u2502   \u2514\u2500\u2500 near-sdk v5.30.1 (*)\n        \u2502   \u2514\u2500\u2500 near-sdk v5.30.1 (*)\n        \u2514\u2500\u2500 near-vm-runner v0.38.1\n            \u2514\u2500\u2500 near-sdk v5.30.1 (*)\n"
+  }
+]

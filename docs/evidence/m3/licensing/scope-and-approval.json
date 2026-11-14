@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-11-13T14:09:32.746382+00:00",
+  "owner_decision": "MIT OR Apache-2.0 for original BudgetBranch; explicit chat instruction and async option1 reply,2026-11-13",
+  "baseline_commit": "780ad89b3351856cb4fafb93c74d763f208310e2",
+  "contract_manifest_and_lock_unchanged": true,
+  "frozen_spec_and_abi_unchanged": true,
+  "original_license_texts_unchanged": true,
+  "metadata_changes": [
+    {
+      "path": "sdk/package.json",
+      "before_sha256": "d16e113d906a113362e8cefe6fcc6a615bd910f56b8da47811b7cb6ec8a8e999",
+      "after_sha256": "ea958e58a81ecf219776a16607d3f757f0873fc9ee74cb4a74a49c8a2ffe994c",
+      "only_first_party_license_fields_changed": true
+    },
+    {
+      "path": "sdk/package-lock.json",
+      "before_sha256": "7dc02cc9b487203db46f61f4b56c31a5fd5943431b53cef052b01b89cab74375",
+      "after_sha256": "0b373c53653f8ba1b63c1b8f7d0f0f48a6ba323fa6b55b77917c0abb2ddb07ca",
+      "only_first_party_license_fields_changed": true
+    },
+    {
+      "path": "agents/package.json",
+      "before_sha256": "388dd642209e914788fa24d1ef64b36965d397092b8fce0522a3fadaf7a2a1e7",
+      "after_sha256": "45f41f577b140f2a0386b24f75ad94e24014d9d3fb8781911eef347452a7f041",
+      "only_first_party_license_fields_changed": true
+    },
+    {
+      "path": "agents/package-lock.json",
+      "before_sha256": "c32a3db28322da11e1a3f6f73a1c2b4634009cce76e52c4adca105216ab1fbbb",
+      "after_sha256": "9d1ffa9fdb80659462836337d26ce39c3cc18201bb5e21f9bd69c681a4cb5059",
+      "only_first_party_license_fields_changed": true
+    },
+    {
+      "path": "web/package.json",
+      "before_sha256": "345e83bfb40f58f3de0c37fda6bec62cc1e14bc378813227922ab6bcee15dbf7",
+      "after_sha256": "499d41195894e4f7b92c120e057eef9ff71014399edc882eadb65d1d6511d3b3",
+      "only_first_party_license_fields_changed": true
+    },
+    {
+      "path": "web/package-lock.json",
+      "before_sha256": "1941b4eb6e41ae7df39a5fda5014b7ffa6c2c23e51350c84b17c64ac740ee225",
+      "after_sha256": "15a60d47e4d8e7fe6b992688688611301473f628da878141a1de896d08699664",
+      "only_first_party_license_fields_changed": true
+    }
+  ],
+  "tracked_visual_assets": [
+    {
+      "path": "docs/evidence/m2/integrator-final-ui/final-screen.jpg",
+      "sha256": "780275b4cd12b9f7fe1c5e64553edde141d017bb097c75d0ac7f516c45a555c8"
+    }
+  ],
+  "provenance": "Only tracked visual asset is the integrator actual G2 Sandbox screenshot. Font binaries come from pinned @fontsource-variable/geist; preserved OFL file and asset hashes. No external stock artwork or hosted font import identified in current web sources.",
+  "copyright": "2026 BudgetBranch contributors: collective actual contributors, not a fabricated person or organization. Upstream notices copied with their own named holders.",
+  "registry_attempts": [
+    {
+      "transport": "Python3.10 urllib default CA",
+      "exit_code": 1,
+      "result": "Local certificate issuer lookup failed; no TLS bypass or global changes."
+    },
+    {
+      "transport": "system curl with certificate verification",
+      "exit_code": 0,
+      "result": "All57 exact-version official npm metadata licenses and integrity fields match locks."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "commit": "1ea24af7c97db1733d920a2949d681218d24687f",
+  "checkout": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-integration",
+  "runtime_tools_reused_from": "/REDACTED_USER_HOME/Desktop/BudgetBranch",
+  "classification": "Real native NEAR Sandbox SDK and startup; web tests are UNIT/MOCK",
+  "checks": [
+    {
+      "command": "BB_TOOLCHAIN_ROOT=/REDACTED_USER_HOME/Desktop/BudgetBranch ./scripts/mac.sh sdk-sandbox --offline",
+      "exit_code": 0,
+      "summary": {
+        "result": "PASS",
+        "mode": "NEAR_SANDBOX",
+        "steps": 19,
+        "transactions": 18,
+        "directRejections": 6,
+        "near": {
+          "free": "3",
+          "pending": "0",
+          "spent": "2",
+          "returned": "5"
+        }
+      }
+    },
+    {
+      "command": "BB_TOOLCHAIN_ROOT=/REDACTED_USER_HOME/Desktop/BudgetBranch ./scripts/mac.sh env npm --prefix web test",
+      "exit_code": 0,
+      "tests": 4,
+      "kind": "UNIT/MOCK"
+    },
+    {
+      "command": "BB_TOOLCHAIN_ROOT=/REDACTED_USER_HOME/Desktop/BudgetBranch ./scripts/mac.sh env npm --prefix web run build",
+      "exit_code": 0,
+      "typescript_vite_build": true
+    },
+    {
+      "command": "One-off Node spawn probe: invalid ports65536/0x1435; occupied real loopback listener",
+      "exit_code": 0,
+      "individual_expected_startup_exits": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "sha256": {
+    "sdk.jsonl": "6fe00a71f507095c6e2c17d40e73df7b18639be27ad75a251b78b7459197ff99",
+    "sdk-stderr.txt": "a4f56d2ff11f6888d6a87c4f925a2c78aa04fa75319901f5dbed0e59081c029f",
+    "startup.jsonl": "ce996275fa4db646ee8404536132429da6064f8a0c5b13dbb642369805719609"
+  }
+}

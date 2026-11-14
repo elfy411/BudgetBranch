@@ -1,0 +1,19 @@
+[package]
+name = "budgetbranch-sandbox"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+near-workspaces = { version = "=0.24.0", default-features = false, features = ["rustls"] }
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }
+serde_json.workspace = true
+serde.workspace = true
+sha2 = "0.10"
+
+[[bin]]
+name = "sandbox-evidence"
+path = "src/main.rs"

@@ -1,0 +1,13 @@
+> **Publication-copy notice:** This document records the private development review. Historical logs and reports may be redacted, and one-off audit helpers are omitted. Any original/byte-identical claims and historical hashes below refer to the private artifacts before publication processing, not necessarily these public copies. See [publication provenance](../../../../PUBLICATION_PROVENANCE.md) for scope, exclusions and current file hashes. Use the root README for runnable commands.
+
+# Final source and history scan
+
+Gitleaks 8.30.1 scanned the [676-file input snapshot](snapshot.json) and all 47 commits selected by Git `--all` at execution. [Actual commands and exit status](run.json). The input combines tracked file bytes at the preparation worktree with explicitly named new G3 documents and public evidence; it is not a claim to scan ignored runtime/tool/cache contents.
+
+**History-input correction:** the raw snapshot's ordinary refs resolve to 46 commits. The executed `--all` scan also included the detached `verify-web` worktree HEAD `96e03d9a16c5194f2ad874c6ee4bf0267d6c420d`, producing the logged total of 47. The [independently checked addendum](history-input-addendum.json) supplies that missing tip, the complete reconstructed 47-commit list and reproduction instructions. Raw input/scan records are unchanged; no new scan is implied.
+
+Both scans exited **1**, each reporting six matches. [Source report](source.json), [history report](history.json). All six are public artifact SHA-256 values. The integrator independently recomputed them, including the blobs in the matched historical commits: [triage](triage.json). Zero confirmed secrets and zero unresolved reported matches; no custom allowlist, baseline or inline suppression. Redaction is enabled in retained scanner reports.
+
+The scan was made before committing the final packet. Per-file hashes identify the exact input bytes independently of the later commit. These five scan JSON files, this index and subsequent outcome/QA edits were produced after the snapshot; they are separately inspected. Pattern scanning cannot prove the absence of every secret.
+
+At committed package `f340f84e43e51b71d5893990455a59cb612766e7`, 674 input hashes still match exactly. The other eight tracked files are two outcome-document edits and the six new scan/index records. Those eight exact Git blobs were scanned separately: **exit 0, zero findings**. [Exact delta and command](metadata-run.json), [empty scanner report](metadata-findings.json). These result records and the final review attestation are later metadata, outside their own scan input.

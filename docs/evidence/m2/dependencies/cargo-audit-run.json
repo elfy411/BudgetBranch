@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/security/bin/cargo-audit",
+    "audit",
+    "--db",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/rustsec-advisory-db",
+    "--url",
+    "https://github.com/RustSec/advisory-db.git",
+    "--file",
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/contracts/Cargo.lock",
+    "--json"
+  ],
+  "started_at": "2026-11-13T11:14:30.972543+00:00",
+  "seconds": 26.78,
+  "exit_code": 1,
+  "lock_sha256": "b3c1f6f3287d4864b308f6907153dfbf52feb5e30e240725a7370dc91bb0c86a",
+  "lock_changed": false,
+  "tool_version": "cargo-audit-audit 0.23.0",
+  "advisory_db_commit": "af7b3ec33460b8e2de8d422e16d628518891a519",
+  "source_commit": "826803d658bf3bddd8f2d7ef03869c2da8e7d4f7",
+  "sources": [
+    "https://github.com/rustsec/rustsec/blob/main/cargo-audit/README.md",
+    "https://github.com/RustSec/advisory-db"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "frontend_source": "bdb6c64f9ca78366fc165d871d08b41d7aeace95",
+  "verification_commit": "96e03d9a16c5194f2ad874c6ee4bf0267d6c420d",
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "classification": "BUILD and UNIT/MOCK, not live chain proof",
+  "commands": [
+    {
+      "argv": [
+        "npm",
+        "--prefix",
+        "sdk",
+        "ci",
+        "--offline",
+        "--ignore-scripts"
+      ],
+      "exit_code": 0,
+      "output": "1.txt"
+    },
+    {
+      "argv": [
+        "npm",
+        "--prefix",
+        "sdk",
+        "test"
+      ],
+      "exit_code": 0,
+      "output": "2.txt"
+    },
+    {
+      "argv": [
+        "npm",
+        "--prefix",
+        "web",
+        "ci",
+        "--offline",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "exit_code": 0,
+      "output": "3.txt"
+    },
+    {
+      "argv": [
+        "npm",
+        "--prefix",
+        "web",
+        "run",
+        "test"
+      ],
+      "exit_code": 0,
+      "output": "4.txt"
+    },
+    {
+      "argv": [
+        "npm",
+        "--prefix",
+        "web",
+        "run",
+        "build"
+      ],
+      "exit_code": 0,
+      "output": "5.txt"
+    }
+  ]
+}

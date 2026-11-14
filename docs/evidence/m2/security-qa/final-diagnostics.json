@@ -1,0 +1,291 @@
+{
+  "candidate": "1ea24af7c97db1733d920a2949d681218d24687f",
+  "result": "PASS",
+  "records": [
+    {
+      "case": "invalid-port",
+      "value": "65536",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "started_at": "2026-11-13T11:34:23.052760+00:00",
+      "exit_code": 1,
+      "stderr": "Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535."
+    },
+    {
+      "case": "invalid-port",
+      "value": "0x1435",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "started_at": "2026-11-13T11:34:23.103300+00:00",
+      "exit_code": 1,
+      "stderr": "Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535."
+    },
+    {
+      "case": "invalid-port",
+      "value": "5191.0",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "started_at": "2026-11-13T11:34:23.151230+00:00",
+      "exit_code": 1,
+      "stderr": "Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535."
+    },
+    {
+      "case": "invalid-port",
+      "value": " 5191",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "started_at": "2026-11-13T11:34:23.200403+00:00",
+      "exit_code": 1,
+      "stderr": "Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535."
+    },
+    {
+      "name": "final-port-conflict",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2",
+      "env": {
+        "BB_WEB_PORT": "5191",
+        "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+        "TMPDIR": "/private/tmp"
+      },
+      "started_at": "2026-11-13T11:34:23.257865+00:00",
+      "exit_code": 1,
+      "finished_at": "2026-11-13T11:34:32.601342+00:00",
+      "observed_sandbox_homes": [
+        "/private/tmp/bb-near-DOF5UX"
+      ],
+      "temporary_homes_removed": true,
+      "observed_children": [
+        60758
+      ],
+      "observed_children_exited": true
+    },
+    {
+      "case": "occupied-port-diagnostic",
+      "result": "PASS",
+      "existing_console_financial_state_unchanged": true,
+      "before": {
+        "block_height": "1105",
+        "block_timestamp_ns": "1794569662868181000",
+        "budget": {
+          "protocol_version": "0.1.0",
+          "owner_id": "owner.test.near",
+          "root_id": "0",
+          "funded": "1000000000000000000000000",
+          "free": "900000000000000000000000",
+          "pending": "0",
+          "spent": "100000000000000000000000",
+          "returned": "0",
+          "operational_funding": "24926943689322260100000000",
+          "operational_buffer": "100000000000000000000000",
+          "storage_required": "3362920000000000000000000",
+          "recovery_storage_reserved": "13025280000000000000000000",
+          "physical_liquid": "970418777664141600000000",
+          "grant_count": 3,
+          "payment_count": 1,
+          "request_count": 3,
+          "spend_count": 1,
+          "owner_refund_count": 0,
+          "normal_request_count": 3,
+          "recovery_request_count": 0
+        },
+        "grants": [
+          {
+            "grant_id": "0",
+            "parent_id": null,
+            "delegatee_id": "owner.test.near",
+            "depth": 0,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "1000000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "700000000000000000000000",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          },
+          {
+            "grant_id": "1",
+            "parent_id": "0",
+            "delegatee_id": "agent-a.test.near",
+            "depth": 1,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "400000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "100000000000000000000000",
+            "returned": "0"
+          },
+          {
+            "grant_id": "2",
+            "parent_id": "0",
+            "delegatee_id": "agent-b.test.near",
+            "depth": 1,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "300000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          }
+        ],
+        "payments": [
+          {
+            "payment_id": "1",
+            "kind": "spend",
+            "grant_id": "1",
+            "caller_id": "agent-a.test.near",
+            "request_id": "6e9cf84e-a2d0-428b-9dfc-12ff216aa752",
+            "receiver_id": "accept.test.near",
+            "amount": "100000000000000000000000",
+            "status": "succeeded",
+            "failure_code": null,
+            "created_at_ns": "1794569643859869000",
+            "settled_at_ns": "1794569644102851000"
+          }
+        ]
+      },
+      "after": {
+        "block_height": "1178",
+        "block_timestamp_ns": "1794569672121369000",
+        "budget": {
+          "protocol_version": "0.1.0",
+          "owner_id": "owner.test.near",
+          "root_id": "0",
+          "funded": "1000000000000000000000000",
+          "free": "900000000000000000000000",
+          "pending": "0",
+          "spent": "100000000000000000000000",
+          "returned": "0",
+          "operational_funding": "24926943689322260100000000",
+          "operational_buffer": "100000000000000000000000",
+          "storage_required": "3362920000000000000000000",
+          "recovery_storage_reserved": "13025280000000000000000000",
+          "physical_liquid": "970418777664141600000000",
+          "grant_count": 3,
+          "payment_count": 1,
+          "request_count": 3,
+          "spend_count": 1,
+          "owner_refund_count": 0,
+          "normal_request_count": 3,
+          "recovery_request_count": 0
+        },
+        "grants": [
+          {
+            "grant_id": "0",
+            "parent_id": null,
+            "delegatee_id": "owner.test.near",
+            "depth": 0,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "1000000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "700000000000000000000000",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          },
+          {
+            "grant_id": "1",
+            "parent_id": "0",
+            "delegatee_id": "agent-a.test.near",
+            "depth": 1,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "400000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "100000000000000000000000",
+            "returned": "0"
+          },
+          {
+            "grant_id": "2",
+            "parent_id": "0",
+            "delegatee_id": "agent-b.test.near",
+            "depth": 1,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "300000000000000000000000",
+            "free": "300000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          }
+        ],
+        "payments": [
+          {
+            "payment_id": "1",
+            "kind": "spend",
+            "grant_id": "1",
+            "caller_id": "agent-a.test.near",
+            "request_id": "6e9cf84e-a2d0-428b-9dfc-12ff216aa752",
+            "receiver_id": "accept.test.near",
+            "amount": "100000000000000000000000",
+            "status": "succeeded",
+            "failure_code": null,
+            "created_at_ns": "1794569643859869000",
+            "settled_at_ns": "1794569644102851000"
+          }
+        ]
+      }
+    }
+  ]
+}

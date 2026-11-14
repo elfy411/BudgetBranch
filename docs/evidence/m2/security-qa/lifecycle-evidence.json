@@ -1,0 +1,247 @@
+{
+  "candidate": "826803d658bf3bddd8f2d7ef03869c2da8e7d4f7",
+  "result": "PASS",
+  "records": [
+    {
+      "name": "port-conflict",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2",
+      "env": {
+        "BB_WEB_PORT": "5191",
+        "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+        "TMPDIR": "/private/tmp"
+      },
+      "started_at": "2026-11-13T11:24:27.187365+00:00",
+      "exit_code": 1,
+      "finished_at": "2026-11-13T11:24:39.042115+00:00",
+      "observed_sandbox_homes": [
+        "/private/tmp/bb-near-7FhxwC"
+      ],
+      "temporary_homes_removed": true,
+      "observed_children": [
+        59087
+      ],
+      "observed_children_exited": true
+    },
+    {
+      "case": "port-conflict",
+      "result": "PASS",
+      "existing_console_ledger_unchanged": true
+    },
+    {
+      "case": "lost-real-deposit-response",
+      "mode": "Real native Sandbox plus controlled loss of SDK RPC response",
+      "http_status": 422,
+      "error_kind": "rpc",
+      "transaction_hash": "9zn4UZx9BuA2uAE9UDRrxS9h1YWCYND2NrsfAQw6UNos",
+      "snapshot": {
+        "block_height": "73",
+        "block_timestamp_ns": "1794569088622792000",
+        "budget": {
+          "protocol_version": "0.1.0",
+          "owner_id": "owner.test.near",
+          "root_id": "0",
+          "funded": "1000000000000000000000000",
+          "free": "1000000000000000000000000",
+          "pending": "0",
+          "spent": "0",
+          "returned": "0",
+          "operational_funding": "24926943689322260100000000",
+          "operational_buffer": "100000000000000000000000",
+          "storage_required": "3349720000000000000000000",
+          "recovery_storage_reserved": "13025280000000000000000000",
+          "physical_liquid": "1070418777664141600000000",
+          "grant_count": 1,
+          "payment_count": 0,
+          "request_count": 0,
+          "spend_count": 0,
+          "owner_refund_count": 0,
+          "normal_request_count": 0,
+          "recovery_request_count": 0
+        },
+        "grants": [
+          {
+            "grant_id": "0",
+            "parent_id": null,
+            "delegatee_id": "owner.test.near",
+            "depth": 0,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "1000000000000000000000000",
+            "free": "1000000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          }
+        ],
+        "payments": []
+      },
+      "automatic_deposit_retry": false
+    },
+    {
+      "case": "new-session-cannot-repeat-ambiguous-deposit",
+      "http_status": 409,
+      "financial_state_unchanged": true,
+      "snapshot": {
+        "block_height": "73",
+        "block_timestamp_ns": "1794569088622792000",
+        "budget": {
+          "protocol_version": "0.1.0",
+          "owner_id": "owner.test.near",
+          "root_id": "0",
+          "funded": "1000000000000000000000000",
+          "free": "1000000000000000000000000",
+          "pending": "0",
+          "spent": "0",
+          "returned": "0",
+          "operational_funding": "24926943689322260100000000",
+          "operational_buffer": "100000000000000000000000",
+          "storage_required": "3349720000000000000000000",
+          "recovery_storage_reserved": "13025280000000000000000000",
+          "physical_liquid": "1070418777664141600000000",
+          "grant_count": 1,
+          "payment_count": 0,
+          "request_count": 0,
+          "spend_count": 0,
+          "owner_refund_count": 0,
+          "normal_request_count": 0,
+          "recovery_request_count": 0
+        },
+        "grants": [
+          {
+            "grant_id": "0",
+            "parent_id": null,
+            "delegatee_id": "owner.test.near",
+            "depth": 0,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "1000000000000000000000000",
+            "free": "1000000000000000000000000",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "0",
+            "returned": "0"
+          }
+        ],
+        "payments": []
+      }
+    },
+    {
+      "case": "recovery-after-ambiguous-deposit",
+      "transaction_hash": "7dWLyX3RyjEjUFEoVnuTr5to2S92a47jVDokrhaPKpdx",
+      "snapshot": {
+        "block_height": "80",
+        "block_timestamp_ns": "1794569089500891000",
+        "budget": {
+          "protocol_version": "0.1.0",
+          "owner_id": "owner.test.near",
+          "root_id": "0",
+          "funded": "1000000000000000000000000",
+          "free": "0",
+          "pending": "0",
+          "spent": "0",
+          "returned": "1000000000000000000000000",
+          "operational_funding": "24926943689322260100000000",
+          "operational_buffer": "100000000000000000000000",
+          "storage_required": "3352770000000000000000000",
+          "recovery_storage_reserved": "13019820000000000000000000",
+          "physical_liquid": "70418777664141600000000",
+          "grant_count": 1,
+          "payment_count": 1,
+          "request_count": 1,
+          "spend_count": 0,
+          "owner_refund_count": 1,
+          "normal_request_count": 0,
+          "recovery_request_count": 1
+        },
+        "grants": [
+          {
+            "grant_id": "0",
+            "parent_id": null,
+            "delegatee_id": "owner.test.near",
+            "depth": 0,
+            "max_depth": 3,
+            "allowed_receivers": [
+              "accept.test.near",
+              "reject.test.near"
+            ],
+            "expires_at_ns": "18446744073709551615",
+            "revoked": false,
+            "effective_status": "active",
+            "blocked_by": null,
+            "allocation": "1000000000000000000000000",
+            "free": "0",
+            "child_reserved": "0",
+            "pending": "0",
+            "spent": "0",
+            "returned": "1000000000000000000000000"
+          }
+        ],
+        "payments": [
+          {
+            "payment_id": "1",
+            "kind": "owner_refund",
+            "grant_id": "0",
+            "caller_id": "owner.test.near",
+            "request_id": "qa-ambiguous-recovery",
+            "receiver_id": "owner.test.near",
+            "amount": "1000000000000000000000000",
+            "status": "succeeded",
+            "failure_code": null,
+            "created_at_ns": "1794569089254235000",
+            "settled_at_ns": "1794569089500891000"
+          }
+        ]
+      }
+    },
+    {
+      "name": "lost-deposit-response",
+      "argv": [
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/node/24.14.0/bin/node",
+        "--import",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/.cache/qa/g2/drop-first-write-response.mjs",
+        "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/scripts/sandbox-web.mjs"
+      ],
+      "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2",
+      "env": {
+        "BB_WEB_PORT": "5193",
+        "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+        "TMPDIR": "/private/tmp"
+      },
+      "started_at": "2026-11-13T11:24:39.047590+00:00",
+      "exit_code": 130,
+      "finished_at": "2026-11-13T11:24:49.998340+00:00",
+      "observed_sandbox_homes": [
+        "/private/tmp/bb-near-TFFMGE"
+      ],
+      "temporary_homes_removed": true,
+      "observed_children": [
+        59305
+      ],
+      "observed_children_exited": true
+    },
+    {
+      "case": "normal-sigint-cleanup",
+      "result": "PASS"
+    }
+  ],
+  "tokens_keys_signed_bytes_recorded": false
+}

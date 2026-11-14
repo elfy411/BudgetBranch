@@ -1,0 +1,27 @@
+REAL NEAR SANDBOX: http://127.0.0.1:58945/?network=sandbox&contract=budget.test.near
+Chain test-chain-bb6f1e9863b461176a; read-only browser RPC http://127.0.0.1:58945/sandbox-rpc
+Accepting receiver accept.test.near; rejecting receiver reject.test.near
+Unlisted recipient stranger.test.near. Press Ctrl-C to stop the fixture.
+Disposable signer: owner.test.near
+Disposable signer: agent-a.test.near
+Disposable signer: agent-b.test.near
+Disposable signer: child.test.near
+    Finished `release` profile [optimized] target(s) in 1.36s
+
+added 1 package in 428ms
+
+> @budgetbranch/sdk@0.1.0 build
+> npm run check:abi && tsc -p tsconfig.json
+
+
+> @budgetbranch/sdk@0.1.0 check:abi
+> node scripts/check-abi.mjs
+
+
+added 4 packages in 496ms
+
+> @budgetbranch/agents@0.1.0 build
+> tsc -p tsconfig.json
+
+
+added 25 packages in 689ms

@@ -1,0 +1,32 @@
+[
+  {
+    "argv": [
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin/node",
+      "--check",
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/tests/run-sandbox.mjs"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin/node",
+      "--check",
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/tests/sandbox-fixture.mjs"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/integration-tests/.local/node/24.14.0/bin/node",
+      "--check",
+      "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/tests/sandbox-transactions.mjs"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/.cache/qa/m1-e8b4374/qa-replay-rollback"
+  ],
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/contracts",
+  "env": {
+    "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+    "TMPDIR": "/private/tmp"
+  },
+  "started_at": "2026-11-13T10:08:50.173460+00:00",
+  "finished_at": "2026-11-13T10:08:50.855784+00:00",
+  "exit_code": 1,
+  "source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "level": "NEAR Sandbox; actual compiled Wasm and native receipts; no state patches"
+}

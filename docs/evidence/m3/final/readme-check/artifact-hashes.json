@@ -1,0 +1,104 @@
+{
+  "frontend_baseline": {
+    "reference_path": "docs/evidence/m3/licensing/frontend-dist-comparison.json",
+    "source_commit": "780ad89b3351856cb4fafb93c74d763f208310e2",
+    "sha256": "da51b9052cf0c124128f0d67fa2f975548f5ffaf6e64de2a144b59534cd62449"
+  },
+  "wasm_baseline": {
+    "reference_path": "tests/portable-wasm.json",
+    "sha256": "01087c366b420ad26512f8fb47f57818f475bc357e30cd06030fa2161c7dc9f8"
+  },
+  "frontend_notices": [
+    {
+      "path": "web/dist/THIRD_PARTY_NOTICES.txt",
+      "sha256": "e58f115e4ecbe607fbf155a3c28d6c77f452f20783b502454c282d92ea3f4e92",
+      "bytes": 1114
+    },
+    {
+      "path": "web/dist/licenses/BudgetBranch-LICENSE-APACHE.txt",
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+      "bytes": 10860
+    },
+    {
+      "path": "web/dist/licenses/BudgetBranch-LICENSE-MIT.txt",
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+      "bytes": 1082
+    },
+    {
+      "path": "web/dist/licenses/geist-5.3.0-OFL.txt",
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+      "bytes": 4486
+    },
+    {
+      "path": "web/dist/licenses/react-react-dom-scheduler-MIT.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088
+    },
+    {
+      "path": "web/dist/licenses/rolldown-1.2.19-LICENSE.txt",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "bytes": 1302
+    },
+    {
+      "path": "web/dist/licenses/vite-8.3.8-LICENSE.txt",
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+      "bytes": 98196
+    }
+  ],
+  "notices_equal_web_public_source": true,
+  "frontend_unchanged_assets": [
+    {
+      "path": "web/dist/assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
+      "sha256": "2317fa4bb293c9c0b110e18315d529235c47a0ddd3338cea3d8c7955e927899e",
+      "bytes": 7420
+    },
+    {
+      "path": "web/dist/assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2",
+      "sha256": "6894439694946a589d157ece003086960a6a4013d74a813dab7602efdb3d8c09",
+      "bytes": 15084
+    },
+    {
+      "path": "web/dist/assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+      "sha256": "824f485b5d26e2f2da3c2b236132ece1bc8e4e43373452950bb0e40548b4313f",
+      "bytes": 16512
+    },
+    {
+      "path": "web/dist/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+      "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1",
+      "bytes": 29400
+    },
+    {
+      "path": "web/dist/assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+      "sha256": "8fa40e5d248247735eb97a0bd593b8852440430600d6ba01364c31fe0abc1fe1",
+      "bytes": 8004
+    },
+    {
+      "path": "web/dist/assets/index-B17JFNXC.js",
+      "sha256": "874137410bc4aa13273bceb59c23fc8bcaaf7f3e670b49d08cfe848a4ad753eb",
+      "bytes": 260168
+    },
+    {
+      "path": "web/dist/assets/index-CESSjUuu.css",
+      "sha256": "6f2b325870b8980e1d73d3bf9d0fa42b737740eebccb83fd1ae9e612c3a09165",
+      "bytes": 13982
+    },
+    {
+      "path": "web/dist/index.html",
+      "sha256": "538371b702d63981ed0a9ddac08f287b58326a4a522aa579e7724bc640178138",
+      "bytes": 560
+    }
+  ],
+  "portable_wasm": [
+    {
+      "path": "contracts/target/wasm32-unknown-unknown/release/budgetbranch.wasm",
+      "sha256": "2c862acc53ae8cd02f6dbf8430c1271ebbf16de27df2e2d5a77c7a52efc5aa23",
+      "bytes": 334529
+    },
+    {
+      "path": "contracts/target/wasm32-unknown-unknown/release/demo_receiver.wasm",
+      "sha256": "40bc851605e5084acdb29d163e0b4c4df50dbd62189da63383e16847171f3655",
+      "bytes": 155642
+    }
+  ],
+  "passed": true
+}

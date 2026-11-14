@@ -1,0 +1,5 @@
+[target.wasm32-unknown-unknown]
+# near-sdk-env 0.1.9 requires this in addition to the wasm target to route
+# panic_str and hashing through NEAR host functions. cargo-near sets it; the
+# reproducible plain-Cargo build must do so explicitly as well.
+rustflags = ["--cfg", "near"]

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "target/debug/sandbox-evidence",
+    "capacity"
+  ],
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/contract/contracts",
+  "environment": {
+    "NEAR_SANDBOX_BIN_PATH": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.local/sandbox/2.14.0/near-sandbox",
+    "TMPDIR": "/private/tmp"
+  },
+  "started_at_utc": "2026-11-13T09:56:24.875852+00:00",
+  "duration_seconds": 124.468,
+  "exit_code": 0,
+  "output": "capacity: 3 / 512 real spends accepted\ncapacity: 63 / 512 real spends accepted\ncapacity: 123 / 512 real spends accepted\ncapacity: 183 / 512 real spends accepted\ncapacity: 243 / 512 real spends accepted\ncapacity: 303 / 512 real spends accepted\ncapacity: 363 / 512 real spends accepted\ncapacity: 423 / 512 real spends accepted\ncapacity: 483 / 512 real spends accepted\nPASS actual Sandbox normal capacity:128 grants,512 spends,639 normal requests; owner recovery completed with no topup; evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/contract/contracts/evidence/sandbox-capacity.json\n"
+}

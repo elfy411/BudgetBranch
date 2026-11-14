@@ -1,0 +1,126 @@
+{
+  "kind": "SPEC_ARITHMETIC_ONLY",
+  "result": "PASS",
+  "snapshots_checked": 12,
+  "snapshots": [
+    {
+      "step": "deposit 10",
+      "free_pending_spent_returned_near": [
+        10,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "step": "6/4 then child 4",
+      "free_pending_spent_returned_near": [
+        10,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "step": "second child 4 cannot fit",
+      "free_pending_spent_returned_near": [
+        10,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "step": "accepted spend pending",
+      "free_pending_spent_returned_near": [
+        9,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "step": "accepted spend settled",
+      "free_pending_spent_returned_near": [
+        9,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "step": "rejecting spend pending",
+      "free_pending_spent_returned_near": [
+        8,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "step": "rejecting spend settled",
+      "free_pending_spent_returned_near": [
+        9,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "step": "B pending after revoke",
+      "free_pending_spent_returned_near": [
+        8,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "step": "B settled",
+      "free_pending_spent_returned_near": [
+        8,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "step": "logical reclaim",
+      "free_pending_spent_returned_near": [
+        8,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "step": "owner refund pending",
+      "free_pending_spent_returned_near": [
+        3,
+        5,
+        2,
+        0
+      ]
+    },
+    {
+      "step": "owner refund settled",
+      "free_pending_spent_returned_near": [
+        3,
+        0,
+        2,
+        5
+      ]
+    }
+  ],
+  "recovery_request_bound": 2176,
+  "not_tested": [
+    "contract",
+    "authorization",
+    "RPC",
+    "Sandbox",
+    "Testnet",
+    "gas",
+    "storage",
+    "physical transfers"
+  ]
+}

@@ -1,0 +1,2879 @@
+{
+  "schema_version": 1,
+  "publication_source_snapshot": "dc0f85dd34b2457c21f03ca56d83aaf7a7aaaf4f",
+  "publication_parent": "fa9f5c519707d8ab75895f168eb86d7b8159308e",
+  "scope": "Public import from owner-approved snapshot; private history excluded. Hashes labelled original refer to retained private originals, not public-copy validation. This manifest does not hash itself or its companion provenance document.",
+  "excluded_files": [
+    {
+      "path": "docs/evidence/m0/check_accounting.py",
+      "original_sha256": "f456f6bd2f46bde279369a60591d8287684179b22cd81c14a326eab0778a0b67",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/sandbox_startup.py",
+      "original_sha256": "fdfeda556a3d96998cdbbd2f564472a58afeed69e4919503de9bdfc8bb037951",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/replay-rollback.rs",
+      "original_sha256": "5da350ebc07afe9a6f6c9163068a8950284a51fa5900e059fe9bd7cfad341688",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/run_build.py",
+      "original_sha256": "6c01bc6efaa28078971fc4c7a7841029e9d0b9f0c2f005277889c6669536335e",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/run_compile.py",
+      "original_sha256": "f2716f1c522197ab9ec30aeee2047e6d6523db5366a36fc68ccf04b3014e02f1",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/run_sandbox.py",
+      "original_sha256": "3bcaf21c0177fa12cb8e8e2a0250be90f27f4ed2f888af9452554a7e8a06a01a",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/replay-rollback.rs",
+      "original_sha256": "c22e1cfc72284d4352d5cf0f7fe1bec6faafff7c410f1d7e8f71ff7772bb8e30",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/run_sandbox.py",
+      "original_sha256": "7d02c4ad77e416be4510e4df0b53977f5b9091348079cf08dbdc031e898d107b",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/probe-startup.mjs",
+      "original_sha256": "5507e7805c32ed0bad98b3c2b6eb379de62c0cccd7339a42f9201ce46363b11c",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/api-probe.mjs",
+      "original_sha256": "b179580120f37f33dd00c9e3b64e40a38f6ea5281e6ae36d92b42ecc33b18ec0",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-probe.mjs",
+      "original_sha256": "dbc533c6345032b0cbccaa25984d038639fcdbdc2b04dc531bbbaeab0c24ec16",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/drop-first-write-response.mjs",
+      "original_sha256": "b8d072aa39b26a60abe72c225bde109799a5e56e62539c90a374a3217b3143c8",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-browser-delta.mjs",
+      "original_sha256": "81d4ab747cb98d51b3dc2c536be7a61c5c93dd00c95747a47e67da620843b85c",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final_diagnostics.py",
+      "original_sha256": "13adb2eb5d3bda24a1de2a57c95431ce19e555a073aadcd652e7d33f674eca76",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/inspect_final_runtime.py",
+      "original_sha256": "a04dac66f5287a22ab961cd49b461ddbb6796d91a3341b014dc84a35f833c4e4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/inspect_runtime.py",
+      "original_sha256": "d3341cc80b62da8a338af2a04e13825be1d8a1ea7eae0e707e2c986c41c612ee",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/lifecycle_probe.py",
+      "original_sha256": "a673ee12020921625e8b00ab6f6b79ab699ca8d385ddc06c630d1819cfeb96e8",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/native_rpc_origin_probe.py",
+      "original_sha256": "975f3792f6ff64a55d0a303d7fc47c5dab3b2bfa36063d24d99d91ac8724563b",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_api.py",
+      "original_sha256": "1b91cda1ba43f82bb4f1436df09a94183d5f162390c030c109389acc3a0cb937",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_browser.py",
+      "original_sha256": "09196070a7be42a739387c9770d7bfd91eebd1fdf7dd4fffd754ade6f44189ca",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_console.py",
+      "original_sha256": "59bb0a68e56ce8025c0b3b77d7da33bedca2629ed30aa1ed5a642722154bc4ef",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_final_browser.py",
+      "original_sha256": "f9a1c1eb92e6f6a0cf24080b673583280d5a5ade7df0e991789f8b5cfbbc6808",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_final_console.py",
+      "original_sha256": "cd852a5534aed7297f076d39e6e723197c2a73720e9276e11bd90855f976914a",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_final_diagnostics.py",
+      "original_sha256": "37e803ac00fe733bf307f57abe501ecd744511b153e75d8eb12e8b1d70e91a61",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_final_units.py",
+      "original_sha256": "a6fcb21951a949b0966020a5af93f45984b0f4002db2737ac349b79b4f91422c",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_lifecycle.py",
+      "original_sha256": "f3efb596b2e28adfd21ef1b5483e3287a68db01224ca86db4c8982bf1a8b0f7d",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/run_units.py",
+      "original_sha256": "852619bc707ffc46459cc48372002b616dd0adef6becc8489fce626658eea468",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/stop_console.py",
+      "original_sha256": "a1e3b8cbb2b4c5940897cb5a362e5927474f1dec365051e5597a7eee7c73bd5a",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/stop_final_console.py",
+      "original_sha256": "609953c73d046992b43ce15059b04362dc2e076e5cd26007a1fd503b40c33595",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/agents-cli.command",
+      "original_sha256": "ed85fc1f94819d7f1da36d2c3dad7adcb9a976e38db3e22c3b6d87008cf1eb32",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/probe-web.mjs",
+      "original_sha256": "e1bf62f0e568f0ac7512c3bc7ab38a4ac823586cc1ae7f3cefff54e01d7c41e0",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.command",
+      "original_sha256": "a3edf3ee680ce49b7c09991c871fd7a500a58b5468ffbef30b331c91bc72b399",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/unit.command",
+      "original_sha256": "2ed29996d5e13435ebecab01dd717606759a825ac7f12f781f12c51ecc565b5f",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/web-build.command",
+      "original_sha256": "5ada97faeff8bf83400195087f03e849288c34661a1f7edb8058e62947b7b061",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/web-install.command",
+      "original_sha256": "633ea167fc699e4f4e28978f6e72039045bd4f060f77dce3f5163124cbce46f4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/web-unit.command",
+      "original_sha256": "4a58fd15474d1736843c1e02552cd276b62e80b1af6905d73884a248493704f4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/check_final_evidence.py",
+      "original_sha256": "6a3f9e1024ab2eda2bd9a90173a25f82db28df809643ba20e13aeec1207ea20a",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/bootstrap.command",
+      "original_sha256": "7c9f3bd3321580a73b5c314a3d3ffcbf27b268090f73ec89e0abca4f3b03b6c2",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/check-hashes.command",
+      "original_sha256": "e5016875e01873aeff75976aa19b8ccc1c40e4dc23dc9df55ac283ad2b0d5df4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/check-hashes.py",
+      "original_sha256": "26155f55be5cf231f6ba5046248f4a2648f26e6f7c43fd9f0bde3c5f0047aa7a",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/probe-web.mjs",
+      "original_sha256": "1ab0c80d9881e2c54572a45961cec6bb2c53e71d90ace6bae417ab19e0535b11",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/sdk-sandbox.command",
+      "original_sha256": "a3edf3ee680ce49b7c09991c871fd7a500a58b5468ffbef30b331c91bc72b399",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/unit.command",
+      "original_sha256": "2ed29996d5e13435ebecab01dd717606759a825ac7f12f781f12c51ecc565b5f",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/web-build.command",
+      "original_sha256": "5ada97faeff8bf83400195087f03e849288c34661a1f7edb8058e62947b7b061",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/web-http.command",
+      "original_sha256": "9d5866d146c09208af5fcc0e3c66087903fd9b5fd7daa24c9824eadb7b76e465",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/web-install.command",
+      "original_sha256": "633ea167fc699e4f4e28978f6e72039045bd4f060f77dce3f5163124cbce46f4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/web-launch.command",
+      "original_sha256": "2f6ba9974e774390d0b4ee53eda4a2b1309f3bd8466ec3adb3c0884b1c405045",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/web-unit.command",
+      "original_sha256": "4a58fd15474d1736843c1e02552cd276b62e80b1af6905d73884a248493704f4",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/check_license_evidence.py",
+      "original_sha256": "78b24442ee5d13820b98c7fbe9da8bd103665b617cd1a38e491ee0b20ec98d30",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/collect_wasm_notices.py",
+      "original_sha256": "f4790e3b5581b780d318f2bc9d438530cab2c66bb67a7ba79ae7d78d28872fa6",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/inventory.py",
+      "original_sha256": "d0613396b908637c446a87a470276299c14ca41bde2f2a05cc1d47b37d2479bd",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/npm_inventory.py",
+      "original_sha256": "b7de17e0b1bb13e14cba154a98393adf4f284e6f12a5d1cface4661adb7df0db",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/retain_cargo_notices.py",
+      "original_sha256": "550c508b691aa1ea6399e12a85981fc853e5788c6ceba416c32f5e9094d6b01c",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/scan_delta.py",
+      "original_sha256": "024e2d78f2ae05dd39f1b433fbce9d62da29dc285e2c6289aa49a0a2e6a059ba",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/verify_metadata_build.py",
+      "original_sha256": "24879d9e886a7d981c9647caabe7eaa0b58356f2e8ad60cf6cc6c5977004b23f",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/secrets/scan_release.py",
+      "original_sha256": "dcfbbb43fb0a24a588aa401420a7a4f970993f795fbfe61d444a64757ba57bae",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    },
+    {
+      "path": "docs/evidence/m3/security-qa/review_evidence.py",
+      "original_sha256": "026a46c563227b525db1f47d84e6175de7d1da69054888617eb0a905e60c3bd0",
+      "reason": "one-off historical audit/capture helper; not a supported application runner or contract/SDK test"
+    }
+  ],
+  "modified_existing_files": [
+    {
+      "path": "README.md",
+      "original_sha256": "7966b8f045983898dbd3c7f01cd50cd7c36f7d7b19c50ca31efe27cf68da2330",
+      "publication_sha256": "a0324573a9d94dd2cf29918d8088232c813c2e72f973b5d07a79a60bdbd0c407",
+      "reasons": [
+        "honest snapshot import and redacted/omitted evidence disclosure"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "contracts/evidence/adversarial-run.json",
+      "original_sha256": "19d74b1d104a34d6aee39f0e17ff5c4e85bb0162f63c633254c6e5ba9e0b0539",
+      "publication_sha256": "bb1e46ff542f7e97abd6e4b9f3a1daa8fc419baaca3a86558fcd532504d7f5a8",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/capacity-run.json",
+      "original_sha256": "f07511600e380d82ac906538dfb112a97adac5d4d6a3fdbaf0dd05c6a7acd7c9",
+      "publication_sha256": "41edc0c72c7e3eb14144b9a7732f412ad28a6f3e208695f3c890dbd1e04baf33",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/cycle-run.json",
+      "original_sha256": "d95981164e2769e49831daaad4bf9e1319a7cd8feeb74c3aff732619e6d435c3",
+      "publication_sha256": "0de8718a382aea97040d9953af86e5c6d9a4771270a16c4088fd913a28efc66a",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/full-run.json",
+      "original_sha256": "97312e107b75fd01e2b0b76ff32effbccea2f9de9d60f114565f4b987e32eed4",
+      "publication_sha256": "99c4d39a94d6b961a73b21b1bd95a461ffa3ba16680f53fb28f9db36be050993",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/interleaving-run.json",
+      "original_sha256": "aa087bae2df1825cbe1f44e0ed2934decb57fe10e5ec45c199a70393c9d4a015",
+      "publication_sha256": "ed559db917373b578d1a36deaeddc6cfbb9d6c018b2e1a348fe41996f9525f03",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/maximum-state-run.json",
+      "original_sha256": "74d5e2929ed255effdc757554d856d5e5cb8edf610baf5dfb01332edeee31fea",
+      "publication_sha256": "ed83b704814aac7b04b7fd3a1ab98ee2dc62ed5b556d7d6fc54d78abf5fd6d33",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/missing-cfg-build.txt",
+      "original_sha256": "0821b8e52c7ea6291e2cdebc07817572287ce94e4d0c96fed5e2f2166d4f7f6a",
+      "publication_sha256": "aa5c0f9e4d3fa9b9d908165132c7ce8734f678ed15f4dc7ae15c7feaffad278d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/negatives-run.json",
+      "original_sha256": "300fe00c721df2f7c3996b48578f0c2003c6ad8ddb11aa7727f019e90663a0c8",
+      "publication_sha256": "c47ddf2f20c783fc7a05e362109cc4be7ac4449b76808c3d398523b33eb42f51",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/refund-failure-run.json",
+      "original_sha256": "0c49d75005b9251ed365f6d45e2b8dfb6e085d5f3e463c27da4fa3a83b371a47",
+      "publication_sha256": "2642c1d3ff420101ca60e2b8a19867b725d0ecf708d12c45043a1df22d840e1d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/refund-order-run.json",
+      "original_sha256": "616980a9796664137274d5539f0bea00675355e4c460a433f77a178d46e1b6c2",
+      "publication_sha256": "d2c554e9846c013ece3ef22b2389f0c2656cd7226f54973cb02823cceb76cb31",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/storage-boundary-run.json",
+      "original_sha256": "3d9eab70ff7da5e2368197aa292a5616f49679cf3098455add2f5f857f5f3858",
+      "publication_sha256": "ac29a93c43ad7052860efc520b063324da55a18c71226e22c452d1d923442f53",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/unit-tests.txt",
+      "original_sha256": "3055a3f655cc0c78fd63fbe627aed156b61bf6ba9c201e54756cfb8bf39fc87c",
+      "publication_sha256": "a5a38cb498491000ba6527aafa272ca3a2022923d22e813a89ad7a9924830770",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "contracts/evidence/wasm-build.txt",
+      "original_sha256": "0eeb3219ea0092300da779dc3202e52ca088b9391c255b22addda51c690df888",
+      "publication_sha256": "4e5be1d3ed111962966eaae5bf3967f42411ebf276a75f5a13c70441aa975df6",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/DEPENDENCY_REVIEW.md",
+      "original_sha256": "f68dbedc1db59cdf143b9d10d254d68c08be14dfb304fcd3b292f8be8fcc2bda",
+      "publication_sha256": "c4a38c7e87350cc82ac353b6a9352b62a28ef464006a0b7cefb91d874e9d74a9",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G0_APPROVAL.md",
+      "original_sha256": "95af8500ae72444cea68c8835ce2568f8a297f39f4f28c8d8d2a8aed214dd2e4",
+      "publication_sha256": "c5d71eefb456f7442b50da753e3ae43ab7130424c0c445e6c60c62713b4f7a37",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G0_REVIEW_RU.md",
+      "original_sha256": "fb8280c287a478dab10f8d22a5d095e7c21218e2958a003740c5a6bf1d77664e",
+      "publication_sha256": "3252bcb6946da7e0e90e037adda1719757bf1b093df2e5f9ac3abb5bf4f26cbc",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G1_APPROVAL.md",
+      "original_sha256": "c453476b4e320e03fe61a7fa61a4e678acfe2a1658ad69177bcde3e5b190d9c3",
+      "publication_sha256": "54625dbcad0f3223e804678634a1d9ebfdcf7eefaf66afc6bf576e5a6dc94f57",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G1_REVIEW_RU.md",
+      "original_sha256": "c05213f1d4bfe4dcf92e636e62263679ed88ec580eb51e1d25ecd193facacb3a",
+      "publication_sha256": "c0bfe369c6787ed6181b23e85aa9c03fffe4c4385437b040f593cb89580a359c",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G2_APPROVAL.md",
+      "original_sha256": "b0117ac6c52b5502ce66143f8facaf0835826275716bc2d2f4a1605dc49eac10",
+      "publication_sha256": "b708ec80c14e227c19e6625a673e04533a0c5713ea354400d1de328544a5baf7",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G2_DEMO_RU.md",
+      "original_sha256": "83f3ecaf9c67af0a64d2894690c536a93826fa8dfaafb958f762678192575005",
+      "publication_sha256": "1cf722174612c1936c4a9ec77e53be611cea5959de96758f54badd4b7f44d731",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G2_REVIEW_RU.md",
+      "original_sha256": "0ef08d65ad2ceb6c95a468ba59703e8fe2ea7103834ac543bf41e28640bcda48",
+      "publication_sha256": "dc0740102ad664377f02e9060721d0ae4361479f4c30d1d5c289b26c4dbc94ce",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G3_LICENSE_APPROVAL.md",
+      "original_sha256": "9af3fc6ac74cbbeb7b8853864bb4fe7c4811f2d88850045cd529c329dcc1f6b5",
+      "publication_sha256": "f86a6c4faac68d47ae0aba25f80e24164fcd0763913603fc984942be36131844",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/G3_REVIEW.md",
+      "original_sha256": "de412382d4cd05ab5af7b01b807a996f4238d3de78fa2e7a233c0c9366c7afd7",
+      "publication_sha256": "974fefc8e891f26c32cbe05f8a274576aad8698a123291c893634905a5c99999",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/LICENSE_REVIEW.md",
+      "original_sha256": "3aedee6d17735c390a77b3d121961e22781c54e3f6302779b7e0edca3f30c36d",
+      "publication_sha256": "28769ac4496dc29049141cb6f10c1b3e50465e2b33e3d83b981252c85876af05",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/LOCAL_TOOLCHAIN.md",
+      "original_sha256": "42292d0fef0a0ba3c34bcf14db7ef30a7a44c5c1dafb47162d76b29bc837c1c6",
+      "publication_sha256": "8adae64993bee9d2d732eb61d46675720ace46ba8cd1cd4642d0feb958b5043d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker",
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/RUNTIME_CHOICE.md",
+      "original_sha256": "a670ffa1fddc459d2b44ba6c47a03e722ac5f1aead5c9ee74cf7d6c8f4e9b2c7",
+      "publication_sha256": "5670d3352dc8e5be887c47602774136fb312752471eccd9b75be6488612be6d3",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/SECURITY_REVIEW.md",
+      "original_sha256": "6b1c13f10fbb1b6a00c0c10176a7bb5637ed3bc37563c6916ef57cbae544ed88",
+      "publication_sha256": "e0734671d75e5e08b6491ac8ff82a3fe0c9d3ba0d1a098a0909ca564858eb067",
+      "reasons": [
+        "explicit historical/public-copy qualification",
+        "link redirected to explicit omission inventory"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/STATUS.md",
+      "original_sha256": "9de69eed788038760a69ed9b7ee34b7f79e6358f50b5e1f72b10e7be73c25dea",
+      "publication_sha256": "9888f8717ddc6f5209493a0286edf8263326f09eb94e00621939a0adbe1d923f",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker",
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/WORK_ALLOCATION.md",
+      "original_sha256": "ed3e6779c61386c3b5a83fc1191dba74807c0e90d4d3f7844858d3573946107a",
+      "publication_sha256": "e47b4d77af32f899a9cab2858b92a867dec8737b1532f6e3c4d1ce89db7b46cf",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker",
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m0/environment.json",
+      "original_sha256": "fd06ada51e88577f7ae7c77bd2b7d5e3a1c8e082452ad957c20d5efc8ea8459a",
+      "publication_sha256": "77b07927ed78971b0cacef728637b0694ed0233be1a5ca46a29e8f0365be0a8e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/docker-assessment.json",
+      "original_sha256": "8803bc18b346a983d562e9bc2a9835790003f4886f7aa7f8fd2ac71b51289161",
+      "publication_sha256": "dc95ae329974d2e527b4a1528bfd912f6f3e8d709061514e6991e1a4ed34e5af",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-checkpoint/run.json",
+      "original_sha256": "56af7ae5424cd2b73fc0b14ee97d100ce8a40acdf32ec49ba0dbcd49420bae94",
+      "publication_sha256": "ff7917617661f3b3e626edec1b3677f8363709c35620565ff74dbaa4dd0d6256",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-checkpoint/sandbox-cycle.txt",
+      "original_sha256": "d8507f49ebff3ebebd775a5b5bf882bd1f8ca4ac22c0313c32fa8198bbc38a56",
+      "publication_sha256": "f2a8a02e44f8a2daa3d2e7ec21027eb8dfbd4930b7edb689761aa8f54bafa551",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-checkpoint/sandbox-full.txt",
+      "original_sha256": "c96776b48ac1eb43ab51099883388e68227ca373e2856963a46954854a8b0a6c",
+      "publication_sha256": "73c506311bdf8c695b8ca89fe00dfde61d977aa110a3ce961ad5c8ab700b7e2e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-checkpoint/unit.txt",
+      "original_sha256": "266ea42a9f8392f97ba48470fefdda2307652dc3680c3ac146e257dcd7e340f5",
+      "publication_sha256": "a259724b10cb04dd16af8eaa1a87f3e938c82937584ec3aa0968b2935157d899",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-checkpoint/wasm-build.txt",
+      "original_sha256": "b415265a5971c50b5cbda3c92dde0533a75fe6f39f21d48757f8976258e1d6e3",
+      "publication_sha256": "951187fe37a3fd8427b532d21e09b6b890c09d6fa99995be5d81ccc2c3e5ef7c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-combined-unit/run.json",
+      "original_sha256": "28dd541c6d8eb44171c5f6fb2c9962a02943cbc3c155643683f47d314d737415",
+      "publication_sha256": "2b525b3ea512ecc7db239558e73a04e5039bf677d88f374fde51781922164166",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-combined-unit/unit.txt",
+      "original_sha256": "e5e4c827882f3106832ba9a32ef8dba50fe38688e1e102207090a2b60e36945b",
+      "publication_sha256": "fb34ac4b1f2348a28dd04b38a29371e26a60dc66228e1a21881f457be741e5b0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/adversarial.txt",
+      "original_sha256": "8337ea511d3fc2e2ec92a0e1e18b9986c0a007ae13fab1a59dc04ee1b53b680b",
+      "publication_sha256": "dc2997b31ab69ff65ac73ff6ea57e565ac08c0de9f07139eb264b82e2b68c38f",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/capacity.txt",
+      "original_sha256": "01bb1561d3d615c0d685e1fc994c6f3beaf01de6fa71f85983f18bc6b6246c04",
+      "publication_sha256": "b5313310399cd0741c812d29f335e1024462cdc65e9f1f8fb8aebcc2b43f3d66",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/cycle.txt",
+      "original_sha256": "1ff0e8ee8bec73fe69336ce84b39ff3f47e4c0020af8b7c21ff4d090830d29cc",
+      "publication_sha256": "fa4d7b15fd70c1f1e606972be3d86af4bc0e5ab6782376075ddcbcb4470be25b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/full.txt",
+      "original_sha256": "c96776b48ac1eb43ab51099883388e68227ca373e2856963a46954854a8b0a6c",
+      "publication_sha256": "73c506311bdf8c695b8ca89fe00dfde61d977aa110a3ce961ad5c8ab700b7e2e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/interleaving.txt",
+      "original_sha256": "41d44ad8dc702e908614bd4f2a1132194e8d51c60a58a4e65b2b06ef013dc053",
+      "publication_sha256": "e7ee55f7ae6b1436b517ac0434a632f650d6737b41a30f040c51e317cec583a2",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/maximum-state.txt",
+      "original_sha256": "9165cdb01bf6b62ed3d0585ae906315948d5757e6ebb80283fd936a5d0d01ba6",
+      "publication_sha256": "0dc0c02ba7e5932bc7d3582419da269a61aed657b0925c861efd07a7b2f51499",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/negatives.txt",
+      "original_sha256": "9a9f3e6dd7ecc43ca3f04ea694054c431d62409114e2ddce62c4cd20d374b363",
+      "publication_sha256": "9ac0adce6011c97bfb895c604aa4de4292e5bfb61a69cc0b1819f9c73b5bb1de",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/refund-failure.txt",
+      "original_sha256": "73469c2341b8bb12bd25c8f54f077de043803c87b175c33c537364bfa77d1408",
+      "publication_sha256": "ae17b7d722ac1e544b959292a427cced6ef50cc4e0bb1399f2be6632a9e76c48",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/refund-order.txt",
+      "original_sha256": "0cababfae7fb1e58c0b92b256c0c9342bee782f935473c3aa8f013e3138e3535",
+      "publication_sha256": "76945e832166e91647783104d31212c5f656ccfb1639c0b68e2efec20e66925f",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/run.json",
+      "original_sha256": "d9f8d67326d254106e898829fd4068187afea31e4162e61c14fe8f964621fe54",
+      "publication_sha256": "358cb4e360f06fa1ca99df0e5efc5ffb3bf4054e439cd3924d4ca8cd7ce81462",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/storage-boundary.txt",
+      "original_sha256": "6b557fb292aa6a264d2d5d01be9a8be53a3f5da9668164ac470d63f42ba26d5e",
+      "publication_sha256": "9a7c4dd27e383fb6c521ec30e947ed17d5a6174ec45ec04e70a76b8a01e17689",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/unit.txt",
+      "original_sha256": "b7bbfdc096b596c984197ac9850b9edce41ca1a44f238aca2624028885acce6b",
+      "publication_sha256": "acab970b833aa6fad913358c8df710cd6eb3e8ca8848cc51ece59ee3ab2802c1",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-final-contract/wasm-build.txt",
+      "original_sha256": "a0b9fc4273592ce2518f0df458cde1bfe05db02cccfb4b5da1ec4ac7e0b70999",
+      "publication_sha256": "bf97401137a20b876a5ecd190c2ab2f5a36e9b1c353ab4154cd4cf0cb0345894",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-live-ui/scenario.json",
+      "original_sha256": "bd9b175dffbf5ec03b9956f7699a1a15c1f90f3eaf2eb135c7bcc4692a501713",
+      "publication_sha256": "b20a0a3ad99e72b40d4fc48494265e801eb3ebe0bc607dff8295520bc11c8d47",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/adversarial.txt",
+      "original_sha256": "e5f3b02de20256ea0940aa5e943c98c58989edf6facf42eabdc3e4b33171f560",
+      "publication_sha256": "710ecceebac6cc9a55b0396fca408da612cbbe5892ccea1c96344d579d409173",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/build.json",
+      "original_sha256": "878f972ec7c435d724717634e200dfe30ee6aaa2080c173cf3cbb927fbd2559f",
+      "publication_sha256": "e95e7fb2a5bf8f9d8a2a070b8fa64d74fb1f3b6d601be21e3614458852c6695d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/build.txt",
+      "original_sha256": "fb646e0be4118a7135fad95f3075773926bc3c4fd6c646f07b346ed0dd3c91db",
+      "publication_sha256": "34797806e22afa896f1148268b4f84324900f44613602a7b51f8e7a96715cc8a",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/capacity.txt",
+      "original_sha256": "4cd460ef03925ce2b7560bad349682ce74a5d63860fa66d7ba4d403b706cb20f",
+      "publication_sha256": "97a83e16bfb3c005068fdcaa10c8f785145d69a43a7f37f56c6883c29f2d1ce3",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/cycle.txt",
+      "original_sha256": "f327dbd13670f97be8d6a1169378760f4096773eaac993403bf405c74573f0fc",
+      "publication_sha256": "1329b2cf0ba3a83083137e4ee0235d37bdbd70a0b48cd60b03f78370bf4e20ea",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/full.txt",
+      "original_sha256": "3ff4f9c07cddfc18ef97edac43d272537ea28ae6d089c7a4fbba29c3c37138d4",
+      "publication_sha256": "76ec6105726ce62d13253a8b78eee0921c2c66adc7b8d81d2def1659a3bc617d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/interleaving.txt",
+      "original_sha256": "6cec53ffb7186952eb5b4c7bc87107f3423588a747525a32bd73b9aefbfddbf6",
+      "publication_sha256": "90b033b8b1c3930f3c4f1a571b482435d6bee22cf1f7516a2c73255ba61ccf66",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/maximum-state.txt",
+      "original_sha256": "c27e11306d2dc0e63b90f1dfdc87a437ed1455c8274089bc7b3d72145dadfe41",
+      "publication_sha256": "fa374b09ca131d97313e91bbf070abf021d5fc6f742ae0121729cc3bdd4c3332",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/negatives.txt",
+      "original_sha256": "0f0eb897afe4e7b2bf42b4bd5d78bf08680a178e58fdfd39602aa5987d271bd1",
+      "publication_sha256": "690fc710e59d244f8bf3bb0934b1585371e50cb37d5805627972325e1308ba47",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/refund-failure.txt",
+      "original_sha256": "73469c2341b8bb12bd25c8f54f077de043803c87b175c33c537364bfa77d1408",
+      "publication_sha256": "ae17b7d722ac1e544b959292a427cced6ef50cc4e0bb1399f2be6632a9e76c48",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/refund-order.txt",
+      "original_sha256": "0d93ea5a12e6da26d425de4942d8d8202de27fc700975306f4667d7b0919a386",
+      "publication_sha256": "97e95622ae9d4988286c86a168f44adf7f1cabe9c6548d734ccda4d1782764d6",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/sandbox-run.json",
+      "original_sha256": "157b450a7f7a83bbb79e1d3e5412615b6bbcf66475d467865a19522001b0d4f6",
+      "publication_sha256": "68878e62d7b2f2da313c09fe20237adc8a0a7b95d34e32245aac329f97b52d64",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-portable-build/storage-boundary.txt",
+      "original_sha256": "0e6ee2a25dfe016be96c1d59c1faf83c06c0cf65723a7fd3e3bd0eb9350a274f",
+      "publication_sha256": "2b89c5db8a0afdaa01464f823a982bf03581e02956c1827b07546f90853251ef",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-sdk-sandbox/bootstrap.txt",
+      "original_sha256": "cf525dc810dbf38a41c899dc63481553f8d11275d83f4e9c4474bc0c0229d627",
+      "publication_sha256": "cf28e8265ad770839d668ed4b1ef83d70ad96fd4c8e9da8d7fe6af194c003457",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-sdk-sandbox/run.json",
+      "original_sha256": "7758894a8462e2e624be7521a5c13b3b1676dc83c38e56aff5d62ce8bcd5be84",
+      "publication_sha256": "4112a51a00e2cd7da51cd5e373800d4feee2d79da6052d3795272c720cb50f93",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-sdk-sandbox/sdk-sandbox-stderr.txt",
+      "original_sha256": "76f4e6c0a3e96e6391921d23b4455954e8bacb0be904cef91d6a4eb09f685353",
+      "publication_sha256": "83205d3a93d6d6c1e30e8c52e139d749c2a4d9ae5bf0c3e200c1fb4fef619432",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/integrator-web-final/run.json",
+      "original_sha256": "430802e2bb43f8ab682e165f63fc2b2b6cb7ba1ea1bc92e1b1a7d9e3ab9a4d8f",
+      "publication_sha256": "1403a3ec8273e8b216f14cdce1acfdeb7ae61097993adda38d50b4987955fd5e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/sandbox-binary.json",
+      "original_sha256": "dc79daabb8e1ebfc4b6674d67f85c0a169dc8e710f2020209c892d1f92c80896",
+      "publication_sha256": "5b29b90101c0d579517d1faa76b54d02f25e8844b1dabbbbcd0bcb27b9083189",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/sandbox-startup.json",
+      "original_sha256": "64e83f820355919d255cb565a26a571ca0cd05895df7ffd2e42224af7cb780a8",
+      "publication_sha256": "e52e0a89704677e107f2701c88dc421f2ecb4543ba458dad51edb96258cbec04",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/sdk-checkpoint-review.json",
+      "original_sha256": "c1339a30d2a56602892ae14f964bc41f60f46c45987247f39100bfa0cf024c7c",
+      "publication_sha256": "6f757dcedc75678511228215b80431de21cc6325b95f460109e931568460d7fd",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/sdk-complete-review/run.json",
+      "original_sha256": "bbc5327737a4e98232bd2553a9fd6eb972826fafb8de64b1c0ee66e4fb106138",
+      "publication_sha256": "e02eae68fe2f9cb9f74df59729bb222fbd7944994539695e071b06931a5a96e6",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/build-run.json",
+      "original_sha256": "8b40d4304068c7b76fce6699f60cd43fcee8f0321e7ab2d5fe1633e445a5388f",
+      "publication_sha256": "c88b75df572342e1a50391c06b103fb42c0139690658247a993f0175b020b47c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/build.log",
+      "original_sha256": "9e7de8d52db5065ea106e4584b73359adf8fd3e1e57d6775dc869069864b786c",
+      "publication_sha256": "ae5a57ccfb5511abd46cb5c138c8f9be83b37453ba54d1252801229232639d32",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/compile-run.json",
+      "original_sha256": "d63448f598b653f9bde05920c0c6042a0bd42d923bc8506b26422458d5adac99",
+      "publication_sha256": "8d444cfa4e3c09075ac9118d0b4cbfd5c83d1d2c92dbb74e30090c45565cb976",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/compile.log",
+      "original_sha256": "6608c3a454dc578c292e282dd3d52df917922c525e912451b2eedf6eb17000a1",
+      "publication_sha256": "3b21c005193c537d4d1ace25b255d3b266d7a1b3c6d0d6f49f2d987020412a6d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/incomplete-tool-root-build-run.json",
+      "original_sha256": "3f7d5a2bfe93195099590a4ba61f5f9684f80df9cf1995c4a7c6965134515fdd",
+      "publication_sha256": "16cf41d504787c2ba9e0513ae2db9307b6de66a0f6e86f4136a04edbb165590c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/portable-verification.json",
+      "original_sha256": "d9a0e0352cded2c07135a8d258ea2c572e7287ca8b62ddabbf42e71cbd3c3dd4",
+      "publication_sha256": "b6d905158b190038890e57864bddf84aeccbd6f559a7de2a032e87c6a977b32d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/qa-report.json",
+      "original_sha256": "dfa36e7fa04ede3c4c8bc0f29a72109fa0c6a99bb7c8342675cd1342e7464028",
+      "publication_sha256": "454a5d76bef8a1d8f2779299094f4601c084866c587d848482889dac5f5bfa1f",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/sandbox-run.json",
+      "original_sha256": "d177cb84b2ea6a66cff6f3579b8520bf9a469f3d930d44b618d1497a75021fc5",
+      "publication_sha256": "68aa5d25b9c7d8f2bb5394f1fef12a16adf6a0790a31c1a8bdeae8b1efee0bde",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/sandbox-run.log",
+      "original_sha256": "4baf94f1e14f0228d15a47191a2ab71f1c71df11a282238c7619326651f3b946",
+      "publication_sha256": "9d5ff20b91d66fda56204b86fe5e8e5987dbb30bc80a921f7ae6e3f44ca7c666",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/syntax-checks.json",
+      "original_sha256": "ec6e50eadeb5219e742641fadcdef2c39eec5617d597f06328b4b19088723fda",
+      "publication_sha256": "3ac93efefa8ff54ac6e9b4a935b26b47444dfb31d77cef3f92283f7f7c0f17f1",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa-portable/toolchain.json",
+      "original_sha256": "e6ab0e68b8c3970ae0eefd44bbab58c9968aa1bd942ea0191b5718a550fc5f09",
+      "publication_sha256": "d6dbee5e7fd23b5e816d2f2089c2194e324d32acd8eedf00aa327e6bde34cd22",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/compile-run.json",
+      "original_sha256": "17b7b517fdbab71d20301123e61b8ae95df6eef751e43c41e4d5c860a0e18833",
+      "publication_sha256": "e9b22d85055ed0552cdc76303ccf2c0a2a5426979c74308d1009f96ba141ac6f",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/compile.log",
+      "original_sha256": "ad79cdb5727e37b667e91a2a5f7b4943466d3a606605b040f0d3c2dad2d076dd",
+      "publication_sha256": "d22eff6dd027e5d98705329d9ec9fc58c12e03a999aae7b2634b07d821a66696",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/qa-report.json",
+      "original_sha256": "58d534aa434397337a8055878b30600f9e65f1db308dc0d0a206d4dc9fb0a0f0",
+      "publication_sha256": "cf4983a565fc552d03a679598933968c0518e76bee274c05998c6aa72f2efe3d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/sandbox-run.json",
+      "original_sha256": "25307a26c9b073e24861452a12d5165f391bb0b5892a4e23e42bd0c292887010",
+      "publication_sha256": "613f9de76a81c39d771b6b73a4dec19415804c10c4c236e584e74d8b41ba66ba",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/sandbox-run.log",
+      "original_sha256": "223596c7a5543587fe12fa21fc37f24be8873433239e97385b7d75faf48abdd4",
+      "publication_sha256": "72a74a9318bc83d7ce8761ce0e5e4ba346bfafd220c96d8f51cdc1c6248556bf",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/security-qa/startup-denied-sandbox-run.json",
+      "original_sha256": "80628bd8ab9ff78417762250d5f382cc2edacfd6d8a89336f90014740966980d",
+      "publication_sha256": "79889fbc1b15ab7590b0cd882c59635d74e4400c6e76621e70a2b239b9b63a7e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/toolchain.json",
+      "original_sha256": "e4aa457fd61236bcce7a4395de40e52c8491ba5b2962c958fa2a81b78b12562b",
+      "publication_sha256": "c0e76548c07661de07fcc32e9a928bfb0238011e01d47efd13275a736e9a04c9",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m1/worker-launches.json",
+      "original_sha256": "f3b83ad64b183a85b348cbab7ac05f473c50af05e764ad4fb2eb74ae6b46fb76",
+      "publication_sha256": "662446356cfcba47d757b47613ecebdb3aea44a509bfd5336be0b48b86c0f465",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/bootstrap.txt",
+      "original_sha256": "a9fc846882e79973ab07f004eee7e578a7afbaf7dc588c7413fe531707cd7329",
+      "publication_sha256": "049d36e46f292520b35f6fb2a45c980b70262b960251657ef80be8b5b282ab8b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/sdk-sandbox-space-path.stderr.txt",
+      "original_sha256": "a42b24cead3b07d9998fd073b4770e2b59ef787e4ca3f024072f5c9bf2af862b",
+      "publication_sha256": "708b0b19d8d8c71147899650b11b24bdb2305d9f3ed6f38a29f40c1a0c4d4c0e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/startup.jsonl",
+      "original_sha256": "8fd72de82b7bb7a42956047dd126b81cc7abe4c56478e3339f4c0f847150a648",
+      "publication_sha256": "7889cf915a4bb25161ea59445c293c05d47bb7518af1564665ee5412345ffcd0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/unit.txt",
+      "original_sha256": "ad92e2e04b7523c8b6e32d45ca982604244884b32ae70969ccbbdc00457766a1",
+      "publication_sha256": "95710172eb0a02b4e5edaae1e98ae48b8bd2fb3a5338d783b453eadb13409503",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/clean-mac/wasm.txt",
+      "original_sha256": "ecc0c0d4e090e9bfa445339a396d11d8b58818b4ab192546fce436b1bacfd582",
+      "publication_sha256": "bab9ebe0aadb2ea3ee70c9b943910844127c58e222c7f0f72927545e297924ca",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/cargo-audit-install.json",
+      "original_sha256": "af36544d016ba7c52c53c964e71e096818d1b59efeccc9a0c905064486928fc7",
+      "publication_sha256": "ac07b17a183816271cdda90af41eed4d5f1bda75b16fb82006cc43add50d86f2",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/cargo-audit-install.txt",
+      "original_sha256": "fb313739ee0686a10665c6a51e1f24a7f252be61ec50c2f780ea0af017306ceb",
+      "publication_sha256": "b51c28983288e37eaea6c2e649e6b6a1c0612ccd76dbea52d4c513e10050c58b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/cargo-audit-run.json",
+      "original_sha256": "2abe91f1f59f0ac10e42a896a83185330d472d3bc1067febf348810e8b80d949",
+      "publication_sha256": "b4ae7f8e2ba9d8bfe54dda8e227988f2106a462d0e56031d91a88ea8e463ba3e",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/crypto-host.txt",
+      "original_sha256": "a5f544d0523e4e5b2bd18fd0de512b3651078eb957cfec7d8b8a5a7abebd5b28",
+      "publication_sha256": "cd13ecf006e74794e79e66fbf061fb98e96a4fbe67b315fd41ea7ea67f76e9b7",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/npm-run.json",
+      "original_sha256": "35a5a19b0d0ce72f240623a71296bfbe9f73d6ceecd7a36b7f6833a4eace31d7",
+      "publication_sha256": "b2fbaa994108a01fed1e32911317303cab8d294bd17e3593cb78b94bf909e909",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/target-scope.json",
+      "original_sha256": "860b8cf0c1a4de8e6a650e429dce6fe0e28f5186bd87a0687e140a5895942f46",
+      "publication_sha256": "d8293c9967bfeab46ca5573444135e474c1bbce6b31dacf9e6847c677e201796",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/wee-wasm.txt",
+      "original_sha256": "666822b7d413d270d353e68131b20e0c7359eb35a06ff648a2e954f3306bffbb",
+      "publication_sha256": "d7d6006f7c6e8375e50caf954b5f467f354b0309cfaf16e3291fc445a1bce931",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/dependencies/yaml-host.txt",
+      "original_sha256": "310f89dae50f820f923bad6f0a015ec9ca92cba936867a3f5fdfe9c9ad7743e8",
+      "publication_sha256": "65302fdd9d5865d59f5f5ad3cb3785bb97e9afd39c971bc42118f45df8f792f2",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/frontend-selection/browser-selection.txt",
+      "original_sha256": "4c9d40ae7a6898e42493df97fc8212a07e682656cbb953a39119e43b1d5e09d6",
+      "publication_sha256": "cc3d09ee1c210775f84f950b5ebed919024e2866dfec90c5fbb1532bea0d855b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/integrator-combined/run.json",
+      "original_sha256": "de1436ded6f86ba7894ac2e835f8199e379ff163838bece171108fc967e86877",
+      "publication_sha256": "95a6fd708d426ec9f0bd3608cda361795f6cde3385f785d7a15ba7d3f9017f38",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/integrator-ui-baseline/scenario.json",
+      "original_sha256": "0adafbf98271448980b34341ce1845fa9d347fe97d6ab514036bfe491e95abf9",
+      "publication_sha256": "35eb5e597116a5b33d05ff39fa3809d1f0d6eda9e2f886bac5faacb7ddfe1158",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/secrets/final-run.json",
+      "original_sha256": "08a02b1149b2d46055975dbef760afee5007ff249dfb28fdeefd736767359cd9",
+      "publication_sha256": "8ddcaef8544b9ccf162c03b9366e181561030422a812684041c9c94e704ea090",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/secrets/final-source.json",
+      "original_sha256": "92d5eec43ac8ccea1acab4b75a7bce7b011413e21f80d5a09cb0139f4f29c1ce",
+      "publication_sha256": "6d96a3bb9c739d33dd38626992c918d00b4adad5916e89d36a6d169f25c14972",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/secrets/run.json",
+      "original_sha256": "e2477162a8f0dd2484a7b5a690d5adbfc1e5557fbcdccbf7817d8787cfe9e03e",
+      "publication_sha256": "2cc036e7f0cb3ff0e5d3c48ec996e992b2f8d8888ec7b88b27929c6313ba0722",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/secrets/tool.json",
+      "original_sha256": "2ec624fb19b36721aa00e3f549a877b50b522a1e6096c8a3ab75a165da4d0e60",
+      "publication_sha256": "47fbe55b393a9d64df7332e20ed55ad6bee4c07291b1a23cf175bfb1c192c514",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/api-run.json",
+      "original_sha256": "b36820365d2c6498f76ff6c24a1cf6cd985f573ed43cc9994db13c925f762e74",
+      "publication_sha256": "485ed983605ab29c2b394ec9388870aad3c1b052d69c4aa6a21770e230204673",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt1-browser-run.json",
+      "original_sha256": "efca93b7eb0f7eab9c14633cd4bea710d7d9106915d215455ffa765808b29bf0",
+      "publication_sha256": "0eb9a2f5fb326089ff15790a08e8397cb8b47c1b36e0ab369058740099f4de28",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt1-browser-run.log",
+      "original_sha256": "fb44ce4bf02d121f9db08c7ae1a6f0d4821ff5b6161971262833107bbb152a70",
+      "publication_sha256": "0d1299cef0ed9ca40c43c1f01ded4753c16c335717ef9d048c4fc8eea8b43e89",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt2-browser-run.json",
+      "original_sha256": "2eedc93a5ee56a5b4d63fcc075aeb724f051733671e96c7b977f262e29fcb57f",
+      "publication_sha256": "05ab1bde5e27602e16a05c70030028f7907af89819506bff4d86251f0525f1d0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt2-browser-run.log",
+      "original_sha256": "4a2ad3f7278aa930082a6d9f074c1b5fdf25305bbf4d42979f73761304588cd1",
+      "publication_sha256": "9ea9d9a2310ae859da4e2bb5b28c65cf83e6f8f91dec073e9d7f7e1e98cea095",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt3-browser-run.json",
+      "original_sha256": "52a45d61dc5529e208f55f76566e86fb23ee43cf473d6f140248ca9a02eaa611",
+      "publication_sha256": "64a916753e7f44d7538bbe7631db099517808a08ac9a5dd4ef27c98a2c9f8639",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-attempt3-browser-run.log",
+      "original_sha256": "ef8b63911b87cd7a9e93f1a597f91411f88ba43c6a819756baea6d509f5a07e6",
+      "publication_sha256": "e217e56496ee4086cc4e52e24c6fb303a345c9a5ceab3ea1a33c7f990c8e9411",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/browser-run.json",
+      "original_sha256": "c561717842e23475c2ce1342aabb5d3f65fbfd81d81ab3643e34bc18bedbe9c0",
+      "publication_sha256": "65d5ba19c98435b46086b90d7e404a0edeedb10b4ddcbca6b5ab5972e00d3529",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/console-run.json",
+      "original_sha256": "5bc9d0a0d86da7ece5b6db4fc7d3d986fef177f0ffc141afc51dd0e3672e09e1",
+      "publication_sha256": "b04fa076a5d859b8fe499bbd4982b4256c8514f46530e2ab1deaff22b5edc5f7",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/console.log",
+      "original_sha256": "2ab0e79431580ff6ea083e7f5e5d3fbd26c98efa2f61fdbca1e32a4761780ab5",
+      "publication_sha256": "ec1d9eefaaa52b234083dadc9e7c01f3a2fb84e50fd6da22d1027a71677e46b0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-browser-run.json",
+      "original_sha256": "47596fab666a67e2131df8e403afafd9bc4c1d47bd9a069080c56aa096661519",
+      "publication_sha256": "f653224cfe65b21feb1e6a44740fd86c34964e16539b8233d7183c88ab3cfe36",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-console-run.json",
+      "original_sha256": "f0a0c3a37bf56a7f356fa449ca57aead46d151970b2d11b6149200c1db05cb7a",
+      "publication_sha256": "bab9790e5a790e72337ea019b1c7baacb3c2abfd7aad0fcb51ed48076080ce9b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-diagnostics-run.json",
+      "original_sha256": "21509f08b44fe35fbc469a0385d15f2614f39fec91feaa95996fb6aa67d0a78b",
+      "publication_sha256": "484b677493b2d9fe67c5cb1cd123bfc92b6b1e2a6c19be7bfdfb4bd7aece25af",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-diagnostics.json",
+      "original_sha256": "84270ec60b0969dfa69ad9b15fbd4566430b82afeea6938139204feead575cfe",
+      "publication_sha256": "1c4e46a8378ce7f91d2f9cff8e9301d4bc0ec0a4ff0e15ecc3807d8e584eef3c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/final-unit-run.json",
+      "original_sha256": "327efb59fe03669d059a1fd05835afc7fbc55c203e0b9d0959097c3f72c517b8",
+      "publication_sha256": "fd80542ddbf9101f39029ddcb2063d3ccfa3b55033f317c52f6657428cdcb50b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/lifecycle-evidence.json",
+      "original_sha256": "f28bd79222a18de5ab2dfe89fdcff52d59421b1ac84e5bfdf06d297a1d3e0fcf",
+      "publication_sha256": "a4c706fbf6b7e2f83a6299a1ebc42dfe2670e4e96b44778fded4f80e50c5242b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/lifecycle-run.json",
+      "original_sha256": "bba6ad2bc698bf1904197b61d09576ef16db57a61b6394951e55e33575bb864b",
+      "publication_sha256": "1964eed0d3abf942b72fc004f1a4adba6bf9860bcf39450f27c1c1e7930aaff0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/qa-report.json",
+      "original_sha256": "ee81a6f7d460f13832ccc9652019c35563cbc4b55a974840dc2fb7fac29dbdea",
+      "publication_sha256": "f3353336327b8a0dd4d819950ede57841ec18998156402c3152c81e0c218e8a4",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m2/security-qa/unit-run.json",
+      "original_sha256": "e94c44eaaca43db60f04497c8ce4ded7490594d949b04980998397fe1c3688a4",
+      "publication_sha256": "0c5c460f5b94cb711ace0d6c9a141f134032ff86353ec599189ab4a4b403bab1",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/agents-cli.stdout.log",
+      "original_sha256": "12ece11b9746ad1c0ee28ec85bfc26086e6012ec6246caa0426e590eb4c07f91",
+      "publication_sha256": "be286a5eb65a675ff6207e34b36c8b218ec5c59ceb98adf8ddfe25b2664af67c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/bootstrap-reused.log",
+      "original_sha256": "cf525dc810dbf38a41c899dc63481553f8d11275d83f4e9c4474bc0c0229d627",
+      "publication_sha256": "cf28e8265ad770839d668ed4b1ef83d70ad96fd4c8e9da8d7fe6af194c003457",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/sdk-sandbox.stderr.log",
+      "original_sha256": "32174270a0fec4fbc7ba0e021214b1ad50fb0407ec3c4a573cd5127deff351fb",
+      "publication_sha256": "8cdaa44c8a1471fe222297ec52bf6aaaed28a035df72efa16532d1127a11349a",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/clean-mac/unit.log",
+      "original_sha256": "ad9435be269d04239cb2d431efb1bcb0f3eaca19dcbbe621a22a71778c03c501",
+      "publication_sha256": "0af26f140ce7661c76a29ab1068af65956d2b5c2929c99d16c4faebd5e640440",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/README.md",
+      "original_sha256": "329f88e3064e702d12493e8c2aae7fb1e07bad13bacaf8a706b3a9437be645e4",
+      "publication_sha256": "2d611b15481d75edf0aafa5209246df140f1ae7bea30db027482b89fd1ce4b6b",
+      "reasons": [
+        "explicit historical/public-copy qualification",
+        "link redirected to explicit omission inventory"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/evidence-check.json",
+      "original_sha256": "244bb8d721d7a6791d23ecb2837fd803756def186ad0a3fb43b349044a894c64",
+      "publication_sha256": "d1a2901ac9848ea78349aeeb306520a1b2ecf9ec3c21b4207d88da48de1411dc",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/qa/qa-final-review.json",
+      "original_sha256": "4bc6a8d0dfb9d4c50eb0c0121cbbf0d964b6b562be8c4d457008c49da1ae37e5",
+      "publication_sha256": "22225d216fa876ec14dee7df1015d9d3721e9badad4f703af55ce6f6dfcf5b65",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/README.md",
+      "original_sha256": "644b0a6b55496396fd477840fc279065e2672bc478b7ed7bbaa788c80f5f8f14",
+      "publication_sha256": "8af4e529c5968350217d1a1b76549a1b30f641826837e279086346700c6cd18a",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/bootstrap.log",
+      "original_sha256": "cf525dc810dbf38a41c899dc63481553f8d11275d83f4e9c4474bc0c0229d627",
+      "publication_sha256": "cf28e8265ad770839d668ed4b1ef83d70ad96fd4c8e9da8d7fe6af194c003457",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/final-readme-check.md",
+      "original_sha256": "1de1dd788e7eb14bab02aa65a8a592ec2e193a3456bd7f18be741124bf2db551",
+      "publication_sha256": "2f5b21cbaeca825279c4aca8af50b17bedee399a17b6309abef6efe7a0e93bde",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker",
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/initial-state.txt",
+      "original_sha256": "45b5303857a85be21861de0d6b7071a4157b405b7ab8da369af93caa997301d1",
+      "publication_sha256": "79a05ca8b1b272b80f86d8997d25b8d226dbbd1fe8c16ea0a6c5287b3648e20a",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/manifest.json",
+      "original_sha256": "a42019e9ae1849dee651201e59e84829318808723f25bf7d26e6d5133ef62f2d",
+      "publication_sha256": "3e7ebcbde752780eb1313ade04d9397ce8fe945bf4e88ec45c457850e396ab06",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/sdk-sandbox.stderr.log",
+      "original_sha256": "248d1799838bccf070acde4b771081ca3aeada0ce080b467af762a7b1b4b5550",
+      "publication_sha256": "b877ec81dc31ed58f2c2d4a265827ffa77302f5a8736abbabcb667f5461dd48d",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/readme-check/unit.log",
+      "original_sha256": "e618ebe988a83c2658374950e601f67ab13dc3bf1f9314412769d407591acc26",
+      "publication_sha256": "32c196a66c2cf7cf936e3fb7e47c13757292328bb6e051af4e355b1a6ba7d425",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/README.md",
+      "original_sha256": "5d395d8d0fd802c7a904a85c8cfe63afba0a780ec5664942df8322168f100fc9",
+      "publication_sha256": "2abfae47e81c4ca2a6ec848c8331223e62539f4a6fa414b0d8ccd481d4a10f2c",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/history.json",
+      "original_sha256": "364b823be544445857ba8dec0b2944b2f8f771a3bd46edd55e970f43ee87fcd1",
+      "publication_sha256": "43144104f237811ca40fa5e8740d83c7a95bb780b4efe155aea6ba9da47842dd",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/metadata-run.json",
+      "original_sha256": "7836733f62df0510b17420433045e7e97c92f40219466e598b97ea1953213105",
+      "publication_sha256": "009913a94d638de90c69632d7a3f83d82df91677f1d2ffa3f7991155dfe46c45",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/run.json",
+      "original_sha256": "65b3c0e9d0efa56536b2650debb0231d1d99b1945190235a2073d80db45b8cf5",
+      "publication_sha256": "ebb3760688d29748843f8fde502f2cd944df025bc219270aff045e9e6ab127e0",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/final/secrets/source.json",
+      "original_sha256": "729e223cfdb0951ebdf8d827e13f86a6cba9bdb5d03177b007b045203fdfffd6",
+      "publication_sha256": "cdc703f3dafc368e001294b67de8f28ca59d42424c94893a1982467d0a20517c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/README.md",
+      "original_sha256": "4d63e16fb27625b5388e6620ad1fc9c3d4f0575744b504c27675ec113487a55b",
+      "publication_sha256": "03f4f06ef29651527b9cdc41e78abf587f6ad95b87aef66a0f1f5e0747b83e67",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/evidence/m3/licensing/budgetbranch-wasm-normal-build-tree.txt",
+      "original_sha256": "ecb0066908f26a98d9ac926462df21ec304b6b9438ec413ac2dd1065c919f301",
+      "publication_sha256": "0f8b5ccc1a8dd7c639b2e0dea26291115dd3c056d265dfc3ec9e40b0709d6426",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/budgetbranch-wasm-normal-no-proc-tree.txt",
+      "original_sha256": "e813cc2b1e28eb1dfdc9d5ab9e46562a869ffcfd34cb1a4210ab1a9bb0b8315b",
+      "publication_sha256": "30bac3b19181b3fb1809b361030a9f30e0ebe6308e391cdb9a965d7c44685e37",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/cargo-review.md",
+      "original_sha256": "46562d72baedcd5a4d243f669e02137d1c91f543b353c305fc76a6283c95eb3a",
+      "publication_sha256": "9bb86b32d35d2b2e6f331731a988453865f84e977bff4213568e258303c45167",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/evidence/m3/licensing/demo-receiver-wasm-normal-build-tree.txt",
+      "original_sha256": "5ece732ae3052acd8a1be814ce50be1493611ee77f94d73686fb69649110e63b",
+      "publication_sha256": "f844fc7b37f2a0bbc456f6a3556619b0b9babf06632c7274bbdd2860eef62692",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/demo-receiver-wasm-normal-no-proc-tree.txt",
+      "original_sha256": "e58c93bd2c9973bff4f35b250608259368c4df01baebb96d01e7a0040ef34d02",
+      "publication_sha256": "2d30f0bb66c8855d2a805e48a29af6a60121df6e400c7293e9f76dd1442d1620",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/final-metadata-findings.json",
+      "original_sha256": "24e08d0eea6f61758d31034e9cff745b428af21b8bd0538ed27bb40e544ebd8f",
+      "publication_sha256": "fe473901288f0d3aa8c17167e5194659be799e0c0b49917dc23a79f3d687db2c",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/final-metadata-scan.json",
+      "original_sha256": "e555418336b76e071964d515363bc2a29107c5f30d79bffafca27d285637c88a",
+      "publication_sha256": "0c5b635987cab3ec293189e0ab24058377b6f7299ee1554ff6b9312058ae8a2b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/sandbox-harness-host-tree.txt",
+      "original_sha256": "3302b61f8003c95519b3496dcd3c1130eb22bb3385b8910b9f4739713d461c5a",
+      "publication_sha256": "9ea5d546dd2359a4fe09cdd39420a8231c6501fce18c2cdf660785da26084952",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/secret-run.json",
+      "original_sha256": "aaf91e8c007de49529d59a562a1604811dc8e0d43bd699e610cd9e69ee35292b",
+      "publication_sha256": "2b5458392dddd5fbd57eca0c92951e595b4e1ada8c9e195262624de56258cfc9",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/security-license-review.json",
+      "original_sha256": "a2a14cb10d26059d312fbcb8dad95ecaaa2e6dfae0f7ab6613eef9bd97b160a6",
+      "publication_sha256": "affa7c277a2b2c329317906e455bfa8f16a7adecf31cdd3618b309fb1eb814e8",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/licensing/unit-host-tree.txt",
+      "original_sha256": "c26a979d06bc380f51cee5e223d8309e2962a9178a9973cdeeb1b3ad9b3ce90e",
+      "publication_sha256": "c17a03af9716dcae68bb8273a53ed615d64ba1574e8e2cb0ed35f96d077d080b",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/secrets/delta-run.json",
+      "original_sha256": "c6249e89fa02af7f9884092fe3903b3e514bacb17b263bf6bde1cdf5098f3c26",
+      "publication_sha256": "9ebbc4cbcbbbb70760ee2457e35dda67c3486f5ebafb68fdb940f5c1c6751d43",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/secrets/history.json",
+      "original_sha256": "cf68fa4aa93b95cc3c72eecdde4aa03e51e3cf36b82ce7c3183e1db82b61c794",
+      "publication_sha256": "8c57d55a07da3501fd5e06310bd6f0b1273ee925759e83472f395cef8b6e04e4",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/secrets/run.json",
+      "original_sha256": "eb97b059cbef625adc55e545e6759acd46e0e70a57120913222e1aebe2783f67",
+      "publication_sha256": "1fb4e047200ab6db3a311e8bcc6fd44990a15c266b1bd67e2cf100b3a91bb059",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/secrets/source.json",
+      "original_sha256": "4608cc5fd4b05a6b3b4a6c4130125a5df53b93546b373dcc956671c75059c188",
+      "publication_sha256": "9da008ad5e6c36f00e0eaec935d1d5ae3f44a07eccae9da377e9041878c245f5",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/security-qa/final-package-review.json",
+      "original_sha256": "450fa821f9ee9ee33335417e6efb92d754677aff2d4ab260512ace8eb4560bd1",
+      "publication_sha256": "494fcfc04bea9f2b3089d0e4c410763c1d2b4d1d1fea146aadd59af49d942532",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/security-qa/release-evidence-check.json",
+      "original_sha256": "17e88785f606fc76e721358af00270a37c723fc324350c18d6b2e3a5fd096c0f",
+      "publication_sha256": "b06f7e6ee62057e790ea3f3cb067ed7997ec4138557b34a5b3fb6a7b36ed42aa",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/evidence/m3/security-qa/security-release-review.json",
+      "original_sha256": "31e002a848cb05b3ab97920aba741c8c469126b8b65361cb316d7ffd7d188cd0",
+      "publication_sha256": "303c0a27e4e21ae9dd1a0ba8b2d5d8292a7d9067893de3cb8deede2b051e1226",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker"
+      ],
+      "contains_identity_redactions": true
+    },
+    {
+      "path": "docs/release/ATTRIBUTIONS.md",
+      "original_sha256": "9cd321a3321c5788a6b9930d6f285ba4bd118c7f9722cbed54097ab053d4e3d9",
+      "publication_sha256": "5a856146feabebf44e5c6b5d561faf40d23c19adc16115022709266e6944dcc0",
+      "reasons": [
+        "explicit historical/public-copy qualification",
+        "removed unreachable-history reproduction command and clarified import authorship"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/release/DEMO.md",
+      "original_sha256": "1cb3aa5365871c102e4c3fa7a99d18ae5254a394e8a2b2d6feb1ff661997f7c6",
+      "publication_sha256": "7b6f3ebaec2ba6ba634da974a2912bd8104161961d92af7cc743c243dcb0522c",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/release/MAIN_TRANSFER.md",
+      "original_sha256": "532d087341fdfe701ce07f448e47b00b581cc4dc8dbc513648733ec3572a45da",
+      "publication_sha256": "e43c37c2a140c8feb1bebbae2c7c154f882f99c773b9fa022f814bb8848b260e",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/release/SUBMISSION.md",
+      "original_sha256": "6bddabc9e79b402d3f161f0546098a9c1c31a4de38fc4bdab842cf4e6f09c5ba",
+      "publication_sha256": "2f640a0136e209dcfd4393331cef4a50e1276f7a65c5cab4ecffc39f73f5ce70",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "docs/release/UX_REVIEW.md",
+      "original_sha256": "da9cafcbb1efb140b10289e5c2922a2a55e124347b0a368ae6231ee7352d160a",
+      "publication_sha256": "8690b3542403ca41c00a57e362f64cafaa7fb0cbb04a3242e1afc7309c13cea4",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "tests/evidence/g2-native-mac.md",
+      "original_sha256": "f4228cc48cafa63ff7369697f16792458c5d4984cb5518fffb34a628d49571f2",
+      "publication_sha256": "5cc6317b0e7776386a01eb3dff034d2aebb754d5b8e41d7a642b195f864c600c",
+      "reasons": [
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": false
+    },
+    {
+      "path": "tests/evidence/g3-native-mac.md",
+      "original_sha256": "ccb59a894eaa864f9caf80460ceef0d42aa8c7142f325f895e40a004a2732338",
+      "publication_sha256": "1f893cc8fe531e2e7647d3dc56f6a490d9565361dfbb0e1f3e29a38e12186740",
+      "reasons": [
+        "local account, hostname or user-home path replaced by explicit redaction marker",
+        "explicit historical/public-copy qualification"
+      ],
+      "contains_identity_redactions": true
+    }
+  ],
+  "unchanged_protected_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "fb6a92c8258919cd7bdfa43d73a37366a6a79f2db18681c07a5d52893cb8c4f4",
+      "git_blob": "49903d8ea539c75dcd4632ab3ee2ce5ff177c6c7"
+    },
+    {
+      "path": ".github/workflows/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "030f5bcd40409534e5992c9f28bfc636cf5720e51c1659fef73a4be6406fee80",
+      "git_blob": "1aa0055cc2396bb96da63edfeb36e6f1cee78bb6"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8f37ff6607c123d655a93e737c3c5c283cf4bd18d56e2d337803525290a10dab",
+      "git_blob": "1d179a1db58a289cff6eb16d68f2f9b06165d503"
+    },
+    {
+      "path": "LICENSE-APACHE",
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+      "git_blob": "c98d27d4f32d56e56f13de73a08ab44b2947ccf5"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+      "git_blob": "c73908921d6a4d8dd131c943196ff8d48fdb9918"
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "9f4f36e0f0791a789ee46316e07370231b44c5f56d624c8638a87f863a138e85",
+      "git_blob": "87e522409edc7d11789cdea6b6f05fd8b10f8edd"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "64b120a2fc45cfd2712dd20d16cd8154dc07bf19e10f3c83a595db4cf4b42c23",
+      "git_blob": "b75257d2e50c3bd4c3fce62e3ac1f85054cce29d"
+    },
+    {
+      "path": "agents/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "agents/package-lock.json",
+      "sha256": "9d1ffa9fdb80659462836337d26ce39c3cc18201bb5e21f9bd69c681a4cb5059",
+      "git_blob": "b05397e857d6537846005d5899f333241e973e4b"
+    },
+    {
+      "path": "agents/package.json",
+      "sha256": "45f41f577b140f2a0386b24f75ad94e24014d9d3fb8781911eef347452a7f041",
+      "git_blob": "fa017ca23aca09b3318a08e3cad3a0003f58a456"
+    },
+    {
+      "path": "agents/src/cli.ts",
+      "sha256": "cf03e197700e0306d8b3accc821d4ca3059eb20ed107a2c79995d206c8a0731b",
+      "git_blob": "ad9a708aa5ca6d4dee82b351e1881278e2209d2f"
+    },
+    {
+      "path": "agents/src/evidence.ts",
+      "sha256": "bd6210c01bf6e1835ddf09ac755d69a9ade4373bca5e6a97c219f92e6aa893e5",
+      "git_blob": "577c63af9fad16b15acb95a0c3e18d84ee4a47b4"
+    },
+    {
+      "path": "agents/src/fixture.ts",
+      "sha256": "2df8561a04ac0f11ddcc953398d0ae932632f20558db87152a1c986b74d907d0",
+      "git_blob": "f4a35886d24c5075849de77666c52529e4f7969a"
+    },
+    {
+      "path": "agents/src/index.ts",
+      "sha256": "b90657cff97f206f99542779f851291b8e269446470195e827c7b3122398969f",
+      "git_blob": "e392c710dca3f56adbd582c0a1c50fe8648fda27"
+    },
+    {
+      "path": "agents/src/scenario.ts",
+      "sha256": "b544d556a200049cafb0b376cf40864fe264e7993ef33e2d3beaae38fbf98ff4",
+      "git_blob": "a659bbd27da7238d91b4bc45afee414a5b63203f"
+    },
+    {
+      "path": "agents/test/agents.test.mjs",
+      "sha256": "5fd6163c954176785f61b12415254e9adcfec9e31ddc4141a6191972121124d5",
+      "git_blob": "5fef5e5447c0426f917a20815991508eaa70172d"
+    },
+    {
+      "path": "agents/tsconfig.json",
+      "sha256": "f800052c2697a25dd8c10e6eb0dc0a5a3de213a8629a0789ba08e512f0429f4f",
+      "git_blob": "d0e6271235810d98b4e0ee610e38aa097e007196"
+    },
+    {
+      "path": "contracts/.cargo/config.toml",
+      "sha256": "de1e374155d85efbf408f021a19318819ef1c235f6844495c0601dcb99da462f",
+      "git_blob": "8c40f5a1f29cfa6d110ce00105d0a997e976f339"
+    },
+    {
+      "path": "contracts/Cargo.lock",
+      "sha256": "b3c1f6f3287d4864b308f6907153dfbf52feb5e30e240725a7370dc91bb0c86a",
+      "git_blob": "b5b1eaf1f6d66c98495a2080b6fcc079d367140f"
+    },
+    {
+      "path": "contracts/Cargo.toml",
+      "sha256": "c3e57a779c1a316befe97d19e4d27ed712d6cf7925347a27bf73934bde5fe787",
+      "git_blob": "68569956e3f755b3dbca71ec14d6c97bca9f889e"
+    },
+    {
+      "path": "contracts/budgetbranch/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "contracts/budgetbranch/Cargo.toml",
+      "sha256": "ab135f4aa599032e4d31e0e6a9cc539dde875e87e20292ceb667e89d28243623",
+      "git_blob": "3739ab891c0c7e8f54f30f8fb236127afab1a15f"
+    },
+    {
+      "path": "contracts/budgetbranch/src/lib.rs",
+      "sha256": "c71ddb1fe49fc8438d5985484b8b2a0f26cfa3e9a5f6f2ace294564f84fc3a99",
+      "git_blob": "91f679d96c203edfa65f48ba2b3f3874845e1ac2"
+    },
+    {
+      "path": "contracts/budgetbranch/src/model.rs",
+      "sha256": "2a6c3525e111f3089fe97076cfe788be4112f72533e461e806c3818595a6dffb",
+      "git_blob": "a7af5e2e0389f041b2dcc71274b01696d707d2f6"
+    },
+    {
+      "path": "contracts/budgetbranch/src/tests.rs",
+      "sha256": "fc0cfde211f2c86e88a565e4bd772e0b2f58ba186c96e5ac177128acd28fd2bf",
+      "git_blob": "8dbca6800c0536ea28ff2d72ad1015f05a9d8eaf"
+    },
+    {
+      "path": "contracts/demo-receiver/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "contracts/demo-receiver/Cargo.toml",
+      "sha256": "b6744f706503921451efe65dc740d5662d403f982ebf25cf6def4147ecce003f",
+      "git_blob": "5e0473a08f4d8bf0187765588e88365698ff736f"
+    },
+    {
+      "path": "contracts/demo-receiver/src/lib.rs",
+      "sha256": "abb4739ab86dc715b9fa6f59d557062ebde81d6a378444a872445b4c2fb6a10a",
+      "git_blob": "6f034b9e6b6463494fc2bf8eda5580695a52e4a7"
+    },
+    {
+      "path": "contracts/fixtures/request-fingerprints.json",
+      "sha256": "a5ba69cebade26d690ed5f28c7863d92b41f20c2bd070d15587afc6f8455bb64",
+      "git_blob": "7f3003543d530632cbc06f6784a66ed340888543"
+    },
+    {
+      "path": "contracts/near-build.rs",
+      "sha256": "d9c7ccb8bf7ceea7b0591c4b993fc2e74234bfb373fcc504653e1b75ca86150a",
+      "git_blob": "8298621050abab56254bc678848729664128c255"
+    },
+    {
+      "path": "contracts/rust-toolchain.toml",
+      "sha256": "92d5d2a9e415ada6c5959ddf40deecb8e3dde0319f377b285ddcb8f2267bb0ee",
+      "git_blob": "8ab43f5b00bdd4978f714f26778cb79aab7c04db"
+    },
+    {
+      "path": "contracts/sandbox-tests/Cargo.toml",
+      "sha256": "630076cc752a762bdccf1c3b504994cc0e72f77a05fee575c571fe8c3765ff8e",
+      "git_blob": "9a4fd1afb01873288540693defa9970c829525f3"
+    },
+    {
+      "path": "contracts/sandbox-tests/src/main.rs",
+      "sha256": "a6f9d83ea3d7c8fcb1016daddf2da9f4f6efce5e3aafe9521b6a578c5c20fb8c",
+      "git_blob": "ffab2b41d75866f8470e1cd3bcac5727f5f3cc47"
+    },
+    {
+      "path": "contracts/test-adversary/Cargo.toml",
+      "sha256": "917ed651d387e16a6c33cd2aefa3353da20f55fc0eeca95593d1fefd7bcb27bd",
+      "git_blob": "524b46c47786010bc344adcb1067640c47ea53b6"
+    },
+    {
+      "path": "contracts/test-adversary/src/lib.rs",
+      "sha256": "7836f1fdfca21df3842f49a234cc947a8527cbb16db37d61e8743f12101dcf25",
+      "git_blob": "faf605f0c649518e625bdcd1545a687de8e7cbc1"
+    },
+    {
+      "path": "docs/FROZEN_INTERFACE.json",
+      "sha256": "9c2755db49eb58c2ace51a4f6e3c86c29392382a8aff83d65cdf364d7c41da9b",
+      "git_blob": "f7b68b1272b49710778b55b2839ca7d6ced7450d"
+    },
+    {
+      "path": "docs/abi.ts",
+      "sha256": "1826edabfabfff6e6d10bd6c82ea8cadbcd537a35f6a4a7b5cf97fbf795a3ddd",
+      "git_blob": "0ccfebce6acbf7c1700f19bc49ab742fc51c6418"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/SHA256SUMS",
+      "sha256": "a5d98df9854b0118bce83f696cc002d832d381db34a9800170c16f2452374278",
+      "git_blob": "4f56c0fab6535111aeac00e900af0d1a9a128e8b"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/aws-lc-sys-0.47.0-LICENSE.txt",
+      "sha256": "728536b4160e051f86d7c9c388f704866b3d512cd7df97ac3516c65279523c4e",
+      "git_blob": "5e3526d07a1476c17187e8f4e36d0398350b8474"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/cfg_aliases-0.2.2-NOTICES.md",
+      "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee",
+      "git_blob": "d2ef45b3c01d286d910b1aa7744a267f1706ac2b"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/foldhash-0.2.0-Zlib.txt",
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "git_blob": "2f65b0a366d4a8492175794e3bd3485fdd693c03"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/memory_units-0.4.0-MPL-2.0.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "git_blob": "a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-APACHE.txt",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "git_blob": "1b5ec8b78e237b5c3b3d812a7c0a6589d0f7161d"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-MIT.txt",
+      "sha256": "8f71659370c5268d9a1dc962a46232540e8fca63462586d8efaa95aab492a208",
+      "git_blob": "72dc60d84b692387206266939bc34656bcba1e15"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "git_blob": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-BoringSSL.txt",
+      "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+      "git_blob": "a0f82a1f8ea9c0a5fd2707d7c9939778ba756b3e"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-other-bits.txt",
+      "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+      "git_blob": "bccf030aec4e49f96dfeb3a2cf5086df7420fcb3"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE.txt",
+      "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+      "git_blob": "2dac4d9d3f09e40afe434bcf24734a821fe5a70a"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/security-framework-3.7.0-THIRD_PARTY.txt",
+      "sha256": "522fccc56dcbadbe90ab5524a17b8127cde3f951c30c17002641caf44959c22a",
+      "git_blob": "fee47c24a74d36d8de7744cfcaa50ad542d09d24"
+    },
+    {
+      "path": "docs/evidence/m3/licensing/notices/wee_alloc-0.4.5-MPL-2.0.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "git_blob": "a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "scripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scripts/mac.sh",
+      "sha256": "62da0fbc160017768bceee1f63279dd715809428e2eeecf568cdfd9937e7413e",
+      "git_blob": "cc941de2274ff6540919d61d90328fa91577a6ae"
+    },
+    {
+      "path": "scripts/sandbox-browser-signer.mjs",
+      "sha256": "1800e9c65901c8e2f0e11d06afbd3b8b6931dfec0ec4a45fd9a597daba79c8c4",
+      "git_blob": "dc0d24cea434b375d528528e9bfbb35b3dc34535"
+    },
+    {
+      "path": "scripts/sandbox-web.mjs",
+      "sha256": "8f6f045fa4ea5ebd2cd588c7836e0a61571355a76be53247cad3fcfd181ce4f0",
+      "git_blob": "a83e091badbabd31d1c6e33a597f9b5ea13c86d0"
+    },
+    {
+      "path": "sdk/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "sdk/fixtures/request-fingerprints.json",
+      "sha256": "a5ba69cebade26d690ed5f28c7863d92b41f20c2bd070d15587afc6f8455bb64",
+      "git_blob": "7f3003543d530632cbc06f6784a66ed340888543"
+    },
+    {
+      "path": "sdk/package-lock.json",
+      "sha256": "0b373c53653f8ba1b63c1b8f7d0f0f48a6ba323fa6b55b77917c0abb2ddb07ca",
+      "git_blob": "50519b5487ca2a4bd9ac41a45a62afda5064eda3"
+    },
+    {
+      "path": "sdk/package.json",
+      "sha256": "ea958e58a81ecf219776a16607d3f757f0873fc9ee74cb4a74a49c8a2ffe994c",
+      "git_blob": "b8862220b4ab4d13469405b25119da8dcf6b0479"
+    },
+    {
+      "path": "sdk/scripts/check-abi.mjs",
+      "sha256": "83be185954a1856020a0735841faff00acb07fd9da5f06f02c746f1c00268f70",
+      "git_blob": "16cceff1c6f382d4d6814fe070dcff93ad5d05cf"
+    },
+    {
+      "path": "sdk/src/client.ts",
+      "sha256": "8d54b14fb7e6e2e3e6642592e1f219c4ef5e364afdf74c625a70737982a6382e",
+      "git_blob": "3644271fe4d169ab77448dba2b1c4392101de047"
+    },
+    {
+      "path": "sdk/src/decode.ts",
+      "sha256": "495c86254480e2693d223ae4e01ab874a8860f35cc36fecdc7871fcbe065bd46",
+      "git_blob": "40f6b2b863b83d60baca2c59c42a2a5d13e70aa2"
+    },
+    {
+      "path": "sdk/src/errors.ts",
+      "sha256": "90c849c62e7a9de468d7ac122ce1d6f9dc119f8cad4f147ef492839dbc412f97",
+      "git_blob": "791c7e5630f354b5fd05a5c795a6ce3e953ce162"
+    },
+    {
+      "path": "sdk/src/events.ts",
+      "sha256": "196ef8772b85de8c9b58c83a39ff07aeded5a9994cbacc8dd3e325dc54b85db2",
+      "git_blob": "298bb8ee4a13b971ee32317db757ed81ef667cd2"
+    },
+    {
+      "path": "sdk/src/fingerprint.ts",
+      "sha256": "fd5e18b20a9c1de7281546c365d53bf258342a0a206444e95995fe821e0a5500",
+      "git_blob": "9acb76f41743aad320c9adffb2dc4027fb368bfe"
+    },
+    {
+      "path": "sdk/src/index.ts",
+      "sha256": "9bd75c06ab61f6a1087347b3182111c754d757a0a06f2d777b08ddaf0cbdacb0",
+      "git_blob": "1361146c1fb79108e52a66d7840f484624a51b6b"
+    },
+    {
+      "path": "sdk/src/rpc.ts",
+      "sha256": "c4f23e3ab129499cc5ab34bd61c4859c597bf9126619b5a86f1031cc312bf8c8",
+      "git_blob": "23d7697f9fb35d1f853511d1e890e7efc7379ef8"
+    },
+    {
+      "path": "sdk/src/sandbox-signer.ts",
+      "sha256": "22cb13054d2df315c6f064bd6c613f2e66f933d635caee5d16a1dc3fb5decf51",
+      "git_blob": "7fac0021f596b33249f3ab06dc8f3c4f4293df62"
+    },
+    {
+      "path": "sdk/src/types.ts",
+      "sha256": "1826edabfabfff6e6d10bd6c82ea8cadbcd537a35f6a4a7b5cf97fbf795a3ddd",
+      "git_blob": "0ccfebce6acbf7c1700f19bc49ab742fc51c6418"
+    },
+    {
+      "path": "sdk/src/units.ts",
+      "sha256": "37428e40042a653da45d9c9c6616f57f6c1b5a6464499b2218e2a11df6a3533a",
+      "git_blob": "d749a8abe344da3085d4c91a7328e4ffb5c81d9e"
+    },
+    {
+      "path": "sdk/test/sdk.test.mjs",
+      "sha256": "583621d0827a85e1c29e002766ffad69ac1b9118a381a8446d24af57ce343b17",
+      "git_blob": "d83950210997ccd70d052c01a23edf5c1ebb1476"
+    },
+    {
+      "path": "sdk/tsconfig.json",
+      "sha256": "9779abaa846e5397d361441c10453ed95b6d77b9afcc5e28793dc4a0c6cccd42",
+      "git_blob": "c4f03670d8a7f7f31f614226a9f9b59ddb7f076e"
+    },
+    {
+      "path": "tests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/browser-sandbox-smoke.mjs",
+      "sha256": "4154f3f29b2cf2a30e29c1998a0bbfd38cdf93fc0d414ff7fa91073c0f70a450",
+      "git_blob": "a064280cb15f366f7ae529eac39885ec67b4ca3f"
+    },
+    {
+      "path": "tests/portable-wasm.json",
+      "sha256": "01087c366b420ad26512f8fb47f57818f475bc357e30cd06030fa2161c7dc9f8",
+      "git_blob": "d6ab166fd24712ae8d4e38aede6716b00681a56d"
+    },
+    {
+      "path": "tests/run-sandbox.mjs",
+      "sha256": "82d73adaaca341adfbe8d72b5cb521c2a97c7e2cdfa2dcbeb99ba7fbc0401689",
+      "git_blob": "447b79a83f357c60a43e89c41bec17212282e724"
+    },
+    {
+      "path": "tests/sandbox-fixture.mjs",
+      "sha256": "01be4e4d9774a588405a1c44fc8cc3334433dccbd46f10312135638266f48fdd",
+      "git_blob": "c1efb7bd126f597a10d42025c4b30ad2eb9b7332"
+    },
+    {
+      "path": "tests/sandbox-transactions.mjs",
+      "sha256": "f18bbd4384f5e0866a0324cbd3179b9e1046500061321c2280caf619a74be33a",
+      "git_blob": "3da2e93bc62406068cb186d82ae833c0e4fe940a"
+    },
+    {
+      "path": "third_party/licenses/cargo/base64-0.22.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/base64-0.22.1/LICENSE-MIT",
+      "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7",
+      "git_blob": "7bc10f80a0499ea61b9d7da04a0f84293c44de54"
+    },
+    {
+      "path": "third_party/licenses/cargo/base64-0.23.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/base64-0.23.1/LICENSE-MIT",
+      "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c",
+      "git_blob": "5864d3814cfc3fab9666305643610cd5f042b1cf"
+    },
+    {
+      "path": "third_party/licenses/cargo/block-buffer-0.12.1/LICENSE-APACHE",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "git_blob": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
+      "path": "third_party/licenses/cargo/block-buffer-0.12.1/LICENSE-MIT",
+      "sha256": "98181e7249d0c01737645ec982499ce99a0f07eb8f7d625b8840d799d10dbc01",
+      "git_blob": "ecb2ee5c51fa3e8a38e4d5e86228aa3fd0145da8"
+    },
+    {
+      "path": "third_party/licenses/cargo/borsh-1.8.1/LICENSE-APACHE",
+      "sha256": "7b724c8fa4a82af733caccabdaa21e2bf8bcb0822fe62d5cf03f99d458438705",
+      "git_blob": "263ddc7741f1ba45dfd5cb83510afe4711a24231"
+    },
+    {
+      "path": "third_party/licenses/cargo/borsh-1.8.1/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/bs58-0.5.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/bs58-0.5.1/LICENSE-MIT",
+      "sha256": "42d3bf7e7d4d49d72c0555d14ed99c3ee7ce9ce3cbffbc38bbafe8c103f50969",
+      "git_blob": "e60058490df8913c9b689820502f1f7d9d8dc50b"
+    },
+    {
+      "path": "third_party/licenses/cargo/cfg-if-0.1.10/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/cfg-if-0.1.10/LICENSE-MIT",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+      "git_blob": "39e0ed6602151f235148e6c08413aa7eda5b9038"
+    },
+    {
+      "path": "third_party/licenses/cargo/crypto-common-0.2.2/LICENSE-APACHE",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "git_blob": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
+      "path": "third_party/licenses/cargo/crypto-common-0.2.2/LICENSE-MIT",
+      "sha256": "d2e7ec5355c96eeade56b09187ceb48a6a30299da3ce7531a66d3d11405ab963",
+      "git_blob": "4296756c650ce9f5c98e7b3feded3289deee6ef7"
+    },
+    {
+      "path": "third_party/licenses/cargo/digest-0.11.3/LICENSE-APACHE",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "git_blob": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
+      "path": "third_party/licenses/cargo/digest-0.11.3/LICENSE-MIT",
+      "sha256": "af59cea35d7f5e2777a713b8d155d65efa2c339eb43f3c14e868c6ac8506edad",
+      "git_blob": "37f14fe5e7e4b5c8cf36855cf7d88924868feca1"
+    },
+    {
+      "path": "third_party/licenses/cargo/equivalent-1.0.3/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/equivalent-1.0.3/LICENSE-MIT",
+      "sha256": "7365cc8878a1d7ce155a58c4ca09c3d7a6be413efa5334a80ea842912b669349",
+      "git_blob": "5ac40dae7f6f1ae64964fbe1ee9a9d85e261d1b7"
+    },
+    {
+      "path": "third_party/licenses/cargo/foldhash-0.2.0/LICENSE",
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "git_blob": "2f65b0a366d4a8492175794e3bd3485fdd693c03"
+    },
+    {
+      "path": "third_party/licenses/cargo/hashbrown-0.17.1/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/hashbrown-0.17.1/LICENSE-MIT",
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+      "git_blob": "5afc2a7b0acabd34676023f9ebe3912ea2643ac2"
+    },
+    {
+      "path": "third_party/licenses/cargo/hex-0.4.3/LICENSE-APACHE",
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "git_blob": "8f71f43fee3f78649d238238cbde51e6d7055c82"
+    },
+    {
+      "path": "third_party/licenses/cargo/hex-0.4.3/LICENSE-MIT",
+      "sha256": "f7bdb3426d045cd50efd4953026e3eb5a83d0199f458a075602611b9344da5b9",
+      "git_blob": "a7b461f97c9eb64cd1db0dd060970e485a458c75"
+    },
+    {
+      "path": "third_party/licenses/cargo/hex-literal-1.1.0/LICENSE-APACHE",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "git_blob": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
+      "path": "third_party/licenses/cargo/hex-literal-1.1.0/LICENSE-MIT",
+      "sha256": "054aa61c4259f18e0e1355d88d0bb331d4cb7017251920ad3b126ce7dab65e26",
+      "git_blob": "4be27d1f5cec50e250a23fcbe747b8b549f90a4f"
+    },
+    {
+      "path": "third_party/licenses/cargo/hybrid-array-0.4.15/LICENSE-APACHE",
+      "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+      "git_blob": "78173fa2e753d614bb0aa5ad125ddbbe70b282c4"
+    },
+    {
+      "path": "third_party/licenses/cargo/hybrid-array-0.4.15/LICENSE-MIT",
+      "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9",
+      "git_blob": "5b37ba5c5e0d974fd58a330848dc1a53ff2d2f9a"
+    },
+    {
+      "path": "third_party/licenses/cargo/indexmap-2.14.2/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/indexmap-2.14.2/LICENSE-MIT",
+      "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055",
+      "git_blob": "8b8181068b3cb531b8d9d75bf7a825d9a5dfad2f"
+    },
+    {
+      "path": "third_party/licenses/cargo/itoa-1.0.19/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "git_blob": "1b5ec8b78e237b5c3b3d812a7c0a6589d0f7161d"
+    },
+    {
+      "path": "third_party/licenses/cargo/itoa-1.0.19/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/memchr-2.8.3/COPYING",
+      "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+      "git_blob": "bb9c20a094e41b7632d63bcff20c0b4b95e80777"
+    },
+    {
+      "path": "third_party/licenses/cargo/memchr-2.8.3/LICENSE-MIT",
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+      "git_blob": "3b0a5dc09c1e16357459ddc9182a50f360f3cdba"
+    },
+    {
+      "path": "third_party/licenses/cargo/memory_units-0.4.0/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "git_blob": "a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-account-id-3.0.0/LICENSE-APACHE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "git_blob": "f49a4e16e68b128803cc2dcea614603632b04eac"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-account-id-3.0.0/LICENSE-MIT",
+      "sha256": "b801c8d677ef9701149e05cf98f28b82a56832dd67c94d96d36d25d063b1b353",
+      "git_blob": "749aa1ecd9bd558a60d45bfdd304f7d2c86e0ae9"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-crypto-hash-0.2.0/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-crypto-hash-0.2.0/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-digest-0.1.5/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-digest-0.1.5/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-gas-0.3.7/LICENSE-APACHE",
+      "sha256": "515f3d0b11747040792ac2d624a1b676d84e19e0421a78fcc3e0731be487063c",
+      "git_blob": "40cca205e88e436b62c5bbc84e791257e8787519"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-gas-0.3.7/LICENSE-MIT",
+      "sha256": "3b7ebad16f2c3656dce274516be328ff622345ed37ddd25464d9593c3e312dc4",
+      "git_blob": "d2b19cfa28ef763619bfcf8065a054f58aa7d6b2"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-global-contracts-0.3.3/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-global-contracts-0.3.3/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-5.30.1/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-5.30.1/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-core-4.4.2/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-core-4.4.2/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-env-0.1.9/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sdk-env-0.1.9/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sys-0.4.1/LICENSE-APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-sys-0.4.1/LICENSE-MIT",
+      "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594",
+      "git_blob": "75daeee19f20c89fb32441432b2fb4042255f1dd"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-token-0.3.6/LICENSE-APACHE",
+      "sha256": "515f3d0b11747040792ac2d624a1b676d84e19e0421a78fcc3e0731be487063c",
+      "git_blob": "40cca205e88e436b62c5bbc84e791257e8787519"
+    },
+    {
+      "path": "third_party/licenses/cargo/near-token-0.3.6/LICENSE-MIT",
+      "sha256": "3b7ebad16f2c3656dce274516be328ff622345ed37ddd25464d9593c3e312dc4",
+      "git_blob": "d2b19cfa28ef763619bfcf8065a054f58aa7d6b2"
+    },
+    {
+      "path": "third_party/licenses/cargo/once_cell-1.21.4/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/once_cell-1.21.4/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde-1.0.229/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "git_blob": "1b5ec8b78e237b5c3b3d812a7c0a6589d0f7161d"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde-1.0.229/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_core-1.0.229/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "git_blob": "1b5ec8b78e237b5c3b3d812a7c0a6589d0f7161d"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_core-1.0.229/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_json-1.0.154/LICENSE-APACHE",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "git_blob": "1b5ec8b78e237b5c3b3d812a7c0a6589d0f7161d"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_json-1.0.154/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_with-3.24.0/LICENSE-APACHE",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+      "git_blob": "16fe87b06e802f094b3fbb0894b137bca2b16ef1"
+    },
+    {
+      "path": "third_party/licenses/cargo/serde_with-3.24.0/LICENSE-MIT",
+      "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545",
+      "git_blob": "9203baa055d41d89e1ab8f4d6aa9180a49e078a7"
+    },
+    {
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE",
+      "sha256": "db11fec9946737df39ca3898d9cd8c10ec6f6c3a884a6802b0ad0b81b4e8f23a",
+      "git_blob": "364b7731ca3f552248fbe13284741350d0ce9d4f"
+    },
+    {
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE-APACHE",
+      "sha256": "516b24e051bf5630880ebbd55c40a25ce9552ebaf8970a53e8976eb70e522406",
+      "git_blob": "4bf355c3e02b7d32d990a3b7d2acfdf012e9c2ef"
+    },
+    {
+      "path": "third_party/licenses/cargo/typenum-1.20.1/LICENSE-MIT",
+      "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f",
+      "git_blob": "e567a4d2802f702583a903a791cf75f494d2ed81"
+    },
+    {
+      "path": "third_party/licenses/cargo/wee_alloc-0.4.5/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "git_blob": "a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "third_party/licenses/cargo/zmij-1.0.23/LICENSE-MIT",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "git_blob": "31aa79387f27e730e33d871925e152e35e428031"
+    },
+    {
+      "path": "third_party/licenses/npm/csstype-3.2.3/LICENSE",
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "git_blob": "ac06f6224a2dc6037597897162af62d927f24f49"
+    },
+    {
+      "path": "third_party/licenses/npm/detect-libc-2.1.2/LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "git_blob": "8dada3edaf50dbc082c9a125058f25def75e625a"
+    },
+    {
+      "path": "third_party/licenses/npm/fdir-6.5.0/LICENSE",
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "git_blob": "bb7fdee44cae62e39a6f641dddd9016f265069f7"
+    },
+    {
+      "path": "third_party/licenses/npm/fontsource-variable__geist-5.3.0/LICENSE",
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+      "git_blob": "98835ac3f04ec0c9484468424c62e1ea2cdae498"
+    },
+    {
+      "path": "third_party/licenses/npm/fsevents-2.3.3/LICENSE",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "git_blob": "5d70441c371fa1e78dc774719f0b5b1d1a183bea"
+    },
+    {
+      "path": "third_party/licenses/npm/lightningcss-1.33.0/LICENSE",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "git_blob": "89fe5b2004873b5f5237874446f65df5c02f9dc2"
+    },
+    {
+      "path": "third_party/licenses/npm/lightningcss-darwin-arm64-1.33.0/LICENSE",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "git_blob": "89fe5b2004873b5f5237874446f65df5c02f9dc2"
+    },
+    {
+      "path": "third_party/licenses/npm/nanoid-3.3.20/LICENSE",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "git_blob": "37f56aa49f8e009ed7e582cb3e905a1e0d1666fd"
+    },
+    {
+      "path": "third_party/licenses/npm/oxc-project__types-0.156.0/LICENSE",
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "git_blob": "444bffc00e5190817c0092e5e6fde787102977d2"
+    },
+    {
+      "path": "third_party/licenses/npm/picocolors-1.1.1/LICENSE",
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "git_blob": "46c9b95d4b83c8eba2d9ed406f49930a9fdaf3e3"
+    },
+    {
+      "path": "third_party/licenses/npm/picomatch-4.0.7/LICENSE",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "git_blob": "3608dca25e30b572b6ad6935c8c7918bf70e3d2f"
+    },
+    {
+      "path": "third_party/licenses/npm/postcss-8.5.32/LICENSE",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "git_blob": "c2314d53d097cd36006110afd82fe3d09701a7c5"
+    },
+    {
+      "path": "third_party/licenses/npm/react-19.3.1/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "third_party/licenses/npm/react-dom-19.3.1/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "third_party/licenses/npm/rolldown-1.2.19/LICENSE",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "git_blob": "afc0cdbabfb99ed4030bf9be2b852977f1ed72a0"
+    },
+    {
+      "path": "third_party/licenses/npm/rolldown__pluginutils-1.1.1/LICENSE",
+      "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+      "git_blob": "708388ce4f902bba3e4cc37dc2bad680c2416017"
+    },
+    {
+      "path": "third_party/licenses/npm/scheduler-0.28.0/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "third_party/licenses/npm/source-map-js-1.2.2/LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "git_blob": "ed1b7cf27e97e136918e87ad7bb33baf169f0171"
+    },
+    {
+      "path": "third_party/licenses/npm/tinyglobby-0.2.17/LICENSE",
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "git_blob": "8657364bb085e0b193c66673fd4826d03a0bc01d"
+    },
+    {
+      "path": "third_party/licenses/npm/types__node-22.19.15/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "git_blob": "9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "third_party/licenses/npm/types__react-19.3.0/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "git_blob": "9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "third_party/licenses/npm/types__react-dom-19.3.0/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "git_blob": "9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "third_party/licenses/npm/typescript-5.9.3/LICENSE.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "git_blob": "8746124b277914d0f0fd9cf4aef2ed3b587143d9"
+    },
+    {
+      "path": "third_party/licenses/npm/undici-types-6.21.0/LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "git_blob": "e7323bb52ec35279e2df7d728a6dd5a10b99afd8"
+    },
+    {
+      "path": "third_party/licenses/npm/vite-8.3.8/LICENSE.md",
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+      "git_blob": "06481aa9d21aa40e438c0d263dc9df80eaaad717"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "bc0479878910c870aac7a4200aac0165c52b51cc15aac54f50a3056d7bf7af3a",
+      "git_blob": "2e40e3bfc397e55ea1c4ada5f646df4bcc95cb1b"
+    },
+    {
+      "path": "web/package-lock.json",
+      "sha256": "15a60d47e4d8e7fe6b992688688611301473f628da878141a1de896d08699664",
+      "git_blob": "8187157410938ceab3c16550b6cf48cc7e613cf0"
+    },
+    {
+      "path": "web/package.json",
+      "sha256": "499d41195894e4f7b92c120e057eef9ff71014399edc882eadb65d1d6511d3b3",
+      "git_blob": "11a2fc5749a7c1b4797e53f7fd86ee3882755341"
+    },
+    {
+      "path": "web/public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "e58f115e4ecbe607fbf155a3c28d6c77f452f20783b502454c282d92ea3f4e92",
+      "git_blob": "dfe60c9b7d135adb193f4b64d237d3d93b64a8f9"
+    },
+    {
+      "path": "web/public/licenses/BudgetBranch-LICENSE-APACHE.txt",
+      "sha256": "8ada45cd9f843acf64e4722ae262c622a2b3b3007c7310ef36ac1061a30f6adb",
+      "git_blob": "c98d27d4f32d56e56f13de73a08ab44b2947ccf5"
+    },
+    {
+      "path": "web/public/licenses/BudgetBranch-LICENSE-MIT.txt",
+      "sha256": "4b11c179b71690420388c318381a9da6cdcbe26abda83ca4a1e4ed36e8e44745",
+      "git_blob": "c73908921d6a4d8dd131c943196ff8d48fdb9918"
+    },
+    {
+      "path": "web/public/licenses/geist-5.3.0-OFL.txt",
+      "sha256": "71609cbb5c78b5870d712eab73a31d76622635c6ed034ab5cee3b9ecbda8685f",
+      "git_blob": "98835ac3f04ec0c9484468424c62e1ea2cdae498"
+    },
+    {
+      "path": "web/public/licenses/react-react-dom-scheduler-MIT.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "git_blob": "b93be90515ccd0b9daedaa589e42bf5929693f1f"
+    },
+    {
+      "path": "web/public/licenses/rolldown-1.2.19-LICENSE.txt",
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "git_blob": "afc0cdbabfb99ed4030bf9be2b852977f1ed72a0"
+    },
+    {
+      "path": "web/public/licenses/vite-8.3.8-LICENSE.txt",
+      "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+      "git_blob": "06481aa9d21aa40e438c0d263dc9df80eaaad717"
+    },
+    {
+      "path": "web/src/GrantActions.tsx",
+      "sha256": "30630579cee1b6d890eeca02de77f9f33e7cdd3bf1e3d56b4dcd8c5d3ba5eb35",
+      "git_blob": "820637604b4053ac73b28dda1caa56c4e602b615"
+    },
+    {
+      "path": "web/src/Ledger.tsx",
+      "sha256": "ceb6145ee5362b6b6cca941a6b7e4cd652856024142dc8aa1ff14635a13e66b3",
+      "git_blob": "bf77b8a2b1862f953eb4aad31d42b4e4e7824fcf"
+    },
+    {
+      "path": "web/src/connection.ts",
+      "sha256": "6f3c43472047d07a824145b4e3238d53b158323aa0ecee03a086f83f228f9d69",
+      "git_blob": "51f7771d30166c09eb1c5f486762b517e0cff476"
+    },
+    {
+      "path": "web/src/example.ts",
+      "sha256": "9f8dcaa469880860e485ad9945b3276e2a0166b5ccabb243cec8e2db46b225ec",
+      "git_blob": "43d3801e2523cffeede591c9e7856160fc0fa14c"
+    },
+    {
+      "path": "web/src/format.tsx",
+      "sha256": "df1da23b205c025a83add843124906a1484e3df8b9a3d7bc24e13672c678c62b",
+      "git_blob": "9a353eb0b37af48dfffbde00292465afee70b242"
+    },
+    {
+      "path": "web/src/main.tsx",
+      "sha256": "cd9bc6559a73e6d2df08f0e05ef2c240729505795828793e3b21b0e7a11e3dd5",
+      "git_blob": "c8c4bb836c9808aba864c311fd2192a094f612d8"
+    },
+    {
+      "path": "web/src/operations.ts",
+      "sha256": "834cb119d88e5e4e9e0622cb2a8386ade811656d9bed8579a6a325d15c1af5aa",
+      "git_blob": "6bc505580514155278afaae11cce6ff7c284be4d"
+    },
+    {
+      "path": "web/src/snapshot.ts",
+      "sha256": "38dae052be12270c01863ae142ee23677967e19307d9046b640c7402312908e2",
+      "git_blob": "213be3b0951fd180711454a56c0e2cc149a140eb"
+    },
+    {
+      "path": "web/src/styles.css",
+      "sha256": "2691c6eafbcb7c2076d22e2ce73f8d3a11b8b6a9948aa05c6b57ae3e771ee8b5",
+      "git_blob": "79ceeb19222864c95658e59a5352e0766828ec02"
+    },
+    {
+      "path": "web/test/operations.test.mjs",
+      "sha256": "63a62a13335fd34b8c956367617897d3f0d91bd358a6873952dfe339adc64579",
+      "git_blob": "c8beb3074c98e33c6d64921b6de8b0af92f9b627"
+    },
+    {
+      "path": "web/tsconfig.json",
+      "sha256": "c2a41ba60abd78482b46bf24adbbe414ca1cc5a118f96e763a378f0bc98248e0",
+      "git_blob": "7284f61bf747927b3afb97a60229b019baa8d166"
+    },
+    {
+      "path": "web/vite.config.mjs",
+      "sha256": "22b1012c35d5eab8b907340b4d0dc7dd992be4403fc749995182760847bbad2d",
+      "git_blob": "c3dfa9943b458b6dd64c2afdd0b62280374b9c7e"
+    }
+  ],
+  "new_files": [
+    "docs/PUBLICATION_PROVENANCE.md",
+    "docs/PUBLICATION_MANIFEST.json",
+    "docs/evidence/PUBLICATION_COPY.md",
+    "contracts/evidence/PUBLICATION_COPY.md",
+    "tests/evidence/PUBLICATION_COPY.md"
+  ],
+  "excluded_count": 57,
+  "modified_existing_count": 177,
+  "identity_redacted_count": 152,
+  "protected_unchanged_count": 194
+}

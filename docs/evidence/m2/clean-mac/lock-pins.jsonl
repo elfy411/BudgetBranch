@@ -1,0 +1,4 @@
+{"package":"sdk","lockfileSha256":"7dc02cc9b487203db46f61f4b56c31a5fd5943431b53cef052b01b89cab74375","remoteCount":1,"officialRegistry":true,"sha512Integrity":true,"links":[]}
+{"package":"agents","lockfileSha256":"c32a3db28322da11e1a3f6f73a1c2b4634009cce76e52c4adca105216ab1fbbb","remoteCount":3,"officialRegistry":true,"sha512Integrity":true,"links":["../sdk"]}
+{"package":"web","lockfileSha256":"1941b4eb6e41ae7df39a5fda5014b7ffa6c2c23e51350c84b17c64ac740ee225","remoteCount":55,"officialRegistry":true,"sha512Integrity":true,"links":["../sdk"]}
+{"package":"contracts","lockfileSha256":"b3c1f6f3287d4864b308f6907153dfbf52feb5e30e240725a7370dc91bb0c86a","registrySources":["registry+https://github.com/rust-lang/crates.io-index"],"registryEntries":438,"checksums":438}

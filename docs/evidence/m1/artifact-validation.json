@@ -1,0 +1,31 @@
+{
+  "preserved_qa": {
+    "docs/evidence/m1/security-qa": {
+      "files": 12,
+      "missing_or_changed": []
+    },
+    "docs/evidence/m1/security-qa-portable": {
+      "files": 19,
+      "missing_or_changed": []
+    }
+  },
+  "frozen_documents_match": true,
+  "portable_sources_match": true,
+  "selected_files_secret_patterns": {
+    "files_scanned": 261,
+    "matching_files": [],
+    "scope": "Staged/tracked working-tree files, selected private-key/header/API-key patterns only; not a full Git history or security audit"
+  },
+  "initial_validation_attempt": "Exit1 because initial QA manifest nests hashes under files, unlike the flat portable manifest; corrected parser and reran.",
+  "markdown_links": {
+    "checked_documents": 10,
+    "missing_targets": []
+  },
+  "checked_at": "2026-11-13T10:50:29.740701+00:00",
+  "raw_logs_whitespace": {
+    "initial_staged_diff_check_exit": 2,
+    "reason": "Two preserved compiler logs ended with a blank line.",
+    "resolution": "Preserve original log bytes/hashes; extend existing evidence-only blank-at-eof attribute to .log.",
+    "final_staged_diff_check_exit": 0
+  }
+}

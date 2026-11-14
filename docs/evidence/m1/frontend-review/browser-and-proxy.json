@@ -1,0 +1,19 @@
+{
+  "verification_commit": "96e03d9",
+  "source_frontend_commit": "bdb6c64f9ca78366fc165d871d08b41d7aeace95",
+  "platform": "Darwin arm64; CUA in-app browser",
+  "observed_browser_checks": [
+    "MOCK/SCRIPTED labels visible; signing and on-chain reads explicitly disabled",
+    "All displayed grant actions disabled without adapter",
+    "Grant3 inherits revocation from grant1",
+    "Pending, Failed ERR_RECEIVER_FAILED and Succeeded payment statuses shown in MOCK",
+    "Switch to Sandbox with unavailable local RPC gives HTTP502 and no budget/tree/mock fallback"
+  ],
+  "loopback_proxy_privileged_request": {
+    "method": "sandbox_patch_state",
+    "http_status": 403,
+    "request_executed_on_sandbox": false
+  },
+  "live_snapshot_and_writes": "NOT VERIFIED in this frontend review; pending Integration fixture",
+  "build_and_tests": "run.json; SDK18 and web4 UNIT/MOCK tests passed"
+}

@@ -1,0 +1,12 @@
+{
+  "candidate": "f340f84e43e51b71d5893990455a59cb612766e7",
+  "tracked_files": 682,
+  "tracked_binary_files": [
+    "docs/evidence/m2/integrator-final-ui/final-screen.jpg"
+  ],
+  "prohibited_paths": [],
+  "main": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+  "remotes": [],
+  "exact_post_snapshot_delta_files": 8,
+  "unchanged_scan_input_files": 674
+}

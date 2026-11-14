@@ -1,0 +1,345 @@
+{
+  "review": "Independent licensing-only engineering QA",
+  "reviewed_exact_commit": "d05ebc47ad55452fc0b80e7aef0e9ad08f85e51d",
+  "baseline_commit": "780ad89b3351856cb4fafb93c74d763f208310e2",
+  "checked_at_utc": "2026-11-13T14:27:06.154144+00:00",
+  "reviewer": {
+    "agent": "/root/security_m0",
+    "role": "Independent Security QA",
+    "accepted_launch_model": "gpt-6-astra",
+    "accepted_reasoning_effort": "max",
+    "effective_model_telemetry": "UNKNOWN",
+    "effective_effort_telemetry": "UNKNOWN",
+    "implementation_edits": false
+  },
+  "scope": "Original-project license expression, preserved third-party notices, bounded license applicability conclusions, exact candidate/manifest copies and recorded build/scan evidence. Not a comprehensive legal-title determination, patent review or complete binary SBOM clearance.",
+  "owner_decision": "Explicit MIT OR Apache-2.0 choice for original BudgetBranch material reported in the owner instruction and retained scope-and-approval record. This does not authorize publication, main advancement, submission or relicensing third-party material.",
+  "source_change_verification": {
+    "contract_tree": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+    "contracts_Cargo_manifest_lock_and_all_sources_unchanged": true,
+    "frozen_SPEC_and_ABI_unchanged": true,
+    "application_source_unchanged": true,
+    "original_license_texts_unchanged": true,
+    "npm_semantic_changes_only_original_license_fields": [
+      "sdk/package.json",
+      "sdk/package-lock.json",
+      "agents/package.json",
+      "agents/package-lock.json",
+      "web/package.json",
+      "web/package-lock.json"
+    ],
+    "added_static_web_notice_files": 7,
+    "local_main_observed": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8"
+  },
+  "findings": [
+    {
+      "id": "LIC-DOC-01",
+      "severity": "Low",
+      "category": "Evidence portability",
+      "candidate_status": "Present atd05ebc4; corrected in separately fingerprinted draft follow-up",
+      "locations": [
+        {
+          "path": "docs/evidence/m3/licensing/integrator-run.json",
+          "line": 20
+        },
+        {
+          "path": "docs/evidence/m3/licensing/npm-inventory.json",
+          "line": 64
+        }
+      ],
+      "actual": "Raw log names and retained npm notice paths refer to local inspection output names. Published copies use integrator- prefixes or third_party/licenses/npm paths, without an explicit mapping in the exact candidate.",
+      "expected": "A reader of the committed reports can locate the corresponding public evidence without private cache directories.",
+      "correction": "Preserve raw records; add a public path index and a link from LICENSE_REVIEW.",
+      "resolution": "Reviewed root draft README/artifact-index plus one link in docs/LICENSE_REVIEW.md. All6log and25npm notice mappings have correct SHA-256; this resolves the portability issue without changing raw data or upstream text."
+    }
+  ],
+  "applicability_assessment": [
+    {
+      "topic": "Original project MIT OR Apache-2.0",
+      "assessment": "The wrapper, README SPDX and first-party npm metadata consistently express the owner choice. The original MIT and Apache texts and existing Rust declaration are unchanged. Third-party carve-outs are explicit. Collective BudgetBranch contributors credit does not invent a personal name, company or transfer of outside rights. No independent title guarantee is inferred."
+    },
+    {
+      "topic": "MPL2 Wasm components",
+      "assessment": "wee_alloc0.4.5 and memory_units0.4.0 are correctly identified as normal-target MPL-covered dependencies. Documents preserve their terms and explain corresponding-source availability and recipient notice when redistributing compiled artifacts. Separately licensed original files are not automatically relabeled MPL. Both exact source archive links were independently fetched and matched Cargo.lock SHA-256; the wee_alloc upstream license at its packaged revision matches the retained MPL text.",
+      "locations": [
+        "docs/LICENSE_REVIEW.md:24",
+        "THIRD_PARTY_NOTICES.md:21",
+        "THIRD_PARTY_NOTICES.md:23"
+      ],
+      "sources": [
+        "https://www.mozilla.org/en-US/MPL/2.0/",
+        "https://www.mozilla.org/en-US/MPL/2.0/FAQ/"
+      ]
+    },
+    {
+      "topic": "Geist OFL1.1",
+      "assessment": "The actual Geist copyright and OFL text are retained verbatim, and all five shipped WOFF2 files match unchanged installed upstream font bytes. The documents correctly distinguish font-software terms from screenshots/documents using the font. No font renaming or relicensing was introduced.",
+      "locations": [
+        "docs/LICENSE_REVIEW.md:25",
+        "THIRD_PARTY_NOTICES.md:13",
+        "web/public/licenses/geist-5.3.0-OFL.txt:1"
+      ],
+      "source": "https://openfontlicense.org/open-font-license-official-text/"
+    },
+    {
+      "topic": "Host near-sandbox license ambiguity",
+      "assessment": "Retained OPEN scope limit, not a new discovery. Checksum-verified near-sandbox0.4.1 archive declares MIT OR Apache-2.0 and contains those texts plus a GPLv3 root LICENSE. Fresh exact-revision GPL text matches the archive. Its GPL application is not resolved by the project license. The documentation appropriately defers clearance of a bundled launcher/native-host distribution and does not classify this crate as deployed Wasm.",
+      "locations": [
+        "docs/LICENSE_REVIEW.md:32",
+        "docs/evidence/m3/licensing/cargo-review.md:26"
+      ],
+      "source": "https://raw.githubusercontent.com/near/near-sandbox-rs/90415de795c3d4706847115c9ebd94afce695d09/LICENSE"
+    },
+    {
+      "topic": "Other host/component terms",
+      "assessment": "security-framework THIRD_PARTY explicitly applies APSL2 to documentation adapted from Apple; the file is preserved. ring/AWS-LC, cfg_aliases, unicode-ident, Zlib, CDLA and optional r-efi terms are not reduced to a blanket project grant. Package declarations, source-header samples and platform graph membership are correctly distinguished from complete file-level applicability."
+    },
+    {
+      "topic": "Distribution boundary and SBOM limits",
+      "assessment": "Current Git package contains source, notices and evidence, not compiled Wasm, native Sandbox, registry archives or node_modules. Native tool downloads remain separate. The36normal target crates are not presented as a complete binary SBOM: Rust sysroot, generated code, native embedded components and uninstalled platform binaries remain outside full examination. A later binary/tool bundle requires a separate review."
+    },
+    {
+      "topic": "Runtime and security claims",
+      "assessment": "Licensing changes do not modify financial behavior or resolve open cargo-audit advisories. Existing application sources and dependency resolution are unchanged. Root build outputs compared byte-for-byte match the eight previous runtime assets; notices are seven additive files. Prior bounded security recommendation remains applicable."
+    }
+  ],
+  "independent_executed_validation": {
+    "main_command": [
+      "python3",
+      ".cache/license-review/check_license_evidence.py"
+    ],
+    "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g3",
+    "initial_attempt": {
+      "exit_code": 1,
+      "reason": "QA-only tree parser treated the retained |license suffix as part of a version; stopped before artifact checks. Corrected only the QA parser to terminate version at |. No product/evidence source change."
+    },
+    "final_attempt": {
+      "exit_code": 0,
+      "seconds": 3.645642625,
+      "result": "All bounded assertions passed"
+    },
+    "script_sha256": "78b24442ee5d13820b98c7fbe9da8bd103665b617cd1a38e491ee0b20ec98d30",
+    "evidence_file": "license-evidence-check.json",
+    "evidence_sha256": "f33fd51ca03264c7ddea62201820aea7a79c57ae524b08ec54e19205a11406cf",
+    "independent_cargo_archive_sample": {
+      "count": 45,
+      "scope": "All36normalWasm target archives plus9selected host/platform archives",
+      "named_legal_files_hashed": 80,
+      "packages": [
+        "aws-lc-sys-0.47.0",
+        "base64-0.22.1",
+        "base64-0.23.1",
+        "block-buffer-0.12.1",
+        "borsh-1.8.1",
+        "bs58-0.5.1",
+        "cfg-if-0.1.10",
+        "cfg_aliases-0.2.2",
+        "crypto-common-0.2.2",
+        "digest-0.11.3",
+        "equivalent-1.0.3",
+        "foldhash-0.2.0",
+        "hashbrown-0.17.1",
+        "hex-0.4.3",
+        "hex-literal-1.1.0",
+        "hybrid-array-0.4.15",
+        "indexmap-2.14.2",
+        "itoa-1.0.19",
+        "memchr-2.8.3",
+        "memory_units-0.4.0",
+        "near-account-id-3.0.0",
+        "near-crypto-hash-0.2.0",
+        "near-digest-0.1.5",
+        "near-gas-0.3.7",
+        "near-global-contracts-0.3.3",
+        "near-sandbox-0.4.1",
+        "near-sdk-5.30.1",
+        "near-sdk-core-4.4.2",
+        "near-sdk-env-0.1.9",
+        "near-sys-0.4.1",
+        "near-token-0.3.6",
+        "once_cell-1.21.4",
+        "r-efi-6.0.0",
+        "ring-0.17.14",
+        "security-framework-3.7.0",
+        "serde-1.0.229",
+        "serde_core-1.0.229",
+        "serde_json-1.0.154",
+        "serde_with-3.24.0",
+        "typenum-1.20.1",
+        "unicode-ident-1.0.27",
+        "webpki-roots-1.0.12",
+        "wee_alloc-0.4.5",
+        "zmij-1.0.23",
+        "zstd-sys-2.1.3+zstd.1.5.7"
+      ]
+    },
+    "retained_Wasm_text_copies_checked": 69,
+    "npm_checks": {
+      "cached_official_version_metadata_hash_license_and_SRI_records": 57,
+      "lock_occurrences": 59,
+      "installed_package_identity_and_license_records": 26,
+      "retained_notice_copies": 25,
+      "note": "No re-download of all optional platform binaries; registry snapshots are retained local evidence whose hashes and exact lock fields were independently checked."
+    },
+    "frontend_checks": {
+      "public_source_license_mappings": 8,
+      "unchanged_actual_root_dist_runtime_assets": 8,
+      "added_actual_root_dist_notice_files": 7,
+      "fonts_matching_installed_upstream_bytes": 5,
+      "note": "No new QA build; root actual build artifacts were hashed against the recorded baseline/worker manifest."
+    },
+    "public_https_fetch_commands": [
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://static.crates.io/crates/wee_alloc/wee_alloc-0.4.5.crate",
+          "--output",
+          ".cache/license-review/qa-upstream/wee_alloc-0.4.5.crate"
+        ],
+        "exit_code": 0,
+        "sha256": "dbb3b5a6b2bb17cb6ad44a2e68a43e8d2722c997da10e928665c72ec6c0a0b8e"
+      },
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://static.crates.io/crates/memory_units/memory_units-0.4.0.crate",
+          "--output",
+          ".cache/license-review/qa-upstream/memory_units-0.4.0.crate"
+        ],
+        "exit_code": 0,
+        "sha256": "8452105ba047068f40ff7093dd1d9da90898e63dd61736462e9cdda6a90ad3c3"
+      },
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://raw.githubusercontent.com/rustwasm/wee_alloc/e782897d7f6f63c7f99ebba5d3c4aefc178e2231/LICENSE",
+          "--output",
+          ".cache/license-review/qa-upstream/wee_alloc-LICENSE"
+        ],
+        "exit_code": 0,
+        "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+      },
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://raw.githubusercontent.com/near/near-sdk-rs/bacd081a0bd648d840b814dab7677e1f3330afbb/LICENSE-MIT",
+          "--output",
+          ".cache/license-review/qa-upstream/near-sdk-LICENSE-MIT"
+        ],
+        "exit_code": 0,
+        "sha256": "6cebe29bfb696cda15f15ff96c5c0b57447d2b562310c703d99d008f511a8594"
+      },
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://raw.githubusercontent.com/near/near-sdk-rs/bacd081a0bd648d840b814dab7677e1f3330afbb/LICENSE-APACHE",
+          "--output",
+          ".cache/license-review/qa-upstream/near-sdk-LICENSE-APACHE"
+        ],
+        "exit_code": 0,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "argv": [
+          "curl",
+          "--fail",
+          "--silent",
+          "--show-error",
+          "--location",
+          "--proto",
+          "=https",
+          "--max-time",
+          "45",
+          "https://raw.githubusercontent.com/near/near-sandbox-rs/90415de795c3d4706847115c9ebd94afce695d09/LICENSE",
+          "--output",
+          ".cache/license-review/qa-upstream/near-sandbox-LICENSE"
+        ],
+        "exit_code": 0,
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+      }
+    ],
+    "official_terms_read": [
+      "https://www.mozilla.org/en-US/MPL/2.0/",
+      "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+      "https://openfontlicense.org/open-font-license-official-text/",
+      "https://www.apache.org/licenses/LICENSE-2.0"
+    ]
+  },
+  "retained_worker_and_integrator_results": {
+    "cargo_inventory": "438external archive digests and763named legal-file hashes reported by Integration; root independently rehashed438. This QA separately checked45archives/80named archive files, not all438/763.",
+    "recorded_root_commands": "SDK/agents/web offline ci, SDK build, web build and4web unit checks all recorded exit0. QA did not rerun those commands.",
+    "binary_artifact_scope": "No claim to rebuild or analyze every native executable or inspect every copyrighted source header."
+  },
+  "secret_scan_scope": {
+    "executed_by": "integrator",
+    "candidate": "d05ebc47ad55452fc0b80e7aef0e9ad08f85e51d",
+    "baseline": "780ad89b3351856cb4fafb93c74d763f208310e2",
+    "input_changed_files_independently_verified_as_exact_Git_blobs": 159,
+    "recorded_exit_code": 0,
+    "recorded_findings": 0,
+    "run_json_sha256": "aaf91e8c007de49529d59a562a1604811dc8e0d43bd699e610cd9e69ee35292b",
+    "report_path_at_review": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.cache/license-review/secret-scan/run.json",
+    "note": "Only the exact159-file licensing delta, not a new all-history scan. This QA did not rerun Gitleaks. Later mapping/outcome/QA report metadata lies outside that snapshot."
+  },
+  "separate_uncommitted_metadata_followup": {
+    "files": [
+      {
+        "path": "docs/evidence/m3/licensing/README.md",
+        "root_draft_sha256": "4d63e16fb27625b5388e6620ad1fc9c3d4f0575744b504c27675ec113487a55b"
+      },
+      {
+        "path": "docs/evidence/m3/licensing/artifact-index.json",
+        "root_draft_sha256": "e46f0fa855b03fe7a3eecc5bd9b33ea18676f5fd06207b3723b89c68e74db9e9"
+      },
+      {
+        "path": "docs/LICENSE_REVIEW.md",
+        "root_draft_sha256": "fd062a7171d1b56830cd9856c34e69f23742fcd5164f194fa2a4e8dcb12b0aaa"
+      }
+    ],
+    "mapped_public_artifacts_checked": 31,
+    "result": "ACCEPT: path mapping and a single discoverability link only; raw reports and copied legal bytes preserved. Bind these fingerprints to final metadata commit before describing it as immutable reviewed evidence."
+  },
+  "verdict": "ACCEPT exactd05ebc4 licensing conclusions for the current source-checkout distribution scope, with LIC-DOC-01 resolved by the reviewed mapping draft. No new material licensing blocker identified within that scope. Retain the documented near-sandbox application ambiguity and all native-bundle/SBOM/source-availability limits. This does not authorize publication, a native-tool/binary release, main advancement or submission.",
+  "tracked_files_modified_by_reviewer": false,
+  "writes": "Only isolated .cache/license-review QA scripts, fetched public artifacts and reports."
+}

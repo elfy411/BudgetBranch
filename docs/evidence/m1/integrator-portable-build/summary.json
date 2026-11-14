@@ -1,0 +1,89 @@
+{
+  "contract_source_commit": "e8b437490a4d60c93870c644b2f4cf373dbba601",
+  "portable_build_source_commit": "b191642fce6dd00426fa259fa306647ea8538c1f",
+  "real_suites": {
+    "cycle": {
+      "exit_code": 0,
+      "records": 15,
+      "initial_failures": 0,
+      "settlement_callbacks": 2,
+      "max_callback_gas": "2170854300025"
+    },
+    "full": {
+      "exit_code": 0,
+      "records": 42,
+      "initial_failures": 11,
+      "settlement_callbacks": 4,
+      "max_callback_gas": "2194533634837"
+    },
+    "capacity": {
+      "exit_code": 0,
+      "records": 211,
+      "initial_failures": 2,
+      "settlement_callbacks": 513,
+      "max_callback_gas": "2214963092609"
+    },
+    "storage-boundary": {
+      "exit_code": 0,
+      "records": 15,
+      "initial_failures": 2,
+      "settlement_callbacks": 1,
+      "max_callback_gas": "2166083627117"
+    },
+    "interleaving": {
+      "exit_code": 0,
+      "records": 14,
+      "initial_failures": 0,
+      "settlement_callbacks": 2,
+      "max_callback_gas": "2187959676855"
+    },
+    "negatives": {
+      "exit_code": 0,
+      "records": 30,
+      "initial_failures": 15,
+      "settlement_callbacks": 2,
+      "max_callback_gas": "2176834641027"
+    },
+    "adversarial": {
+      "exit_code": 0,
+      "records": 16,
+      "initial_failures": 2,
+      "settlement_callbacks": 1,
+      "max_callback_gas": "2184172060959"
+    },
+    "refund-failure": {
+      "exit_code": 0,
+      "records": 11,
+      "initial_failures": 0,
+      "settlement_callbacks": 1,
+      "max_callback_gas": "2183254026246"
+    },
+    "maximum-state": {
+      "exit_code": 0,
+      "records": 46,
+      "initial_failures": 0,
+      "settlement_callbacks": 2,
+      "max_callback_gas": "2302466890107"
+    },
+    "refund-order": {
+      "exit_code": 0,
+      "records": 11,
+      "initial_failures": 0,
+      "settlement_callbacks": 1,
+      "max_callback_gas": "2171627352303"
+    }
+  },
+  "max_callback_gas": "2302466890107",
+  "callback_prepaid_gas": "30000000000000",
+  "final_global_yocto": {
+    "free": "3000000000000000000000000",
+    "pending": "0",
+    "spent": "2000000000000000000000000",
+    "returned": "5000000000000000000000000"
+  },
+  "qa_portable_recommendation": "Applies to exact portable hashes; no Critical/High finding; owner G1 approval remains separate",
+  "remaining_real_coverage_gaps": [
+    "Controlled delayed-refund dispatch window",
+    "Callback execution failure/OOG; exact expiry and authenticated duplicate callback (unit contexts only)"
+  ]
+}

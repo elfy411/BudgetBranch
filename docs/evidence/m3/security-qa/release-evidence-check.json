@@ -1,0 +1,164 @@
+{
+  "checked_at_utc": "2026-11-13T13:36:28.098008+00:00",
+  "command": [
+    "python3",
+    ".cache/g3/review_evidence.py"
+  ],
+  "cwd": "/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g3",
+  "mode": "READ-ONLY GIT/HASH/EVIDENCE VALIDATION; NO NEW SANDBOX OR BROWSER RUN",
+  "candidate_commit": "665874f445a23a1a35db09f0c5cb6b9e803eac88",
+  "runtime_commit": "1ea24af7c97db1733d920a2949d681218d24687f",
+  "main_observed": "4de180536eb75ebf3d653c063ef20ef7ba6dadc8",
+  "tracked_status_clean": true,
+  "runtime_scope_changed_paths": [
+    "scripts/README.md",
+    "tests/evidence/g3-native-mac.md"
+  ],
+  "runtime_trees": {
+    "contracts": "2c691ebdbd23e9d9e22ea67fc3aa22c9b5226106",
+    "sdk": "bdd9a33e07ee30e2cbc78f159beb47e3a74cb33e",
+    "agents": "fbef5871dd5dba9efa6c1a182ddfdb2e99783eaa",
+    "web": "92564b13fb7490d961649908075e77454bc0e25f"
+  },
+  "approved_document_hash_checks": 7,
+  "approved_tree_checks": 6,
+  "retained_m3_artifacts_hash_checked": 28,
+  "retained_m3_exit_files_all_zero": 8,
+  "recorded_scenarios": [
+    {
+      "file": "sdk-sandbox.jsonl",
+      "steps": 19,
+      "transactions": 18,
+      "unique_transactions": 18,
+      "direct_rejections": 6,
+      "recorded_snapshots_arithmetically_validated": 23,
+      "final_NEAR": {
+        "funded": "10",
+        "free": "3",
+        "pending": "0",
+        "spent": "2",
+        "returned": "5"
+      }
+    },
+    {
+      "file": "agents-cli.stdout.log",
+      "steps": 19,
+      "transactions": 18,
+      "unique_transactions": 18,
+      "direct_rejections": 6,
+      "recorded_snapshots_arithmetically_validated": 23,
+      "final_NEAR": {
+        "funded": "10",
+        "free": "3",
+        "pending": "0",
+        "spent": "2",
+        "returned": "5"
+      }
+    }
+  ],
+  "recorded_unit_counts": {
+    "rust": 15,
+    "sdk": 18,
+    "agents": 5,
+    "web": 4
+  },
+  "recorded_http_checks": [
+    {
+      "check": "real Sandbox web startup and finalized HTTP snapshot",
+      "pageUrl": "http://127.0.0.1:49927/?network=sandbox&contract=budget.test.near",
+      "chainId": "test-chain-bbf923ec6da6f805b5",
+      "protocol": 88,
+      "pageStatus": 200,
+      "snapshotStatus": 200,
+      "blockHeight": "68",
+      "funded": "0",
+      "foreignOrigin": 403,
+      "missingSignerToken": 403,
+      "patchThroughReadProxy": 403
+    },
+    {
+      "check": "real Sandbox web SIGINT cleanup",
+      "exit": 130,
+      "nodeHomeRemoved": true,
+      "webListenerClosed": true
+    },
+    {
+      "check": "standalone Vite HTTP entry point",
+      "pageStatus": 200,
+      "fixtureSignerRoute": 404
+    },
+    {
+      "check": "standalone Vite SIGINT cleanup",
+      "exit": null,
+      "signal": "SIGINT",
+      "webListenerClosed": true
+    }
+  ],
+  "secret_scan_evidence_sha256": {
+    "triage.json": "dbe8df20170dd4c5e3ae9e0a3decac7fa549c4323b401f588a1c48d80cf545e9",
+    "source.json": "4608cc5fd4b05a6b3b4a6c4130125a5df53b93546b373dcc956671c75059c188",
+    "history.json": "cf68fa4aa93b95cc3c72eecdde4aa03e51e3cf36b82ce7c3183e1db82b61c794",
+    "run.json": "eb97b059cbef625adc55e545e6759acd46e0e70a57120913222e1aebe2783f67"
+  },
+  "secret_scanner_executed_by": "integrator, not this follow-up QA",
+  "secret_scope_exact_candidate_git_blobs_verified": 460,
+  "history_reported_reachable_commits": 41,
+  "history_reachable_commits_observed_at_review": 41,
+  "history_exit": 1,
+  "source_exit": 1,
+  "matched_public_artifact_hashes": [
+    {
+      "line": 5,
+      "artifact": "api-evidence.json",
+      "sha256": "2ee8a1c73786ef6f4f18b7d3398e7393814f77ceed318fb9ffadcdc9b09d3dfc",
+      "candidate_approved_history_current_equal": true
+    },
+    {
+      "line": 6,
+      "artifact": "api-probe.mjs",
+      "sha256": "b179580120f37f33dd00c9e3b64e40a38f6ea5281e6ae36d92b42ecc33b18ec0",
+      "candidate_approved_history_current_equal": true
+    },
+    {
+      "line": 7,
+      "artifact": "api-run.json",
+      "sha256": "b36820365d2c6498f76ff6c24a1cf6cd985f573ed43cc9994db13c925f762e74",
+      "candidate_approved_history_current_equal": true
+    },
+    {
+      "line": 8,
+      "artifact": "api-run.log",
+      "sha256": "4e34176db294c047ca04f9c07815e0ab745ce6b3b48d8ee27072e5e14623eb85",
+      "candidate_approved_history_current_equal": true
+    },
+    {
+      "line": 54,
+      "artifact": "run_api.py",
+      "sha256": "1b91cda1ba43f82bb4f1436df09a94183d5f162390c030c109389acc3a0cb937",
+      "candidate_approved_history_current_equal": true
+    }
+  ],
+  "confirmed_secrets_among_reported_matches": 0,
+  "unresolved_reported_matches": 0,
+  "root_draft_followup_fingerprints": [
+    {
+      "path": "README.md",
+      "candidate_sha256": "54b0405348e0b0418e3e8432d87e2138133ad867be01698363b9add5b97e0ecc",
+      "reviewed_root_draft_sha256": "78d04ad7e9640776c966ad292f9cba8a261809136267b5185f807c619152d644"
+    },
+    {
+      "path": "docs/release/SUBMISSION.md",
+      "candidate_sha256": "adc5e1d3ffa50ae01e29413c2d48cc6e554ddf5abd2d7d192ebcb5023546011f",
+      "reviewed_root_draft_sha256": "6bddabc9e79b402d3f161f0546098a9c1c31a4de38fc4bdab842cf4e6f09c5ba"
+    },
+    {
+      "path": "docs/DEPENDENCY_REVIEW.md",
+      "candidate_sha256": "d84e180ec96ef1ec9aec509d2541a5420f52acbe3c8213944e84061ca5180afb",
+      "reviewed_root_draft_sha256": "3535f411628e9e287e7ab2d3972b9bf5ff239fef4a6fde6e42850a13fdfc252a"
+    }
+  ],
+  "description_characters": 1050,
+  "post_characters_without_url": 219,
+  "post_characters_with_space_and_23_character_url": 243,
+  "result": "ALL READ-ONLY EVIDENCE ASSERTIONS PASSED"
+}
