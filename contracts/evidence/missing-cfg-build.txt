@@ -1,8 +1,0 @@
-   Compiling budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/contract/contracts/budgetbranch)
-error: Missing --cfg near: run Cargo from contracts/ to load .cargo/config.toml
- --> budgetbranch/src/lib.rs:5:1
-  |
-5 | compile_error!("Missing --cfg near: run Cargo from contracts/ to load .cargo/config.toml");
-  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-error: could not compile `budgetbranch` (lib) due to 1 previous error

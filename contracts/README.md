@@ -1,43 +1,36 @@
 # BudgetBranch contracts — v0.1.0 implementation
 
-This implements the frozen root `SPEC.md` and `docs/abi.ts`. It is a Sandbox/Testnet prototype. Only reviewed synchronous immutable receivers are supported. A failed or missing callback leaves its principal pending indefinitely; there is no timeout, administrative override, or inferred settlement from account balances.
+This implements the frozen root `SPEC.md` and `docs/abi.ts`. It is a Sandbox-only prototype. Only reviewed synchronous immutable receivers are supported. A failed or missing callback leaves its principal pending indefinitely; there is no timeout, administrative override, or inferred settlement from account balances.
 
-## Reproduce the checkpoint
+## Reproduce the contract checks
 
 The verified host is **macOS ARM64**, Rust **1.95.0**, `near-sdk = 5.30.1`, `near-workspaces = 0.24.0`, native Sandbox **2.14.0 / protocol 88**. Cargo.lock pins transitive dependencies, including `near-sandbox 0.4.1` and nearcore crates `0.38.1`. The externally selected Sandbox binary is pinned independently: SHA-256 `8e0e1521372b0fce801b7464078c1e95e5a25a0f92ad4b4241451c33fe9e5a2a`.
 
-Run **from `contracts/`**, not merely with `--manifest-path`: Cargo discovers the target-specific `contracts/.cargo/config.toml` from the working directory. Its `--cfg near` setting is required by `near-sdk-env` for NEAR host panic/hash routing.
+Run from the checkout root. The wrapper selects only project-local tools; Cargo itself must execute inside `contracts/` to load the checked-in `--cfg near` configuration.
 
 ```sh
-cd /path/to/BudgetBranch/contracts
-export CARGO_HOME=/path/to/BudgetBranch/.local/cargo
-export RUSTUP_HOME=/path/to/BudgetBranch/.local/rustup
-export PATH="$CARGO_HOME/bin:$PATH"
-export CARGO_BUILD_JOBS=2
-export NEAR_SANDBOX_BIN_PATH=/path/to/BudgetBranch/.local/sandbox/2.14.0/near-sandbox
-export TMPDIR=/private/tmp
-cargo build --locked --release --target wasm32-unknown-unknown -p budgetbranch -p demo-receiver -p test-adversary
-cargo test --locked -p budgetbranch --lib
-cargo run --locked -p budgetbranch-sandbox --bin sandbox-evidence -- cycle
-cargo run --locked -p budgetbranch-sandbox --bin sandbox-evidence -- full
-for suite in capacity storage-boundary interleaving negatives adversarial refund-failure maximum-state refund-order; do
-  cargo run --locked -p budgetbranch-sandbox --bin sandbox-evidence -- "$suite"
-done
+./scripts/mac.sh bootstrap
+./scripts/mac.sh wasm
+./scripts/mac.sh env sh -c 'cd contracts && cargo build --locked --release --target wasm32-unknown-unknown -p test-adversary'
+./scripts/mac.sh env sh -c 'cd contracts && cargo test --locked -p budgetbranch --lib'
+./scripts/mac.sh env sh -c 'cd contracts && for suite in cycle full capacity storage-boundary interleaving negatives adversarial refund-failure maximum-state refund-order; do cargo run --locked -p budgetbranch-sandbox --bin sandbox-evidence -- "$suite" || exit; done'
 ```
 
-After the initial dependency fetch, all commands support `--offline`. No paid services, user credentials, mainnet connection, global installation, or exported account signing keys are used. The Sandbox process creates its disposable validator files in its temporary home and removes that home on exit. Agent and fixture account signers remain in memory. Local loopback sockets must be permitted by the execution sandbox. The Wasm crates fail compilation if `cfg(near)` is missing; an incorrectly located build cannot silently ship generic panic traps.
+The first Wasm command builds the two portable production artifacts; the next builds only the adversarial test fixture. After dependencies are cached, the wrapper's Wasm command and individual Cargo commands accept `--offline`. These additional direct suites write their fresh results to `contracts/evidence/sandbox-<suite>.json`, replacing that suite's local historical copy. They create independent disposable chains, so new transaction/receipt IDs are expected.
+
+No paid services, user credentials, Mainnet connection or global installation is needed. Sandbox validator files live in a private temporary directory removed on exit; account signers stay in memory. Loopback sockets must be permitted. The Wasm crates fail compilation without `cfg(near)`.
 
 The harness deploys and initializes each contract atomically, deletes its final access key in that same action batch, and verifies the resulting empty access-key list, local code reference, actual Wasm hash, and receiver admin/budget identities. Its receiver policy refuses unknown code, mutable global references, and keyed accounts. Business funding is separate from deployment funding.
 
-## Executed checkpoint evidence
+## Recorded Sandbox evidence
 
 `evidence/sandbox-cycle.json` records actual transaction/receipt IDs, block hashes, gas, outcomes, pending and terminal events, receiver counters, and accounting snapshots for one accept and one reject. `evidence/sandbox-full.json` records the complete required scenario, including direct negative calls, exact replay after revoke, sibling spending, reclaim, and an actual native owner refund. Final global totals are **free 3 / pending 0 / spent 2 / returned 5 NEAR**. Initiating success is checked separately from receiver/callback outcomes and terminal payment state.
 
-The current **15 Rust unit-context tests** cover conservation, caller checks, exact expiry, narrowing, replay, revoke with a pending payment, duplicate callback, successful nonempty result classification, missing-result rejection, storage widths, recovery reserve accounting, liquidity denial, checked arithmetic, pagination and four SHA-256 golden vectors shared with TypeScript. A rejected callback and elapsed time leave principal pending. These unit contexts are explicitly not Sandbox receipt evidence. `evidence/unit-tests.txt` contains the executed output.
+The current **15 Rust unit-context tests** cover conservation, caller checks, exact expiry, narrowing, replay, revoke with a pending payment, duplicate callback, successful nonempty result classification, missing-result rejection, storage widths, recovery reserve accounting, liquidity denial, checked arithmetic, pagination and four SHA-256 golden vectors shared with TypeScript. A rejected callback and elapsed time leave principal pending. These unit contexts are explicitly not Sandbox receipt evidence. Fresh unit results are recorded with the [clean-checkout verification](../docs/VERIFICATION.md).
 
 The initial plain-Cargo build exposed generic Wasm panic traps because it omitted `cfg(near)`. The committed build config fixes this; both Sandbox suites were rerun against the corrected Wasm. No validation error matching is waived.
 
-The **10 real Sandbox suites** have separate evidence files. `evidence/m1-summary.json` derives transaction rejection counts and measured callback gas from the recorded outcomes; an initiating transaction with a failed receiver is not counted as an initiating rejection.
+The **10 real Sandbox suites** have separate evidence files. `evidence/summary.json` derives transaction rejection counts and measured callback gas from the recorded outcomes; an initiating transaction with a failed receiver is not counted as an initiating rejection.
 
 | Suite | Executed evidence |
 | --- | --- |
@@ -64,8 +57,10 @@ Maximum serialized payment value: **255 bytes**; payment key: **9**; measured st
 
 Normal growth cannot consume protected recovery storage. Each recovery operation consumes its own finite reserved slots. All outward value promises require the actual account balance to cover protected operational funding plus the outgoing amount. Logical free restored by a failure callback is not assumed to have physically arrived.
 
-## Acceptance still pending
+## Coverage gaps and remaining limits
 
-This implementation is **not G1 acceptance or independent security approval**. In the recorded `refund-order` run, the callback and attached-deposit refund execute in the same block; the exact receipt/block IDs are in that evidence file. A dispatch between successful failure settlement and later physical refund was **not reproduced**; `ERR_LIQUIDITY` is tested with a synthetic low-balance unit context. Exact expiry, legitimate duplicate private callback and callback execution failure are unit-context cases; the Sandbox spoof tests exercise actual unauthorized callbacks, not authenticated duplicates. No Testnet execution is claimed. Independent QA must review the exact implementation commit and these gaps.
+In the recorded `refund-order` run, the callback and attached-deposit refund execute in the same block; the exact receipt/block IDs are in that evidence file. A dispatch between successful failure settlement and later physical refund was **not reproduced**; `ERR_LIQUIDITY` is tested with a synthetic low-balance unit context. Exact expiry, legitimate duplicate private callback and callback execution failure are unit-context cases; the Sandbox spoof tests exercise actual unauthorized callbacks, not authenticated duplicates. No Testnet execution is claimed. The retained [independent review](../docs/SECURITY_REVIEW.md) describes its exact historical scope and these gaps.
 
-A successful callback that observes a failed receiver restores free. A callback that itself fails restores nothing and leaves the payment pending. No timeout, owner statement, extra deposit or new deployment recovers such pending principal. Global normal quotas can stop siblings' new activity; separate recovery quotas remain finite and can be exhausted by repeated voluntary owner recovery attempts. The owner gates and these prototype limits remain unchanged.
+A successful callback that observes a failed receiver restores free. A callback that itself fails restores nothing and leaves the payment pending. No timeout, owner statement, extra deposit or new deployment recovers such pending principal. Global normal quotas can stop siblings' new activity; separate recovery quotas remain finite and can be exhausted by repeated voluntary owner recovery attempts. These prototype limits remain unchanged.
+
+The portable run's maximum measured callback was **2.302466890107 Tgas** against **30 Tgas** prepaid. See the [verification index](../docs/VERIFICATION.md) and [open dependency findings](../docs/DEPENDENCY_REVIEW.md).

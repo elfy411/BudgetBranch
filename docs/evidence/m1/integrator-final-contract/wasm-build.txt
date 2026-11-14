@@ -1,4 +1,0 @@
-   Compiling budgetbranch v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/budgetbranch)
-   Compiling test-adversary v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/test-adversary)
-   Compiling demo-receiver v0.1.0 (/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/demo-receiver)
-    Finished `release` profile [optimized] target(s) in 3.98s

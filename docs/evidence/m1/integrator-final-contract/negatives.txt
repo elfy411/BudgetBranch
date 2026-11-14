@@ -1,3 +1,0 @@
-    Finished `dev` profile [unoptimized] target(s) in 0.67s
-     Running `target/debug/sandbox-evidence negatives`
-PASS actual direct negatives, gas bounds, depth4, replay while pending and distinct-request race; evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/evidence/sandbox-negatives.json

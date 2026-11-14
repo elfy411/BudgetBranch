@@ -1,3 +1,0 @@
-    Finished `dev` profile [unoptimized] target(s) in 0.74s
-     Running `target/debug/sandbox-evidence storage-boundary`
-PASS actual Sandbox exact storage reserve boundary and recovery without extra topup; evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/evidence/sandbox-storage-boundary.json

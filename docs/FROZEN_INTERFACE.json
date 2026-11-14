@@ -1,27 +1,18 @@
 {
   "protocol_version": "0.1.0",
-  "decision": "G0 APPROVED FOR IMPLEMENTATION",
-  "owner_approved_source_commit": "a7057f2a0e68b71eacb2e0e277d1b0d3fcbd7ab2",
-  "implementation_base_ref": "refs/tags/g0-approved-v0.1.0",
-  "integrator_actual_model": "UNKNOWN",
-  "integrator_actual_effort": "UNKNOWN",
+  "document_edition": "2026-11-14-public",
+  "baseline_public_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+  "changes": "Editorial specification cleanup only; financial rules and JSON ABI unchanged.",
+  "previous_spec_sha256": "9f4f36e0f0791a789ee46316e07370231b44c5f56d624c8638a87f863a138e85",
   "files": {
     "SPEC.md": {
-      "version": "0.1.0",
-      "sha256": "9f4f36e0f0791a789ee46316e07370231b44c5f56d624c8638a87f863a138e85"
+      "version": "2026-11-14-public",
+      "sha256": "1d3fdd50a516e9d0c986a0b293bb6ebc394b807e8d06e6e9ef9beeb6d31b0305"
     },
     "docs/abi.ts": {
       "version": "0.1.0",
       "sha256": "1826edabfabfff6e6d10bd6c82ea8cadbcd537a35f6a4a7b5cf97fbf795a3ddd"
-    },
-    "docs/WORK_ALLOCATION.md": {
-      "version": "0.1.0",
-      "sha256": "ed3e6779c61386c3b5a83fc1191dba74807c0e90d4d3f7844858d3573946107a"
-    },
-    "PROMPTS_WORKERS_RU.md": {
-      "version": "0.1.0",
-      "sha256": "eb721fef9a5390524018a29519c2251bddee25bfd5912cd6c508e26fecc66377"
     }
   },
-  "semantic_changes_from_approved_source": false
+  "financial_or_wire_semantic_changes": false
 }

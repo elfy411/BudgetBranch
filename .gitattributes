@@ -1,11 +1,10 @@
-# Original planning Markdown uses intentional two-space hard line breaks.
+# Markdown may use intentional two-space hard line breaks.
 *.md whitespace=-blank-at-eol
 # Captured command output may intentionally end with an extra empty line.
 docs/evidence/**/*.txt whitespace=-blank-at-eof
 docs/evidence/**/*.log whitespace=-blank-at-eof
-docs/evidence/m2/clean-mac/bootstrap.txt whitespace=-blank-at-eof,-blank-at-eol
 
 # Preserve byte-identical upstream license/notice text; validate copies by SHA-256.
 third_party/licenses/** -whitespace
 web/public/licenses/** -whitespace
-docs/evidence/m3/licensing/notices/** -whitespace
+docs/evidence/licenses/notices/** -whitespace

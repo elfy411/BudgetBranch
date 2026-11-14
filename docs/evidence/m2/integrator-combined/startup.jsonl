@@ -1,3 +1,0 @@
-{"check":"invalid port","port":"65536","code":1,"signal":null,"stdout":"","stderr":"Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535.\n"}
-{"check":"invalid port","port":"0x1435","code":1,"signal":null,"stdout":"","stderr":"Local Sandbox console stopped: Set BB_WEB_PORT to a decimal integer from 1024 through 65535.\n"}
-{"check":"occupied port preserves existing listener","port":61506,"code":1,"signal":null,"stdout":"","stderr":"Local Sandbox console stopped: Port 61506 is already in use. Set BB_WEB_PORT to a free loopback port.\n"}

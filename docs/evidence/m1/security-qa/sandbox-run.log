@@ -1,1 +1,0 @@
-PASS independent real Sandbox: 16 typed replay conflicts, caller-scoped IDs, atomic receipt rollback of queued value, reusable aborted ID, 4 exact retries after root revoke, deposit-before-replay checks, full free recovery. Evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security/.cache/qa/m1-e8b4374/sandbox-independent.json

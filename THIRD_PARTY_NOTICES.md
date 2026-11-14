@@ -25,11 +25,11 @@ If redistributing a compiled Wasm artifact, accompany it with the applicable dep
 - [wee_alloc 0.4.5 source](https://static.crates.io/crates/wee_alloc/wee_alloc-0.4.5.crate)
 - [memory_units 0.4.0 source](https://static.crates.io/crates/memory_units/memory_units-0.4.0.crate)
 
-Their checksums are pinned in [Cargo.lock](contracts/Cargo.lock). Verbatim [wee_alloc MPL text](third_party/licenses/cargo/wee_alloc-0.4.5/LICENSE) and [memory_units MPL text](third_party/licenses/cargo/memory_units-0.4.0/LICENSE), plus legal texts for all36 normal target crates, are retained with a [notice manifest](docs/evidence/m3/licensing/wasm-notice-manifest.json). Exact source/license provenance is recorded in the [license review](docs/LICENSE_REVIEW.md). The repository currently distributes source and test evidence; it does not track Wasm binaries. A compiled artifact must not be described as solely MIT/Apache with third-party conditions discarded.
+Their checksums are pinned in [Cargo.lock](contracts/Cargo.lock). Verbatim [wee_alloc MPL text](third_party/licenses/cargo/wee_alloc-0.4.5/LICENSE) and [memory_units MPL text](third_party/licenses/cargo/memory_units-0.4.0/LICENSE), plus legal texts for all36 normal target crates, are retained with a [notice manifest](docs/evidence/licenses/wasm-notice-manifest.json). Exact source/license provenance is recorded in the [license review](docs/LICENSE_REVIEW.md). The repository currently distributes source and test evidence; it does not track Wasm binaries. A compiled artifact must not be described as solely MIT/Apache with third-party conditions discarded.
 
 ## Build and test dependencies
 
-The [npm inventory](docs/evidence/m3/licensing/npm-inventory.json) records all 57 unique external packages across 59 lockfile occurrences. It distinguishes registry declarations for uninstalled platform variants from locally inspected package notice files. Retained npm texts are under [third_party/licenses/npm](third_party/licenses/npm).
+The [npm inventory](docs/evidence/licenses/npm-inventory.json) records all 57 unique external packages across 59 lockfile occurrences. It distinguishes registry declarations for uninstalled platform variants from locally inspected package notice files. Retained npm texts are under [third_party/licenses/npm](third_party/licenses/npm).
 
 Lightning CSS 1.33.0 and its platform variants are MPL-2.0 build tools, separate from the browser runtime. Rust build/test dependencies also include licenses and combined expressions beyond MIT/Apache; their original notices and any `AND` conditions remain applicable. See the [Cargo and resource review](docs/LICENSE_REVIEW.md) for the exact scope, source availability, special notices and the unresolved upstream near-sandbox license-file inconsistency.
 
@@ -37,4 +37,4 @@ Dependency/tool downloads occur through the pinned upstream distribution paths. 
 
 ## Project attribution
 
-Original work is credited collectively as **Copyright © 2026 BudgetBranch contributors**. This does not invent an individual's legal name or a company. [Development provenance](docs/release/ATTRIBUTIONS.md) distinguishes the owner's planning starter, project code, AI development assistance, external libraries and actual demo evidence. Copied third-party copyright statements identify their original holders and remain unchanged.
+Original work is credited collectively as **Copyright © 2026 BudgetBranch contributors**. This does not invent an individual's legal name or a company. [Development provenance](docs/ATTRIBUTIONS.md) describes project code, development assistance, external libraries and actual demo evidence. Copied third-party copyright statements identify their original holders and remain unchanged.

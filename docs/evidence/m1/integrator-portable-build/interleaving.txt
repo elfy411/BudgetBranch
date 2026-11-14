@@ -1,3 +1,0 @@
-    Finished `dev` profile [unoptimized] target(s) in 0.66s
-     Running `target/debug/sandbox-evidence interleaving`
-PASS actual controlled spend -> revoke -> partial reclaim -> real callback (success and failure); evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/evidence/sandbox-interleaving.json

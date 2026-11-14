@@ -1,3 +1,0 @@
-    Finished `dev` profile [unoptimized] target(s) in 0.66s
-     Running `target/debug/sandbox-evidence maximum-state`
-PASS actual max128 grants,depth3,8 receivers of64 bytes,64-byte request IDs and fixed-size callbacks; evidence=/REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/verify-m1/contracts/evidence/sandbox-maximum-state.json

@@ -1,5 +1,0 @@
-Error: Could not startup and run sandbox node
-
-Caused by:
-    0: Error while binding socket to a port 0: Operation not permitted (os error 1)
-    1: Error while binding socket to a port 0: Operation not permitted (os error 1)

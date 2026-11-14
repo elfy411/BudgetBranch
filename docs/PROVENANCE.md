@@ -1,0 +1,11 @@
+# Source and evidence provenance
+
+The baseline public release is `67f9c0b7981291289f0cd823172bf6a23828e4f0`. It imported the owner-approved application as one source snapshot after the initial GitHub README. Private development commits were not added as parents. This documentation cleanup is an ordinary descendant; earlier public commits remain in Git history.
+
+Executable contract, SDK, agents, frontend, test harnesses, scripts, dependency versions and `docs/abi.ts` are unchanged from that baseline. `tests/portable-wasm.json` remains unchanged, including its original source fingerprints and both Wasm hashes. Historical source IDs inside retained evidence identify the original reviewed runs; they need not be reachable commits in this publication.
+
+`SPEC.md` edition `2026-11-14-public` removes coordination/approval language and obsolete build-readiness notes. Protocol v0.1.0, accounting equations, limits, caller checks, receiver policy, Failed/TooLong distinction, liquidity guard, pending behavior, ABI and acceptance amounts are unchanged. Editorial gate references were removed from technical test guidance. Previous SPEC SHA-256: `9f4f36e0f0791a789ee46316e07370231b44c5f56d624c8638a87f863a138e85`. Current SPEC SHA-256: `1d3fdd50a516e9d0c986a0b293bb6ebc394b807e8d06e6e9ef9beeb6d31b0305`. The [interface manifest](FROZEN_INTERFACE.json) records this as a new document edition, not a byte-identical old document. SDK validation consumes only the unchanged ABI digest in that manifest.
+
+Internal prompts, launch records, environment snapshots and duplicate checkpoint archives are omitted from the current tree. Originals are preserved locally. The compact [evidence index](VERIFICATION.md) identifies retained real executions, separate chains, controlled test injections and coverage gaps. [Evidence manifest](evidence/manifest.json) records current file digests, source paths/digests and whether a copy is unchanged or an edited extract. Edited summaries and privacy-redacted logs are not represented as original byte-for-byte command transcripts.
+
+All upstream legal texts remain unchanged. [Attribution](ATTRIBUTIONS.md) describes development assistance and reused components without internal orchestration details.

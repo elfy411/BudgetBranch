@@ -1,0 +1,359 @@
+{
+  "format_version": 1,
+  "baseline_public_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+  "scope": "Retained historical public evidence and license records; current digests, explicit edits and separate-chain provenance. No fresh execution is implied by file relocation.",
+  "files": {
+    "contracts/evidence/sandbox-adversarial.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-adversarial.json",
+      "source_sha256": "5e48266c570dc599dc2f4f8fed8d387803d3e7d351d16ddfaad24215b2265fc7",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "5e48266c570dc599dc2f4f8fed8d387803d3e7d351d16ddfaad24215b2265fc7",
+      "bytes": 115140
+    },
+    "contracts/evidence/sandbox-capacity.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-capacity.json",
+      "source_sha256": "7793f444d0d1a4c0be339d7227f5f1d341313fd0b73ee6473fdab0e2734a7232",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "7793f444d0d1a4c0be339d7227f5f1d341313fd0b73ee6473fdab0e2734a7232",
+      "bytes": 2546224
+    },
+    "contracts/evidence/sandbox-cycle.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-cycle.json",
+      "source_sha256": "308e57091f0b155aef8d9fbaf6ccb2732349b6554b0bb4708fbb289b6579275a",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "308e57091f0b155aef8d9fbaf6ccb2732349b6554b0bb4708fbb289b6579275a",
+      "bytes": 28950
+    },
+    "contracts/evidence/sandbox-full.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-full.json",
+      "source_sha256": "e73f6c5fa1aa0c159c739d3bbc252affb096edcb579894fe7750c30dfb32cef0",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "e73f6c5fa1aa0c159c739d3bbc252affb096edcb579894fe7750c30dfb32cef0",
+      "bytes": 103520
+    },
+    "contracts/evidence/sandbox-interleaving.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-interleaving.json",
+      "source_sha256": "2ca40b3e132f58ea0c39de82a53998e63a6c3fc34bdaa3a33b9c14c01888d85b",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "2ca40b3e132f58ea0c39de82a53998e63a6c3fc34bdaa3a33b9c14c01888d85b",
+      "bytes": 31202
+    },
+    "contracts/evidence/sandbox-maximum-state.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-maximum-state.json",
+      "source_sha256": "3a6b80fee381da12c674e5194b39a58dc994ff62a6daa2ae4c31106c1afbd9dc",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "3a6b80fee381da12c674e5194b39a58dc994ff62a6daa2ae4c31106c1afbd9dc",
+      "bytes": 387226
+    },
+    "contracts/evidence/sandbox-negatives.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-negatives.json",
+      "source_sha256": "5b57569dbbef6f7cc8e9fdfdc3cb6e9e14cdde08e145351d811f815523265207",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "5b57569dbbef6f7cc8e9fdfdc3cb6e9e14cdde08e145351d811f815523265207",
+      "bytes": 56331
+    },
+    "contracts/evidence/sandbox-refund-failure.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-refund-failure.json",
+      "source_sha256": "abddee4b00cb896c4f0a599963de2a5404a4ee33ccf2a9a2867e694587f922de",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "abddee4b00cb896c4f0a599963de2a5404a4ee33ccf2a9a2867e694587f922de",
+      "bytes": 20034
+    },
+    "contracts/evidence/sandbox-refund-order.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-refund-order.json",
+      "source_sha256": "f203351941d940dcbde53ccaa8f29651328534faa3b671fe7a787863a05dde3d",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "f203351941d940dcbde53ccaa8f29651328534faa3b671fe7a787863a05dde3d",
+      "bytes": 19597
+    },
+    "contracts/evidence/sandbox-storage-boundary.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/sandbox-storage-boundary.json",
+      "source_sha256": "ee73f2ddcd22cedc27409a3e0332f6d4d8e5ad6548be3170afc2667fe7007a26",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "ee73f2ddcd22cedc27409a3e0332f6d4d8e5ad6548be3170afc2667fe7007a26",
+      "bytes": 25749
+    },
+    "contracts/evidence/summary.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/integrator-portable-build/summary.json",
+      "source_sha256": "d5540dfe8ff3ffa8c95135c1b89099cfa1f14a1d0dba102174514a8b28b061f6",
+      "treatment": "Edited historical summary: obsolete owner-gate recommendation removed; measurements and remaining gaps retained.",
+      "sha256": "2876c2e1e8dc9a529eaa30a0248dc039c70cb38419d6b1e0852ab7e56d6649f1",
+      "bytes": 2527
+    },
+    "docs/evidence/browser/final-screen.jpg": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/integrator-final-ui/final-screen.jpg",
+      "source_sha256": "780275b4cd12b9f7fe1c5e64553edde141d017bb097c75d0ac7f516c45a555c8",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "780275b4cd12b9f7fe1c5e64553edde141d017bb097c75d0ac7f516c45a555c8",
+      "bytes": 227601
+    },
+    "docs/evidence/browser/scenario.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/integrator-final-ui/scenario.json",
+      "source_sha256": "8ebd236ce9464d5507abb28c3631aedfe9af779af19df35feb1cee53bffb6de2",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "8ebd236ce9464d5507abb28c3631aedfe9af779af19df35feb1cee53bffb6de2",
+      "bytes": 6050
+    },
+    "docs/evidence/dependencies/agents-audit.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/agents-audit.json",
+      "source_sha256": "1ddda7b3774b5f927ff3f628248964a7dbbb2c1a1547208913fb161524cc94ad",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "1ddda7b3774b5f927ff3f628248964a7dbbb2c1a1547208913fb161524cc94ad",
+      "bytes": 358
+    },
+    "docs/evidence/dependencies/cargo-audit-run.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/cargo-audit-run.json",
+      "source_sha256": "b4ae7f8e2ba9d8bfe54dda8e227988f2106a462d0e56031d91a88ea8e463ba3e",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "b4ae7f8e2ba9d8bfe54dda8e227988f2106a462d0e56031d91a88ea8e463ba3e",
+      "bytes": 875
+    },
+    "docs/evidence/dependencies/cargo-audit.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/cargo-audit.json",
+      "source_sha256": "8452dd0b5ebf7da3654333147080cb7ca8c42fd5a40d1c8bd9843c18bff4812c",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "8452dd0b5ebf7da3654333147080cb7ca8c42fd5a40d1c8bd9843c18bff4812c",
+      "bytes": 6016
+    },
+    "docs/evidence/dependencies/npm-run.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/npm-run.json",
+      "source_sha256": "b2fbaa994108a01fed1e32911317303cab8d294bd17e3593cb78b94bf909e909",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "b2fbaa994108a01fed1e32911317303cab8d294bd17e3593cb78b94bf909e909",
+      "bytes": 2766
+    },
+    "docs/evidence/dependencies/sdk-audit.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/sdk-audit.json",
+      "source_sha256": "06c18d6ae5bb95560b3aaf924119c2ecbd29a69e9f4f8a67dc2bb1d7bc726c5e",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "06c18d6ae5bb95560b3aaf924119c2ecbd29a69e9f4f8a67dc2bb1d7bc726c5e",
+      "bytes": 358
+    },
+    "docs/evidence/dependencies/target-scope.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/target-scope.json",
+      "source_sha256": "d8293c9967bfeab46ca5573444135e474c1bbce6b31dacf9e6847c677e201796",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "d8293c9967bfeab46ca5573444135e474c1bbce6b31dacf9e6847c677e201796",
+      "bytes": 3288
+    },
+    "docs/evidence/dependencies/web-audit.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/dependencies/web-audit.json",
+      "source_sha256": "6dbd3e1fff20035c7a7b2dca22899324408830ff62c4dd3968a7cdbfe150cf94",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "6dbd3e1fff20035c7a7b2dca22899324408830ff62c4dd3968a7cdbfe150cf94",
+      "bytes": 361
+    },
+    "docs/evidence/licenses/cargo-inventory.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/cargo-inventory.json",
+      "source_sha256": "4bc26b8fc5c52d384f45f235839b93bc6b91e333a7e183bf0d98f8c6897b760d",
+      "treatment": "Edited license inventory: internal baseline/cache locations removed; source hashes, legal texts, copyright samples and dependency scope retained.",
+      "sha256": "13800ccd45e1502352e4335b54130533a79178be7928c744263412953aef99a2",
+      "bytes": 837405
+    },
+    "docs/evidence/licenses/notices/SHA256SUMS": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/SHA256SUMS",
+      "source_sha256": "a5d98df9854b0118bce83f696cc002d832d381db34a9800170c16f2452374278",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "a5d98df9854b0118bce83f696cc002d832d381db34a9800170c16f2452374278",
+      "bytes": 1535
+    },
+    "docs/evidence/licenses/notices/aws-lc-sys-0.47.0-LICENSE.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/aws-lc-sys-0.47.0-LICENSE.txt",
+      "source_sha256": "728536b4160e051f86d7c9c388f704866b3d512cd7df97ac3516c65279523c4e",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "728536b4160e051f86d7c9c388f704866b3d512cd7df97ac3516c65279523c4e",
+      "bytes": 20337
+    },
+    "docs/evidence/licenses/notices/cfg_aliases-0.2.2-NOTICES.md": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/cfg_aliases-0.2.2-NOTICES.md",
+      "source_sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "1e2b7ade3fb228130408b9990cae6a7618eb314c75aa0b164bfe485d9d9756ee",
+      "bytes": 1472
+    },
+    "docs/evidence/licenses/notices/foldhash-0.2.0-Zlib.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/foldhash-0.2.0-Zlib.txt",
+      "source_sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "b1181a40b2a7b25cf66fd01481713bc1005df082c53ef73e851e55071b102744",
+      "bytes": 856
+    },
+    "docs/evidence/licenses/notices/memory_units-0.4.0-MPL-2.0.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/memory_units-0.4.0-MPL-2.0.txt",
+      "source_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725
+    },
+    "docs/evidence/licenses/notices/near-sandbox-0.4.1-LICENSE-APACHE.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-APACHE.txt",
+      "source_sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+      "bytes": 9723
+    },
+    "docs/evidence/licenses/notices/near-sandbox-0.4.1-LICENSE-MIT.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE-MIT.txt",
+      "source_sha256": "8f71659370c5268d9a1dc962a46232540e8fca63462586d8efaa95aab492a208",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "8f71659370c5268d9a1dc962a46232540e8fca63462586d8efaa95aab492a208",
+      "bytes": 1046
+    },
+    "docs/evidence/licenses/notices/near-sandbox-0.4.1-LICENSE.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/near-sandbox-0.4.1-LICENSE.txt",
+      "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    },
+    "docs/evidence/licenses/notices/ring-0.17.14-LICENSE-BoringSSL.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-BoringSSL.txt",
+      "source_sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d",
+      "bytes": 14870
+    },
+    "docs/evidence/licenses/notices/ring-0.17.14-LICENSE-other-bits.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE-other-bits.txt",
+      "source_sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f",
+      "bytes": 731
+    },
+    "docs/evidence/licenses/notices/ring-0.17.14-LICENSE.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/ring-0.17.14-LICENSE.txt",
+      "source_sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "b3d734001a94efff3579978d953391aa7115f877657d25eb54037a43875d078a",
+      "bytes": 499
+    },
+    "docs/evidence/licenses/notices/security-framework-3.7.0-THIRD_PARTY.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/security-framework-3.7.0-THIRD_PARTY.txt",
+      "source_sha256": "522fccc56dcbadbe90ab5524a17b8127cde3f951c30c17002641caf44959c22a",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "522fccc56dcbadbe90ab5524a17b8127cde3f951c30c17002641caf44959c22a",
+      "bytes": 20261
+    },
+    "docs/evidence/licenses/notices/wee_alloc-0.4.5-MPL-2.0.txt": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/notices/wee_alloc-0.4.5-MPL-2.0.txt",
+      "source_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "bytes": 16725
+    },
+    "docs/evidence/licenses/npm-inventory.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/npm-inventory.json",
+      "source_sha256": "b51f3254fcadc941cbf213bacbc3b5ceec65c4f11142e22952c9391141f78b37",
+      "treatment": "Edited license inventory: internal source revision/installed-cache paths removed; retained notice paths resolved from repository root.",
+      "sha256": "59f79f663f2795af3867dafdc6effdac0d0f9670dd7c39da7a208d48ed8cd6fa",
+      "bytes": 64508
+    },
+    "docs/evidence/licenses/wasm-notice-manifest.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m3/licensing/wasm-notice-manifest.json",
+      "source_sha256": "0a67af54b5955156a6cb4dfcaf3794e084d67a8b5e8115e2176e5d812f1298ce",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "0a67af54b5955156a6cb4dfcaf3794e084d67a8b5e8115e2176e5d812f1298ce",
+      "bytes": 30069
+    },
+    "docs/evidence/security/api.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/security-qa/api-evidence.json",
+      "source_sha256": "2ee8a1c73786ef6f4f18b7d3398e7393814f77ceed318fb9ffadcdc9b09d3dfc",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "2ee8a1c73786ef6f4f18b7d3398e7393814f77ceed318fb9ffadcdc9b09d3dfc",
+      "bytes": 212833
+    },
+    "docs/evidence/security/browser.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/security-qa/browser-evidence.json",
+      "source_sha256": "ef9aac1761110687ca8ace1f2638a534816a3cb36fb9931c26fafbfb4e450281",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "ef9aac1761110687ca8ace1f2638a534816a3cb36fb9931c26fafbfb4e450281",
+      "bytes": 9358
+    },
+    "docs/evidence/security/contract-probe.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m1/security-qa-portable/sandbox-independent.json",
+      "source_sha256": "beabd089404ab842480d3f677cf4efd7d2848e860ed5269c9c367d9bfc2ea9a3",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "beabd089404ab842480d3f677cf4efd7d2848e860ed5269c9c367d9bfc2ea9a3",
+      "bytes": 115775
+    },
+    "docs/evidence/security/diagnostics.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/security-qa/final-diagnostics.json",
+      "source_sha256": "1c4e46a8378ce7f91d2f9cff8e9301d4bc0ec0a4ff0e15ecc3807d8e584eef3c",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "1c4e46a8378ce7f91d2f9cff8e9301d4bc0ec0a4ff0e15ecc3807d8e584eef3c",
+      "bytes": 10186
+    },
+    "docs/evidence/security/lifecycle.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/security-qa/lifecycle-evidence.json",
+      "source_sha256": "a4c706fbf6b7e2f83a6299a1ebc42dfe2670e4e96b44778fded4f80e50c5242b",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "a4c706fbf6b7e2f83a6299a1ebc42dfe2670e4e96b44778fded4f80e50c5242b",
+      "bytes": 8369
+    },
+    "docs/evidence/security/review-summary.json": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "docs/evidence/m2/security-qa/qa-report.json",
+      "source_sha256": "f3353336327b8a0dd4d819950ede57841ec18998156402c3152c81e0c218e8a4",
+      "treatment": "Edited extract; model/effort, process paths and orchestration removed. Original findings and evidence levels retained.",
+      "sha256": "cee30c18ee6b192e87cead0230c5c2020e80383f682e0d5bedca57cbef3d3a8e",
+      "bytes": 8769
+    },
+    "tests/evidence/browser-sandbox.jsonl": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "tests/evidence/browser-sandbox.jsonl",
+      "source_sha256": "8ab320a322558956fb63e93e902fe4c4d3645dee87f53ab7fc9f4b7d2afa11f0",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "8ab320a322558956fb63e93e902fe4c4d3645dee87f53ab7fc9f4b7d2afa11f0",
+      "bytes": 2300
+    },
+    "tests/evidence/sdk-sandbox-portable.jsonl": {
+      "source_commit": "67f9c0b7981291289f0cd823172bf6a23828e4f0",
+      "source_path": "tests/evidence/sdk-sandbox-portable.jsonl",
+      "source_sha256": "29ef9ccdf98b2837dba89f9c7ed8239205fe08a0492ca7ffa1e8262aeb290ba4",
+      "treatment": "byte-identical retained public evidence",
+      "sha256": "29ef9ccdf98b2837dba89f9c7ed8239205fe08a0492ca7ffa1e8262aeb290ba4",
+      "bytes": 108408
+    }
+  }
+}

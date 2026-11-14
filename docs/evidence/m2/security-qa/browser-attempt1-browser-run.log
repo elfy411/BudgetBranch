@@ -1,9 +1,0 @@
-file:///REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/.cache/qa/g2/browser-probe.mjs:32
- const js=async expression=>{const r=await cdp('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw new Error('Controlled browser expression failed');return r.result.value;};
-                                                                                                                                                 ^
-
-Error: Controlled browser expression failed
-    at js (file:///REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/.cache/qa/g2/browser-probe.mjs:32:146)
-    at async file:///REDACTED_USER_HOME/Desktop/BudgetBranch/.worktrees/security-g2/.cache/qa/g2/browser-probe.mjs:37:15
-
-Node.js v24.14.0
